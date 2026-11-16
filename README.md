@@ -1,11 +1,52 @@
+# QUINTAVERSO v0.6 — Corrección de gameplay
+
+> Actualización sobre la v0.5 gráfica. Incluye **código fuente** y recursos originales, NO el `.exe`.
+
+## Qué cambió
+
+- **Pantalla completa persistente:** menú, calendario, escenas y finales comparten la misma `Scene`. `F11` alterna pantalla completa.
+- **Reacción tras las decisiones:** primero se aplica el efecto, luego habla el personaje y solo después se continúa. Se escribieron 68 reacciones específicas en eventos/prologo; las demás decisiones usan reacciones contextuales (personalízalas con `reaccion` dentro del JSON).
+- **Interfaz:** el retrato y el escenario se limitan al área visible; calendario adaptable, cuadro de diálogo desplazable y controles compactos.
+- **Panel de prompt visual:** fuera de la interfaz del jugador. El texto original sigue dentro de los JSON para diseño.
+- **Autoguardado por línea:** reanuda en la escena y línea exactas, incluso durante las reacciones, sin duplicar efectos.
+- **Tres ranuras manuales:** guardar y cargar desde calendario, diálogos y pantalla final. Un autoguardado independiente no pisa las ranuras.
+- **Partidas v0.5:** opción de importación desde `~/.quintaverso/partidas/caceres-v05.json` sin sobrescribir ese archivo.
+
+## Cómo probar
+
+En IntelliJ IDEA, abre esta carpeta (con `pom.xml`) y selecciona Java 21. Usa **Maven → Lifecycle → test** y después **Plugins → javafx → javafx:run**. Para generar el ejecutable de Windows, repite el procedimiento de `jpackage` que ya utilizaste, ahora con `QUINTAVERSO-0.6.0.jar`.
+
+### Pruebas manuales sugeridas
+
+1. Entra a pantalla completa con `F11` y recorre **menú → prólogo → calendario → evento → calendario**, observando que no se cierre el modo.
+2. Elige una opción en el prólogo y comprueba que se vea una **reacción antes de la próxima escena**.
+3. Guarda en la ranura 1 antes de elegir; elige una opción, guarda en la ranura 2 durante la reacción y recarga la ranura 2: **no debe aplicarse dos veces el efecto**.
+4. Sal al menú en medio de un diálogo y continúa el autoguardado: debe volver a la misma línea.
+5. Prueba ventana minimizada, 1366×768 y pantalla completa. Revisa retratos, botones y barra de desplazamiento.
+6. Carga la partida antigua en el menú, eligiendo **Importar partida v0.5**.
+
+### Formato de reacción personalizada
+
+Dentro de un objeto `decision` en `src/main/resources/historias/caceres/*.json`:
+
+```json
+"reaccion": [
+  {"personaje": "Lumi", "texto": "Gracias por escucharme, Cáceres."},
+  {"personaje": "Cáceres", "texto": "Quería entenderte mejor."}
+]
+```
+
+**Advertencia:** este ZIP contiene cambios preparados y comprobaciones estáticas, pero no se pudo ejecutar Maven/JavaFX en el entorno de preparación. Ejecuta `mvn test` y una prueba visual en Windows antes de publicar una Release.
+
+---
+
 # QUINTAVERSO v0.5 — Edición gráfica integrada
 
 **Esta versión muestra los 10 fondos, sprites/retratos y 8 CG en la temporada Cáceres.**
 Abre `docs/INTEGRACION_GRAFICA.md` para conocer las modificaciones y ejecutarla
 con Java 21 + Maven desde IntelliJ IDEA. Las 205 escenas tienen un fondo asignado.
 
-> Este es un proyecto distinto del RAR original; se conservaron los diálogos,
-> las decisiones y los enlaces narrativos. Los retratos de Kevin siguen pendientes.
+> Se conservaron las rutas de los diálogos originales. Los retratos de Kevin están incluidos.
 
 ---
 

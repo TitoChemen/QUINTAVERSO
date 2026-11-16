@@ -73,6 +73,36 @@
         },
         "eventos": [
           "prometi_ser_claro"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Eso quería escuchar. Pregúntales a ellas, no a tus suposiciones."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Está bien. Voy a ver a dónde lleva esto sin prometer lo que todavía no sé."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Por una vez sonaste como una persona razonable, hermano."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo había preparado siete alternativas más, pero esta sirve."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Deja que las cosas pasen y conversa claro si algo cambia."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, cabros. Gracias... creo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Los mensajes siguen llegando. Cáceres todavía no sabe qué camino elegirá, pero sí que cada elección importa."
+          }
         ]
       },
       {
@@ -84,6 +114,36 @@
         },
         "eventos": [
           "prometi_improvisar"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Kevin",
+            "texto": "JAJA, el improvisado. Solo no nos llamís a las tres de la mañana cuando quede la escoba."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Está bien. Voy a ver a dónde lleva esto sin prometer lo que todavía no sé."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Por una vez sonaste como una persona razonable, hermano."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo había preparado siete alternativas más, pero esta sirve."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Deja que las cosas pasen y conversa claro si algo cambia."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, cabros. Gracias... creo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Los mensajes siguen llegando. Cáceres todavía no sabe qué camino elegirá, pero sí que cada elección importa."
+          }
         ]
       },
       {
@@ -95,6 +155,36 @@
         },
         "eventos": [
           "prometi_ir_lento"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Ya, esa estrategia al menos tiene sentido. Hasta la anotaría en mi Excel."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Está bien. Voy a ver a dónde lleva esto sin prometer lo que todavía no sé."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Por una vez sonaste como una persona razonable, hermano."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo había preparado siete alternativas más, pero esta sirve."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Deja que las cosas pasen y conversa claro si algo cambia."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, cabros. Gracias... creo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Los mensajes siguen llegando. Cáceres todavía no sabe qué camino elegirá, pero sí que cada elección importa."
+          }
         ]
       }
     ],
@@ -134,6 +224,36 @@
         },
         "eventos": [
           "primera_lumi"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Kevin",
+            "texto": "Bien ahí. La Lumi tiene vida propia, pregúntale por lo que está creando."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Está bien. Voy a ver a dónde lleva esto sin prometer lo que todavía no sé."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Por una vez sonaste como una persona razonable, hermano."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo había preparado siete alternativas más, pero esta sirve."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Deja que las cosas pasen y conversa claro si algo cambia."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, cabros. Gracias... creo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Los mensajes siguen llegando. Cáceres todavía no sabe qué camino elegirá, pero sí que cada elección importa."
+          }
         ]
       },
       {
@@ -145,6 +265,36 @@
         },
         "eventos": [
           "primera_cony"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Si le proponís un café, acuérdate de escuchar su respuesta también."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Está bien. Voy a ver a dónde lleva esto sin prometer lo que todavía no sé."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Por una vez sonaste como una persona razonable, hermano."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo había preparado siete alternativas más, pero esta sirve."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Deja que las cosas pasen y conversa claro si algo cambia."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, cabros. Gracias... creo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Los mensajes siguen llegando. Cáceres todavía no sabe qué camino elegirá, pero sí que cada elección importa."
+          }
         ]
       },
       {
@@ -156,6 +306,36 @@
         },
         "eventos": [
           "primera_ambas"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Kevin",
+            "texto": "¿Dos conversaciones a la vez y sin vender humo? Voy a creerlo cuando lo vea, JAJA."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Está bien. Voy a ver a dónde lleva esto sin prometer lo que todavía no sé."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Por una vez sonaste como una persona razonable, hermano."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo había preparado siete alternativas más, pero esta sirve."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Deja que las cosas pasen y conversa claro si algo cambia."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, cabros. Gracias... creo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Los mensajes siguen llegando. Cáceres todavía no sabe qué camino elegirá, pero sí que cada elección importa."
+          }
         ]
       }
     ],

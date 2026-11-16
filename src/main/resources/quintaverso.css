@@ -94,3 +94,16 @@
 }
 .panel-final-visual .logo { -fx-font-size: 38px; }
 .panel-final-visual .titulo-mediano { -fx-font-size: 23px; }
+
+/* v0.6: evitar diálogos cortados o controles gigantes en resoluciones variables. */
+.boton-compacto {
+    -fx-font-size: 12px;
+    -fx-padding: 7px 11px;
+}
+.scroll-dialogos {
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+.scroll-dialogos .viewport { -fx-background-color: rgba(18, 11, 29, .08); }
+.scroll-dialogos .panel-dialogo { -fx-min-height: 120px; }
+.scroll-dialogos .dialogo { -fx-wrap-text: true; }

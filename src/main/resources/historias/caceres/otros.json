@@ -25,13 +25,49 @@
         "efectos": {
           "claridad": 7,
           "honestidad": 3
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo que aprender a escuchar lo que me pasa, sin inventarme excusas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El cuaderno queda abierto en una página marcada: «no confundir atracción con obligación». No todo se arregla con una frase."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Mañana voy a tratar de actuar con la misma claridad con la que escribo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La reflexión no altera el pasado; cambia un poco cómo enfrenta Cáceres la próxima conversación."
+          }
+        ]
       },
       {
         "texto": "Dejarlo para después.",
         "efectos": {
           "claridad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo que aprender a escuchar lo que me pasa, sin inventarme excusas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El cuaderno queda abierto en una página marcada: «no confundir atracción con obligación». No todo se arregla con una frase."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Mañana voy a tratar de actuar con la misma claridad con la que escribo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La reflexión no altera el pasado; cambia un poco cómo enfrenta Cáceres la próxima conversación."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -62,13 +98,49 @@
         "efectos": {
           "claridad": 7,
           "honestidad": 3
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo que aprender a escuchar lo que me pasa, sin inventarme excusas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El cuaderno queda abierto en una página marcada: «la culpa no es brújula». No todo se arregla con una frase."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Mañana voy a tratar de actuar con la misma claridad con la que escribo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La reflexión no altera el pasado; cambia un poco cómo enfrenta Cáceres la próxima conversación."
+          }
+        ]
       },
       {
         "texto": "Dejarlo para después.",
         "efectos": {
           "claridad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo que aprender a escuchar lo que me pasa, sin inventarme excusas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El cuaderno queda abierto en una página marcada: «la culpa no es brújula». No todo se arregla con una frase."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Mañana voy a tratar de actuar con la misma claridad con la que escribo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La reflexión no altera el pasado; cambia un poco cómo enfrenta Cáceres la próxima conversación."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -99,13 +171,49 @@
         "efectos": {
           "claridad": 7,
           "honestidad": 3
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo que aprender a escuchar lo que me pasa, sin inventarme excusas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El cuaderno queda abierto en una página marcada: «lo que no sabes». No todo se arregla con una frase."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Mañana voy a tratar de actuar con la misma claridad con la que escribo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La reflexión no altera el pasado; cambia un poco cómo enfrenta Cáceres la próxima conversación."
+          }
+        ]
       },
       {
         "texto": "Dejarlo para después.",
         "efectos": {
           "claridad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo que aprender a escuchar lo que me pasa, sin inventarme excusas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El cuaderno queda abierto en una página marcada: «lo que no sabes». No todo se arregla con una frase."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Mañana voy a tratar de actuar con la misma claridad con la que escribo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La reflexión no altera el pasado; cambia un poco cómo enfrenta Cáceres la próxima conversación."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -136,13 +244,49 @@
         "efectos": {
           "claridad": 7,
           "honestidad": 3
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo que aprender a escuchar lo que me pasa, sin inventarme excusas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El cuaderno queda abierto en una página marcada: «no eres el salvador de nadie». No todo se arregla con una frase."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Mañana voy a tratar de actuar con la misma claridad con la que escribo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La reflexión no altera el pasado; cambia un poco cómo enfrenta Cáceres la próxima conversación."
+          }
+        ]
       },
       {
         "texto": "Dejarlo para después.",
         "efectos": {
           "claridad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo que aprender a escuchar lo que me pasa, sin inventarme excusas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El cuaderno queda abierto en una página marcada: «no eres el salvador de nadie». No todo se arregla con una frase."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Mañana voy a tratar de actuar con la misma claridad con la que escribo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La reflexión no altera el pasado; cambia un poco cómo enfrenta Cáceres la próxima conversación."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -173,13 +317,49 @@
         "efectos": {
           "claridad": 7,
           "honestidad": 3
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo que aprender a escuchar lo que me pasa, sin inventarme excusas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El cuaderno queda abierto en una página marcada: «cony no es una apuesta». No todo se arregla con una frase."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Mañana voy a tratar de actuar con la misma claridad con la que escribo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La reflexión no altera el pasado; cambia un poco cómo enfrenta Cáceres la próxima conversación."
+          }
+        ]
       },
       {
         "texto": "Dejarlo para después.",
         "efectos": {
           "claridad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo que aprender a escuchar lo que me pasa, sin inventarme excusas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El cuaderno queda abierto en una página marcada: «cony no es una apuesta». No todo se arregla con una frase."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Mañana voy a tratar de actuar con la misma claridad con la que escribo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La reflexión no altera el pasado; cambia un poco cómo enfrenta Cáceres la próxima conversación."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -210,13 +390,49 @@
         "efectos": {
           "claridad": 7,
           "honestidad": 3
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo que aprender a escuchar lo que me pasa, sin inventarme excusas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El cuaderno queda abierto en una página marcada: «tus amigos te conocen». No todo se arregla con una frase."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Mañana voy a tratar de actuar con la misma claridad con la que escribo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La reflexión no altera el pasado; cambia un poco cómo enfrenta Cáceres la próxima conversación."
+          }
+        ]
       },
       {
         "texto": "Dejarlo para después.",
         "efectos": {
           "claridad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo que aprender a escuchar lo que me pasa, sin inventarme excusas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El cuaderno queda abierto en una página marcada: «tus amigos te conocen». No todo se arregla con una frase."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Mañana voy a tratar de actuar con la misma claridad con la que escribo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La reflexión no altera el pasado; cambia un poco cómo enfrenta Cáceres la próxima conversación."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -247,13 +463,49 @@
         "efectos": {
           "claridad": 7,
           "honestidad": 3
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo que aprender a escuchar lo que me pasa, sin inventarme excusas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El cuaderno queda abierto en una página marcada: «la primera mentira». No todo se arregla con una frase."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Mañana voy a tratar de actuar con la misma claridad con la que escribo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La reflexión no altera el pasado; cambia un poco cómo enfrenta Cáceres la próxima conversación."
+          }
+        ]
       },
       {
         "texto": "Dejarlo para después.",
         "efectos": {
           "claridad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo que aprender a escuchar lo que me pasa, sin inventarme excusas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El cuaderno queda abierto en una página marcada: «la primera mentira». No todo se arregla con una frase."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Mañana voy a tratar de actuar con la misma claridad con la que escribo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La reflexión no altera el pasado; cambia un poco cómo enfrenta Cáceres la próxima conversación."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -284,13 +536,49 @@
         "efectos": {
           "claridad": 7,
           "honestidad": 3
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo que aprender a escuchar lo que me pasa, sin inventarme excusas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El cuaderno queda abierto en una página marcada: «la libertad». No todo se arregla con una frase."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Mañana voy a tratar de actuar con la misma claridad con la que escribo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La reflexión no altera el pasado; cambia un poco cómo enfrenta Cáceres la próxima conversación."
+          }
+        ]
       },
       {
         "texto": "Dejarlo para después.",
         "efectos": {
           "claridad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo que aprender a escuchar lo que me pasa, sin inventarme excusas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El cuaderno queda abierto en una página marcada: «la libertad». No todo se arregla con una frase."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Mañana voy a tratar de actuar con la misma claridad con la que escribo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La reflexión no altera el pasado; cambia un poco cómo enfrenta Cáceres la próxima conversación."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -321,13 +609,49 @@
         "efectos": {
           "claridad": 7,
           "honestidad": 3
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo que aprender a escuchar lo que me pasa, sin inventarme excusas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El cuaderno queda abierto en una página marcada: «el deseo y el después». No todo se arregla con una frase."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Mañana voy a tratar de actuar con la misma claridad con la que escribo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La reflexión no altera el pasado; cambia un poco cómo enfrenta Cáceres la próxima conversación."
+          }
+        ]
       },
       {
         "texto": "Dejarlo para después.",
         "efectos": {
           "claridad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo que aprender a escuchar lo que me pasa, sin inventarme excusas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El cuaderno queda abierto en una página marcada: «el deseo y el después». No todo se arregla con una frase."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Mañana voy a tratar de actuar con la misma claridad con la que escribo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La reflexión no altera el pasado; cambia un poco cómo enfrenta Cáceres la próxima conversación."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -358,13 +682,49 @@
         "efectos": {
           "claridad": 7,
           "honestidad": 3
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo que aprender a escuchar lo que me pasa, sin inventarme excusas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El cuaderno queda abierto en una página marcada: «aprender a estar solo». No todo se arregla con una frase."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Mañana voy a tratar de actuar con la misma claridad con la que escribo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La reflexión no altera el pasado; cambia un poco cómo enfrenta Cáceres la próxima conversación."
+          }
+        ]
       },
       {
         "texto": "Dejarlo para después.",
         "efectos": {
           "claridad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo que aprender a escuchar lo que me pasa, sin inventarme excusas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El cuaderno queda abierto en una página marcada: «aprender a estar solo». No todo se arregla con una frase."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Mañana voy a tratar de actuar con la misma claridad con la que escribo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La reflexión no altera el pasado; cambia un poco cómo enfrenta Cáceres la próxima conversación."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -395,13 +755,49 @@
         "efectos": {
           "claridad": 7,
           "honestidad": 3
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo que aprender a escuchar lo que me pasa, sin inventarme excusas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El cuaderno queda abierto en una página marcada: «el miedo a perder». No todo se arregla con una frase."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Mañana voy a tratar de actuar con la misma claridad con la que escribo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La reflexión no altera el pasado; cambia un poco cómo enfrenta Cáceres la próxima conversación."
+          }
+        ]
       },
       {
         "texto": "Dejarlo para después.",
         "efectos": {
           "claridad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo que aprender a escuchar lo que me pasa, sin inventarme excusas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El cuaderno queda abierto en una página marcada: «el miedo a perder». No todo se arregla con una frase."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Mañana voy a tratar de actuar con la misma claridad con la que escribo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La reflexión no altera el pasado; cambia un poco cómo enfrenta Cáceres la próxima conversación."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -432,13 +828,49 @@
         "efectos": {
           "claridad": 7,
           "honestidad": 3
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo que aprender a escuchar lo que me pasa, sin inventarme excusas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El cuaderno queda abierto en una página marcada: «el cierre». No todo se arregla con una frase."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Mañana voy a tratar de actuar con la misma claridad con la que escribo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La reflexión no altera el pasado; cambia un poco cómo enfrenta Cáceres la próxima conversación."
+          }
+        ]
       },
       {
         "texto": "Dejarlo para después.",
         "efectos": {
           "claridad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo que aprender a escuchar lo que me pasa, sin inventarme excusas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El cuaderno queda abierto en una página marcada: «el cierre». No todo se arregla con una frase."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Mañana voy a tratar de actuar con la misma claridad con la que escribo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La reflexión no altera el pasado; cambia un poco cómo enfrenta Cáceres la próxima conversación."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -469,14 +901,50 @@
         "efectos": {
           "claridad": 5,
           "sospecha": -2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me hacía falta salir a caminar. El teléfono puede esperar un rato."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El paseo sigue por plaza de villa alemana. Las voces de la calle reemplazan por un momento las notificaciones."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tengo que resolver toda la historia hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cuando vuelve a guardar el celular, el silencio se siente menos pesado."
+          }
+        ]
       },
       {
         "texto": "Compartir una talla con los cabros.",
         "efectos": {
           "amistad": 3,
           "claridad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me hacía falta salir a caminar. El teléfono puede esperar un rato."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El paseo sigue por plaza de villa alemana. Las voces de la calle reemplazan por un momento las notificaciones."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tengo que resolver toda la historia hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cuando vuelve a guardar el celular, el silencio se siente menos pesado."
+          }
+        ]
       }
     ],
     "fondo": "plaza_villa_alemana.png"
@@ -507,14 +975,50 @@
         "efectos": {
           "claridad": 5,
           "sospecha": -2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me hacía falta salir a caminar. El teléfono puede esperar un rato."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El paseo sigue por micro a viña. Las voces de la calle reemplazan por un momento las notificaciones."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tengo que resolver toda la historia hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cuando vuelve a guardar el celular, el silencio se siente menos pesado."
+          }
+        ]
       },
       {
         "texto": "Compartir una talla con los cabros.",
         "efectos": {
           "amistad": 3,
           "claridad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me hacía falta salir a caminar. El teléfono puede esperar un rato."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El paseo sigue por micro a viña. Las voces de la calle reemplazan por un momento las notificaciones."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tengo que resolver toda la historia hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cuando vuelve a guardar el celular, el silencio se siente menos pesado."
+          }
+        ]
       }
     ],
     "fondo": "terminal_valparaiso.png"
@@ -545,14 +1049,50 @@
         "efectos": {
           "claridad": 5,
           "sospecha": -2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me hacía falta salir a caminar. El teléfono puede esperar un rato."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El paseo sigue por costanera. Las voces de la calle reemplazan por un momento las notificaciones."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tengo que resolver toda la historia hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cuando vuelve a guardar el celular, el silencio se siente menos pesado."
+          }
+        ]
       },
       {
         "texto": "Compartir una talla con los cabros.",
         "efectos": {
           "amistad": 3,
           "claridad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me hacía falta salir a caminar. El teléfono puede esperar un rato."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El paseo sigue por costanera. Las voces de la calle reemplazan por un momento las notificaciones."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tengo que resolver toda la historia hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cuando vuelve a guardar el celular, el silencio se siente menos pesado."
+          }
+        ]
       }
     ],
     "fondo": "costanera_atardecer.png"
@@ -583,14 +1123,50 @@
         "efectos": {
           "claridad": 5,
           "sospecha": -2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me hacía falta salir a caminar. El teléfono puede esperar un rato."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El paseo sigue por café pequeño. Las voces de la calle reemplazan por un momento las notificaciones."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tengo que resolver toda la historia hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cuando vuelve a guardar el celular, el silencio se siente menos pesado."
+          }
+        ]
       },
       {
         "texto": "Compartir una talla con los cabros.",
         "efectos": {
           "amistad": 3,
           "claridad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me hacía falta salir a caminar. El teléfono puede esperar un rato."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El paseo sigue por café pequeño. Las voces de la calle reemplazan por un momento las notificaciones."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tengo que resolver toda la historia hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cuando vuelve a guardar el celular, el silencio se siente menos pesado."
+          }
+        ]
       }
     ],
     "fondo": "cafe_vina.png"
@@ -621,14 +1197,50 @@
         "efectos": {
           "claridad": 5,
           "sospecha": -2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me hacía falta salir a caminar. El teléfono puede esperar un rato."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El paseo sigue por plaza victoria. Las voces de la calle reemplazan por un momento las notificaciones."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tengo que resolver toda la historia hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cuando vuelve a guardar el celular, el silencio se siente menos pesado."
+          }
+        ]
       },
       {
         "texto": "Compartir una talla con los cabros.",
         "efectos": {
           "amistad": 3,
           "claridad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me hacía falta salir a caminar. El teléfono puede esperar un rato."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El paseo sigue por plaza victoria. Las voces de la calle reemplazan por un momento las notificaciones."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tengo que resolver toda la historia hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cuando vuelve a guardar el celular, el silencio se siente menos pesado."
+          }
+        ]
       }
     ],
     "fondo": "plaza_villa_alemana.png"
@@ -659,14 +1271,50 @@
         "efectos": {
           "claridad": 5,
           "sospecha": -2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me hacía falta salir a caminar. El teléfono puede esperar un rato."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El paseo sigue por parque de noche. Las voces de la calle reemplazan por un momento las notificaciones."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tengo que resolver toda la historia hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cuando vuelve a guardar el celular, el silencio se siente menos pesado."
+          }
+        ]
       },
       {
         "texto": "Compartir una talla con los cabros.",
         "efectos": {
           "amistad": 3,
           "claridad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me hacía falta salir a caminar. El teléfono puede esperar un rato."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El paseo sigue por parque de noche. Las voces de la calle reemplazan por un momento las notificaciones."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tengo que resolver toda la historia hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cuando vuelve a guardar el celular, el silencio se siente menos pesado."
+          }
+        ]
       }
     ],
     "fondo": "parque_vina.png"
@@ -697,14 +1345,50 @@
         "efectos": {
           "claridad": 5,
           "sospecha": -2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me hacía falta salir a caminar. El teléfono puede esperar un rato."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El paseo sigue por terminal. Las voces de la calle reemplazan por un momento las notificaciones."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tengo que resolver toda la historia hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cuando vuelve a guardar el celular, el silencio se siente menos pesado."
+          }
+        ]
       },
       {
         "texto": "Compartir una talla con los cabros.",
         "efectos": {
           "amistad": 3,
           "claridad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me hacía falta salir a caminar. El teléfono puede esperar un rato."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El paseo sigue por terminal. Las voces de la calle reemplazan por un momento las notificaciones."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tengo que resolver toda la historia hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cuando vuelve a guardar el celular, el silencio se siente menos pesado."
+          }
+        ]
       }
     ],
     "fondo": "terminal_valparaiso.png"
@@ -735,14 +1419,50 @@
         "efectos": {
           "claridad": 5,
           "sospecha": -2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me hacía falta salir a caminar. El teléfono puede esperar un rato."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El paseo sigue por feria. Las voces de la calle reemplazan por un momento las notificaciones."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tengo que resolver toda la historia hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cuando vuelve a guardar el celular, el silencio se siente menos pesado."
+          }
+        ]
       },
       {
         "texto": "Compartir una talla con los cabros.",
         "efectos": {
           "amistad": 3,
           "claridad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me hacía falta salir a caminar. El teléfono puede esperar un rato."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El paseo sigue por feria. Las voces de la calle reemplazan por un momento las notificaciones."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tengo que resolver toda la historia hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cuando vuelve a guardar el celular, el silencio se siente menos pesado."
+          }
+        ]
       }
     ],
     "fondo": "cafe_vina.png"
@@ -773,14 +1493,50 @@
         "efectos": {
           "claridad": 5,
           "sospecha": -2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me hacía falta salir a caminar. El teléfono puede esperar un rato."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El paseo sigue por mirador. Las voces de la calle reemplazan por un momento las notificaciones."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tengo que resolver toda la historia hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cuando vuelve a guardar el celular, el silencio se siente menos pesado."
+          }
+        ]
       },
       {
         "texto": "Compartir una talla con los cabros.",
         "efectos": {
           "amistad": 3,
           "claridad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me hacía falta salir a caminar. El teléfono puede esperar un rato."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El paseo sigue por mirador. Las voces de la calle reemplazan por un momento las notificaciones."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tengo que resolver toda la historia hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cuando vuelve a guardar el celular, el silencio se siente menos pesado."
+          }
+        ]
       }
     ],
     "fondo": "mirador_vina.png"
@@ -811,14 +1567,50 @@
         "efectos": {
           "claridad": 5,
           "sospecha": -2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me hacía falta salir a caminar. El teléfono puede esperar un rato."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El paseo sigue por paseo corto. Las voces de la calle reemplazan por un momento las notificaciones."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tengo que resolver toda la historia hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cuando vuelve a guardar el celular, el silencio se siente menos pesado."
+          }
+        ]
       },
       {
         "texto": "Compartir una talla con los cabros.",
         "efectos": {
           "amistad": 3,
           "claridad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me hacía falta salir a caminar. El teléfono puede esperar un rato."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El paseo sigue por paseo corto. Las voces de la calle reemplazan por un momento las notificaciones."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tengo que resolver toda la historia hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cuando vuelve a guardar el celular, el silencio se siente menos pesado."
+          }
+        ]
       }
     ],
     "fondo": "plaza_villa_alemana.png"
@@ -849,14 +1641,50 @@
         "efectos": {
           "claridad": 5,
           "sospecha": -2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me hacía falta salir a caminar. El teléfono puede esperar un rato."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El paseo sigue por bajada al mar. Las voces de la calle reemplazan por un momento las notificaciones."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tengo que resolver toda la historia hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cuando vuelve a guardar el celular, el silencio se siente menos pesado."
+          }
+        ]
       },
       {
         "texto": "Compartir una talla con los cabros.",
         "efectos": {
           "amistad": 3,
           "claridad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me hacía falta salir a caminar. El teléfono puede esperar un rato."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El paseo sigue por bajada al mar. Las voces de la calle reemplazan por un momento las notificaciones."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tengo que resolver toda la historia hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cuando vuelve a guardar el celular, el silencio se siente menos pesado."
+          }
+        ]
       }
     ],
     "fondo": "costanera_atardecer.png"
@@ -887,14 +1715,50 @@
         "efectos": {
           "claridad": 5,
           "sospecha": -2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me hacía falta salir a caminar. El teléfono puede esperar un rato."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El paseo sigue por ruta de vuelta. Las voces de la calle reemplazan por un momento las notificaciones."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tengo que resolver toda la historia hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cuando vuelve a guardar el celular, el silencio se siente menos pesado."
+          }
+        ]
       },
       {
         "texto": "Compartir una talla con los cabros.",
         "efectos": {
           "amistad": 3,
           "claridad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me hacía falta salir a caminar. El teléfono puede esperar un rato."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El paseo sigue por ruta de vuelta. Las voces de la calle reemplazan por un momento las notificaciones."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tengo que resolver toda la historia hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cuando vuelve a guardar el celular, el silencio se siente menos pesado."
+          }
+        ]
       }
     ],
     "fondo": "terminal_valparaiso.png"
@@ -917,7 +1781,25 @@
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Terminar y seguir con el día."
+        "texto": "Terminar y seguir con el día.",
+        "reaccion": [
+          {
+            "personaje": "Lumi",
+            "texto": "Me gusta que no tengamos que hacer un evento de cada mensaje."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "A mí también. Podemos hablar sin que nadie tenga que rendir cuentas."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso me da confianza, gracias."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "A veces una conversación breve también deja una sensación de compañía."
+          }
+        ]
       }
     ],
     "fondo": "costanera_atardecer.png"
@@ -940,7 +1822,25 @@
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Terminar y seguir con el día."
+        "texto": "Terminar y seguir con el día.",
+        "reaccion": [
+          {
+            "personaje": "Lumi",
+            "texto": "Me gusta que no tengamos que hacer un evento de cada mensaje."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "A mí también. Podemos hablar sin que nadie tenga que rendir cuentas."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso me da confianza, gracias."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "A veces una conversación breve también deja una sensación de compañía."
+          }
+        ]
       }
     ],
     "fondo": "parque_vina.png"
@@ -963,7 +1863,25 @@
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Terminar y seguir con el día."
+        "texto": "Terminar y seguir con el día.",
+        "reaccion": [
+          {
+            "personaje": "Lumi",
+            "texto": "Me gusta que no tengamos que hacer un evento de cada mensaje."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "A mí también. Podemos hablar sin que nadie tenga que rendir cuentas."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso me da confianza, gracias."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "A veces una conversación breve también deja una sensación de compañía."
+          }
+        ]
       }
     ],
     "fondo": "cafe_vina.png"
@@ -986,7 +1904,25 @@
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Terminar y seguir con el día."
+        "texto": "Terminar y seguir con el día.",
+        "reaccion": [
+          {
+            "personaje": "Lumi",
+            "texto": "Me gusta que no tengamos que hacer un evento de cada mensaje."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "A mí también. Podemos hablar sin que nadie tenga que rendir cuentas."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso me da confianza, gracias."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "A veces una conversación breve también deja una sensación de compañía."
+          }
+        ]
       }
     ],
     "fondo": "plaza_villa_alemana.png"
@@ -1009,7 +1945,29 @@
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Terminar y seguir con el día."
+        "texto": "Terminar y seguir con el día.",
+        "reaccion": [
+          {
+            "personaje": "Cony",
+            "texto": "Oe, me gustó saber de ti. ¿Todo bien por allá?"
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Sí, mejor ahora que conversamos un rato."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "JAJA, no te pongai demasiado lindo, que después me acostumbrái."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces te voy a escribir cuando tenga algo bonito o tonto que contarte."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me sirve cualquiera de las dos. Cuídate, po."
+          }
+        ]
       }
     ],
     "fondo": "cafe_vina.png"
@@ -1032,7 +1990,29 @@
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Terminar y seguir con el día."
+        "texto": "Terminar y seguir con el día.",
+        "reaccion": [
+          {
+            "personaje": "Cony",
+            "texto": "Oe, me gustó saber de ti. ¿Todo bien por allá?"
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Sí, mejor ahora que conversamos un rato."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "JAJA, no te pongai demasiado lindo, que después me acostumbrái."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces te voy a escribir cuando tenga algo bonito o tonto que contarte."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me sirve cualquiera de las dos. Cuídate, po."
+          }
+        ]
       }
     ],
     "fondo": "plaza_villa_alemana.png"
@@ -1055,7 +2035,29 @@
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Terminar y seguir con el día."
+        "texto": "Terminar y seguir con el día.",
+        "reaccion": [
+          {
+            "personaje": "Cony",
+            "texto": "Oe, me gustó saber de ti. ¿Todo bien por allá?"
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Sí, mejor ahora que conversamos un rato."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "JAJA, no te pongai demasiado lindo, que después me acostumbrái."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces te voy a escribir cuando tenga algo bonito o tonto que contarte."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me sirve cualquiera de las dos. Cuídate, po."
+          }
+        ]
       }
     ],
     "fondo": "costanera_atardecer.png"
@@ -1078,7 +2080,29 @@
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Terminar y seguir con el día."
+        "texto": "Terminar y seguir con el día.",
+        "reaccion": [
+          {
+            "personaje": "Cony",
+            "texto": "Oe, me gustó saber de ti. ¿Todo bien por allá?"
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Sí, mejor ahora que conversamos un rato."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "JAJA, no te pongai demasiado lindo, que después me acostumbrái."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces te voy a escribir cuando tenga algo bonito o tonto que contarte."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me sirve cualquiera de las dos. Cuídate, po."
+          }
+        ]
       }
     ],
     "fondo": "parque_vina.png"
@@ -1101,7 +2125,29 @@
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Terminar y seguir con el día."
+        "texto": "Terminar y seguir con el día.",
+        "reaccion": [
+          {
+            "personaje": "Kevin",
+            "texto": "Ya po, ¿y qué aprendimos de esta?"
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Que no todo se arregla con una talla, pero las tallas ayudan."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "¡Por fin alguien reconoce mi aporte académico!"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Tampoco te agrandís, Jairo, JAJA."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Los amigos siguen conversando mientras termina el turno."
+          }
+        ]
       }
     ],
     "fondo": "parque_vina.png"
@@ -1124,7 +2170,29 @@
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Terminar y seguir con el día."
+        "texto": "Terminar y seguir con el día.",
+        "reaccion": [
+          {
+            "personaje": "Kevin",
+            "texto": "Ya po, ¿y qué aprendimos de esta?"
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Que no todo se arregla con una talla, pero las tallas ayudan."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "¡Por fin alguien reconoce mi aporte académico!"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Tampoco te agrandís, Jairo, JAJA."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Los amigos siguen conversando mientras termina el turno."
+          }
+        ]
       }
     ],
     "fondo": "cafe_vina.png"
@@ -1147,7 +2215,29 @@
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Terminar y seguir con el día."
+        "texto": "Terminar y seguir con el día.",
+        "reaccion": [
+          {
+            "personaje": "Kevin",
+            "texto": "Ya po, ¿y qué aprendimos de esta?"
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Que no todo se arregla con una talla, pero las tallas ayudan."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "¡Por fin alguien reconoce mi aporte académico!"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Tampoco te agrandís, Jairo, JAJA."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Los amigos siguen conversando mientras termina el turno."
+          }
+        ]
       }
     ],
     "fondo": "plaza_villa_alemana.png"
@@ -1170,7 +2260,29 @@
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Terminar y seguir con el día."
+        "texto": "Terminar y seguir con el día.",
+        "reaccion": [
+          {
+            "personaje": "Kevin",
+            "texto": "Ya po, ¿y qué aprendimos de esta?"
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Que no todo se arregla con una talla, pero las tallas ayudan."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "¡Por fin alguien reconoce mi aporte académico!"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Tampoco te agrandís, Jairo, JAJA."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Los amigos siguen conversando mientras termina el turno."
+          }
+        ]
       }
     ],
     "fondo": "costanera_atardecer.png"
@@ -1193,7 +2305,25 @@
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Terminar y seguir con el día."
+        "texto": "Terminar y seguir con el día.",
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo que aprender a escuchar lo que me pasa, sin inventarme excusas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El cuaderno queda abierto en una página marcada: «un momento de rutina». No todo se arregla con una frase."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Mañana voy a tratar de actuar con la misma claridad con la que escribo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La reflexión no altera el pasado; cambia un poco cómo enfrenta Cáceres la próxima conversación."
+          }
+        ]
       }
     ],
     "fondo": "parque_vina.png"
@@ -1216,7 +2346,25 @@
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Terminar y seguir con el día."
+        "texto": "Terminar y seguir con el día.",
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo que aprender a escuchar lo que me pasa, sin inventarme excusas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El cuaderno queda abierto en una página marcada: «un momento de rutina». No todo se arregla con una frase."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Mañana voy a tratar de actuar con la misma claridad con la que escribo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La reflexión no altera el pasado; cambia un poco cómo enfrenta Cáceres la próxima conversación."
+          }
+        ]
       }
     ],
     "fondo": "cafe_vina.png"
@@ -1239,7 +2387,25 @@
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Terminar y seguir con el día."
+        "texto": "Terminar y seguir con el día.",
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo que aprender a escuchar lo que me pasa, sin inventarme excusas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El cuaderno queda abierto en una página marcada: «un momento de rutina». No todo se arregla con una frase."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Mañana voy a tratar de actuar con la misma claridad con la que escribo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La reflexión no altera el pasado; cambia un poco cómo enfrenta Cáceres la próxima conversación."
+          }
+        ]
       }
     ],
     "fondo": "plaza_villa_alemana.png"
@@ -1262,7 +2428,25 @@
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Terminar y seguir con el día."
+        "texto": "Terminar y seguir con el día.",
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo que aprender a escuchar lo que me pasa, sin inventarme excusas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El cuaderno queda abierto en una página marcada: «un momento de rutina». No todo se arregla con una frase."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Mañana voy a tratar de actuar con la misma claridad con la que escribo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La reflexión no altera el pasado; cambia un poco cómo enfrenta Cáceres la próxima conversación."
+          }
+        ]
       }
     ],
     "fondo": "costanera_atardecer.png"
@@ -1285,7 +2469,25 @@
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Terminar y seguir con el día."
+        "texto": "Terminar y seguir con el día.",
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me hacía falta salir a caminar. El teléfono puede esperar un rato."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El paseo sigue por un momento de rutina. Las voces de la calle reemplazan por un momento las notificaciones."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tengo que resolver toda la historia hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cuando vuelve a guardar el celular, el silencio se siente menos pesado."
+          }
+        ]
       }
     ],
     "fondo": "parque_vina.png"
@@ -1308,7 +2510,25 @@
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Terminar y seguir con el día."
+        "texto": "Terminar y seguir con el día.",
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me hacía falta salir a caminar. El teléfono puede esperar un rato."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El paseo sigue por un momento de rutina. Las voces de la calle reemplazan por un momento las notificaciones."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tengo que resolver toda la historia hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cuando vuelve a guardar el celular, el silencio se siente menos pesado."
+          }
+        ]
       }
     ],
     "fondo": "cafe_vina.png"
@@ -1331,7 +2551,25 @@
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Terminar y seguir con el día."
+        "texto": "Terminar y seguir con el día.",
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me hacía falta salir a caminar. El teléfono puede esperar un rato."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El paseo sigue por un momento de rutina. Las voces de la calle reemplazan por un momento las notificaciones."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tengo que resolver toda la historia hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cuando vuelve a guardar el celular, el silencio se siente menos pesado."
+          }
+        ]
       }
     ],
     "fondo": "plaza_villa_alemana.png"
@@ -1354,7 +2592,25 @@
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Terminar y seguir con el día."
+        "texto": "Terminar y seguir con el día.",
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me hacía falta salir a caminar. El teléfono puede esperar un rato."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El paseo sigue por un momento de rutina. Las voces de la calle reemplazan por un momento las notificaciones."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tengo que resolver toda la historia hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cuando vuelve a guardar el celular, el silencio se siente menos pesado."
+          }
+        ]
       }
     ],
     "fondo": "costanera_atardecer.png"

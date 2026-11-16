@@ -23,6 +23,10 @@
       {
         "personaje": "Narrador",
         "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Y ahora que te lo conté... ¿qué pensai tú? No necesito una respuesta perfecta."
       }
     ],
     "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: Autonomía de un lunes. Alternar detalles del día y reacciones auténticas.",
@@ -34,22 +38,112 @@
           "lumi": 4,
           "confianza_lumi": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tu agenda es tuya. Si nos vemos, que sea porque ambos queramos."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Me gusta que entendai eso. A veces necesito mi lunes sin explicaciones."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No quiero resolverte la vida; me gusta escucharte contarla."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso me sirve más que cualquier consejo enorme."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Cuando querai seguir hablando, te escucho. Y cuando no, también está bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias. Así puedo estar contigo sin sentir que debo estar disponible todo el tiempo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi sigue conversando un rato más, esta vez sin mirar la hora ni sentirse evaluada."
+          }
+        ]
       },
       {
         "texto": "Tirar una talla para aliviar la tensión.",
         "efectos": {
           "lumi": 3,
           "amistad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Podemos agendar un café que no se robe todo tu calendario."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "JAJA, uno sin recordatorios cada cinco minutos, por favor."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me puse medio ridículo, pero me gusta cuando te reís así."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Me hizo bien. A veces olvido que puedo pasarlo bien sin sentir culpa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tienes que demostrar nada. Solo quería sacarte una sonrisa."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Lo conseguiste. Y quizá la próxima te toque escuchar una talla mala mía."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación cambia de peso: sigue habiendo temas difíciles, pero también caben las risas."
+          }
+        ]
       },
       {
-        "texto": "Cambiar el tema a «¿y Max?».",
+        "texto": "Insistir en hablar de Max y comparar su relación con la de ustedes.",
         "efectos": {
           "lumi": -2,
           "confianza_lumi": -4,
           "sospecha": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero hablando de todo esto... ¿qué habría hecho Max? ¿Yo lo haría mejor?"
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Cáceres, no quiero que cada cosa que te cuente termine siendo una comparación con Max."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que podía ayudarte a ver la diferencia."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No necesito elegir entre ustedes mientras trato de entenderme yo. Necesito espacio para contar mis cosas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Tenís razón. Lo llevé a un lugar que no correspondía."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por entender. Mejor dejemos esto por hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi deja de escribir. Cáceres se queda pensando en la distancia entre acompañar y querer ganar."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -78,6 +172,10 @@
       {
         "personaje": "Narrador",
         "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Y ahora que te lo conté... ¿qué pensai tú? No necesito una respuesta perfecta."
       }
     ],
     "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: La playlist imposible. Alternar detalles del día y reacciones auténticas.",
@@ -89,22 +187,112 @@
           "lumi": 4,
           "confianza_lumi": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Quiero escuchar esa playlist tal cual, con sus saltos raros."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Te advierto que el cambio de ánimo es brusco."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No quiero resolverte la vida; me gusta escucharte contarla."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso me sirve más que cualquier consejo enorme."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Cuando querai seguir hablando, te escucho. Y cuando no, también está bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias. Así puedo estar contigo sin sentir que debo estar disponible todo el tiempo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi sigue conversando un rato más, esta vez sin mirar la hora ni sentirse evaluada."
+          }
+        ]
       },
       {
         "texto": "Tirar una talla para aliviar la tensión.",
         "efectos": {
           "lumi": 3,
           "amistad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Si bailai el tercer tema, yo prometo no juzgarte."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Entonces mejor no llevís cámara, JAJA."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me puse medio ridículo, pero me gusta cuando te reís así."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Me hizo bien. A veces olvido que puedo pasarlo bien sin sentir culpa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tienes que demostrar nada. Solo quería sacarte una sonrisa."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Lo conseguiste. Y quizá la próxima te toque escuchar una talla mala mía."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación cambia de peso: sigue habiendo temas difíciles, pero también caben las risas."
+          }
+        ]
       },
       {
-        "texto": "Cambiar el tema a «¿y Max?».",
+        "texto": "Insistir en hablar de Max y comparar su relación con la de ustedes.",
         "efectos": {
           "lumi": -2,
           "confianza_lumi": -4,
           "sospecha": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero hablando de todo esto... ¿qué habría hecho Max? ¿Yo lo haría mejor?"
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Cáceres, no quiero que cada cosa que te cuente termine siendo una comparación con Max."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que podía ayudarte a ver la diferencia."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No necesito elegir entre ustedes mientras trato de entenderme yo. Necesito espacio para contar mis cosas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Tenís razón. Lo llevé a un lugar que no correspondía."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por entender. Mejor dejemos esto por hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi deja de escribir. Cáceres se queda pensando en la distancia entre acompañar y querer ganar."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -133,6 +321,10 @@
       {
         "personaje": "Narrador",
         "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Y ahora que te lo conté... ¿qué pensai tú? No necesito una respuesta perfecta."
       }
     ],
     "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: Desayuno sin apuro. Alternar detalles del día y reacciones auténticas.",
@@ -144,22 +336,112 @@
           "lumi": 4,
           "confianza_lumi": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "No es una estupidez. Tomarte un rato para ti también cuenta."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Costó más de lo que esperaba no mirar el teléfono."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No quiero resolverte la vida; me gusta escucharte contarla."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso me sirve más que cualquier consejo enorme."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Cuando querai seguir hablando, te escucho. Y cuando no, también está bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias. Así puedo estar contigo sin sentir que debo estar disponible todo el tiempo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi sigue conversando un rato más, esta vez sin mirar la hora ni sentirse evaluada."
+          }
+        ]
       },
       {
         "texto": "Tirar una talla para aliviar la tensión.",
         "efectos": {
           "lumi": 3,
           "amistad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "El desayuno te salió mejor que la revolución digital."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "JAJA, al menos el pan no me dejó en visto."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me puse medio ridículo, pero me gusta cuando te reís así."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Me hizo bien. A veces olvido que puedo pasarlo bien sin sentir culpa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tienes que demostrar nada. Solo quería sacarte una sonrisa."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Lo conseguiste. Y quizá la próxima te toque escuchar una talla mala mía."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación cambia de peso: sigue habiendo temas difíciles, pero también caben las risas."
+          }
+        ]
       },
       {
-        "texto": "Cambiar el tema a «¿y Max?».",
+        "texto": "Insistir en hablar de Max y comparar su relación con la de ustedes.",
         "efectos": {
           "lumi": -2,
           "confianza_lumi": -4,
           "sospecha": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero hablando de todo esto... ¿qué habría hecho Max? ¿Yo lo haría mejor?"
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Cáceres, no quiero que cada cosa que te cuente termine siendo una comparación con Max."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que podía ayudarte a ver la diferencia."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No necesito elegir entre ustedes mientras trato de entenderme yo. Necesito espacio para contar mis cosas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Tenís razón. Lo llevé a un lugar que no correspondía."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por entender. Mejor dejemos esto por hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi deja de escribir. Cáceres se queda pensando en la distancia entre acompañar y querer ganar."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -188,6 +470,10 @@
       {
         "personaje": "Narrador",
         "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Y ahora que te lo conté... ¿qué pensai tú? No necesito una respuesta perfecta."
       }
     ],
     "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: El mural. Alternar detalles del día y reacciones auténticas.",
@@ -199,22 +485,112 @@
           "lumi": 4,
           "confianza_lumi": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "¿Te gustaría volver a verlo y contarme qué te llamó la atención?"
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Sí. A veces es rico que alguien mire lo que tú mirai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No quiero resolverte la vida; me gusta escucharte contarla."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso me sirve más que cualquier consejo enorme."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Cuando querai seguir hablando, te escucho. Y cuando no, también está bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias. Así puedo estar contigo sin sentir que debo estar disponible todo el tiempo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi sigue conversando un rato más, esta vez sin mirar la hora ni sentirse evaluada."
+          }
+        ]
       },
       {
         "texto": "Tirar una talla para aliviar la tensión.",
         "efectos": {
           "lumi": 3,
           "amistad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Yo pongo cara de entendido y tú me explicai el arte."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No necesitai fingir; prefiero tus preguntas tontas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me puse medio ridículo, pero me gusta cuando te reís así."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Me hizo bien. A veces olvido que puedo pasarlo bien sin sentir culpa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tienes que demostrar nada. Solo quería sacarte una sonrisa."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Lo conseguiste. Y quizá la próxima te toque escuchar una talla mala mía."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación cambia de peso: sigue habiendo temas difíciles, pero también caben las risas."
+          }
+        ]
       },
       {
-        "texto": "Cambiar el tema a «¿y Max?».",
+        "texto": "Insistir en hablar de Max y comparar su relación con la de ustedes.",
         "efectos": {
           "lumi": -2,
           "confianza_lumi": -4,
           "sospecha": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero hablando de todo esto... ¿qué habría hecho Max? ¿Yo lo haría mejor?"
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Cáceres, no quiero que cada cosa que te cuente termine siendo una comparación con Max."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que podía ayudarte a ver la diferencia."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No necesito elegir entre ustedes mientras trato de entenderme yo. Necesito espacio para contar mis cosas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Tenís razón. Lo llevé a un lugar que no correspondía."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por entender. Mejor dejemos esto por hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi deja de escribir. Cáceres se queda pensando en la distancia entre acompañar y querer ganar."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -243,6 +619,10 @@
       {
         "personaje": "Narrador",
         "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Y ahora que te lo conté... ¿qué pensai tú? No necesito una respuesta perfecta."
       }
     ],
     "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: La tía del almacén. Alternar detalles del día y reacciones auténticas.",
@@ -254,22 +634,112 @@
           "lumi": 4,
           "confianza_lumi": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Qué lata que siempre te pregunten por otra persona antes que por ti."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Exacto. Soy más que la polola de alguien."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No quiero resolverte la vida; me gusta escucharte contarla."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso me sirve más que cualquier consejo enorme."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Cuando querai seguir hablando, te escucho. Y cuando no, también está bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias. Así puedo estar contigo sin sentir que debo estar disponible todo el tiempo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi sigue conversando un rato más, esta vez sin mirar la hora ni sentirse evaluada."
+          }
+        ]
       },
       {
         "texto": "Tirar una talla para aliviar la tensión.",
         "efectos": {
           "lumi": 3,
           "amistad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "La próxima le pregunto qué pan te gusta, así cambiamos el tema."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "JAJA, esa sí sería una intervención útil."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me puse medio ridículo, pero me gusta cuando te reís así."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Me hizo bien. A veces olvido que puedo pasarlo bien sin sentir culpa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tienes que demostrar nada. Solo quería sacarte una sonrisa."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Lo conseguiste. Y quizá la próxima te toque escuchar una talla mala mía."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación cambia de peso: sigue habiendo temas difíciles, pero también caben las risas."
+          }
+        ]
       },
       {
-        "texto": "Cambiar el tema a «¿y Max?».",
+        "texto": "Insistir en hablar de Max y comparar su relación con la de ustedes.",
         "efectos": {
           "lumi": -2,
           "confianza_lumi": -4,
           "sospecha": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero hablando de todo esto... ¿qué habría hecho Max? ¿Yo lo haría mejor?"
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Cáceres, no quiero que cada cosa que te cuente termine siendo una comparación con Max."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que podía ayudarte a ver la diferencia."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No necesito elegir entre ustedes mientras trato de entenderme yo. Necesito espacio para contar mis cosas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Tenís razón. Lo llevé a un lugar que no correspondía."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por entender. Mejor dejemos esto por hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi deja de escribir. Cáceres se queda pensando en la distancia entre acompañar y querer ganar."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -298,6 +768,10 @@
       {
         "personaje": "Narrador",
         "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Y ahora que te lo conté... ¿qué pensai tú? No necesito una respuesta perfecta."
       }
     ],
     "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: Lluvia sobre la micro. Alternar detalles del día y reacciones auténticas.",
@@ -309,22 +783,112 @@
           "lumi": 4,
           "confianza_lumi": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Con ese paraguas dado vuelta debiste parecer un dibujo animado."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Fue humillante y gracioso a la vez."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No quiero resolverte la vida; me gusta escucharte contarla."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso me sirve más que cualquier consejo enorme."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Cuando querai seguir hablando, te escucho. Y cuando no, también está bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias. Así puedo estar contigo sin sentir que debo estar disponible todo el tiempo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi sigue conversando un rato más, esta vez sin mirar la hora ni sentirse evaluada."
+          }
+        ]
       },
       {
         "texto": "Tirar una talla para aliviar la tensión.",
         "efectos": {
           "lumi": 3,
           "amistad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Te habría prestado el mío, aunque seguro se daba vuelta también."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Con los dos bajo la lluvia habría sido peor, pero divertido."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me puse medio ridículo, pero me gusta cuando te reís así."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Me hizo bien. A veces olvido que puedo pasarlo bien sin sentir culpa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tienes que demostrar nada. Solo quería sacarte una sonrisa."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Lo conseguiste. Y quizá la próxima te toque escuchar una talla mala mía."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación cambia de peso: sigue habiendo temas difíciles, pero también caben las risas."
+          }
+        ]
       },
       {
-        "texto": "Cambiar el tema a «¿y Max?».",
+        "texto": "Insistir en hablar de Max y comparar su relación con la de ustedes.",
         "efectos": {
           "lumi": -2,
           "confianza_lumi": -4,
           "sospecha": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero hablando de todo esto... ¿qué habría hecho Max? ¿Yo lo haría mejor?"
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Cáceres, no quiero que cada cosa que te cuente termine siendo una comparación con Max."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que podía ayudarte a ver la diferencia."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No necesito elegir entre ustedes mientras trato de entenderme yo. Necesito espacio para contar mis cosas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Tenís razón. Lo llevé a un lugar que no correspondía."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por entender. Mejor dejemos esto por hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi deja de escribir. Cáceres se queda pensando en la distancia entre acompañar y querer ganar."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -353,6 +917,10 @@
       {
         "personaje": "Narrador",
         "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Y ahora que te lo conté... ¿qué pensai tú? No necesito una respuesta perfecta."
       }
     ],
     "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: El proyecto que empieza. Alternar detalles del día y reacciones auténticas.",
@@ -364,22 +932,112 @@
           "lumi": 4,
           "confianza_lumi": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Contame el proyecto desde el principio. Quiero entender qué te entusiasma."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias. No necesito que lo resolvai por mí, solo que me escuchís."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No quiero resolverte la vida; me gusta escucharte contarla."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso me sirve más que cualquier consejo enorme."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Cuando querai seguir hablando, te escucho. Y cuando no, también está bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias. Así puedo estar contigo sin sentir que debo estar disponible todo el tiempo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi sigue conversando un rato más, esta vez sin mirar la hora ni sentirse evaluada."
+          }
+        ]
       },
       {
         "texto": "Tirar una talla para aliviar la tensión.",
         "efectos": {
           "lumi": 3,
           "amistad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Prometo no presentarme de gerente sin invitación."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "JAJA, por favor. Ni siquiera tengo oficina."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me puse medio ridículo, pero me gusta cuando te reís así."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Me hizo bien. A veces olvido que puedo pasarlo bien sin sentir culpa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tienes que demostrar nada. Solo quería sacarte una sonrisa."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Lo conseguiste. Y quizá la próxima te toque escuchar una talla mala mía."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación cambia de peso: sigue habiendo temas difíciles, pero también caben las risas."
+          }
+        ]
       },
       {
-        "texto": "Cambiar el tema a «¿y Max?».",
+        "texto": "Insistir en hablar de Max y comparar su relación con la de ustedes.",
         "efectos": {
           "lumi": -2,
           "confianza_lumi": -4,
           "sospecha": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero hablando de todo esto... ¿qué habría hecho Max? ¿Yo lo haría mejor?"
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Cáceres, no quiero que cada cosa que te cuente termine siendo una comparación con Max."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que podía ayudarte a ver la diferencia."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No necesito elegir entre ustedes mientras trato de entenderme yo. Necesito espacio para contar mis cosas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Tenís razón. Lo llevé a un lugar que no correspondía."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por entender. Mejor dejemos esto por hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi deja de escribir. Cáceres se queda pensando en la distancia entre acompañar y querer ganar."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -408,6 +1066,10 @@
       {
         "personaje": "Narrador",
         "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Y ahora que te lo conté... ¿qué pensai tú? No necesito una respuesta perfecta."
       }
     ],
     "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: La foto que no subió. Alternar detalles del día y reacciones auténticas.",
@@ -419,22 +1081,112 @@
           "lumi": 4,
           "confianza_lumi": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Si a ti te gustaba esa foto, eso ya era una razón para guardarla."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Sí. Me frené pensando en opiniones que ni había escuchado."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No quiero resolverte la vida; me gusta escucharte contarla."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso me sirve más que cualquier consejo enorme."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Cuando querai seguir hablando, te escucho. Y cuando no, también está bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias. Así puedo estar contigo sin sentir que debo estar disponible todo el tiempo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi sigue conversando un rato más, esta vez sin mirar la hora ni sentirse evaluada."
+          }
+        ]
       },
       {
         "texto": "Tirar una talla para aliviar la tensión.",
         "efectos": {
           "lumi": 3,
           "amistad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Yo apoyo a la Lumi que se saca fotos sin pedir permiso."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Esa Lumi está volviendo de a poco, gracias."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me puse medio ridículo, pero me gusta cuando te reís así."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Me hizo bien. A veces olvido que puedo pasarlo bien sin sentir culpa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tienes que demostrar nada. Solo quería sacarte una sonrisa."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Lo conseguiste. Y quizá la próxima te toque escuchar una talla mala mía."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación cambia de peso: sigue habiendo temas difíciles, pero también caben las risas."
+          }
+        ]
       },
       {
-        "texto": "Cambiar el tema a «¿y Max?».",
+        "texto": "Insistir en hablar de Max y comparar su relación con la de ustedes.",
         "efectos": {
           "lumi": -2,
           "confianza_lumi": -4,
           "sospecha": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero hablando de todo esto... ¿qué habría hecho Max? ¿Yo lo haría mejor?"
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Cáceres, no quiero que cada cosa que te cuente termine siendo una comparación con Max."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que podía ayudarte a ver la diferencia."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No necesito elegir entre ustedes mientras trato de entenderme yo. Necesito espacio para contar mis cosas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Tenís razón. Lo llevé a un lugar que no correspondía."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por entender. Mejor dejemos esto por hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi deja de escribir. Cáceres se queda pensando en la distancia entre acompañar y querer ganar."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -463,6 +1215,10 @@
       {
         "personaje": "Narrador",
         "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Y ahora que te lo conté... ¿qué pensai tú? No necesito una respuesta perfecta."
       }
     ],
     "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: La comida favorita. Alternar detalles del día y reacciones auténticas.",
@@ -474,22 +1230,112 @@
           "lumi": 4,
           "confianza_lumi": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Acepto el tour gastronómico, pero quiero saber por qué es tu favorito."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Porque me lleva a un lugar que conocí sola y me gustó mucho."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No quiero resolverte la vida; me gusta escucharte contarla."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso me sirve más que cualquier consejo enorme."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Cuando querai seguir hablando, te escucho. Y cuando no, también está bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias. Así puedo estar contigo sin sentir que debo estar disponible todo el tiempo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi sigue conversando un rato más, esta vez sin mirar la hora ni sentirse evaluada."
+          }
+        ]
       },
       {
         "texto": "Tirar una talla para aliviar la tensión.",
         "efectos": {
           "lumi": 3,
           "amistad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces voy con respeto: no puedo competir con ese recuerdo."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "JAJA, pero podís agregar uno nuevo."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me puse medio ridículo, pero me gusta cuando te reís así."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Me hizo bien. A veces olvido que puedo pasarlo bien sin sentir culpa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tienes que demostrar nada. Solo quería sacarte una sonrisa."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Lo conseguiste. Y quizá la próxima te toque escuchar una talla mala mía."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación cambia de peso: sigue habiendo temas difíciles, pero también caben las risas."
+          }
+        ]
       },
       {
-        "texto": "Cambiar el tema a «¿y Max?».",
+        "texto": "Insistir en hablar de Max y comparar su relación con la de ustedes.",
         "efectos": {
           "lumi": -2,
           "confianza_lumi": -4,
           "sospecha": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero hablando de todo esto... ¿qué habría hecho Max? ¿Yo lo haría mejor?"
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Cáceres, no quiero que cada cosa que te cuente termine siendo una comparación con Max."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que podía ayudarte a ver la diferencia."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No necesito elegir entre ustedes mientras trato de entenderme yo. Necesito espacio para contar mis cosas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Tenís razón. Lo llevé a un lugar que no correspondía."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por entender. Mejor dejemos esto por hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi deja de escribir. Cáceres se queda pensando en la distancia entre acompañar y querer ganar."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -518,6 +1364,10 @@
       {
         "personaje": "Narrador",
         "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Y ahora que te lo conté... ¿qué pensai tú? No necesito una respuesta perfecta."
       }
     ],
     "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: La tarde de silencio. Alternar detalles del día y reacciones auténticas.",
@@ -529,22 +1379,112 @@
           "lumi": 4,
           "confianza_lumi": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Si necesitai silencio, te puedo dar silencio sin tomarlo personal."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias. Me pesa tener que justificar cada pausa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No quiero resolverte la vida; me gusta escucharte contarla."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso me sirve más que cualquier consejo enorme."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Cuando querai seguir hablando, te escucho. Y cuando no, también está bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias. Así puedo estar contigo sin sentir que debo estar disponible todo el tiempo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi sigue conversando un rato más, esta vez sin mirar la hora ni sentirse evaluada."
+          }
+        ]
       },
       {
         "texto": "Tirar una talla para aliviar la tensión.",
         "efectos": {
           "lumi": 3,
           "amistad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Te mando un emoji y lo dejamos para mañana."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "El emoji está permitido. Diecisiete mensajes seguidos, no."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me puse medio ridículo, pero me gusta cuando te reís así."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Me hizo bien. A veces olvido que puedo pasarlo bien sin sentir culpa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tienes que demostrar nada. Solo quería sacarte una sonrisa."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Lo conseguiste. Y quizá la próxima te toque escuchar una talla mala mía."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación cambia de peso: sigue habiendo temas difíciles, pero también caben las risas."
+          }
+        ]
       },
       {
-        "texto": "Cambiar el tema a «¿y Max?».",
+        "texto": "Insistir en hablar de Max y comparar su relación con la de ustedes.",
         "efectos": {
           "lumi": -2,
           "confianza_lumi": -4,
           "sospecha": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero hablando de todo esto... ¿qué habría hecho Max? ¿Yo lo haría mejor?"
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Cáceres, no quiero que cada cosa que te cuente termine siendo una comparación con Max."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que podía ayudarte a ver la diferencia."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No necesito elegir entre ustedes mientras trato de entenderme yo. Necesito espacio para contar mis cosas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Tenís razón. Lo llevé a un lugar que no correspondía."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por entender. Mejor dejemos esto por hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi deja de escribir. Cáceres se queda pensando en la distancia entre acompañar y querer ganar."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -573,6 +1513,10 @@
       {
         "personaje": "Narrador",
         "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Y ahora que te lo conté... ¿qué pensai tú? No necesito una respuesta perfecta."
       }
     ],
     "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: El miedo a necesitar. Alternar detalles del día y reacciones auténticas.",
@@ -584,22 +1528,112 @@
           "lumi": 4,
           "confianza_lumi": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Extrañar a alguien no te quita autonomía. Solo dice que te importa."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Puede ser. Me da miedo perderme en eso otra vez."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No quiero resolverte la vida; me gusta escucharte contarla."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso me sirve más que cualquier consejo enorme."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Cuando querai seguir hablando, te escucho. Y cuando no, también está bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias. Así puedo estar contigo sin sentir que debo estar disponible todo el tiempo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi sigue conversando un rato más, esta vez sin mirar la hora ni sentirse evaluada."
+          }
+        ]
       },
       {
         "texto": "Tirar una talla para aliviar la tensión.",
         "efectos": {
           "lumi": 3,
           "amistad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Te dejo echarme de menos sin pasar lista."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "JAJA, gracias por no poner cronómetro."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me puse medio ridículo, pero me gusta cuando te reís así."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Me hizo bien. A veces olvido que puedo pasarlo bien sin sentir culpa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tienes que demostrar nada. Solo quería sacarte una sonrisa."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Lo conseguiste. Y quizá la próxima te toque escuchar una talla mala mía."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación cambia de peso: sigue habiendo temas difíciles, pero también caben las risas."
+          }
+        ]
       },
       {
-        "texto": "Cambiar el tema a «¿y Max?».",
+        "texto": "Insistir en hablar de Max y comparar su relación con la de ustedes.",
         "efectos": {
           "lumi": -2,
           "confianza_lumi": -4,
           "sospecha": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero hablando de todo esto... ¿qué habría hecho Max? ¿Yo lo haría mejor?"
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Cáceres, no quiero que cada cosa que te cuente termine siendo una comparación con Max."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que podía ayudarte a ver la diferencia."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No necesito elegir entre ustedes mientras trato de entenderme yo. Necesito espacio para contar mis cosas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Tenís razón. Lo llevé a un lugar que no correspondía."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por entender. Mejor dejemos esto por hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi deja de escribir. Cáceres se queda pensando en la distancia entre acompañar y querer ganar."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -628,6 +1662,10 @@
       {
         "personaje": "Narrador",
         "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Y ahora que te lo conté... ¿qué pensai tú? No necesito una respuesta perfecta."
       }
     ],
     "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: Audífonos y costa. Alternar detalles del día y reacciones auténticas.",
@@ -639,22 +1677,112 @@
           "lumi": 4,
           "confianza_lumi": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me gusta imaginarte caminando sin mirar la hora."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Fue mi parte favorita del día."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No quiero resolverte la vida; me gusta escucharte contarla."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso me sirve más que cualquier consejo enorme."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Cuando querai seguir hablando, te escucho. Y cuando no, también está bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias. Así puedo estar contigo sin sentir que debo estar disponible todo el tiempo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi sigue conversando un rato más, esta vez sin mirar la hora ni sentirse evaluada."
+          }
+        ]
       },
       {
         "texto": "Tirar una talla para aliviar la tensión.",
         "efectos": {
           "lumi": 3,
           "amistad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Si un día me invitai, prometo no competir con el sonido del mar."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso quiero verlo, porque hablai harto, JAJA."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me puse medio ridículo, pero me gusta cuando te reís así."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Me hizo bien. A veces olvido que puedo pasarlo bien sin sentir culpa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tienes que demostrar nada. Solo quería sacarte una sonrisa."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Lo conseguiste. Y quizá la próxima te toque escuchar una talla mala mía."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación cambia de peso: sigue habiendo temas difíciles, pero también caben las risas."
+          }
+        ]
       },
       {
-        "texto": "Cambiar el tema a «¿y Max?».",
+        "texto": "Insistir en hablar de Max y comparar su relación con la de ustedes.",
         "efectos": {
           "lumi": -2,
           "confianza_lumi": -4,
           "sospecha": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero hablando de todo esto... ¿qué habría hecho Max? ¿Yo lo haría mejor?"
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Cáceres, no quiero que cada cosa que te cuente termine siendo una comparación con Max."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que podía ayudarte a ver la diferencia."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No necesito elegir entre ustedes mientras trato de entenderme yo. Necesito espacio para contar mis cosas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Tenís razón. Lo llevé a un lugar que no correspondía."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por entender. Mejor dejemos esto por hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi deja de escribir. Cáceres se queda pensando en la distancia entre acompañar y querer ganar."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -683,6 +1811,10 @@
       {
         "personaje": "Narrador",
         "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Y ahora que te lo conté... ¿qué pensai tú? No necesito una respuesta perfecta."
       }
     ],
     "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: El recuerdo divertido. Alternar detalles del día y reacciones auténticas.",
@@ -694,22 +1826,112 @@
           "lumi": 4,
           "confianza_lumi": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Al final perderte te regaló un lugar bonito. Qué buena historia."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Lo mejor fue que dejé de enojarme y empecé a mirar alrededor."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No quiero resolverte la vida; me gusta escucharte contarla."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso me sirve más que cualquier consejo enorme."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Cuando querai seguir hablando, te escucho. Y cuando no, también está bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias. Así puedo estar contigo sin sentir que debo estar disponible todo el tiempo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi sigue conversando un rato más, esta vez sin mirar la hora ni sentirse evaluada."
+          }
+        ]
       },
       {
         "texto": "Tirar una talla para aliviar la tensión.",
         "efectos": {
           "lumi": 3,
           "amistad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Yo me habría perdido hasta en el café."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Por eso te compraría un mapa antes de salir."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me puse medio ridículo, pero me gusta cuando te reís así."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Me hizo bien. A veces olvido que puedo pasarlo bien sin sentir culpa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tienes que demostrar nada. Solo quería sacarte una sonrisa."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Lo conseguiste. Y quizá la próxima te toque escuchar una talla mala mía."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación cambia de peso: sigue habiendo temas difíciles, pero también caben las risas."
+          }
+        ]
       },
       {
-        "texto": "Cambiar el tema a «¿y Max?».",
+        "texto": "Insistir en hablar de Max y comparar su relación con la de ustedes.",
         "efectos": {
           "lumi": -2,
           "confianza_lumi": -4,
           "sospecha": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero hablando de todo esto... ¿qué habría hecho Max? ¿Yo lo haría mejor?"
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Cáceres, no quiero que cada cosa que te cuente termine siendo una comparación con Max."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que podía ayudarte a ver la diferencia."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No necesito elegir entre ustedes mientras trato de entenderme yo. Necesito espacio para contar mis cosas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Tenís razón. Lo llevé a un lugar que no correspondía."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por entender. Mejor dejemos esto por hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi deja de escribir. Cáceres se queda pensando en la distancia entre acompañar y querer ganar."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -738,6 +1960,10 @@
       {
         "personaje": "Narrador",
         "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Y ahora que te lo conté... ¿qué pensai tú? No necesito una respuesta perfecta."
       }
     ],
     "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: Una llamada pendiente. Alternar detalles del día y reacciones auténticas.",
@@ -749,22 +1975,112 @@
           "lumi": 4,
           "confianza_lumi": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Podís decir que algo te duele sin presentar pruebas."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso necesito practicar. A veces siento que molesto."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No quiero resolverte la vida; me gusta escucharte contarla."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso me sirve más que cualquier consejo enorme."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Cuando querai seguir hablando, te escucho. Y cuando no, también está bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias. Así puedo estar contigo sin sentir que debo estar disponible todo el tiempo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi sigue conversando un rato más, esta vez sin mirar la hora ni sentirse evaluada."
+          }
+        ]
       },
       {
         "texto": "Tirar una talla para aliviar la tensión.",
         "efectos": {
           "lumi": 3,
           "amistad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Te escucho, y si no sé qué decir te lo voy a admitir."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso vale más que tratar de arreglarlo todo."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me puse medio ridículo, pero me gusta cuando te reís así."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Me hizo bien. A veces olvido que puedo pasarlo bien sin sentir culpa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tienes que demostrar nada. Solo quería sacarte una sonrisa."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Lo conseguiste. Y quizá la próxima te toque escuchar una talla mala mía."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación cambia de peso: sigue habiendo temas difíciles, pero también caben las risas."
+          }
+        ]
       },
       {
-        "texto": "Cambiar el tema a «¿y Max?».",
+        "texto": "Insistir en hablar de Max y comparar su relación con la de ustedes.",
         "efectos": {
           "lumi": -2,
           "confianza_lumi": -4,
           "sospecha": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero hablando de todo esto... ¿qué habría hecho Max? ¿Yo lo haría mejor?"
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Cáceres, no quiero que cada cosa que te cuente termine siendo una comparación con Max."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que podía ayudarte a ver la diferencia."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No necesito elegir entre ustedes mientras trato de entenderme yo. Necesito espacio para contar mis cosas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Tenís razón. Lo llevé a un lugar que no correspondía."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por entender. Mejor dejemos esto por hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi deja de escribir. Cáceres se queda pensando en la distancia entre acompañar y querer ganar."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -793,6 +2109,10 @@
       {
         "personaje": "Narrador",
         "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Y ahora que te lo conté... ¿qué pensai tú? No necesito una respuesta perfecta."
       }
     ],
     "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: La amiga sincera. Alternar detalles del día y reacciones auténticas.",
@@ -804,22 +2124,112 @@
           "lumi": 4,
           "confianza_lumi": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tu amiga te dijo algo difícil pero con cariño."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Sí. Me dejó pensando todo el día."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No quiero resolverte la vida; me gusta escucharte contarla."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso me sirve más que cualquier consejo enorme."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Cuando querai seguir hablando, te escucho. Y cuando no, también está bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias. Así puedo estar contigo sin sentir que debo estar disponible todo el tiempo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi sigue conversando un rato más, esta vez sin mirar la hora ni sentirse evaluada."
+          }
+        ]
       },
       {
         "texto": "Tirar una talla para aliviar la tensión.",
         "efectos": {
           "lumi": 3,
           "amistad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Podís decepcionar a alguien y seguir siendo buena persona."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias. Necesitaba escuchar eso de otra voz."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me puse medio ridículo, pero me gusta cuando te reís así."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Me hizo bien. A veces olvido que puedo pasarlo bien sin sentir culpa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tienes que demostrar nada. Solo quería sacarte una sonrisa."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Lo conseguiste. Y quizá la próxima te toque escuchar una talla mala mía."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación cambia de peso: sigue habiendo temas difíciles, pero también caben las risas."
+          }
+        ]
       },
       {
-        "texto": "Cambiar el tema a «¿y Max?».",
+        "texto": "Insistir en hablar de Max y comparar su relación con la de ustedes.",
         "efectos": {
           "lumi": -2,
           "confianza_lumi": -4,
           "sospecha": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero hablando de todo esto... ¿qué habría hecho Max? ¿Yo lo haría mejor?"
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Cáceres, no quiero que cada cosa que te cuente termine siendo una comparación con Max."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que podía ayudarte a ver la diferencia."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No necesito elegir entre ustedes mientras trato de entenderme yo. Necesito espacio para contar mis cosas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Tenís razón. Lo llevé a un lugar que no correspondía."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por entender. Mejor dejemos esto por hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi deja de escribir. Cáceres se queda pensando en la distancia entre acompañar y querer ganar."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -848,6 +2258,10 @@
       {
         "personaje": "Narrador",
         "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Y ahora que te lo conté... ¿qué pensai tú? No necesito una respuesta perfecta."
       }
     ],
     "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: La feria del sábado. Alternar detalles del día y reacciones auténticas.",
@@ -859,22 +2273,112 @@
           "lumi": 4,
           "confianza_lumi": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "¿Qué flores elegiste? Me gusta imaginar tu pieza distinta."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Unas claritas. Me alegran cada vez que entro."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No quiero resolverte la vida; me gusta escucharte contarla."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso me sirve más que cualquier consejo enorme."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Cuando querai seguir hablando, te escucho. Y cuando no, también está bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias. Así puedo estar contigo sin sentir que debo estar disponible todo el tiempo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi sigue conversando un rato más, esta vez sin mirar la hora ni sentirse evaluada."
+          }
+        ]
       },
       {
         "texto": "Tirar una talla para aliviar la tensión.",
         "efectos": {
           "lumi": 3,
           "amistad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Un día me enseñai a elegir sin matar ninguna planta."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "JAJA, partamos por no regarlas con bebida."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me puse medio ridículo, pero me gusta cuando te reís así."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Me hizo bien. A veces olvido que puedo pasarlo bien sin sentir culpa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tienes que demostrar nada. Solo quería sacarte una sonrisa."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Lo conseguiste. Y quizá la próxima te toque escuchar una talla mala mía."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación cambia de peso: sigue habiendo temas difíciles, pero también caben las risas."
+          }
+        ]
       },
       {
-        "texto": "Cambiar el tema a «¿y Max?».",
+        "texto": "Insistir en hablar de Max y comparar su relación con la de ustedes.",
         "efectos": {
           "lumi": -2,
           "confianza_lumi": -4,
           "sospecha": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero hablando de todo esto... ¿qué habría hecho Max? ¿Yo lo haría mejor?"
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Cáceres, no quiero que cada cosa que te cuente termine siendo una comparación con Max."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que podía ayudarte a ver la diferencia."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No necesito elegir entre ustedes mientras trato de entenderme yo. Necesito espacio para contar mis cosas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Tenís razón. Lo llevé a un lugar que no correspondía."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por entender. Mejor dejemos esto por hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi deja de escribir. Cáceres se queda pensando en la distancia entre acompañar y querer ganar."
+          }
+        ]
       }
     ],
     "fondo": "cafe_vina.png"
@@ -903,6 +2407,10 @@
       {
         "personaje": "Narrador",
         "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Y ahora que te lo conté... ¿qué pensai tú? No necesito una respuesta perfecta."
       }
     ],
     "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: La ambición. Alternar detalles del día y reacciones auténticas.",
@@ -914,22 +2422,112 @@
           "lumi": 4,
           "confianza_lumi": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Decilo fuerte. No quiero que achiquís tus planes para tranquilizar a nadie."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Me da vergüenza, pero también ganas de intentarlo."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No quiero resolverte la vida; me gusta escucharte contarla."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso me sirve más que cualquier consejo enorme."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Cuando querai seguir hablando, te escucho. Y cuando no, también está bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias. Así puedo estar contigo sin sentir que debo estar disponible todo el tiempo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi sigue conversando un rato más, esta vez sin mirar la hora ni sentirse evaluada."
+          }
+        ]
       },
       {
         "texto": "Tirar una talla para aliviar la tensión.",
         "efectos": {
           "lumi": 3,
           "amistad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Yo aplaudo desde la primera fila; no te voy a pedir protagonismo."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Entonces reservá un asiento, pero sin hacer escándalo."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me puse medio ridículo, pero me gusta cuando te reís así."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Me hizo bien. A veces olvido que puedo pasarlo bien sin sentir culpa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tienes que demostrar nada. Solo quería sacarte una sonrisa."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Lo conseguiste. Y quizá la próxima te toque escuchar una talla mala mía."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación cambia de peso: sigue habiendo temas difíciles, pero también caben las risas."
+          }
+        ]
       },
       {
-        "texto": "Cambiar el tema a «¿y Max?».",
+        "texto": "Insistir en hablar de Max y comparar su relación con la de ustedes.",
         "efectos": {
           "lumi": -2,
           "confianza_lumi": -4,
           "sospecha": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero hablando de todo esto... ¿qué habría hecho Max? ¿Yo lo haría mejor?"
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Cáceres, no quiero que cada cosa que te cuente termine siendo una comparación con Max."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que podía ayudarte a ver la diferencia."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No necesito elegir entre ustedes mientras trato de entenderme yo. Necesito espacio para contar mis cosas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Tenís razón. Lo llevé a un lugar que no correspondía."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por entender. Mejor dejemos esto por hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi deja de escribir. Cáceres se queda pensando en la distancia entre acompañar y querer ganar."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -958,6 +2556,10 @@
       {
         "personaje": "Narrador",
         "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Y ahora que te lo conté... ¿qué pensai tú? No necesito una respuesta perfecta."
       }
     ],
     "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: Un vestido guardado. Alternar detalles del día y reacciones auténticas.",
@@ -969,22 +2571,112 @@
           "lumi": 4,
           "confianza_lumi": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Usá esa ropa si te gusta. Nadie debería decidir por tu clóset."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Me costó darme cuenta de cuánto me había acomodado."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No quiero resolverte la vida; me gusta escucharte contarla."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso me sirve más que cualquier consejo enorme."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Cuando querai seguir hablando, te escucho. Y cuando no, también está bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias. Así puedo estar contigo sin sentir que debo estar disponible todo el tiempo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi sigue conversando un rato más, esta vez sin mirar la hora ni sentirse evaluada."
+          }
+        ]
       },
       {
         "texto": "Tirar una talla para aliviar la tensión.",
         "efectos": {
           "lumi": 3,
           "amistad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me dan ganas de ver qué estilo elegís ahora."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "El mío, po. Ese es el chiste, JAJA."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me puse medio ridículo, pero me gusta cuando te reís así."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Me hizo bien. A veces olvido que puedo pasarlo bien sin sentir culpa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tienes que demostrar nada. Solo quería sacarte una sonrisa."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Lo conseguiste. Y quizá la próxima te toque escuchar una talla mala mía."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación cambia de peso: sigue habiendo temas difíciles, pero también caben las risas."
+          }
+        ]
       },
       {
-        "texto": "Cambiar el tema a «¿y Max?».",
+        "texto": "Insistir en hablar de Max y comparar su relación con la de ustedes.",
         "efectos": {
           "lumi": -2,
           "confianza_lumi": -4,
           "sospecha": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero hablando de todo esto... ¿qué habría hecho Max? ¿Yo lo haría mejor?"
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Cáceres, no quiero que cada cosa que te cuente termine siendo una comparación con Max."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que podía ayudarte a ver la diferencia."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No necesito elegir entre ustedes mientras trato de entenderme yo. Necesito espacio para contar mis cosas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Tenís razón. Lo llevé a un lugar que no correspondía."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por entender. Mejor dejemos esto por hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi deja de escribir. Cáceres se queda pensando en la distancia entre acompañar y querer ganar."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -1013,6 +2705,10 @@
       {
         "personaje": "Narrador",
         "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Y ahora que te lo conté... ¿qué pensai tú? No necesito una respuesta perfecta."
       }
     ],
     "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: El mensaje no enviado. Alternar detalles del día y reacciones auténticas.",
@@ -1024,22 +2720,112 @@
           "lumi": 4,
           "confianza_lumi": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "No tenís que mandarlo hoy. A veces escribir ya ordena."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Sí. Borrarlo me dejó respirando un poquito mejor."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No quiero resolverte la vida; me gusta escucharte contarla."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso me sirve más que cualquier consejo enorme."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Cuando querai seguir hablando, te escucho. Y cuando no, también está bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias. Así puedo estar contigo sin sentir que debo estar disponible todo el tiempo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi sigue conversando un rato más, esta vez sin mirar la hora ni sentirse evaluada."
+          }
+        ]
       },
       {
         "texto": "Tirar una talla para aliviar la tensión.",
         "efectos": {
           "lumi": 3,
           "amistad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Podemos conversar de otra cosa mientras tanto."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias. Me gustaría hablar de algo que no pese."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me puse medio ridículo, pero me gusta cuando te reís así."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Me hizo bien. A veces olvido que puedo pasarlo bien sin sentir culpa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tienes que demostrar nada. Solo quería sacarte una sonrisa."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Lo conseguiste. Y quizá la próxima te toque escuchar una talla mala mía."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación cambia de peso: sigue habiendo temas difíciles, pero también caben las risas."
+          }
+        ]
       },
       {
-        "texto": "Cambiar el tema a «¿y Max?».",
+        "texto": "Insistir en hablar de Max y comparar su relación con la de ustedes.",
         "efectos": {
           "lumi": -2,
           "confianza_lumi": -4,
           "sospecha": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero hablando de todo esto... ¿qué habría hecho Max? ¿Yo lo haría mejor?"
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Cáceres, no quiero que cada cosa que te cuente termine siendo una comparación con Max."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que podía ayudarte a ver la diferencia."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No necesito elegir entre ustedes mientras trato de entenderme yo. Necesito espacio para contar mis cosas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Tenís razón. Lo llevé a un lugar que no correspondía."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por entender. Mejor dejemos esto por hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi deja de escribir. Cáceres se queda pensando en la distancia entre acompañar y querer ganar."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -1068,6 +2854,10 @@
       {
         "personaje": "Narrador",
         "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Y ahora que te lo conté... ¿qué pensai tú? No necesito una respuesta perfecta."
       }
     ],
     "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: Una tarde liviana. Alternar detalles del día y reacciones auténticas.",
@@ -1079,22 +2869,112 @@
           "lumi": 4,
           "confianza_lumi": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Qué rico que un día tranquilo pueda ser una buena noticia."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Por fin no sentí que había algo que arreglar."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No quiero resolverte la vida; me gusta escucharte contarla."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso me sirve más que cualquier consejo enorme."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Cuando querai seguir hablando, te escucho. Y cuando no, también está bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias. Así puedo estar contigo sin sentir que debo estar disponible todo el tiempo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi sigue conversando un rato más, esta vez sin mirar la hora ni sentirse evaluada."
+          }
+        ]
       },
       {
         "texto": "Tirar una talla para aliviar la tensión.",
         "efectos": {
           "lumi": 3,
           "amistad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Podemos celebrar la ausencia de drama con un té."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "JAJA, la fiesta más tranquila del mundo."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me puse medio ridículo, pero me gusta cuando te reís así."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Me hizo bien. A veces olvido que puedo pasarlo bien sin sentir culpa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tienes que demostrar nada. Solo quería sacarte una sonrisa."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Lo conseguiste. Y quizá la próxima te toque escuchar una talla mala mía."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación cambia de peso: sigue habiendo temas difíciles, pero también caben las risas."
+          }
+        ]
       },
       {
-        "texto": "Cambiar el tema a «¿y Max?».",
+        "texto": "Insistir en hablar de Max y comparar su relación con la de ustedes.",
         "efectos": {
           "lumi": -2,
           "confianza_lumi": -4,
           "sospecha": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero hablando de todo esto... ¿qué habría hecho Max? ¿Yo lo haría mejor?"
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Cáceres, no quiero que cada cosa que te cuente termine siendo una comparación con Max."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que podía ayudarte a ver la diferencia."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No necesito elegir entre ustedes mientras trato de entenderme yo. Necesito espacio para contar mis cosas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Tenís razón. Lo llevé a un lugar que no correspondía."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por entender. Mejor dejemos esto por hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi deja de escribir. Cáceres se queda pensando en la distancia entre acompañar y querer ganar."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -1123,6 +3003,10 @@
       {
         "personaje": "Narrador",
         "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Y ahora que te lo conté... ¿qué pensai tú? No necesito una respuesta perfecta."
       }
     ],
     "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: Mirar al futuro. Alternar detalles del día y reacciones auténticas.",
@@ -1134,22 +3018,112 @@
           "lumi": 4,
           "confianza_lumi": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "No sé dónde vas a estar, pero me gusta que estís pensando en tus planes."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Me asusta un poco no tener respuestas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No quiero resolverte la vida; me gusta escucharte contarla."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso me sirve más que cualquier consejo enorme."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Cuando querai seguir hablando, te escucho. Y cuando no, también está bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias. Así puedo estar contigo sin sentir que debo estar disponible todo el tiempo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi sigue conversando un rato más, esta vez sin mirar la hora ni sentirse evaluada."
+          }
+        ]
       },
       {
         "texto": "Tirar una talla para aliviar la tensión.",
         "efectos": {
           "lumi": 3,
           "amistad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Si necesitai alguien que te escuche imaginar, aquí estoy."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Me sirve. No quiero que nadie me dibuje el futuro."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me puse medio ridículo, pero me gusta cuando te reís así."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Me hizo bien. A veces olvido que puedo pasarlo bien sin sentir culpa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tienes que demostrar nada. Solo quería sacarte una sonrisa."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Lo conseguiste. Y quizá la próxima te toque escuchar una talla mala mía."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación cambia de peso: sigue habiendo temas difíciles, pero también caben las risas."
+          }
+        ]
       },
       {
-        "texto": "Cambiar el tema a «¿y Max?».",
+        "texto": "Insistir en hablar de Max y comparar su relación con la de ustedes.",
         "efectos": {
           "lumi": -2,
           "confianza_lumi": -4,
           "sospecha": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero hablando de todo esto... ¿qué habría hecho Max? ¿Yo lo haría mejor?"
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Cáceres, no quiero que cada cosa que te cuente termine siendo una comparación con Max."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que podía ayudarte a ver la diferencia."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No necesito elegir entre ustedes mientras trato de entenderme yo. Necesito espacio para contar mis cosas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Tenís razón. Lo llevé a un lugar que no correspondía."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por entender. Mejor dejemos esto por hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi deja de escribir. Cáceres se queda pensando en la distancia entre acompañar y querer ganar."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -1178,6 +3152,10 @@
       {
         "personaje": "Narrador",
         "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Y ahora que te lo conté... ¿qué pensai tú? No necesito una respuesta perfecta."
       }
     ],
     "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: La canción vergonzosa. Alternar detalles del día y reacciones auténticas.",
@@ -1189,22 +3167,112 @@
           "lumi": 4,
           "confianza_lumi": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Mándame el primer segundo y prometo no juzgar."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No te creo nada, te vas a reír."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No quiero resolverte la vida; me gusta escucharte contarla."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso me sirve más que cualquier consejo enorme."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Cuando querai seguir hablando, te escucho. Y cuando no, también está bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias. Así puedo estar contigo sin sentir que debo estar disponible todo el tiempo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi sigue conversando un rato más, esta vez sin mirar la hora ni sentirse evaluada."
+          }
+        ]
       },
       {
         "texto": "Tirar una talla para aliviar la tensión.",
         "efectos": {
           "lumi": 3,
           "amistad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me voy a reír contigo, no de ti."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso suena sospechosamente encantador, Cáceres."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me puse medio ridículo, pero me gusta cuando te reís así."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Me hizo bien. A veces olvido que puedo pasarlo bien sin sentir culpa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tienes que demostrar nada. Solo quería sacarte una sonrisa."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Lo conseguiste. Y quizá la próxima te toque escuchar una talla mala mía."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación cambia de peso: sigue habiendo temas difíciles, pero también caben las risas."
+          }
+        ]
       },
       {
-        "texto": "Cambiar el tema a «¿y Max?».",
+        "texto": "Insistir en hablar de Max y comparar su relación con la de ustedes.",
         "efectos": {
           "lumi": -2,
           "confianza_lumi": -4,
           "sospecha": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero hablando de todo esto... ¿qué habría hecho Max? ¿Yo lo haría mejor?"
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Cáceres, no quiero que cada cosa que te cuente termine siendo una comparación con Max."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que podía ayudarte a ver la diferencia."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No necesito elegir entre ustedes mientras trato de entenderme yo. Necesito espacio para contar mis cosas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Tenís razón. Lo llevé a un lugar que no correspondía."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por entender. Mejor dejemos esto por hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi deja de escribir. Cáceres se queda pensando en la distancia entre acompañar y querer ganar."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -1233,6 +3301,10 @@
       {
         "personaje": "Narrador",
         "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Y ahora que te lo conté... ¿qué pensai tú? No necesito una respuesta perfecta."
       }
     ],
     "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: El límite más difícil. Alternar detalles del día y reacciones auténticas.",
@@ -1244,22 +3316,112 @@
           "lumi": 4,
           "confianza_lumi": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Decir que no no hace que merezcai menos cariño."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Lo sé con la cabeza. Me falta sentirlo."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No quiero resolverte la vida; me gusta escucharte contarla."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso me sirve más que cualquier consejo enorme."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Cuando querai seguir hablando, te escucho. Y cuando no, también está bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias. Así puedo estar contigo sin sentir que debo estar disponible todo el tiempo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi sigue conversando un rato más, esta vez sin mirar la hora ni sentirse evaluada."
+          }
+        ]
       },
       {
         "texto": "Tirar una talla para aliviar la tensión.",
         "efectos": {
           "lumi": 3,
           "amistad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Si alguna vez me decís que no, te voy a escuchar a la primera."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias. Esa promesa sí importa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me puse medio ridículo, pero me gusta cuando te reís así."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Me hizo bien. A veces olvido que puedo pasarlo bien sin sentir culpa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tienes que demostrar nada. Solo quería sacarte una sonrisa."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Lo conseguiste. Y quizá la próxima te toque escuchar una talla mala mía."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación cambia de peso: sigue habiendo temas difíciles, pero también caben las risas."
+          }
+        ]
       },
       {
-        "texto": "Cambiar el tema a «¿y Max?».",
+        "texto": "Insistir en hablar de Max y comparar su relación con la de ustedes.",
         "efectos": {
           "lumi": -2,
           "confianza_lumi": -4,
           "sospecha": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero hablando de todo esto... ¿qué habría hecho Max? ¿Yo lo haría mejor?"
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Cáceres, no quiero que cada cosa que te cuente termine siendo una comparación con Max."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que podía ayudarte a ver la diferencia."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No necesito elegir entre ustedes mientras trato de entenderme yo. Necesito espacio para contar mis cosas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Tenís razón. Lo llevé a un lugar que no correspondía."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por entender. Mejor dejemos esto por hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi deja de escribir. Cáceres se queda pensando en la distancia entre acompañar y querer ganar."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -1288,6 +3450,10 @@
       {
         "personaje": "Narrador",
         "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Y ahora que te lo conté... ¿qué pensai tú? No necesito una respuesta perfecta."
       }
     ],
     "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: Un mensaje sin urgencia. Alternar detalles del día y reacciones auténticas.",
@@ -1299,22 +3465,112 @@
           "lumi": 4,
           "confianza_lumi": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me gusta saber de ti sin tener que pedirte explicaciones."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Se siente liviano, como debería ser."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No quiero resolverte la vida; me gusta escucharte contarla."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso me sirve más que cualquier consejo enorme."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Cuando querai seguir hablando, te escucho. Y cuando no, también está bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias. Así puedo estar contigo sin sentir que debo estar disponible todo el tiempo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi sigue conversando un rato más, esta vez sin mirar la hora ni sentirse evaluada."
+          }
+        ]
       },
       {
         "texto": "Tirar una talla para aliviar la tensión.",
         "efectos": {
           "lumi": 3,
           "amistad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Cuando tengai un ratito, me contai el día."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Lo haré. Y si no tengo nada que contar, también sirve."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me puse medio ridículo, pero me gusta cuando te reís así."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Me hizo bien. A veces olvido que puedo pasarlo bien sin sentir culpa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No tienes que demostrar nada. Solo quería sacarte una sonrisa."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Lo conseguiste. Y quizá la próxima te toque escuchar una talla mala mía."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación cambia de peso: sigue habiendo temas difíciles, pero también caben las risas."
+          }
+        ]
       },
       {
-        "texto": "Cambiar el tema a «¿y Max?».",
+        "texto": "Insistir en hablar de Max y comparar su relación con la de ustedes.",
         "efectos": {
           "lumi": -2,
           "confianza_lumi": -4,
           "sospecha": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero hablando de todo esto... ¿qué habría hecho Max? ¿Yo lo haría mejor?"
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Cáceres, no quiero que cada cosa que te cuente termine siendo una comparación con Max."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que podía ayudarte a ver la diferencia."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No necesito elegir entre ustedes mientras trato de entenderme yo. Necesito espacio para contar mis cosas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Tenís razón. Lo llevé a un lugar que no correspondía."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por entender. Mejor dejemos esto por hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Lumi deja de escribir. Cáceres se queda pensando en la distancia entre acompañar y querer ganar."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"

@@ -3,6 +3,8 @@ package com.example.quintaverso;
 import com.example.quintaverso.motor.MotorCalendario;
 import com.example.quintaverso.seguridad.GestorAccesos;
 import javafx.application.Application;
+import javafx.scene.Parent;
+import javafx.scene.input.KeyCode;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
@@ -21,6 +23,7 @@ public class HelloApplication extends Application {
         ventana.setTitle("QUINTAVERSO — Historias de la Quinta Región");
         ventana.setMinWidth(860);
         ventana.setMinHeight(600);
+        ventana.setFullScreenExitHint("Pulsa F11 para alternar pantalla completa; ESC para salir.");
         mostrarMenu();
         ventana.show();
     }
@@ -34,7 +37,7 @@ public class HelloApplication extends Application {
         intro.getStyleClass().add("etiqueta-caps");
 
         VBox tarjetaCaceres = tarjetaTemporada("01", "CÁCERES",
-                "DOBLE TENTACIÓN", "30 días · 3 turnos por día · 8 finales", "Empezar temporada",
+                "DOBLE TENTACIÓN", "30 días · 3 turnos por día · 8 finales", "Jugar / Continuar",
                 () -> solicitarClave("caceres"));
         VBox tarjetaJairo = tarjetaTemporada("02", "JAIRO",
                 "PRÓXIMAMENTE", "Historia aún en desarrollo", "Ver temporada",
@@ -49,7 +52,7 @@ public class HelloApplication extends Application {
             HBox.setHgrow(tarjeta, Priority.ALWAYS);
             tarjeta.setMaxWidth(Double.MAX_VALUE);
         }
-        Label pie = new Label("v0.5 · Proyecto de novela visual · Ficción inspirada en la Quinta Región");
+        Label pie = new Label("v0.6.1 · F11: pantalla completa · Ficción inspirada en la Quinta Región");
         pie.getStyleClass().add("texto-suave");
 
         VBox contenido = new VBox(22, marca, bajada, intro, tarjetas, pie);
@@ -120,10 +123,27 @@ public class HelloApplication extends Application {
         a.showAndWait();
     }
 
-    public void aplicarEscena(javafx.scene.Parent raiz) {
-        Scene escena = new Scene(raiz, 1100, 720);
-        agregarEstilo(escena);
-        ventana.setScene(escena);
+    public void aplicarEscena(Parent raiz) {
+        cambiarContenido(ventana, raiz);
+    }
+
+    /** Mantener el MISMO Scene evita salir de pantalla completa al cambiar de vista. */
+    public static void cambiarContenido(Stage ventana, Parent raiz) {
+        Scene escena = ventana.getScene();
+        if (escena == null) {
+            escena = new Scene(raiz, 1100, 720);
+            agregarEstilo(escena);
+            Scene finalEscena = escena;
+            escena.setOnKeyPressed(e -> {
+                if (e.getCode() == KeyCode.F11) {
+                    ventana.setFullScreen(!ventana.isFullScreen());
+                    e.consume();
+                }
+            });
+            ventana.setScene(finalEscena);
+        } else {
+            escena.setRoot(raiz);
+        }
     }
 
     public static void agregarEstilo(Scene escena) {

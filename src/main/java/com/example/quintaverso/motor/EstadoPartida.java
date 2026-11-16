@@ -7,7 +7,7 @@ import java.util.Map;
 
 /** Estado persistente: decisiones, estadísticas, historial y actividades. */
 public class EstadoPartida {
-    public static final int VERSION_GUARDADO = 2;
+    public static final int VERSION_GUARDADO = 3;
     private int versionGuardado = VERSION_GUARDADO;
     private String temporada = "caceres";
     private int dia = 1;
@@ -17,6 +17,18 @@ public class EstadoPartida {
     private Map<String, Integer> repeticiones = new LinkedHashMap<>();
     private List<String> historial = new ArrayList<>();
     private String finalObtenido;
+
+    // v0.6: punto exacto de reanudación, incluso en mitad de una escena.
+    private String escenaActual;
+    private int lineaActual;
+    private String contextoEscena;
+    private String accionPendienteId;
+    private String accionPendienteTitulo;
+    private boolean accionPendienteUnica;
+    private List<Dialogo> reaccionPendiente = new ArrayList<>();
+    private int lineaReaccion;
+    private String destinoPendiente;
+    private boolean terminarTrasReaccion;
 
     public EstadoPartida() {
         estadisticas.put("lumi", 15);
@@ -65,6 +77,45 @@ public class EstadoPartida {
     public void setRepeticiones(Map<String, Integer> repeticiones) { this.repeticiones = repeticiones == null ? new LinkedHashMap<>() : repeticiones; }
     public List<String> getHistorial() { return historial; }
     public void setHistorial(List<String> historial) { this.historial = historial == null ? new ArrayList<>() : historial; }
+    public String getEscenaActual() { return escenaActual; }
+    public void setEscenaActual(String escenaActual) { this.escenaActual = escenaActual; }
+    public int getLineaActual() { return lineaActual; }
+    public void setLineaActual(int lineaActual) { this.lineaActual = Math.max(0, lineaActual); }
+    public String getContextoEscena() { return contextoEscena; }
+    public void setContextoEscena(String contextoEscena) { this.contextoEscena = contextoEscena; }
+    public String getAccionPendienteId() { return accionPendienteId; }
+    public void setAccionPendienteId(String accionPendienteId) { this.accionPendienteId = accionPendienteId; }
+    public String getAccionPendienteTitulo() { return accionPendienteTitulo; }
+    public void setAccionPendienteTitulo(String accionPendienteTitulo) { this.accionPendienteTitulo = accionPendienteTitulo; }
+    public boolean isAccionPendienteUnica() { return accionPendienteUnica; }
+    public void setAccionPendienteUnica(boolean accionPendienteUnica) { this.accionPendienteUnica = accionPendienteUnica; }
+    public List<Dialogo> getReaccionPendiente() { return reaccionPendiente; }
+    public void setReaccionPendiente(List<Dialogo> reaccionPendiente) {
+        this.reaccionPendiente = reaccionPendiente == null ? new ArrayList<>() : reaccionPendiente;
+    }
+    public int getLineaReaccion() { return lineaReaccion; }
+    public void setLineaReaccion(int lineaReaccion) { this.lineaReaccion = Math.max(0, lineaReaccion); }
+    public String getDestinoPendiente() { return destinoPendiente; }
+    public void setDestinoPendiente(String destinoPendiente) { this.destinoPendiente = destinoPendiente; }
+    public boolean isTerminarTrasReaccion() { return terminarTrasReaccion; }
+    public void setTerminarTrasReaccion(boolean terminarTrasReaccion) { this.terminarTrasReaccion = terminarTrasReaccion; }
+
+    public void limpiarReaccion() {
+        reaccionPendiente = new ArrayList<>();
+        lineaReaccion = 0;
+        destinoPendiente = null;
+        terminarTrasReaccion = false;
+    }
+    public void limpiarEscena() {
+        escenaActual = null;
+        lineaActual = 0;
+        contextoEscena = null;
+        accionPendienteId = null;
+        accionPendienteTitulo = null;
+        accionPendienteUnica = false;
+        limpiarReaccion();
+    }
+
     public String getFinalObtenido() { return finalObtenido; }
     public void setFinalObtenido(String finalObtenido) { this.finalObtenido = finalObtenido; }
 }

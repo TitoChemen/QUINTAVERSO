@@ -45,6 +45,32 @@
         },
         "eventos": [
           "fiesta_conversacion"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Cony",
+            "texto": "Ya po, salgamos. Con todo este ruido casi no se entiende nada."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importa que entendai lo que te estoy diciendo. No quiero que ninguna decisión se sienta como una deuda."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por decirlo así. Podemos tener ganas, miedo o dudas, y conversarlas sin apurar el final."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Prefiero saber qué te hace bien a adivinarlo y terminar metiendo la pata."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Entonces sigamos hablando. Me gusta que podamos decir las cosas sin escondernos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El silencio que queda es cómodo: ambos han escuchado algo que necesitaban oír."
+          }
         ]
       },
       {
@@ -56,6 +82,32 @@
         },
         "eventos": [
           "fiesta_grupo"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Cony",
+            "texto": "JAJA, ya, ¿siempre tenís a esos personajes de amigos?"
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importa que entendai lo que te estoy diciendo. No quiero que ninguna decisión se sienta como una deuda."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por decirlo así. Podemos tener ganas, miedo o dudas, y conversarlas sin apurar el final."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Prefiero saber qué te hace bien a adivinarlo y terminar metiendo la pata."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Entonces sigamos hablando. Me gusta que podamos decir las cosas sin escondernos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El silencio que queda es cómodo: ambos han escuchado algo que necesitaban oír."
+          }
         ]
       },
       {
@@ -67,6 +119,32 @@
         },
         "eventos": [
           "fiesta_numero"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Cony",
+            "texto": "Me gusta que vayai de frente. Pásame tu número y vemos qué onda."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importa que entendai lo que te estoy diciendo. No quiero que ninguna decisión se sienta como una deuda."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por decirlo así. Podemos tener ganas, miedo o dudas, y conversarlas sin apurar el final."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Prefiero saber qué te hace bien a adivinarlo y terminar metiendo la pata."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Entonces sigamos hablando. Me gusta que podamos decir las cosas sin escondernos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El silencio que queda es cómodo: ambos han escuchado algo que necesitaban oír."
+          }
         ]
       }
     ],
@@ -189,6 +267,32 @@
         },
         "eventos": [
           "lumi_mundo"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias. A veces siento que todos me preguntan por Max y nadie por lo que quiero hacer yo."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importa que entendai lo que te estoy diciendo. No quiero que ninguna decisión se sienta como una deuda."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por decirlo así. Podemos tener ganas, miedo o dudas, y conversarlas sin apurar el final."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Prefiero saber qué te hace bien a adivinarlo y terminar metiendo la pata."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Entonces sigamos hablando. Me gusta que podamos decir las cosas sin escondernos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El silencio que queda es cómodo: ambos han escuchado algo que necesitaban oír."
+          }
         ]
       },
       {
@@ -198,7 +302,33 @@
           "lumi": 2,
           "confianza_lumi": -7,
           "sospecha": 6
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Lumi",
+            "texto": "No necesito que me comparen a nadie con Max. Quiero que me escuchen."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me estoy dando cuenta de que esa forma de decirlo no estuvo bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No te pido que digai lo perfecto. Te pido que respetís lo que te estoy contando."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Perdón por apurar la conversación. Voy a pensar mejor lo que quiero y lo que puedo ofrecer."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso es lo mínimo. Prefiero que paremos antes de seguir haciéndonos daño."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación pierde ligereza. Cáceres no puede deshacer lo dicho, pero sí decidir qué hará después."
+          }
+        ]
       },
       {
         "texto": "«Suena agotador. ¿Qué harías solo por ti?»",
@@ -210,6 +340,32 @@
         },
         "eventos": [
           "lumi_mundo"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Lumi",
+            "texto": "Me gustaría retomar proyectos que dejé botados. Casi había olvidado cuánto me entusiasmaban."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importa que entendai lo que te estoy diciendo. No quiero que ninguna decisión se sienta como una deuda."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por decirlo así. Podemos tener ganas, miedo o dudas, y conversarlas sin apurar el final."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Prefiero saber qué te hace bien a adivinarlo y terminar metiendo la pata."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Entonces sigamos hablando. Me gusta que podamos decir las cosas sin escondernos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El silencio que queda es cómodo: ambos han escuchado algo que necesitaban oír."
+          }
         ]
       }
     ],
@@ -323,6 +479,32 @@
         ],
         "desactivarEventos": [
           "cony_sin_prisa"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Cony",
+            "texto": "Eso mismo quiero: que ninguno se haga el leso si cambian las ganas o los límites."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importa que entendai lo que te estoy diciendo. No quiero que ninguna decisión se sienta como una deuda."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por decirlo así. Podemos tener ganas, miedo o dudas, y conversarlas sin apurar el final."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Prefiero saber qué te hace bien a adivinarlo y terminar metiendo la pata."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Entonces sigamos hablando. Me gusta que podamos decir las cosas sin escondernos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El silencio que queda es cómodo: ambos han escuchado algo que necesitaban oír."
+          }
         ]
       },
       {
@@ -338,6 +520,32 @@
         ],
         "desactivarEventos": [
           "cony_casual_acordado"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Cony",
+            "texto": "Me parece bien. Si nos gustamos, no hace falta ponerle nombre hoy."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importa que entendai lo que te estoy diciendo. No quiero que ninguna decisión se sienta como una deuda."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por decirlo así. Podemos tener ganas, miedo o dudas, y conversarlas sin apurar el final."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Prefiero saber qué te hace bien a adivinarlo y terminar metiendo la pata."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Entonces sigamos hablando. Me gusta que podamos decir las cosas sin escondernos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El silencio que queda es cómodo: ambos han escuchado algo que necesitaban oír."
+          }
         ]
       },
       {
@@ -350,6 +558,32 @@
         },
         "eventos": [
           "cony_presionada"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Cony",
+            "texto": "¿Convencerme? No, Cáceres. Si algo cambia, tiene que salir de mí también."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me estoy dando cuenta de que esa forma de decirlo no estuvo bien."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "No te pido que digai lo perfecto. Te pido que respetís lo que te estoy contando."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Perdón por apurar la conversación. Voy a pensar mejor lo que quiero y lo que puedo ofrecer."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso es lo mínimo. Prefiero que paremos antes de seguir haciéndonos daño."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación pierde ligereza. Cáceres no puede deshacer lo dicho, pero sí decidir qué hará después."
+          }
         ]
       }
     ],
@@ -460,6 +694,32 @@
         },
         "eventos": [
           "max_planton_escuchado"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Lumi",
+            "texto": "Sí... creo que puedo decirle que me dolió sin sentirme culpable por eso."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importa que entendai lo que te estoy diciendo. No quiero que ninguna decisión se sienta como una deuda."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por decirlo así. Podemos tener ganas, miedo o dudas, y conversarlas sin apurar el final."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Prefiero saber qué te hace bien a adivinarlo y terminar metiendo la pata."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Entonces sigamos hablando. Me gusta que podamos decir las cosas sin escondernos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El silencio que queda es cómodo: ambos han escuchado algo que necesitaban oír."
+          }
         ]
       },
       {
@@ -472,6 +732,32 @@
         },
         "eventos": [
           "max_planton_escuchado"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Lumi",
+            "texto": "Es que no quiero salir de una relación para entrar corriendo en otra, ¿cachai?"
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me estoy dando cuenta de que esa forma de decirlo no estuvo bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No te pido que digai lo perfecto. Te pido que respetís lo que te estoy contando."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Perdón por apurar la conversación. Voy a pensar mejor lo que quiero y lo que puedo ofrecer."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso es lo mínimo. Prefiero que paremos antes de seguir haciéndonos daño."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación pierde ligereza. Cáceres no puede deshacer lo dicho, pero sí decidir qué hará después."
+          }
         ]
       },
       {
@@ -484,6 +770,32 @@
         },
         "eventos": [
           "max_planton_escuchado"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Lumi",
+            "texto": "Por ahora quiero desahogarme. Después veo qué hago, gracias por preguntar."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importa que entendai lo que te estoy diciendo. No quiero que ninguna decisión se sienta como una deuda."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por decirlo así. Podemos tener ganas, miedo o dudas, y conversarlas sin apurar el final."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Prefiero saber qué te hace bien a adivinarlo y terminar metiendo la pata."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Entonces sigamos hablando. Me gusta que podamos decir las cosas sin escondernos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El silencio que queda es cómodo: ambos han escuchado algo que necesitaban oír."
+          }
         ]
       }
     ],
@@ -598,6 +910,32 @@
         },
         "eventos": [
           "consejo_escuchado"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Eso. Hablar claro no garantiza que salga perfecto, pero al menos nadie tiene que adivinar."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, los escuché. Igual cuesta pensar cuando los tres opinan a la vez."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo tengo la solución: turnos de palabra y un moderador."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "La última vez que moderaste, te echaste a ti mismo del canal, wn."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "En serio, Cáceres. Toma lo que te sirva y no hagai nada por quedar bien con nosotros."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada termina en carcajadas, pero Cáceres se queda con el consejo más honesto."
+          }
         ]
       },
       {
@@ -606,14 +944,66 @@
         "efectos": {
           "amistad": 8,
           "claridad": -3
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "¡Al fin alguien valora mis teorías! Tengo como veinte mensajes más preparados."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, los escuché. Igual cuesta pensar cuando los tres opinan a la vez."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo tengo la solución: turnos de palabra y un moderador."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "La última vez que moderaste, te echaste a ti mismo del canal, wn."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "En serio, Cáceres. Toma lo que te sirva y no hagai nada por quedar bien con nosotros."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada termina en carcajadas, pero Cáceres se queda con el consejo más honesto."
+          }
+        ]
       },
       {
         "texto": "Cambiar el tema y jugar.",
         "siguiente": "consejo_1_juego",
         "efectos": {
           "amistad": 5
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Kevin",
+            "texto": "JAJA, ya, a jugar. Pero el tema no desaparece porque abramos el Discord."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, los escuché. Igual cuesta pensar cuando los tres opinan a la vez."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo tengo la solución: turnos de palabra y un moderador."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "La última vez que moderaste, te echaste a ti mismo del canal, wn."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "En serio, Cáceres. Toma lo que te sirva y no hagai nada por quedar bien con nosotros."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada termina en carcajadas, pero Cáceres se queda con el consejo más honesto."
+          }
+        ]
       }
     ],
     "fondo": "discord_noche.png"
@@ -719,6 +1109,32 @@
         },
         "eventos": [
           "cony_primer_beso"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "¿Puedo besarte, Cony?"
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Sí. Me dieron ganas toda la noche, pero me gusta que lo preguntís."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me acabai de dejar sin discurso, pa qué te voy a mentir."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "JAJA, no necesitai uno. Acércate si tú también querís."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Quiero, Cony. Muchísimo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Los dos se acercan despacio. Cony le sonríe mientras el ruido de la plaza se vuelve lejano."
+          }
         ]
       },
       {
@@ -727,7 +1143,29 @@
         "efectos": {
           "cony": 7,
           "confianza_cony": 9
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me gusta esto. Caminar contigo sin tener que apurar el beso para que sea una cita."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Qué alivio. Te juro que pensé que ibai a andar contando minutos para el momento romántico."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Estoy contando las papas fritas que quedan, no los minutos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "JAJA, entonces dame una antes de que te las comai todas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación continúa calle abajo. Cony se queda caminando cerca de él."
+          }
+        ]
       },
       {
         "texto": "Preguntar si esto significa que serán pareja.",
@@ -735,7 +1173,29 @@
         "efectos": {
           "cony": -4,
           "confianza_cony": -7
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "O sea... ¿no vamos a ser pareja después de esta salida?"
+          },
+          {
+            "personaje": "Cony",
+            "texto": "No. Y que te lo repita no significa que no me haya gustado venir contigo."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me embalé, perdón. No quería hacerte sentir atrapada."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Entonces escuchémonos. Si queremos cosas diferentes, prefiero saberlo ahora."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El paseo se vuelve más serio. Ninguno puede sostener la química si se ignoran sus límites."
+          }
+        ]
       }
     ],
     "fondo": "plaza_villa_alemana.png"
@@ -746,12 +1206,12 @@
     "lugar": "Plaza",
     "dialogos": [
       {
-        "personaje": "Cáceres",
-        "texto": "¿Puedo besarte?"
+        "personaje": "Cony",
+        "texto": "JAJA, no pongai esa cara. Si los dos queríamos, po."
       },
       {
-        "personaje": "Cony",
-        "texto": "Sí, tontito, te estaba dando todas las señales."
+        "personaje": "Cáceres",
+        "texto": "Es que todavía no me acostumbro a que alguien como tú quiera acercarse a mí."
       },
       {
         "personaje": "Narrador",
@@ -764,6 +1224,34 @@
       {
         "personaje": "Cáceres",
         "texto": "Entendido."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Todavía me tiemblan un poco las manos, pa qué te voy a mentir."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "JAJA, se te nota. Pero me gustó que preguntaras en vez de lanzarte de golpe."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Me gustai, Cony. Y me gusta que podamos decirlo sin correr a inventarnos un futuro."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Ya po, entonces sigamos caminando antes de que me ponga demasiado cursi."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "¿Demasiado tarde para decirte que me encantó besarte?"
+      },
+      {
+        "personaje": "Cony",
+        "texto": "No... eso podís repetirlo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Ella le busca la mano un instante y luego siguen por la plaza riéndose bajito."
       }
     ],
     "direccionVisual": "Plano medio en Plaza. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
@@ -786,6 +1274,26 @@
       {
         "personaje": "Narrador",
         "texto": "Compran algo más para comer y la noche termina con un abrazo largo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Me gusta que no tengamos que llenar los silencios."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "A mí también. Aunque hablar contigo es bastante entretenido."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Ya, pero las papas fritas son el verdadero romance de esta noche."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "JAJA, qué leso. Dame la última y puede que te invite a otra caminata."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No hubo beso, pero sí un mensaje de Cony antes de llegar a casa: «Lo pasé bonito, wn»."
       }
     ],
     "direccionVisual": "Plano medio en Plaza. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
@@ -849,6 +1357,32 @@
         },
         "eventos": [
           "lumi_taller_visto"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por ayudarme sin querer dirigirlo todo. Me hace sentir capaz."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importa que entendai lo que te estoy diciendo. No quiero que ninguna decisión se sienta como una deuda."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por decirlo así. Podemos tener ganas, miedo o dudas, y conversarlas sin apurar el final."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Prefiero saber qué te hace bien a adivinarlo y terminar metiendo la pata."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Entonces sigamos hablando. Me gusta que podamos decir las cosas sin escondernos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El silencio que queda es cómodo: ambos han escuchado algo que necesitaban oír."
+          }
         ]
       },
       {
@@ -860,6 +1394,32 @@
         },
         "eventos": [
           "lumi_taller_visto"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Lumi",
+            "texto": "Pucha, Cáceres. Justo quería compartirte esto y ahora siento que te estoy molestando."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me estoy dando cuenta de que esa forma de decirlo no estuvo bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No te pido que digai lo perfecto. Te pido que respetís lo que te estoy contando."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Perdón por apurar la conversación. Voy a pensar mejor lo que quiero y lo que puedo ofrecer."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso es lo mínimo. Prefiero que paremos antes de seguir haciéndonos daño."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación pierde ligereza. Cáceres no puede deshacer lo dicho, pero sí decidir qué hará después."
+          }
         ]
       }
     ],
@@ -948,6 +1508,32 @@
         },
         "eventos": [
           "cony_intimidad"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Cony",
+            "texto": "Ya. Me alegra que lo hablemos con confianza, sin asumir nada por el otro."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importa que entendai lo que te estoy diciendo. No quiero que ninguna decisión se sienta como una deuda."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por decirlo así. Podemos tener ganas, miedo o dudas, y conversarlas sin apurar el final."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Prefiero saber qué te hace bien a adivinarlo y terminar metiendo la pata."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Entonces sigamos hablando. Me gusta que podamos decir las cosas sin escondernos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El silencio que queda es cómodo: ambos han escuchado algo que necesitaban oír."
+          }
         ]
       },
       {
@@ -960,6 +1546,32 @@
         },
         "eventos": [
           "cony_respeto_limite"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por decírmelo. Que te vayai hoy no cambia el respeto que te tengo."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importa que entendai lo que te estoy diciendo. No quiero que ninguna decisión se sienta como una deuda."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por decirlo así. Podemos tener ganas, miedo o dudas, y conversarlas sin apurar el final."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Prefiero saber qué te hace bien a adivinarlo y terminar metiendo la pata."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Entonces sigamos hablando. Me gusta que podamos decir las cosas sin escondernos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El silencio que queda es cómodo: ambos han escuchado algo que necesitaban oír."
+          }
         ]
       }
     ],
@@ -1060,6 +1672,32 @@
         },
         "eventos": [
           "max_mentira_escuchada"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Lumi",
+            "texto": "Eso necesito escuchar: que puedo tomarme mi tiempo, sin que me empujen."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importa que entendai lo que te estoy diciendo. No quiero que ninguna decisión se sienta como una deuda."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por decirlo así. Podemos tener ganas, miedo o dudas, y conversarlas sin apurar el final."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Prefiero saber qué te hace bien a adivinarlo y terminar metiendo la pata."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Entonces sigamos hablando. Me gusta que podamos decir las cosas sin escondernos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El silencio que queda es cómodo: ambos han escuchado algo que necesitaban oír."
+          }
         ]
       },
       {
@@ -1072,6 +1710,32 @@
         },
         "eventos": [
           "max_mentira_escuchada"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Lumi",
+            "texto": "No quiero que esto sea una competencia por quién me trata mejor."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me estoy dando cuenta de que esa forma de decirlo no estuvo bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No te pido que digai lo perfecto. Te pido que respetís lo que te estoy contando."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Perdón por apurar la conversación. Voy a pensar mejor lo que quiero y lo que puedo ofrecer."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso es lo mínimo. Prefiero que paremos antes de seguir haciéndonos daño."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación pierde ligereza. Cáceres no puede deshacer lo dicho, pero sí decidir qué hará después."
+          }
         ]
       },
       {
@@ -1084,6 +1748,32 @@
         },
         "eventos": [
           "max_mentira_escuchada"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Lumi",
+            "texto": "Creo que necesitaría hechos, no promesas. Y dejar de hacerme la tonta conmigo misma."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importa que entendai lo que te estoy diciendo. No quiero que ninguna decisión se sienta como una deuda."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por decirlo así. Podemos tener ganas, miedo o dudas, y conversarlas sin apurar el final."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Prefiero saber qué te hace bien a adivinarlo y terminar metiendo la pata."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Entonces sigamos hablando. Me gusta que podamos decir las cosas sin escondernos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El silencio que queda es cómodo: ambos han escuchado algo que necesitaban oír."
+          }
         ]
       }
     ],
@@ -1190,6 +1880,32 @@
         },
         "eventos": [
           "cony_limites_revisados"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Cony",
+            "texto": "De acuerdo. Lo que pasó importa, pero no cambia los límites que acordamos."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importa que entendai lo que te estoy diciendo. No quiero que ninguna decisión se sienta como una deuda."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por decirlo así. Podemos tener ganas, miedo o dudas, y conversarlas sin apurar el final."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Prefiero saber qué te hace bien a adivinarlo y terminar metiendo la pata."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Entonces sigamos hablando. Me gusta que podamos decir las cosas sin escondernos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El silencio que queda es cómodo: ambos han escuchado algo que necesitaban oír."
+          }
         ]
       },
       {
@@ -1202,6 +1918,32 @@
         },
         "eventos": [
           "cony_necesita_revisar"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por decirlo. Prefiero una verdad incómoda que una promesa que no podís cumplir."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importa que entendai lo que te estoy diciendo. No quiero que ninguna decisión se sienta como una deuda."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por decirlo así. Podemos tener ganas, miedo o dudas, y conversarlas sin apurar el final."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Prefiero saber qué te hace bien a adivinarlo y terminar metiendo la pata."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Entonces sigamos hablando. Me gusta que podamos decir las cosas sin escondernos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El silencio que queda es cómodo: ambos han escuchado algo que necesitaban oír."
+          }
         ]
       },
       {
@@ -1211,7 +1953,33 @@
           "confianza_cony": -15,
           "honestidad": -10,
           "sospecha": 7
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cony",
+            "texto": "Para mí sí hace falta hablarlo. No quiero que una noche se use para evitar una conversa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me estoy dando cuenta de que esa forma de decirlo no estuvo bien."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "No te pido que digai lo perfecto. Te pido que respetís lo que te estoy contando."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Perdón por apurar la conversación. Voy a pensar mejor lo que quiero y lo que puedo ofrecer."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso es lo mínimo. Prefiero que paremos antes de seguir haciéndonos daño."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación pierde ligereza. Cáceres no puede deshacer lo dicho, pero sí decidir qué hará después."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -1316,6 +2084,32 @@
         ],
         "desactivarEventos": [
           "lumi_sigue_max"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias. Me sirve que no intentís elegir por mí."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importa que entendai lo que te estoy diciendo. No quiero que ninguna decisión se sienta como una deuda."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por decirlo así. Podemos tener ganas, miedo o dudas, y conversarlas sin apurar el final."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Prefiero saber qué te hace bien a adivinarlo y terminar metiendo la pata."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Entonces sigamos hablando. Me gusta que podamos decir las cosas sin escondernos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El silencio que queda es cómodo: ambos han escuchado algo que necesitaban oír."
+          }
         ]
       },
       {
@@ -1330,6 +2124,32 @@
         ],
         "desactivarEventos": [
           "max_ruptura"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Lumi",
+            "texto": "Si le diera otra oportunidad, tendría que ver cambios reales. Ya no me bastan las palabras."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importa que entendai lo que te estoy diciendo. No quiero que ninguna decisión se sienta como una deuda."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por decirlo así. Podemos tener ganas, miedo o dudas, y conversarlas sin apurar el final."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Prefiero saber qué te hace bien a adivinarlo y terminar metiendo la pata."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Entonces sigamos hablando. Me gusta que podamos decir las cosas sin escondernos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El silencio que queda es cómodo: ambos han escuchado algo que necesitaban oír."
+          }
         ]
       },
       {
@@ -1345,6 +2165,32 @@
         ],
         "desactivarEventos": [
           "max_ruptura"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Lumi",
+            "texto": "No, Cáceres. No estoy decidiendo esto para pololear contigo."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me estoy dando cuenta de que esa forma de decirlo no estuvo bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No te pido que digai lo perfecto. Te pido que respetís lo que te estoy contando."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Perdón por apurar la conversación. Voy a pensar mejor lo que quiero y lo que puedo ofrecer."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso es lo mínimo. Prefiero que paremos antes de seguir haciéndonos daño."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación pierde ligereza. Cáceres no puede deshacer lo dicho, pero sí decidir qué hará después."
+          }
         ]
       }
     ],
@@ -1460,6 +2306,32 @@
         },
         "eventos": [
           "cruce_honesto"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Cony",
+            "texto": "Ya, mucho gusto. Gracias por presentarnos sin tanta vuelta."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importa que entendai lo que te estoy diciendo. No quiero que ninguna decisión se sienta como una deuda."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por decirlo así. Podemos tener ganas, miedo o dudas, y conversarlas sin apurar el final."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Prefiero saber qué te hace bien a adivinarlo y terminar metiendo la pata."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Entonces sigamos hablando. Me gusta que podamos decir las cosas sin escondernos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El silencio que queda es cómodo: ambos han escuchado algo que necesitaban oír."
+          }
         ]
       },
       {
@@ -1473,6 +2345,32 @@
         },
         "eventos": [
           "mentira_grave"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Lumi",
+            "texto": "¿Una desconocida? Cáceres, acabamos de hablar hace poco. ¿Por qué mentís?"
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me estoy dando cuenta de que esa forma de decirlo no estuvo bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No te pido que digai lo perfecto. Te pido que respetís lo que te estoy contando."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Perdón por apurar la conversación. Voy a pensar mejor lo que quiero y lo que puedo ofrecer."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso es lo mínimo. Prefiero que paremos antes de seguir haciéndonos daño."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación pierde ligereza. Cáceres no puede deshacer lo dicho, pero sí decidir qué hará después."
+          }
         ]
       },
       {
@@ -1486,6 +2384,32 @@
         "eventos": [
           "cruce_honesto",
           "intereses_declarados"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Cony",
+            "texto": "Uf, no me esperaba esa sinceridad aquí mismo. Pero prefiero saber a que me inventen cosas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importa que entendai lo que te estoy diciendo. No quiero que ninguna decisión se sienta como una deuda."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por decirlo así. Podemos tener ganas, miedo o dudas, y conversarlas sin apurar el final."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Prefiero saber qué te hace bien a adivinarlo y terminar metiendo la pata."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Entonces sigamos hablando. Me gusta que podamos decir las cosas sin escondernos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El silencio que queda es cómodo: ambos han escuchado algo que necesitaban oír."
+          }
         ]
       }
     ],
@@ -1600,6 +2524,32 @@
         },
         "eventos": [
           "lumi_espacio_respetado"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Lumi",
+            "texto": "Me encanta poder hablar de mis cosas sin que todo vuelva a Max."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importa que entendai lo que te estoy diciendo. No quiero que ninguna decisión se sienta como una deuda."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por decirlo así. Podemos tener ganas, miedo o dudas, y conversarlas sin apurar el final."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Prefiero saber qué te hace bien a adivinarlo y terminar metiendo la pata."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Entonces sigamos hablando. Me gusta que podamos decir las cosas sin escondernos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El silencio que queda es cómodo: ambos han escuchado algo que necesitaban oír."
+          }
         ]
       },
       {
@@ -1612,6 +2562,32 @@
         },
         "eventos": [
           "lumi_espacio_respetado"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por ser sincero y dejarme espacio. Necesito tiempo para ordenar mis sentimientos."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importa que entendai lo que te estoy diciendo. No quiero que ninguna decisión se sienta como una deuda."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por decirlo así. Podemos tener ganas, miedo o dudas, y conversarlas sin apurar el final."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Prefiero saber qué te hace bien a adivinarlo y terminar metiendo la pata."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Entonces sigamos hablando. Me gusta que podamos decir las cosas sin escondernos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El silencio que queda es cómodo: ambos han escuchado algo que necesitaban oír."
+          }
         ]
       },
       {
@@ -1620,7 +2596,33 @@
         "efectos": {
           "confianza_lumi": -15,
           "sospecha": 8
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Lumi",
+            "texto": "No puedo comenzar otra relación para que tú te sintai más tranquilo."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me estoy dando cuenta de que esa forma de decirlo no estuvo bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No te pido que digai lo perfecto. Te pido que respetís lo que te estoy contando."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Perdón por apurar la conversación. Voy a pensar mejor lo que quiero y lo que puedo ofrecer."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso es lo mínimo. Prefiero que paremos antes de seguir haciéndonos daño."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación pierde ligereza. Cáceres no puede deshacer lo dicho, pero sí decidir qué hará después."
+          }
+        ]
       }
     ],
     "fondo": "costanera_atardecer.png"
@@ -1726,6 +2728,28 @@
         },
         "eventos": [
           "cony_pareja_posible"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Podemos admitir que nos extrañamos y seguir sin hacer promesas para mañana."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso. No quiero huir apenas siento algo bonito."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Y yo no quiero convertir lo que sentís en una carrera por conquistarte."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Quédate con esa versión tuya, porque me gusta harto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cony le roza la mano sobre la mesa, sin retirar la mirada."
+          }
         ]
       },
       {
@@ -1738,6 +2762,28 @@
         },
         "eventos": [
           "cony_pareja_posible"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Yo también miro el celular esperando que aparezca tu nombre. Un poquito vergonzoso, pero cierto."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "JAJA. Pucha, me pasa lo mismo. Y yo juraba que era la más despreocupada."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces los dos estamos fingiendo regular."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Terrible mal. Mejor seamos honestos y sigamos conociéndonos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Se quedan conversando mucho después de que se enfría el café."
+          }
         ]
       },
       {
@@ -1747,7 +2793,29 @@
           "cony": -10,
           "confianza_cony": -12,
           "sospecha": 5
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cony",
+            "texto": "No soy un objetivo desbloqueado, Cáceres."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Tenís razón. Me salió lo peor de mí en esa frase."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "A mí me pueden nacer sentimientos nuevos, pero no me los podís cobrar."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Perdón. No quiero que te sientas en una competencia."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cony retira la mano de la mesa y necesita unos minutos de silencio."
+          }
+        ]
       }
     ],
     "fondo": "cafe_vina.png"
@@ -1768,6 +2836,26 @@
       {
         "personaje": "Narrador",
         "texto": "Cony sonríe. No se ha convertido mágicamente en otra persona; simplemente se permitió dudar."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Y si mañana me echai de menos, podís escribirme sin inventar una excusa."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "¿Y si te escribo solo porque tengo ganas de escucharte?"
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Te contesto apenas pueda, con una sonrisa ridícula probablemente."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "JAJA, esa me gustaría verla en persona."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "El café se acaba, pero los dos encuentran excusas para quedarse un rato más."
       }
     ],
     "direccionVisual": "Plano medio en Café. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
@@ -1790,6 +2878,26 @@
       {
         "personaje": "Narrador",
         "texto": "Ambos asienten. Los dos saben que todavía faltan conversaciones."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Me cuesta admitir que me importa tanto recibir un mensaje tuyo."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Yo fingía que revisaba el celular por la hora. Era por ti, po."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "¿Y ahora qué hacemos con ese secreto tan poco secreto?"
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Nos reímos y dejamos que el tiempo nos diga si queremos algo más."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La complicidad no resuelve todas las preguntas, pero vuelve más fácil hacerlas."
       }
     ],
     "direccionVisual": "Plano medio en Café. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
@@ -1857,6 +2965,32 @@
         },
         "eventos": [
           "consejo_segundo"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Exacto. Ser bueno con alguien no significa que esa persona te deba una relación."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, los escuché. Igual cuesta pensar cuando los tres opinan a la vez."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo tengo la solución: turnos de palabra y un moderador."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "La última vez que moderaste, te echaste a ti mismo del canal, wn."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "En serio, Cáceres. Toma lo que te sirva y no hagai nada por quedar bien con nosotros."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada termina en carcajadas, pero Cáceres se queda con el consejo más honesto."
+          }
         ]
       },
       {
@@ -1868,6 +3002,32 @@
         },
         "eventos": [
           "consejo_segundo"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Kevin",
+            "texto": "JAJA, así me gusta. Aprender una lección y terminar igual echando la talla."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, los escuché. Igual cuesta pensar cuando los tres opinan a la vez."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo tengo la solución: turnos de palabra y un moderador."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "La última vez que moderaste, te echaste a ti mismo del canal, wn."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "En serio, Cáceres. Toma lo que te sirva y no hagai nada por quedar bien con nosotros."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada termina en carcajadas, pero Cáceres se queda con el consejo más honesto."
+          }
         ]
       }
     ],
@@ -1956,6 +3116,32 @@
         },
         "eventos": [
           "lumi_romance"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Lumi",
+            "texto": "Eso también quiero. Algo nuestro, pero sin volver a perderme a mí misma."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importa que entendai lo que te estoy diciendo. No quiero que ninguna decisión se sienta como una deuda."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por decirlo así. Podemos tener ganas, miedo o dudas, y conversarlas sin apurar el final."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Prefiero saber qué te hace bien a adivinarlo y terminar metiendo la pata."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Entonces sigamos hablando. Me gusta que podamos decir las cosas sin escondernos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El silencio que queda es cómodo: ambos han escuchado algo que necesitaban oír."
+          }
         ]
       },
       {
@@ -1971,6 +3157,32 @@
         ],
         "desactivarEventos": [
           "lumi_romance"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Lumi",
+            "texto": "Me duele un poco, pero gracias por no prometer algo que no podís sostener."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importa que entendai lo que te estoy diciendo. No quiero que ninguna decisión se sienta como una deuda."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por decirlo así. Podemos tener ganas, miedo o dudas, y conversarlas sin apurar el final."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Prefiero saber qué te hace bien a adivinarlo y terminar metiendo la pata."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Entonces sigamos hablando. Me gusta que podamos decir las cosas sin escondernos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El silencio que queda es cómodo: ambos han escuchado algo que necesitaban oír."
+          }
         ]
       },
       {
@@ -1980,7 +3192,33 @@
           "confianza_lumi": -20,
           "lumi": -12,
           "sospecha": 10
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Lumi",
+            "texto": "No quiero una relación donde tengamos que controlarnos todo el día."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me estoy dando cuenta de que esa forma de decirlo no estuvo bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No te pido que digai lo perfecto. Te pido que respetís lo que te estoy contando."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Perdón por apurar la conversación. Voy a pensar mejor lo que quiero y lo que puedo ofrecer."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso es lo mínimo. Prefiero que paremos antes de seguir haciéndonos daño."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación pierde ligereza. Cáceres no puede deshacer lo dicho, pero sí decidir qué hará después."
+          }
+        ]
       }
     ],
     "fondo": "muelle_noche.png"
@@ -2001,6 +3239,26 @@
       {
         "personaje": "Narrador",
         "texto": "Se acercan y se besan. Después se separan con una risa nerviosa, sabiendo que una promesa todavía se construye día a día."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "No quiero que me elijai por miedo a quedarte sola."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "No lo hago. Me gusta cómo me siento conmigo misma cuando estamos juntos."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Entonces aprendamos a estar cerca sin invadirnos."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Y si uno necesita un día para sí, lo decimos sin culpa."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Se sonríen con la tranquilidad de quienes saben que pueden hablar incluso de lo incómodo."
       }
     ],
     "direccionVisual": "Plano medio en Muelle. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
@@ -2082,6 +3340,28 @@
         ],
         "desactivarEventos": [
           "cony_casual_acordado"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me gustai cuando estamos coqueteando y cuando se nos acaba el tema y solo caminamos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso es lo que me asusta y lo que me entusiasma. Que no se trata solo del beso."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Si elegimos intentarlo, prometo preguntarte cómo estás, no adivinarlo."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Y yo voy a decirte cuando algo me moleste. Sin hacerme la chora para esconderlo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Se toman de la mano, no como una firma, sino como una decisión compartida."
+          }
         ]
       },
       {
@@ -2098,6 +3378,28 @@
         ],
         "desactivarEventos": [
           "cony_pareja"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importas muchísimo, pero sería injusto decirte que quiero una relación si todavía no lo sé."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me da penita, no te voy a mentir. Pensé que quizá queríamos lo mismo."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No quiero perder lo bonito por mentir para retenerte."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias. Necesito ver si a mí todavía me hace bien seguir casual."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Se quedan en silencio un rato. La sinceridad no borra la tristeza, pero evita una promesa falsa."
+          }
         ]
       },
       {
@@ -2113,6 +3415,28 @@
         "desactivarEventos": [
           "cony_pareja",
           "cony_casual_acordado"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "No quiero seguir coqueteando como si estuviera esperando que tú sintieras menos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Duele, pero te agradezco que me lo digai ahora."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me quedo con lo bueno que vivimos, si a ti te parece."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Sí. Solo dame espacio para que no sea raro por un tiempo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Se despiden con cuidado. A veces cuidar a alguien significa saber detenerse."
+          }
         ]
       }
     ],
@@ -2134,6 +3458,26 @@
       {
         "personaje": "Narrador",
         "texto": "Cony le toma la mano. Por primera vez, la palabra pareja nació de ella sin que nadie la presionara."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "¿Eso significa que puedo decirte que quiero llevarte a una cita de verdad?"
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Podís, pero que no sea una cena donde no se pueda hablar de puras leseras."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Entonces vamos a comer algo rico, nos reímos y discutimos qué serie es mala."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Ahí sí. Esa es una relación que me interesa explorar."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La promesa no es estar siempre de acuerdo: es seguir conversando cuando no lo estén."
       }
     ],
     "direccionVisual": "Plano medio en Plaza. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
@@ -2156,6 +3500,26 @@
       {
         "personaje": "Narrador",
         "texto": "Deciden seguir viéndose sin exclusividad. La conversación evita falsas expectativas."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "No quiero hacer como que esta conversación fue fácil."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "No lo fue. Igual agradezco que no me hayai dicho lo que quería escuchar por miedo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Si necesitai espacio para decidir si seguimos, te lo doy."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Gracias. Lo casual también necesita cariño y honestidad."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Las cosas no quedan resueltas esa tarde, pero nadie fingió una respuesta distinta."
       }
     ],
     "direccionVisual": "Plano medio en Plaza. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
@@ -2174,6 +3538,26 @@
       {
         "personaje": "Narrador",
         "texto": "Se despiden bien. A veces una historia se termina por respeto, no por una pelea."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Perdón si te hice pensar que estaba listo para algo que no puedo dar."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "No hay que pedir perdón por sentir distinto. Sí por ocultarlo, y tú me lo dijiste."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Ojalá algún día nos podamos recordar sin sentir culpa."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Yo creo que sí. Pero por ahora quiero distancia."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Se despiden sin promesas nuevas. La conversación, aunque difícil, evita una herida mayor."
       }
     ],
     "direccionVisual": "Plano medio en Plaza. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
@@ -2211,6 +3595,32 @@
         },
         "eventos": [
           "cony_limites_revisados"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Cony",
+            "texto": "Perfecto. No es pedir permiso para existir, es cuidarnos con honestidad."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importa que entendai lo que te estoy diciendo. No quiero que ninguna decisión se sienta como una deuda."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por decirlo así. Podemos tener ganas, miedo o dudas, y conversarlas sin apurar el final."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Prefiero saber qué te hace bien a adivinarlo y terminar metiendo la pata."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Entonces sigamos hablando. Me gusta que podamos decir las cosas sin escondernos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El silencio que queda es cómodo: ambos han escuchado algo que necesitaban oír."
+          }
         ]
       },
       {
@@ -2226,6 +3636,32 @@
         ],
         "desactivarEventos": [
           "cony_limites_revisados"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Cony",
+            "texto": "Entonces conversemos si queremos lo mismo. No quiero que te obliguís por mí."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importa que entendai lo que te estoy diciendo. No quiero que ninguna decisión se sienta como una deuda."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por decirlo así. Podemos tener ganas, miedo o dudas, y conversarlas sin apurar el final."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Prefiero saber qué te hace bien a adivinarlo y terminar metiendo la pata."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Entonces sigamos hablando. Me gusta que podamos decir las cosas sin escondernos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El silencio que queda es cómodo: ambos han escuchado algo que necesitaban oír."
+          }
         ]
       },
       {
@@ -2235,7 +3671,33 @@
           "confianza_cony": -12,
           "honestidad": -12,
           "sospecha": 12
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cony",
+            "texto": "No, po. Si no podemos conversar de límites, esto no me hace bien."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me estoy dando cuenta de que esa forma de decirlo no estuvo bien."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "No te pido que digai lo perfecto. Te pido que respetís lo que te estoy contando."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Perdón por apurar la conversación. Voy a pensar mejor lo que quiero y lo que puedo ofrecer."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso es lo mínimo. Prefiero que paremos antes de seguir haciéndonos daño."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación pierde ligereza. Cáceres no puede deshacer lo dicho, pero sí decidir qué hará después."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_noche.png"
@@ -2340,6 +3802,32 @@
         "desactivarEventos": [
           "lumi_exclusiva",
           "cony_pareja"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Lumi",
+            "texto": "Podemos hablarlo, pero cada una tiene que decidir libremente si quiere esto."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importa que entendai lo que te estoy diciendo. No quiero que ninguna decisión se sienta como una deuda."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por decirlo así. Podemos tener ganas, miedo o dudas, y conversarlas sin apurar el final."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Prefiero saber qué te hace bien a adivinarlo y terminar metiendo la pata."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Entonces sigamos hablando. Me gusta que podamos decir las cosas sin escondernos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El silencio que queda es cómodo: ambos han escuchado algo que necesitaban oír."
+          }
         ]
       },
       {
@@ -2355,6 +3843,32 @@
         "desactivarEventos": [
           "acuerdo_lumi",
           "acuerdo_cony"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Cony",
+            "texto": "Si no estái listo, mejor decirlo ahora. No te voy a pedir que finjas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importa que entendai lo que te estoy diciendo. No quiero que ninguna decisión se sienta como una deuda."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por decirlo así. Podemos tener ganas, miedo o dudas, y conversarlas sin apurar el final."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Prefiero saber qué te hace bien a adivinarlo y terminar metiendo la pata."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Entonces sigamos hablando. Me gusta que podamos decir las cosas sin escondernos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El silencio que queda es cómodo: ambos han escuchado algo que necesitaban oír."
+          }
         ]
       },
       {
@@ -2369,6 +3883,32 @@
         "desactivarEventos": [
           "acuerdo_lumi",
           "acuerdo_cony"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Lumi",
+            "texto": "No nos podís presionar a aceptar algo solo porque decís que nos querís."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, me estoy dando cuenta de que esa forma de decirlo no estuvo bien."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "No te pido que digai lo perfecto. Te pido que respetís lo que te estoy contando."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Perdón por apurar la conversación. Voy a pensar mejor lo que quiero y lo que puedo ofrecer."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Eso es lo mínimo. Prefiero que paremos antes de seguir haciéndonos daño."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación pierde ligereza. Cáceres no puede deshacer lo dicho, pero sí decidir qué hará después."
+          }
         ]
       }
     ],
@@ -2497,6 +4037,32 @@
           {
             "evento": "max_ruptura"
           }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Lumi",
+            "texto": "Si vamos a intentarlo, quiero que sea con acuerdos que podamos cuidar."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importa que entendai lo que te estoy diciendo. No quiero que ninguna decisión se sienta como una deuda."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por decirlo así. Podemos tener ganas, miedo o dudas, y conversarlas sin apurar el final."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Prefiero saber qué te hace bien a adivinarlo y terminar metiendo la pata."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Entonces sigamos hablando. Me gusta que podamos decir las cosas sin escondernos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El silencio que queda es cómodo: ambos han escuchado algo que necesitaban oír."
+          }
         ]
       },
       {
@@ -2519,6 +4085,32 @@
         "condiciones": [
           {
             "evento": "cony_pareja_posible"
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Cony",
+            "texto": "Me importa que esto sea una decisión compartida, no una apuesta contra alguien."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importa que entendai lo que te estoy diciendo. No quiero que ninguna decisión se sienta como una deuda."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por decirlo así. Podemos tener ganas, miedo o dudas, y conversarlas sin apurar el final."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Prefiero saber qué te hace bien a adivinarlo y terminar metiendo la pata."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Entonces sigamos hablando. Me gusta que podamos decir las cosas sin escondernos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El silencio que queda es cómodo: ambos han escuchado algo que necesitaban oír."
           }
         ]
       },
@@ -2545,6 +4137,32 @@
           {
             "evento": "cony_casual_acordado"
           }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Cony",
+            "texto": "Si ese es el acuerdo que nos hace bien, sigamos conversándolo con honestidad."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importa que entendai lo que te estoy diciendo. No quiero que ninguna decisión se sienta como una deuda."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por decirlo así. Podemos tener ganas, miedo o dudas, y conversarlas sin apurar el final."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Prefiero saber qué te hace bien a adivinarlo y terminar metiendo la pata."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Entonces sigamos hablando. Me gusta que podamos decir las cosas sin escondernos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El silencio que queda es cómodo: ambos han escuchado algo que necesitaban oír."
+          }
         ]
       },
       {
@@ -2563,6 +4181,32 @@
           },
           {
             "evento": "acuerdo_conversado"
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Lumi",
+            "texto": "Lo importante es que nadie se quede en esto por miedo a decir que no."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me importa que entendai lo que te estoy diciendo. No quiero que ninguna decisión se sienta como una deuda."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Gracias por decirlo así. Podemos tener ganas, miedo o dudas, y conversarlas sin apurar el final."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Prefiero saber qué te hace bien a adivinarlo y terminar metiendo la pata."
+          },
+          {
+            "personaje": "Lumi",
+            "texto": "Entonces sigamos hablando. Me gusta que podamos decir las cosas sin escondernos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El silencio que queda es cómodo: ambos han escuchado algo que necesitaban oír."
           }
         ]
       },
@@ -2585,6 +4229,32 @@
           "acuerdo_cony",
           "acuerdo_conversado",
           "lumi_romance"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Kevin",
+            "texto": "Hermano, por primera vez te escucho pensar en ti sin usar a nadie de excusa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, los escuché. Igual cuesta pensar cuando los tres opinan a la vez."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo tengo la solución: turnos de palabra y un moderador."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "La última vez que moderaste, te echaste a ti mismo del canal, wn."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "En serio, Cáceres. Toma lo que te sirva y no hagai nada por quedar bien con nosotros."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada termina en carcajadas, pero Cáceres se queda con el consejo más honesto."
+          }
         ]
       }
     ],
@@ -2751,6 +4421,32 @@
         },
         "eventos": [
           "priorizo_crecer"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Eso. Lo que aprendiste no desaparece porque una relación cambie."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, los escuché. Igual cuesta pensar cuando los tres opinan a la vez."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo tengo la solución: turnos de palabra y un moderador."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "La última vez que moderaste, te echaste a ti mismo del canal, wn."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "En serio, Cáceres. Toma lo que te sirva y no hagai nada por quedar bien con nosotros."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada termina en carcajadas, pero Cáceres se queda con el consejo más honesto."
+          }
         ]
       },
       {
@@ -2760,14 +4456,66 @@
           "amistad": 8,
           "honestidad": 8,
           "claridad": 5
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Kevin",
+            "texto": "Esa es la idea, wn. No te mintai, y menos a los demás."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, los escuché. Igual cuesta pensar cuando los tres opinan a la vez."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo tengo la solución: turnos de palabra y un moderador."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "La última vez que moderaste, te echaste a ti mismo del canal, wn."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "En serio, Cáceres. Toma lo que te sirva y no hagai nada por quedar bien con nosotros."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada termina en carcajadas, pero Cáceres se queda con el consejo más honesto."
+          }
+        ]
       },
       {
         "texto": "«Lo importante es que no me quede más calvo.»",
         "siguiente": "vispera_pelo",
         "efectos": {
           "amistad": 10
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "¡No prometo que recuperís el pelo, pero al menos nos queda la amistad! JAJA."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, los escuché. Igual cuesta pensar cuando los tres opinan a la vez."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo tengo la solución: turnos de palabra y un moderador."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "La última vez que moderaste, te echaste a ti mismo del canal, wn."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "En serio, Cáceres. Toma lo que te sirva y no hagai nada por quedar bien con nosotros."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada termina en carcajadas, pero Cáceres se queda con el consejo más honesto."
+          }
+        ]
       }
     ],
     "fondo": "discord_noche.png"

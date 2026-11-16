@@ -13,6 +13,8 @@ public class Decision {
     private List<String> eventos = new ArrayList<>();
     private List<String> desactivarEventos = new ArrayList<>();
     private List<Condicion> condiciones = new ArrayList<>();
+    // Respuesta escrita para la decisión (opcional); si falta, se usa una reacción contextual.
+    private List<Dialogo> reaccion = new ArrayList<>();
 
     public Decision() { }
 
@@ -36,6 +38,8 @@ public class Decision {
     public void setEventos(List<String> eventos) { this.eventos = eventos; }
     public List<String> getDesactivarEventos() { return desactivarEventos; }
     public void setDesactivarEventos(List<String> desactivarEventos) { this.desactivarEventos = desactivarEventos; }
+    public List<Dialogo> getReaccion() { return reaccion; }
+    public void setReaccion(List<Dialogo> reaccion) { this.reaccion = reaccion; }
     public List<Condicion> getCondiciones() { return condiciones; }
     public void setCondiciones(List<Condicion> condiciones) { this.condiciones = condiciones; }
 }

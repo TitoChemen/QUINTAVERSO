@@ -63,7 +63,7 @@ public final class RecursosVisuales {
         return "narrador";
     }
 
-    /** Recurso del hablante. Devuelve null para narrador o para Kevin (retrato aún pendiente). */
+    /** Recurso del hablante. Devuelve null para narrador; Kevin ya tiene tres expresiones. */
     public static String retrato(Dialogo d) {
         if (d == null) return null;
         String nombre = personaje(d.getPersonaje());

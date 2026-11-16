@@ -23,6 +23,10 @@
       {
         "personaje": "Cáceres",
         "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Oe, antes de que cambís de tema: ¿qué vas a hacer con eso, Cáceres?"
       }
     ],
     "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
@@ -34,21 +38,111 @@
           "amistad": 5,
           "claridad": 4,
           "honestidad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Un Excel no me va a decir si alguien me quiere, Jairo."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pero sí puede registrar que el Excel fue una pésima idea."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo le había preparado una presentación, pero parece que ya entendió."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "JAJA, guarda el PowerPoint, wn. Por una vez estamos conversando en serio."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Se agradece. Ustedes webean harto, pero me ayudan a ordenar las ideas."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pa eso estamos. Después te podemos volver a molestar."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada sigue entre risas. Por debajo de las tallas, el consejo queda dando vueltas."
+          }
+        ]
       },
       {
         "texto": "Responder con una talla y pasar un buen rato.",
         "efectos": {
           "amistad": 5,
           "claridad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo una propuesta: convertimos esto en el peor podcast de consejos sentimentales de Chile."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo puedo diseñar el logo y un sistema de puntuación."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "No, Jairo. La idea era una broma, no una startup, JAJA."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pero igual acuérdate de lo que te dijimos. Reírse no significa hacerse el leso."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, ya. Me llevo la talla y la parte útil."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Eso po, hermano. Ahora sí, ¿quién se mete a jugar?"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La tensión baja y todos vuelven a molestarse como siempre."
+          }
+        ]
       },
       {
         "texto": "Hacerse el desentendido.",
         "efectos": {
           "amistad": 1,
           "claridad": -3
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, cabros, dejemos el tema. No es para tanto."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Si para ti importa, no hace falta actuar como que no pasa nada."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo iba a hacer una broma, pero hasta yo sé cuándo parar."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Hermano, te conocemos. No te obligamos a hablar, pero no nos mintai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Necesito pensarlo solo un rato."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Está bien. Cuando querai volver a conversar, aquí seguimos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cáceres se desconecta sin haber cerrado del todo el asunto. Le queda pendiente hablar con sinceridad."
+          }
+        ]
       }
     ],
     "fondo": "discord_noche.png"
@@ -77,6 +171,10 @@
       {
         "personaje": "Cáceres",
         "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Oe, antes de que cambís de tema: ¿qué vas a hacer con eso, Cáceres?"
       }
     ],
     "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
@@ -88,21 +186,111 @@
           "amistad": 5,
           "claridad": 4,
           "honestidad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Una hora en visto no es una tragedia, hermano."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Díselo a mi celular, que lo he revisado doce veces."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo le había preparado una presentación, pero parece que ya entendió."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "JAJA, guarda el PowerPoint, wn. Por una vez estamos conversando en serio."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Se agradece. Ustedes webean harto, pero me ayudan a ordenar las ideas."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pa eso estamos. Después te podemos volver a molestar."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada sigue entre risas. Por debajo de las tallas, el consejo queda dando vueltas."
+          }
+        ]
       },
       {
         "texto": "Responder con una talla y pasar un buen rato.",
         "efectos": {
           "amistad": 5,
           "claridad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo una propuesta: convertimos esto en el peor podcast de consejos sentimentales de Chile."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo puedo diseñar el logo y un sistema de puntuación."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "No, Jairo. La idea era una broma, no una startup, JAJA."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pero igual acuérdate de lo que te dijimos. Reírse no significa hacerse el leso."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, ya. Me llevo la talla y la parte útil."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Eso po, hermano. Ahora sí, ¿quién se mete a jugar?"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La tensión baja y todos vuelven a molestarse como siempre."
+          }
+        ]
       },
       {
         "texto": "Hacerse el desentendido.",
         "efectos": {
           "amistad": 1,
           "claridad": -3
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, cabros, dejemos el tema. No es para tanto."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Si para ti importa, no hace falta actuar como que no pasa nada."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo iba a hacer una broma, pero hasta yo sé cuándo parar."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Hermano, te conocemos. No te obligamos a hablar, pero no nos mintai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Necesito pensarlo solo un rato."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Está bien. Cuando querai volver a conversar, aquí seguimos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cáceres se desconecta sin haber cerrado del todo el asunto. Le queda pendiente hablar con sinceridad."
+          }
+        ]
       }
     ],
     "fondo": "discord_noche.png"
@@ -131,6 +319,10 @@
       {
         "personaje": "Cáceres",
         "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Oe, antes de que cambís de tema: ¿qué vas a hacer con eso, Cáceres?"
       }
     ],
     "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
@@ -142,21 +334,111 @@
           "amistad": 5,
           "claridad": 4,
           "honestidad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "En la cita voy a escuchar en vez de recitar un currículum."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Excelente. Y deja el CV de sentimientos en la casa."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo le había preparado una presentación, pero parece que ya entendió."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "JAJA, guarda el PowerPoint, wn. Por una vez estamos conversando en serio."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Se agradece. Ustedes webean harto, pero me ayudan a ordenar las ideas."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pa eso estamos. Después te podemos volver a molestar."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada sigue entre risas. Por debajo de las tallas, el consejo queda dando vueltas."
+          }
+        ]
       },
       {
         "texto": "Responder con una talla y pasar un buen rato.",
         "efectos": {
           "amistad": 5,
           "claridad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo una propuesta: convertimos esto en el peor podcast de consejos sentimentales de Chile."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo puedo diseñar el logo y un sistema de puntuación."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "No, Jairo. La idea era una broma, no una startup, JAJA."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pero igual acuérdate de lo que te dijimos. Reírse no significa hacerse el leso."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, ya. Me llevo la talla y la parte útil."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Eso po, hermano. Ahora sí, ¿quién se mete a jugar?"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La tensión baja y todos vuelven a molestarse como siempre."
+          }
+        ]
       },
       {
         "texto": "Hacerse el desentendido.",
         "efectos": {
           "amistad": 1,
           "claridad": -3
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, cabros, dejemos el tema. No es para tanto."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Si para ti importa, no hace falta actuar como que no pasa nada."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo iba a hacer una broma, pero hasta yo sé cuándo parar."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Hermano, te conocemos. No te obligamos a hablar, pero no nos mintai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Necesito pensarlo solo un rato."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Está bien. Cuando querai volver a conversar, aquí seguimos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cáceres se desconecta sin haber cerrado del todo el asunto. Le queda pendiente hablar con sinceridad."
+          }
+        ]
       }
     ],
     "fondo": "discord_noche.png"
@@ -185,6 +467,10 @@
       {
         "personaje": "Cáceres",
         "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Oe, antes de que cambís de tema: ¿qué vas a hacer con eso, Cáceres?"
       }
     ],
     "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
@@ -196,21 +482,111 @@
           "amistad": 5,
           "claridad": 4,
           "honestidad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya po, basta con mis entradas. Estoy aprendiendo a contestar."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Eso sí que sería un milagro más grande que recuperar el pelo."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo le había preparado una presentación, pero parece que ya entendió."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "JAJA, guarda el PowerPoint, wn. Por una vez estamos conversando en serio."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Se agradece. Ustedes webean harto, pero me ayudan a ordenar las ideas."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pa eso estamos. Después te podemos volver a molestar."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada sigue entre risas. Por debajo de las tallas, el consejo queda dando vueltas."
+          }
+        ]
       },
       {
         "texto": "Responder con una talla y pasar un buen rato.",
         "efectos": {
           "amistad": 5,
           "claridad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo una propuesta: convertimos esto en el peor podcast de consejos sentimentales de Chile."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo puedo diseñar el logo y un sistema de puntuación."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "No, Jairo. La idea era una broma, no una startup, JAJA."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pero igual acuérdate de lo que te dijimos. Reírse no significa hacerse el leso."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, ya. Me llevo la talla y la parte útil."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Eso po, hermano. Ahora sí, ¿quién se mete a jugar?"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La tensión baja y todos vuelven a molestarse como siempre."
+          }
+        ]
       },
       {
         "texto": "Hacerse el desentendido.",
         "efectos": {
           "amistad": 1,
           "claridad": -3
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, cabros, dejemos el tema. No es para tanto."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Si para ti importa, no hace falta actuar como que no pasa nada."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo iba a hacer una broma, pero hasta yo sé cuándo parar."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Hermano, te conocemos. No te obligamos a hablar, pero no nos mintai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Necesito pensarlo solo un rato."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Está bien. Cuando querai volver a conversar, aquí seguimos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cáceres se desconecta sin haber cerrado del todo el asunto. Le queda pendiente hablar con sinceridad."
+          }
+        ]
       }
     ],
     "fondo": "discord_noche.png"
@@ -239,6 +615,10 @@
       {
         "personaje": "Cáceres",
         "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Oe, antes de que cambís de tema: ¿qué vas a hacer con eso, Cáceres?"
       }
     ],
     "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
@@ -250,21 +630,111 @@
           "amistad": 5,
           "claridad": 4,
           "honestidad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "No existe el botón de subir carisma, Jairo."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "¿Y si desbloqueamos la habilidad 'preguntar cómo estuvo su día'?"
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo le había preparado una presentación, pero parece que ya entendió."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "JAJA, guarda el PowerPoint, wn. Por una vez estamos conversando en serio."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Se agradece. Ustedes webean harto, pero me ayudan a ordenar las ideas."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pa eso estamos. Después te podemos volver a molestar."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada sigue entre risas. Por debajo de las tallas, el consejo queda dando vueltas."
+          }
+        ]
       },
       {
         "texto": "Responder con una talla y pasar un buen rato.",
         "efectos": {
           "amistad": 5,
           "claridad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo una propuesta: convertimos esto en el peor podcast de consejos sentimentales de Chile."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo puedo diseñar el logo y un sistema de puntuación."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "No, Jairo. La idea era una broma, no una startup, JAJA."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pero igual acuérdate de lo que te dijimos. Reírse no significa hacerse el leso."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, ya. Me llevo la talla y la parte útil."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Eso po, hermano. Ahora sí, ¿quién se mete a jugar?"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La tensión baja y todos vuelven a molestarse como siempre."
+          }
+        ]
       },
       {
         "texto": "Hacerse el desentendido.",
         "efectos": {
           "amistad": 1,
           "claridad": -3
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, cabros, dejemos el tema. No es para tanto."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Si para ti importa, no hace falta actuar como que no pasa nada."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo iba a hacer una broma, pero hasta yo sé cuándo parar."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Hermano, te conocemos. No te obligamos a hablar, pero no nos mintai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Necesito pensarlo solo un rato."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Está bien. Cuando querai volver a conversar, aquí seguimos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cáceres se desconecta sin haber cerrado del todo el asunto. Le queda pendiente hablar con sinceridad."
+          }
+        ]
       }
     ],
     "fondo": "discord_noche.png"
@@ -293,6 +763,10 @@
       {
         "personaje": "Cáceres",
         "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Oe, antes de que cambís de tema: ¿qué vas a hacer con eso, Cáceres?"
       }
     ],
     "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
@@ -304,21 +778,111 @@
           "amistad": 5,
           "claridad": 4,
           "honestidad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Si no hablamos de exclusividad, no voy a asumirla por mi cuenta."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Esa es la primera frase sensata de esta llamada."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo le había preparado una presentación, pero parece que ya entendió."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "JAJA, guarda el PowerPoint, wn. Por una vez estamos conversando en serio."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Se agradece. Ustedes webean harto, pero me ayudan a ordenar las ideas."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pa eso estamos. Después te podemos volver a molestar."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada sigue entre risas. Por debajo de las tallas, el consejo queda dando vueltas."
+          }
+        ]
       },
       {
         "texto": "Responder con una talla y pasar un buen rato.",
         "efectos": {
           "amistad": 5,
           "claridad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo una propuesta: convertimos esto en el peor podcast de consejos sentimentales de Chile."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo puedo diseñar el logo y un sistema de puntuación."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "No, Jairo. La idea era una broma, no una startup, JAJA."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pero igual acuérdate de lo que te dijimos. Reírse no significa hacerse el leso."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, ya. Me llevo la talla y la parte útil."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Eso po, hermano. Ahora sí, ¿quién se mete a jugar?"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La tensión baja y todos vuelven a molestarse como siempre."
+          }
+        ]
       },
       {
         "texto": "Hacerse el desentendido.",
         "efectos": {
           "amistad": 1,
           "claridad": -3
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, cabros, dejemos el tema. No es para tanto."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Si para ti importa, no hace falta actuar como que no pasa nada."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo iba a hacer una broma, pero hasta yo sé cuándo parar."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Hermano, te conocemos. No te obligamos a hablar, pero no nos mintai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Necesito pensarlo solo un rato."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Está bien. Cuando querai volver a conversar, aquí seguimos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cáceres se desconecta sin haber cerrado del todo el asunto. Le queda pendiente hablar con sinceridad."
+          }
+        ]
       }
     ],
     "fondo": "discord_noche.png"
@@ -347,6 +911,10 @@
       {
         "personaje": "Cáceres",
         "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Oe, antes de que cambís de tema: ¿qué vas a hacer con eso, Cáceres?"
       }
     ],
     "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
@@ -358,21 +926,111 @@
           "amistad": 5,
           "claridad": 4,
           "honestidad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "No quiero convertirme en el plan B de alguien ni empujar una ruptura."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Bien. Acompañarla no te da un derecho sobre ella."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo le había preparado una presentación, pero parece que ya entendió."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "JAJA, guarda el PowerPoint, wn. Por una vez estamos conversando en serio."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Se agradece. Ustedes webean harto, pero me ayudan a ordenar las ideas."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pa eso estamos. Después te podemos volver a molestar."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada sigue entre risas. Por debajo de las tallas, el consejo queda dando vueltas."
+          }
+        ]
       },
       {
         "texto": "Responder con una talla y pasar un buen rato.",
         "efectos": {
           "amistad": 5,
           "claridad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo una propuesta: convertimos esto en el peor podcast de consejos sentimentales de Chile."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo puedo diseñar el logo y un sistema de puntuación."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "No, Jairo. La idea era una broma, no una startup, JAJA."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pero igual acuérdate de lo que te dijimos. Reírse no significa hacerse el leso."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, ya. Me llevo la talla y la parte útil."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Eso po, hermano. Ahora sí, ¿quién se mete a jugar?"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La tensión baja y todos vuelven a molestarse como siempre."
+          }
+        ]
       },
       {
         "texto": "Hacerse el desentendido.",
         "efectos": {
           "amistad": 1,
           "claridad": -3
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, cabros, dejemos el tema. No es para tanto."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Si para ti importa, no hace falta actuar como que no pasa nada."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo iba a hacer una broma, pero hasta yo sé cuándo parar."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Hermano, te conocemos. No te obligamos a hablar, pero no nos mintai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Necesito pensarlo solo un rato."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Está bien. Cuando querai volver a conversar, aquí seguimos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cáceres se desconecta sin haber cerrado del todo el asunto. Le queda pendiente hablar con sinceridad."
+          }
+        ]
       }
     ],
     "fondo": "discord_noche.png"
@@ -401,6 +1059,10 @@
       {
         "personaje": "Cáceres",
         "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Oe, antes de que cambís de tema: ¿qué vas a hacer con eso, Cáceres?"
       }
     ],
     "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
@@ -412,21 +1074,111 @@
           "amistad": 5,
           "claridad": 4,
           "honestidad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me gusta la Cony, pero tengo que escuchar lo que realmente quiere."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Exacto. No es un rompecabezas que hay que resolver."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo le había preparado una presentación, pero parece que ya entendió."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "JAJA, guarda el PowerPoint, wn. Por una vez estamos conversando en serio."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Se agradece. Ustedes webean harto, pero me ayudan a ordenar las ideas."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pa eso estamos. Después te podemos volver a molestar."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada sigue entre risas. Por debajo de las tallas, el consejo queda dando vueltas."
+          }
+        ]
       },
       {
         "texto": "Responder con una talla y pasar un buen rato.",
         "efectos": {
           "amistad": 5,
           "claridad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo una propuesta: convertimos esto en el peor podcast de consejos sentimentales de Chile."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo puedo diseñar el logo y un sistema de puntuación."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "No, Jairo. La idea era una broma, no una startup, JAJA."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pero igual acuérdate de lo que te dijimos. Reírse no significa hacerse el leso."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, ya. Me llevo la talla y la parte útil."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Eso po, hermano. Ahora sí, ¿quién se mete a jugar?"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La tensión baja y todos vuelven a molestarse como siempre."
+          }
+        ]
       },
       {
         "texto": "Hacerse el desentendido.",
         "efectos": {
           "amistad": 1,
           "claridad": -3
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, cabros, dejemos el tema. No es para tanto."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Si para ti importa, no hace falta actuar como que no pasa nada."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo iba a hacer una broma, pero hasta yo sé cuándo parar."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Hermano, te conocemos. No te obligamos a hablar, pero no nos mintai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Necesito pensarlo solo un rato."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Está bien. Cuando querai volver a conversar, aquí seguimos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cáceres se desconecta sin haber cerrado del todo el asunto. Le queda pendiente hablar con sinceridad."
+          }
+        ]
       }
     ],
     "fondo": "discord_noche.png"
@@ -455,6 +1207,10 @@
       {
         "personaje": "Cáceres",
         "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Oe, antes de que cambís de tema: ¿qué vas a hacer con eso, Cáceres?"
       }
     ],
     "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
@@ -466,21 +1222,111 @@
           "amistad": 5,
           "claridad": 4,
           "honestidad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "La autenticación de dos factores no aplica al coqueteo, Jairo."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pero sirve para no mandarle el mensaje a la persona equivocada."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo le había preparado una presentación, pero parece que ya entendió."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "JAJA, guarda el PowerPoint, wn. Por una vez estamos conversando en serio."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Se agradece. Ustedes webean harto, pero me ayudan a ordenar las ideas."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pa eso estamos. Después te podemos volver a molestar."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada sigue entre risas. Por debajo de las tallas, el consejo queda dando vueltas."
+          }
+        ]
       },
       {
         "texto": "Responder con una talla y pasar un buen rato.",
         "efectos": {
           "amistad": 5,
           "claridad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo una propuesta: convertimos esto en el peor podcast de consejos sentimentales de Chile."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo puedo diseñar el logo y un sistema de puntuación."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "No, Jairo. La idea era una broma, no una startup, JAJA."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pero igual acuérdate de lo que te dijimos. Reírse no significa hacerse el leso."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, ya. Me llevo la talla y la parte útil."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Eso po, hermano. Ahora sí, ¿quién se mete a jugar?"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La tensión baja y todos vuelven a molestarse como siempre."
+          }
+        ]
       },
       {
         "texto": "Hacerse el desentendido.",
         "efectos": {
           "amistad": 1,
           "claridad": -3
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, cabros, dejemos el tema. No es para tanto."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Si para ti importa, no hace falta actuar como que no pasa nada."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo iba a hacer una broma, pero hasta yo sé cuándo parar."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Hermano, te conocemos. No te obligamos a hablar, pero no nos mintai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Necesito pensarlo solo un rato."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Está bien. Cuando querai volver a conversar, aquí seguimos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cáceres se desconecta sin haber cerrado del todo el asunto. Le queda pendiente hablar con sinceridad."
+          }
+        ]
       }
     ],
     "fondo": "discord_noche.png"
@@ -509,6 +1355,10 @@
       {
         "personaje": "Cáceres",
         "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Oe, antes de que cambís de tema: ¿qué vas a hacer con eso, Cáceres?"
       }
     ],
     "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
@@ -520,21 +1370,111 @@
           "amistad": 5,
           "claridad": 4,
           "honestidad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Quiero equivocarme menos, pero también aceptar que no controlo el resultado."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Entonces estai aprendiendo, po. Y eso vale harto."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo le había preparado una presentación, pero parece que ya entendió."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "JAJA, guarda el PowerPoint, wn. Por una vez estamos conversando en serio."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Se agradece. Ustedes webean harto, pero me ayudan a ordenar las ideas."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pa eso estamos. Después te podemos volver a molestar."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada sigue entre risas. Por debajo de las tallas, el consejo queda dando vueltas."
+          }
+        ]
       },
       {
         "texto": "Responder con una talla y pasar un buen rato.",
         "efectos": {
           "amistad": 5,
           "claridad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo una propuesta: convertimos esto en el peor podcast de consejos sentimentales de Chile."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo puedo diseñar el logo y un sistema de puntuación."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "No, Jairo. La idea era una broma, no una startup, JAJA."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pero igual acuérdate de lo que te dijimos. Reírse no significa hacerse el leso."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, ya. Me llevo la talla y la parte útil."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Eso po, hermano. Ahora sí, ¿quién se mete a jugar?"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La tensión baja y todos vuelven a molestarse como siempre."
+          }
+        ]
       },
       {
         "texto": "Hacerse el desentendido.",
         "efectos": {
           "amistad": 1,
           "claridad": -3
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, cabros, dejemos el tema. No es para tanto."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Si para ti importa, no hace falta actuar como que no pasa nada."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo iba a hacer una broma, pero hasta yo sé cuándo parar."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Hermano, te conocemos. No te obligamos a hablar, pero no nos mintai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Necesito pensarlo solo un rato."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Está bien. Cuando querai volver a conversar, aquí seguimos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cáceres se desconecta sin haber cerrado del todo el asunto. Le queda pendiente hablar con sinceridad."
+          }
+        ]
       }
     ],
     "fondo": "discord_noche.png"
@@ -563,6 +1503,10 @@
       {
         "personaje": "Cáceres",
         "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Oe, antes de que cambís de tema: ¿qué vas a hacer con eso, Cáceres?"
       }
     ],
     "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
@@ -574,21 +1518,111 @@
           "amistad": 5,
           "claridad": 4,
           "honestidad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "No voy a declararme con una rana de internet, hermano."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Cobarde. La rana ya tenía traje y todo."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo le había preparado una presentación, pero parece que ya entendió."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "JAJA, guarda el PowerPoint, wn. Por una vez estamos conversando en serio."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Se agradece. Ustedes webean harto, pero me ayudan a ordenar las ideas."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pa eso estamos. Después te podemos volver a molestar."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada sigue entre risas. Por debajo de las tallas, el consejo queda dando vueltas."
+          }
+        ]
       },
       {
         "texto": "Responder con una talla y pasar un buen rato.",
         "efectos": {
           "amistad": 5,
           "claridad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo una propuesta: convertimos esto en el peor podcast de consejos sentimentales de Chile."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo puedo diseñar el logo y un sistema de puntuación."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "No, Jairo. La idea era una broma, no una startup, JAJA."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pero igual acuérdate de lo que te dijimos. Reírse no significa hacerse el leso."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, ya. Me llevo la talla y la parte útil."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Eso po, hermano. Ahora sí, ¿quién se mete a jugar?"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La tensión baja y todos vuelven a molestarse como siempre."
+          }
+        ]
       },
       {
         "texto": "Hacerse el desentendido.",
         "efectos": {
           "amistad": 1,
           "claridad": -3
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, cabros, dejemos el tema. No es para tanto."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Si para ti importa, no hace falta actuar como que no pasa nada."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo iba a hacer una broma, pero hasta yo sé cuándo parar."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Hermano, te conocemos. No te obligamos a hablar, pero no nos mintai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Necesito pensarlo solo un rato."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Está bien. Cuando querai volver a conversar, aquí seguimos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cáceres se desconecta sin haber cerrado del todo el asunto. Le queda pendiente hablar con sinceridad."
+          }
+        ]
       }
     ],
     "fondo": "discord_noche.png"
@@ -617,6 +1651,10 @@
       {
         "personaje": "Cáceres",
         "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Oe, antes de que cambís de tema: ¿qué vas a hacer con eso, Cáceres?"
       }
     ],
     "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
@@ -628,21 +1666,111 @@
           "amistad": 5,
           "claridad": 4,
           "honestidad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Lo que me cuenten en privado se queda conmigo."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Esa es la única filtración que no queremos en este servidor."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo le había preparado una presentación, pero parece que ya entendió."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "JAJA, guarda el PowerPoint, wn. Por una vez estamos conversando en serio."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Se agradece. Ustedes webean harto, pero me ayudan a ordenar las ideas."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pa eso estamos. Después te podemos volver a molestar."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada sigue entre risas. Por debajo de las tallas, el consejo queda dando vueltas."
+          }
+        ]
       },
       {
         "texto": "Responder con una talla y pasar un buen rato.",
         "efectos": {
           "amistad": 5,
           "claridad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo una propuesta: convertimos esto en el peor podcast de consejos sentimentales de Chile."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo puedo diseñar el logo y un sistema de puntuación."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "No, Jairo. La idea era una broma, no una startup, JAJA."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pero igual acuérdate de lo que te dijimos. Reírse no significa hacerse el leso."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, ya. Me llevo la talla y la parte útil."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Eso po, hermano. Ahora sí, ¿quién se mete a jugar?"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La tensión baja y todos vuelven a molestarse como siempre."
+          }
+        ]
       },
       {
         "texto": "Hacerse el desentendido.",
         "efectos": {
           "amistad": 1,
           "claridad": -3
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, cabros, dejemos el tema. No es para tanto."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Si para ti importa, no hace falta actuar como que no pasa nada."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo iba a hacer una broma, pero hasta yo sé cuándo parar."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Hermano, te conocemos. No te obligamos a hablar, pero no nos mintai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Necesito pensarlo solo un rato."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Está bien. Cuando querai volver a conversar, aquí seguimos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cáceres se desconecta sin haber cerrado del todo el asunto. Le queda pendiente hablar con sinceridad."
+          }
+        ]
       }
     ],
     "fondo": "discord_noche.png"
@@ -671,6 +1799,10 @@
       {
         "personaje": "Cáceres",
         "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Oe, antes de que cambís de tema: ¿qué vas a hacer con eso, Cáceres?"
       }
     ],
     "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
@@ -682,21 +1814,111 @@
           "amistad": 5,
           "claridad": 4,
           "honestidad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Si Lumi elige a Max, me va a doler. Pero igual es su decisión."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Y tú merecís seguir con tu vida, no quedarte esperando eternamente."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo le había preparado una presentación, pero parece que ya entendió."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "JAJA, guarda el PowerPoint, wn. Por una vez estamos conversando en serio."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Se agradece. Ustedes webean harto, pero me ayudan a ordenar las ideas."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pa eso estamos. Después te podemos volver a molestar."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada sigue entre risas. Por debajo de las tallas, el consejo queda dando vueltas."
+          }
+        ]
       },
       {
         "texto": "Responder con una talla y pasar un buen rato.",
         "efectos": {
           "amistad": 5,
           "claridad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo una propuesta: convertimos esto en el peor podcast de consejos sentimentales de Chile."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo puedo diseñar el logo y un sistema de puntuación."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "No, Jairo. La idea era una broma, no una startup, JAJA."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pero igual acuérdate de lo que te dijimos. Reírse no significa hacerse el leso."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, ya. Me llevo la talla y la parte útil."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Eso po, hermano. Ahora sí, ¿quién se mete a jugar?"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La tensión baja y todos vuelven a molestarse como siempre."
+          }
+        ]
       },
       {
         "texto": "Hacerse el desentendido.",
         "efectos": {
           "amistad": 1,
           "claridad": -3
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, cabros, dejemos el tema. No es para tanto."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Si para ti importa, no hace falta actuar como que no pasa nada."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo iba a hacer una broma, pero hasta yo sé cuándo parar."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Hermano, te conocemos. No te obligamos a hablar, pero no nos mintai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Necesito pensarlo solo un rato."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Está bien. Cuando querai volver a conversar, aquí seguimos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cáceres se desconecta sin haber cerrado del todo el asunto. Le queda pendiente hablar con sinceridad."
+          }
+        ]
       }
     ],
     "fondo": "discord_noche.png"
@@ -725,6 +1947,10 @@
       {
         "personaje": "Cáceres",
         "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Oe, antes de que cambís de tema: ¿qué vas a hacer con eso, Cáceres?"
       }
     ],
     "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
@@ -736,21 +1962,111 @@
           "amistad": 5,
           "claridad": 4,
           "honestidad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Puedo querer besar a alguien sin prometer una relación."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "La clave es que los dos entiendan y acepten el mismo acuerdo."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo le había preparado una presentación, pero parece que ya entendió."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "JAJA, guarda el PowerPoint, wn. Por una vez estamos conversando en serio."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Se agradece. Ustedes webean harto, pero me ayudan a ordenar las ideas."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pa eso estamos. Después te podemos volver a molestar."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada sigue entre risas. Por debajo de las tallas, el consejo queda dando vueltas."
+          }
+        ]
       },
       {
         "texto": "Responder con una talla y pasar un buen rato.",
         "efectos": {
           "amistad": 5,
           "claridad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo una propuesta: convertimos esto en el peor podcast de consejos sentimentales de Chile."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo puedo diseñar el logo y un sistema de puntuación."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "No, Jairo. La idea era una broma, no una startup, JAJA."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pero igual acuérdate de lo que te dijimos. Reírse no significa hacerse el leso."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, ya. Me llevo la talla y la parte útil."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Eso po, hermano. Ahora sí, ¿quién se mete a jugar?"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La tensión baja y todos vuelven a molestarse como siempre."
+          }
+        ]
       },
       {
         "texto": "Hacerse el desentendido.",
         "efectos": {
           "amistad": 1,
           "claridad": -3
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, cabros, dejemos el tema. No es para tanto."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Si para ti importa, no hace falta actuar como que no pasa nada."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo iba a hacer una broma, pero hasta yo sé cuándo parar."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Hermano, te conocemos. No te obligamos a hablar, pero no nos mintai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Necesito pensarlo solo un rato."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Está bien. Cuando querai volver a conversar, aquí seguimos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cáceres se desconecta sin haber cerrado del todo el asunto. Le queda pendiente hablar con sinceridad."
+          }
+        ]
       }
     ],
     "fondo": "discord_noche.png"
@@ -779,6 +2095,10 @@
       {
         "personaje": "Cáceres",
         "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Oe, antes de que cambís de tema: ¿qué vas a hacer con eso, Cáceres?"
       }
     ],
     "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
@@ -790,21 +2110,111 @@
           "amistad": 5,
           "claridad": 4,
           "honestidad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Un 'todavía no sé' no me autoriza a insistir hasta que cambie."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Milagro: entendiste el tutorial sin morir veinte veces."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo le había preparado una presentación, pero parece que ya entendió."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "JAJA, guarda el PowerPoint, wn. Por una vez estamos conversando en serio."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Se agradece. Ustedes webean harto, pero me ayudan a ordenar las ideas."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pa eso estamos. Después te podemos volver a molestar."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada sigue entre risas. Por debajo de las tallas, el consejo queda dando vueltas."
+          }
+        ]
       },
       {
         "texto": "Responder con una talla y pasar un buen rato.",
         "efectos": {
           "amistad": 5,
           "claridad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo una propuesta: convertimos esto en el peor podcast de consejos sentimentales de Chile."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo puedo diseñar el logo y un sistema de puntuación."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "No, Jairo. La idea era una broma, no una startup, JAJA."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pero igual acuérdate de lo que te dijimos. Reírse no significa hacerse el leso."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, ya. Me llevo la talla y la parte útil."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Eso po, hermano. Ahora sí, ¿quién se mete a jugar?"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La tensión baja y todos vuelven a molestarse como siempre."
+          }
+        ]
       },
       {
         "texto": "Hacerse el desentendido.",
         "efectos": {
           "amistad": 1,
           "claridad": -3
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, cabros, dejemos el tema. No es para tanto."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Si para ti importa, no hace falta actuar como que no pasa nada."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo iba a hacer una broma, pero hasta yo sé cuándo parar."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Hermano, te conocemos. No te obligamos a hablar, pero no nos mintai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Necesito pensarlo solo un rato."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Está bien. Cuando querai volver a conversar, aquí seguimos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cáceres se desconecta sin haber cerrado del todo el asunto. Le queda pendiente hablar con sinceridad."
+          }
+        ]
       }
     ],
     "fondo": "discord_noche.png"
@@ -833,6 +2243,10 @@
       {
         "personaje": "Cáceres",
         "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Oe, antes de que cambís de tema: ¿qué vas a hacer con eso, Cáceres?"
       }
     ],
     "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
@@ -844,21 +2258,111 @@
           "amistad": 5,
           "claridad": 4,
           "honestidad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Si pido perdón, tengo que cambiar lo que hice."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "O por último dejar de repetir el mismo bug en producción."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo le había preparado una presentación, pero parece que ya entendió."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "JAJA, guarda el PowerPoint, wn. Por una vez estamos conversando en serio."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Se agradece. Ustedes webean harto, pero me ayudan a ordenar las ideas."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pa eso estamos. Después te podemos volver a molestar."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada sigue entre risas. Por debajo de las tallas, el consejo queda dando vueltas."
+          }
+        ]
       },
       {
         "texto": "Responder con una talla y pasar un buen rato.",
         "efectos": {
           "amistad": 5,
           "claridad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo una propuesta: convertimos esto en el peor podcast de consejos sentimentales de Chile."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo puedo diseñar el logo y un sistema de puntuación."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "No, Jairo. La idea era una broma, no una startup, JAJA."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pero igual acuérdate de lo que te dijimos. Reírse no significa hacerse el leso."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, ya. Me llevo la talla y la parte útil."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Eso po, hermano. Ahora sí, ¿quién se mete a jugar?"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La tensión baja y todos vuelven a molestarse como siempre."
+          }
+        ]
       },
       {
         "texto": "Hacerse el desentendido.",
         "efectos": {
           "amistad": 1,
           "claridad": -3
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, cabros, dejemos el tema. No es para tanto."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Si para ti importa, no hace falta actuar como que no pasa nada."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo iba a hacer una broma, pero hasta yo sé cuándo parar."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Hermano, te conocemos. No te obligamos a hablar, pero no nos mintai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Necesito pensarlo solo un rato."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Está bien. Cuando querai volver a conversar, aquí seguimos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cáceres se desconecta sin haber cerrado del todo el asunto. Le queda pendiente hablar con sinceridad."
+          }
+        ]
       }
     ],
     "fondo": "discord_noche.png"
@@ -887,6 +2391,10 @@
       {
         "personaje": "Cáceres",
         "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Oe, antes de que cambís de tema: ¿qué vas a hacer con eso, Cáceres?"
       }
     ],
     "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
@@ -898,21 +2406,111 @@
           "amistad": 5,
           "claridad": 4,
           "honestidad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Quiero ser alguien que pueda decir la verdad incluso cuando me deje solo."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Eso te va a servir con pareja o sin pareja, hermano."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo le había preparado una presentación, pero parece que ya entendió."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "JAJA, guarda el PowerPoint, wn. Por una vez estamos conversando en serio."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Se agradece. Ustedes webean harto, pero me ayudan a ordenar las ideas."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pa eso estamos. Después te podemos volver a molestar."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada sigue entre risas. Por debajo de las tallas, el consejo queda dando vueltas."
+          }
+        ]
       },
       {
         "texto": "Responder con una talla y pasar un buen rato.",
         "efectos": {
           "amistad": 5,
           "claridad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo una propuesta: convertimos esto en el peor podcast de consejos sentimentales de Chile."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo puedo diseñar el logo y un sistema de puntuación."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "No, Jairo. La idea era una broma, no una startup, JAJA."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pero igual acuérdate de lo que te dijimos. Reírse no significa hacerse el leso."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, ya. Me llevo la talla y la parte útil."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Eso po, hermano. Ahora sí, ¿quién se mete a jugar?"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La tensión baja y todos vuelven a molestarse como siempre."
+          }
+        ]
       },
       {
         "texto": "Hacerse el desentendido.",
         "efectos": {
           "amistad": 1,
           "claridad": -3
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, cabros, dejemos el tema. No es para tanto."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Si para ti importa, no hace falta actuar como que no pasa nada."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo iba a hacer una broma, pero hasta yo sé cuándo parar."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Hermano, te conocemos. No te obligamos a hablar, pero no nos mintai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Necesito pensarlo solo un rato."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Está bien. Cuando querai volver a conversar, aquí seguimos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cáceres se desconecta sin haber cerrado del todo el asunto. Le queda pendiente hablar con sinceridad."
+          }
+        ]
       }
     ],
     "fondo": "discord_noche.png"
@@ -941,6 +2539,10 @@
       {
         "personaje": "Cáceres",
         "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Oe, antes de que cambís de tema: ¿qué vas a hacer con eso, Cáceres?"
       }
     ],
     "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
@@ -952,21 +2554,111 @@
           "amistad": 5,
           "claridad": 4,
           "honestidad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "No sé cómo terminará todo, pero no quiero perder a mis amigos en el camino."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Tranqui. Te vamos a webear tengas pareja o no."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo le había preparado una presentación, pero parece que ya entendió."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "JAJA, guarda el PowerPoint, wn. Por una vez estamos conversando en serio."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Se agradece. Ustedes webean harto, pero me ayudan a ordenar las ideas."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pa eso estamos. Después te podemos volver a molestar."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada sigue entre risas. Por debajo de las tallas, el consejo queda dando vueltas."
+          }
+        ]
       },
       {
         "texto": "Responder con una talla y pasar un buen rato.",
         "efectos": {
           "amistad": 5,
           "claridad": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo una propuesta: convertimos esto en el peor podcast de consejos sentimentales de Chile."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo puedo diseñar el logo y un sistema de puntuación."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "No, Jairo. La idea era una broma, no una startup, JAJA."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pero igual acuérdate de lo que te dijimos. Reírse no significa hacerse el leso."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, ya. Me llevo la talla y la parte útil."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Eso po, hermano. Ahora sí, ¿quién se mete a jugar?"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La tensión baja y todos vuelven a molestarse como siempre."
+          }
+        ]
       },
       {
         "texto": "Hacerse el desentendido.",
         "efectos": {
           "amistad": 1,
           "claridad": -3
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, cabros, dejemos el tema. No es para tanto."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Si para ti importa, no hace falta actuar como que no pasa nada."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo iba a hacer una broma, pero hasta yo sé cuándo parar."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Hermano, te conocemos. No te obligamos a hablar, pero no nos mintai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Necesito pensarlo solo un rato."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Está bien. Cuando querai volver a conversar, aquí seguimos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cáceres se desconecta sin haber cerrado del todo el asunto. Le queda pendiente hablar con sinceridad."
+          }
+        ]
       }
     ],
     "fondo": "discord_noche.png"

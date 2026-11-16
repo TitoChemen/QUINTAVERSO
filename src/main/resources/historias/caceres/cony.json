@@ -22,34 +22,136 @@
       },
       {
         "personaje": "Narrador",
-        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+        "texto": "Hay una pausa breve en el chat. Ninguno de los dos quiere fingir que la conversación no importa."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "A ver, señor DLC, ¿siempre hablai tanto con alguien que te cae bien?"
       }
     ],
     "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: La voz de la fiesta. Dejar espacio para retratos.",
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about la voz de la fiesta. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Responder sin asumir que quieren ser pareja.",
+        "texto": "Responder con cariño y sin apurar nada.",
         "efectos": {
           "cony": 4,
           "confianza_cony": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Depende. Contigo me dieron ganas de quedarme conversando hasta que apagaran las luces."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Mira qué tierno. Yo juraba que te habías quedado congelado por el ruido."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Quiero seguir conociéndote sin convertir cada conversación en una prueba."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me tinca. Si alguna vez queremos cosas distintas, lo hablamos de frente."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces seguimos sumando momentos buenos, de a poquito."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Ya po. Y no perdai esa confianza con la que me hablai."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La charla se alarga unos minutos. No hay promesas grandes, pero sí ganas reales de volver a conversar."
+          }
+        ]
       },
       {
-        "texto": "Coquetear y seguir el juego.",
+        "texto": "Seguir el coqueteo y ver si Cony te responde.",
         "efectos": {
           "cony": 5,
           "confianza_cony": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Es que estaba esperando que apareciera la persona más entretenida de la fiesta."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "¿Y apareció? Porque yo vi a una que no paraba de molestarte."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Era ella misma. Y creo que me dejó con ganas de repetir la fiesta."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "JAJA, no te prometo una fiesta, pero otro rato conmigo capaz que sí."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "¿Ves? Por estas cosas se me hace corto el rato cuando hablamos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "A mí también. Pero no te vayai a pasar películas: prefiero descubrir las cosas mientras pasan."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Trato hecho. Ni promesas adelantadas ni hacerme el indiferente."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso. Y sigue coqueteando si querís... que yo decido si te sigo el juego."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cony tarda un poco en desconectarse. Antes de irse, deja un último corazón que Cáceres mira sonriendo."
+          }
+        ]
       },
       {
-        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "texto": "Presionarla para definir la relación ahora.",
         "efectos": {
           "cony": -3,
           "confianza_cony": -5,
           "sospecha": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero admití que lo que pasa entre nosotros tiene que terminar en pololeo. Si no, ¿para qué tanto?"
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Oye, ahí me perdís. Que me guste hablar o salir contigo no significa que te deba una relación."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que estábamos acercándonos a eso."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Podemos acercarnos sin llegar a lo mismo. Y si no te sirve, prefiero que me lo digai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Me apuré al darlo por hecho. Perdón."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por reconocerlo. Dejemos que baje un poquito la tensión."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación termina antes de lo habitual. La confianza no desaparece de golpe, pero algo quedó incómodo."
+          }
+        ]
       }
     ],
     "fondo": "cafe_vina.png"
@@ -77,34 +179,136 @@
       },
       {
         "personaje": "Narrador",
-        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+        "texto": "Hay una pausa breve en el chat. Ninguno de los dos quiere fingir que la conversación no importa."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Y tú, ¿qué haríai si alguien te dice que le gustai pero no quiere etiquetas?"
       }
     ],
     "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: Sin etiquetas. Dejar espacio para retratos.",
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about sin etiquetas. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Responder sin asumir que quieren ser pareja.",
+        "texto": "Decirle lo que sientes sin imponer etiquetas.",
         "efectos": {
           "cony": 4,
           "confianza_cony": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Le preguntaría qué le hace sentir cómoda, y le diría lo que yo quiero también."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso me gusta. Conversar sin que alguien trate de ganarse un título."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Quiero seguir conociéndote sin convertir cada conversación en una prueba."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me tinca. Si alguna vez queremos cosas distintas, lo hablamos de frente."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces seguimos sumando momentos buenos, de a poquito."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Ya po. Y no perdai esa confianza con la que me hablai."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La charla se alarga unos minutos. No hay promesas grandes, pero sí ganas reales de volver a conversar."
+          }
+        ]
       },
       {
-        "texto": "Coquetear y seguir el juego.",
+        "texto": "Seguir el coqueteo y ver si Cony te responde.",
         "efectos": {
           "cony": 5,
           "confianza_cony": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces te puedo invitar a salir sin llevar una solicitud de pololeo impresa."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "JAJA, por favor. Si llegai con contrato, te bloqueo en la puerta."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "¿Y si llego con una sonrisa y dos helados?"
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Con eso tenís más posibilidades, pero yo elijo el sabor."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "¿Ves? Por estas cosas se me hace corto el rato cuando hablamos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "A mí también. Pero no te vayai a pasar películas: prefiero descubrir las cosas mientras pasan."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Trato hecho. Ni promesas adelantadas ni hacerme el indiferente."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso. Y sigue coqueteando si querís... que yo decido si te sigo el juego."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cony tarda un poco en desconectarse. Antes de irse, deja un último corazón que Cáceres mira sonriendo."
+          }
+        ]
       },
       {
-        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "texto": "Presionarla para definir la relación ahora.",
         "efectos": {
           "cony": -3,
           "confianza_cony": -5,
           "sospecha": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero admití que lo que pasa entre nosotros tiene que terminar en pololeo. Si no, ¿para qué tanto?"
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Oye, ahí me perdís. Que me guste hablar o salir contigo no significa que te deba una relación."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que estábamos acercándonos a eso."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Podemos acercarnos sin llegar a lo mismo. Y si no te sirve, prefiero que me lo digai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Me apuré al darlo por hecho. Perdón."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por reconocerlo. Dejemos que baje un poquito la tensión."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación termina antes de lo habitual. La confianza no desaparece de golpe, pero algo quedó incómodo."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -132,34 +336,136 @@
       },
       {
         "personaje": "Narrador",
-        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+        "texto": "Hay una pausa breve en el chat. Ninguno de los dos quiere fingir que la conversación no importa."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Entonces, ¿te animai a perder una tarde conmigo sin plan maestro?"
       }
     ],
     "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: Plan improvisado. Dejar espacio para retratos.",
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about plan improvisado. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Responder sin asumir que quieren ser pareja.",
+        "texto": "Aceptar el panorama sin expectativas obligatorias.",
         "efectos": {
           "cony": 4,
           "confianza_cony": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Sí. Caminemos hasta cansarnos y decidimos sobre la marcha."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Perfecto, porque mis mejores panoramas parten así."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Quiero seguir conociéndote sin convertir cada conversación en una prueba."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me tinca. Si alguna vez queremos cosas distintas, lo hablamos de frente."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces seguimos sumando momentos buenos, de a poquito."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Ya po. Y no perdai esa confianza con la que me hablai."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La charla se alarga unos minutos. No hay promesas grandes, pero sí ganas reales de volver a conversar."
+          }
+        ]
       },
       {
-        "texto": "Coquetear y seguir el juego.",
+        "texto": "Seguir el coqueteo y ver si Cony te responde.",
         "efectos": {
           "cony": 5,
           "confianza_cony": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Tengo una única exigencia: si nos perdemos, que sea juntos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Qué dramático. Si nos perdemos, Google Maps nos salva."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, pero a Google Maps no lo voy a invitar a comer después."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "JAJA, ya po, vas a terminar consiguiendo ese panorama."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "¿Ves? Por estas cosas se me hace corto el rato cuando hablamos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "A mí también. Pero no te vayai a pasar películas: prefiero descubrir las cosas mientras pasan."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Trato hecho. Ni promesas adelantadas ni hacerme el indiferente."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso. Y sigue coqueteando si querís... que yo decido si te sigo el juego."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cony tarda un poco en desconectarse. Antes de irse, deja un último corazón que Cáceres mira sonriendo."
+          }
+        ]
       },
       {
-        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "texto": "Presionarla para definir la relación ahora.",
         "efectos": {
           "cony": -3,
           "confianza_cony": -5,
           "sospecha": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero admití que lo que pasa entre nosotros tiene que terminar en pololeo. Si no, ¿para qué tanto?"
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Oye, ahí me perdís. Que me guste hablar o salir contigo no significa que te deba una relación."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que estábamos acercándonos a eso."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Podemos acercarnos sin llegar a lo mismo. Y si no te sirve, prefiero que me lo digai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Me apuré al darlo por hecho. Perdón."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por reconocerlo. Dejemos que baje un poquito la tensión."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación termina antes de lo habitual. La confianza no desaparece de golpe, pero algo quedó incómodo."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -187,34 +493,136 @@
       },
       {
         "personaje": "Narrador",
-        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+        "texto": "Hay una pausa breve en el chat. Ninguno de los dos quiere fingir que la conversación no importa."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Mi prima ya preguntó tres veces quién erís. ¿Qué versión le cuento?"
       }
     ],
     "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: La prima copuchenta. Dejar espacio para retratos.",
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about la prima copuchenta. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Responder sin asumir que quieren ser pareja.",
+        "texto": "Responder con cariño y sin apurar nada.",
         "efectos": {
           "cony": 4,
           "confianza_cony": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Que soy un cabro que lo pasa bien contigo y no necesita ponerse un título."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Ya, eso suena bastante más real que el interrogatorio que me hizo."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Quiero seguir conociéndote sin convertir cada conversación en una prueba."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me tinca. Si alguna vez queremos cosas distintas, lo hablamos de frente."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces seguimos sumando momentos buenos, de a poquito."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Ya po. Y no perdai esa confianza con la que me hablai."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La charla se alarga unos minutos. No hay promesas grandes, pero sí ganas reales de volver a conversar."
+          }
+        ]
       },
       {
-        "texto": "Coquetear y seguir el juego.",
+        "texto": "Seguir el coqueteo y ver si Cony te responde.",
         "efectos": {
           "cony": 5,
           "confianza_cony": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Dile que soy el que te hace reír cuando querís hacerte la seria."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Te tenís demasiada fe. A mí me da risa hasta cuando te equivocai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces me voy a equivocar cerca de ti más seguido."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "JAJA, no necesito tanto espectáculo; con que seai tú basta."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "¿Ves? Por estas cosas se me hace corto el rato cuando hablamos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "A mí también. Pero no te vayai a pasar películas: prefiero descubrir las cosas mientras pasan."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Trato hecho. Ni promesas adelantadas ni hacerme el indiferente."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso. Y sigue coqueteando si querís... que yo decido si te sigo el juego."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cony tarda un poco en desconectarse. Antes de irse, deja un último corazón que Cáceres mira sonriendo."
+          }
+        ]
       },
       {
-        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "texto": "Presionarla para definir la relación ahora.",
         "efectos": {
           "cony": -3,
           "confianza_cony": -5,
           "sospecha": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero admití que lo que pasa entre nosotros tiene que terminar en pololeo. Si no, ¿para qué tanto?"
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Oye, ahí me perdís. Que me guste hablar o salir contigo no significa que te deba una relación."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que estábamos acercándonos a eso."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Podemos acercarnos sin llegar a lo mismo. Y si no te sirve, prefiero que me lo digai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Me apuré al darlo por hecho. Perdón."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por reconocerlo. Dejemos que baje un poquito la tensión."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación termina antes de lo habitual. La confianza no desaparece de golpe, pero algo quedó incómodo."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -242,34 +650,136 @@
       },
       {
         "personaje": "Narrador",
-        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+        "texto": "Hay una pausa breve en el chat. Ninguno de los dos quiere fingir que la conversación no importa."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Te mandé un audio eterno. ¿Lo escuchaste entero o me estai chamullando?"
       }
     ],
     "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: El audio de treinta segundos. Dejar espacio para retratos.",
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about el audio de treinta segundos. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Responder sin asumir que quieren ser pareja.",
+        "texto": "Decirle lo que sientes sin imponer etiquetas.",
         "efectos": {
           "cony": 4,
           "confianza_cony": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Entero. Hasta la parte donde te arrepentiste de contar el final."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "¡NOOO! Esa parte era confidencial, JAJA."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Quiero seguir conociéndote sin convertir cada conversación en una prueba."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me tinca. Si alguna vez queremos cosas distintas, lo hablamos de frente."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces seguimos sumando momentos buenos, de a poquito."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Ya po. Y no perdai esa confianza con la que me hablai."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La charla se alarga unos minutos. No hay promesas grandes, pero sí ganas reales de volver a conversar."
+          }
+        ]
       },
       {
-        "texto": "Coquetear y seguir el juego.",
+        "texto": "Seguir el coqueteo y ver si Cony te responde.",
         "efectos": {
           "cony": 5,
           "confianza_cony": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Podríai mandarme otro, pero esta vez avisai si venís a robarme la atención."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "¿Ah, sí? Pensé que eras de los que se aburrían con audios largos."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Con tu voz me preocupan más los audios cortos: se terminan muy rápido."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Mira el poeta. Capaz te mando uno de cuarenta segundos entonces."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "¿Ves? Por estas cosas se me hace corto el rato cuando hablamos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "A mí también. Pero no te vayai a pasar películas: prefiero descubrir las cosas mientras pasan."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Trato hecho. Ni promesas adelantadas ni hacerme el indiferente."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso. Y sigue coqueteando si querís... que yo decido si te sigo el juego."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cony tarda un poco en desconectarse. Antes de irse, deja un último corazón que Cáceres mira sonriendo."
+          }
+        ]
       },
       {
-        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "texto": "Presionarla para definir la relación ahora.",
         "efectos": {
           "cony": -3,
           "confianza_cony": -5,
           "sospecha": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero admití que lo que pasa entre nosotros tiene que terminar en pololeo. Si no, ¿para qué tanto?"
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Oye, ahí me perdís. Que me guste hablar o salir contigo no significa que te deba una relación."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que estábamos acercándonos a eso."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Podemos acercarnos sin llegar a lo mismo. Y si no te sirve, prefiero que me lo digai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Me apuré al darlo por hecho. Perdón."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por reconocerlo. Dejemos que baje un poquito la tensión."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación termina antes de lo habitual. La confianza no desaparece de golpe, pero algo quedó incómodo."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -297,34 +807,136 @@
       },
       {
         "personaje": "Narrador",
-        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+        "texto": "Hay una pausa breve en el chat. Ninguno de los dos quiere fingir que la conversación no importa."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Tengo dos tenidas y ninguna me convence. ¿Me ayudai o te hacís el leso?"
       }
     ],
     "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: La ropa para salir. Dejar espacio para retratos.",
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about la ropa para salir. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Responder sin asumir que quieren ser pareja.",
+        "texto": "Aceptar el panorama sin expectativas obligatorias.",
         "efectos": {
           "cony": 4,
           "confianza_cony": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Ponte la que te haga sentir más tú. Si querís, me mostrís las opciones."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias, porque ya estaba peleando con el espejo."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Quiero seguir conociéndote sin convertir cada conversación en una prueba."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me tinca. Si alguna vez queremos cosas distintas, lo hablamos de frente."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces seguimos sumando momentos buenos, de a poquito."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Ya po. Y no perdai esa confianza con la que me hablai."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La charla se alarga unos minutos. No hay promesas grandes, pero sí ganas reales de volver a conversar."
+          }
+        ]
       },
       {
-        "texto": "Coquetear y seguir el juego.",
+        "texto": "Seguir el coqueteo y ver si Cony te responde.",
         "efectos": {
           "cony": 5,
           "confianza_cony": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "La que elijai va a tener un problema igual."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "¿Cuál, a ver? No me asustís."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Que voy a quedarme mirándote y se me va a olvidar lo que iba a decir."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "JAJA, entonces mejor anda practicando tus frases desde ahora."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "¿Ves? Por estas cosas se me hace corto el rato cuando hablamos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "A mí también. Pero no te vayai a pasar películas: prefiero descubrir las cosas mientras pasan."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Trato hecho. Ni promesas adelantadas ni hacerme el indiferente."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso. Y sigue coqueteando si querís... que yo decido si te sigo el juego."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cony tarda un poco en desconectarse. Antes de irse, deja un último corazón que Cáceres mira sonriendo."
+          }
+        ]
       },
       {
-        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "texto": "Presionarla para definir la relación ahora.",
         "efectos": {
           "cony": -3,
           "confianza_cony": -5,
           "sospecha": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero admití que lo que pasa entre nosotros tiene que terminar en pololeo. Si no, ¿para qué tanto?"
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Oye, ahí me perdís. Que me guste hablar o salir contigo no significa que te deba una relación."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que estábamos acercándonos a eso."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Podemos acercarnos sin llegar a lo mismo. Y si no te sirve, prefiero que me lo digai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Me apuré al darlo por hecho. Perdón."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por reconocerlo. Dejemos que baje un poquito la tensión."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación termina antes de lo habitual. La confianza no desaparece de golpe, pero algo quedó incómodo."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -352,34 +964,152 @@
       },
       {
         "personaje": "Narrador",
-        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+        "texto": "Hay una pausa breve en el chat. Ninguno de los dos quiere fingir que la conversación no importa."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Y ahora que ya te lo confesé... ¿qué habríai hecho si te hubiese mirado un poquito más?"
       }
     ],
     "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: Las ganas de besar. Dejar espacio para retratos.",
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about las ganas de besar. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Responder sin asumir que quieren ser pareja.",
+        "texto": "Responder con cariño y sin apurar nada.",
         "efectos": {
           "cony": 4,
           "confianza_cony": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Te soy sincero: a mí también me dieron ganas de besarte."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "¿Ah, sí? ¿Y por qué no dijiste nada, tontito?"
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Porque no sabía si tú querías lo mismo. Preferí preguntártelo ahora."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me gusta que lo preguntís. La próxima, cuando estemos frente a frente, podís hacerlo."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "¿Y creís que me voy a atrever?"
+          },
+          {
+            "personaje": "Cony",
+            "texto": "JAJA. Eso ya es problema tuyo. Pero si me dan ganas, te voy a decir que sí."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces voy a practicar no quedarme sin palabras cuando te vea."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "No hace falta que preparís un discurso, Cáceres. Con que seai tú basta."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La pantalla se apaga, pero a Cáceres le cuesta dejar de sonreír."
+          }
+        ]
       },
       {
-        "texto": "Coquetear y seguir el juego.",
+        "texto": "Coquetear: «¿Y si la próxima vez te pido ese beso?»",
         "efectos": {
           "cony": 5,
           "confianza_cony": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "¿Y si la próxima vez, en vez de quedarme pegado mirándote, te pregunto si puedo besarte?"
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Mmm... ¿y si te digo que he estado esperando que me lo preguntís?"
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces creo que me voy a poner nervioso en tiempo récord."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "JAJA, si te ponís nervioso te voy a molestar un ratito. Poquito, eso sí."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pucha, me gustai más cuando te ponís así de peligrosa."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "¿Peligrosa? Si solo dije que también tengo ganas, tontito."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, pero no quiero que después pensís que estoy inventando un pololeo por un beso."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Bien. Podemos tener ganas, besarnos si los dos queremos y seguir conversando de lo demás."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces la próxima vez que nos veamos te voy a mirar a los ojos y te voy a preguntar."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Y yo voy a decidir ahí mismo. Pero te aviso que me gusta mucho cómo suena ese plan."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La notificación de Cony vuelve a encender la pantalla: «Duerme, coqueto. Te hablo mañana 😘»."
+          }
+        ]
       },
       {
-        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "texto": "Presionarla para definir la relación ahora.",
         "efectos": {
           "cony": -3,
           "confianza_cony": -5,
           "sospecha": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Si te dieron ganas de besarme, entonces admítelo: tarde o temprano vamos a ser pololos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "No, po. Te hablé de un beso, no de firmar una relación."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que era una señal de que querías algo serio conmigo."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Era una señal de que me atraís. Si algún día quiero algo más, voy a decirlo yo."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, perdón. Me fui demasiado lejos con la idea."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Agradezco que lo cachís. Me gustaría poder coquetear sin sentir que tengo que justificarme."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El tono cambia. Cáceres aprende que una señal de interés no es una promesa de futuro."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -407,34 +1137,136 @@
       },
       {
         "personaje": "Narrador",
-        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+        "texto": "Hay una pausa breve en el chat. Ninguno de los dos quiere fingir que la conversación no importa."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "¿Te acordai de lo ridículo que fue el final de esa noche?"
       }
     ],
     "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: La noche divertida. Dejar espacio para retratos.",
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about la noche divertida. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Responder sin asumir que quieren ser pareja.",
+        "texto": "Decirle lo que sientes sin imponer etiquetas.",
         "efectos": {
           "cony": 4,
           "confianza_cony": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Sí, y me dio risa volver a casa pensando en todas las tonteras que dijimos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me encanta que no tengamos que fingir ser elegantes todo el rato."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Quiero seguir conociéndote sin convertir cada conversación en una prueba."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me tinca. Si alguna vez queremos cosas distintas, lo hablamos de frente."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces seguimos sumando momentos buenos, de a poquito."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Ya po. Y no perdai esa confianza con la que me hablai."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La charla se alarga unos minutos. No hay promesas grandes, pero sí ganas reales de volver a conversar."
+          }
+        ]
       },
       {
-        "texto": "Coquetear y seguir el juego.",
+        "texto": "Seguir el coqueteo y ver si Cony te responde.",
         "efectos": {
           "cony": 5,
           "confianza_cony": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Si otra noche termina así, te voy a culpar por quedarte dando vueltas en mi cabeza."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "¿Yo? Si tú fuiste el que me hizo reír hasta dolerme la guata."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces te debo otra noche de risas. Y quizá un baile menos desastroso."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Quizá. Pero no prometo no pisarte."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "¿Ves? Por estas cosas se me hace corto el rato cuando hablamos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "A mí también. Pero no te vayai a pasar películas: prefiero descubrir las cosas mientras pasan."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Trato hecho. Ni promesas adelantadas ni hacerme el indiferente."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso. Y sigue coqueteando si querís... que yo decido si te sigo el juego."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cony tarda un poco en desconectarse. Antes de irse, deja un último corazón que Cáceres mira sonriendo."
+          }
+        ]
       },
       {
-        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "texto": "Presionarla para definir la relación ahora.",
         "efectos": {
           "cony": -3,
           "confianza_cony": -5,
           "sospecha": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero admití que lo que pasa entre nosotros tiene que terminar en pololeo. Si no, ¿para qué tanto?"
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Oye, ahí me perdís. Que me guste hablar o salir contigo no significa que te deba una relación."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que estábamos acercándonos a eso."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Podemos acercarnos sin llegar a lo mismo. Y si no te sirve, prefiero que me lo digai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Me apuré al darlo por hecho. Perdón."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por reconocerlo. Dejemos que baje un poquito la tensión."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación termina antes de lo habitual. La confianza no desaparece de golpe, pero algo quedó incómodo."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_noche.png"
@@ -462,34 +1294,136 @@
       },
       {
         "personaje": "Narrador",
-        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+        "texto": "Hay una pausa breve en el chat. Ninguno de los dos quiere fingir que la conversación no importa."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Ya que estamos siendo sinceros, ¿qué esperai realmente de nosotros?"
       }
     ],
     "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: La pregunta de frente. Dejar espacio para retratos.",
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about la pregunta de frente. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Responder sin asumir que quieren ser pareja.",
+        "texto": "Aceptar el panorama sin expectativas obligatorias.",
         "efectos": {
           "cony": 4,
           "confianza_cony": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Que lo pasemos bien, que podamos hablar claro y que ninguno se sienta obligado."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Bien. Eso puedo conversarlo sin ponerme a la defensiva."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Quiero seguir conociéndote sin convertir cada conversación en una prueba."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me tinca. Si alguna vez queremos cosas distintas, lo hablamos de frente."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces seguimos sumando momentos buenos, de a poquito."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Ya po. Y no perdai esa confianza con la que me hablai."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La charla se alarga unos minutos. No hay promesas grandes, pero sí ganas reales de volver a conversar."
+          }
+        ]
       },
       {
-        "texto": "Coquetear y seguir el juego.",
+        "texto": "Seguir el coqueteo y ver si Cony te responde.",
         "efectos": {
           "cony": 5,
           "confianza_cony": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Espero que sigai encontrando excusas para verme. Yo igual voy a buscar las mías."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me gustan las excusas honestas. Podrías decir 'quiero verte' y listo."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces quiero verte. Ojalá pronto."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Mucho mejor, Cáceres. Así sí te entiendo."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "¿Ves? Por estas cosas se me hace corto el rato cuando hablamos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "A mí también. Pero no te vayai a pasar películas: prefiero descubrir las cosas mientras pasan."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Trato hecho. Ni promesas adelantadas ni hacerme el indiferente."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso. Y sigue coqueteando si querís... que yo decido si te sigo el juego."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cony tarda un poco en desconectarse. Antes de irse, deja un último corazón que Cáceres mira sonriendo."
+          }
+        ]
       },
       {
-        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "texto": "Presionarla para definir la relación ahora.",
         "efectos": {
           "cony": -3,
           "confianza_cony": -5,
           "sospecha": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero admití que lo que pasa entre nosotros tiene que terminar en pololeo. Si no, ¿para qué tanto?"
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Oye, ahí me perdís. Que me guste hablar o salir contigo no significa que te deba una relación."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que estábamos acercándonos a eso."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Podemos acercarnos sin llegar a lo mismo. Y si no te sirve, prefiero que me lo digai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Me apuré al darlo por hecho. Perdón."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por reconocerlo. Dejemos que baje un poquito la tensión."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación termina antes de lo habitual. La confianza no desaparece de golpe, pero algo quedó incómodo."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -517,34 +1451,136 @@
       },
       {
         "personaje": "Narrador",
-        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+        "texto": "Hay una pausa breve en el chat. Ninguno de los dos quiere fingir que la conversación no importa."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "¿Te molestó que apareciera con un mensaje a una hora tan rara?"
       }
     ],
     "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: El mensaje a destiempo. Dejar espacio para retratos.",
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about el mensaje a destiempo. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Responder sin asumir que quieren ser pareja.",
+        "texto": "Responder con cariño y sin apurar nada.",
         "efectos": {
           "cony": 4,
           "confianza_cony": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "No. Me gustó saber de ti; cuando no pueda contestar te lo voy a decir."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Uf, gracias. No quería que pareciera una obligación responderme."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Quiero seguir conociéndote sin convertir cada conversación en una prueba."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me tinca. Si alguna vez queremos cosas distintas, lo hablamos de frente."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces seguimos sumando momentos buenos, de a poquito."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Ya po. Y no perdai esa confianza con la que me hablai."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La charla se alarga unos minutos. No hay promesas grandes, pero sí ganas reales de volver a conversar."
+          }
+        ]
       },
       {
-        "texto": "Coquetear y seguir el juego.",
+        "texto": "Seguir el coqueteo y ver si Cony te responde.",
         "efectos": {
           "cony": 5,
           "confianza_cony": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me escribís de madrugada y después querís que no sueñe contigo, po."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "JAJA, no te agrandís, que estaba aburrida esperando la micro."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces tengo competencia seria con el transporte público."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Por ahora vai ganando, pero la micro nunca me deja en visto."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "¿Ves? Por estas cosas se me hace corto el rato cuando hablamos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "A mí también. Pero no te vayai a pasar películas: prefiero descubrir las cosas mientras pasan."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Trato hecho. Ni promesas adelantadas ni hacerme el indiferente."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso. Y sigue coqueteando si querís... que yo decido si te sigo el juego."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cony tarda un poco en desconectarse. Antes de irse, deja un último corazón que Cáceres mira sonriendo."
+          }
+        ]
       },
       {
-        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "texto": "Presionarla para definir la relación ahora.",
         "efectos": {
           "cony": -3,
           "confianza_cony": -5,
           "sospecha": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero admití que lo que pasa entre nosotros tiene que terminar en pololeo. Si no, ¿para qué tanto?"
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Oye, ahí me perdís. Que me guste hablar o salir contigo no significa que te deba una relación."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que estábamos acercándonos a eso."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Podemos acercarnos sin llegar a lo mismo. Y si no te sirve, prefiero que me lo digai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Me apuré al darlo por hecho. Perdón."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por reconocerlo. Dejemos que baje un poquito la tensión."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación termina antes de lo habitual. La confianza no desaparece de golpe, pero algo quedó incómodo."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -572,34 +1608,136 @@
       },
       {
         "personaje": "Narrador",
-        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+        "texto": "Hay una pausa breve en el chat. Ninguno de los dos quiere fingir que la conversación no importa."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "¿Podís creer que hoy nadie armó un drama? Me siento de vacaciones."
       }
     ],
     "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: El día sin drama. Dejar espacio para retratos.",
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about el día sin drama. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Responder sin asumir que quieren ser pareja.",
+        "texto": "Decirle lo que sientes sin imponer etiquetas.",
         "efectos": {
           "cony": 4,
           "confianza_cony": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Disfrútalo. No todo tiene que ser intenso para importar."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Exacto. A veces estar tranquila vale más que mil mensajes."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Quiero seguir conociéndote sin convertir cada conversación en una prueba."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me tinca. Si alguna vez queremos cosas distintas, lo hablamos de frente."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces seguimos sumando momentos buenos, de a poquito."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Ya po. Y no perdai esa confianza con la que me hablai."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La charla se alarga unos minutos. No hay promesas grandes, pero sí ganas reales de volver a conversar."
+          }
+        ]
       },
       {
-        "texto": "Coquetear y seguir el juego.",
+        "texto": "Seguir el coqueteo y ver si Cony te responde.",
         "efectos": {
           "cony": 5,
           "confianza_cony": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Mira, si querís más días tranquilos, podemos quedarnos tomando algo sin hacer nada."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "¿Tu plan de conquista es aburrirnos juntos?"
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Mi plan es que incluso el silencio contigo se sienta como panorama."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Qué peligroso lo que decís. Hasta me dieron ganas de probarlo."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "¿Ves? Por estas cosas se me hace corto el rato cuando hablamos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "A mí también. Pero no te vayai a pasar películas: prefiero descubrir las cosas mientras pasan."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Trato hecho. Ni promesas adelantadas ni hacerme el indiferente."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso. Y sigue coqueteando si querís... que yo decido si te sigo el juego."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cony tarda un poco en desconectarse. Antes de irse, deja un último corazón que Cáceres mira sonriendo."
+          }
+        ]
       },
       {
-        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "texto": "Presionarla para definir la relación ahora.",
         "efectos": {
           "cony": -3,
           "confianza_cony": -5,
           "sospecha": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero admití que lo que pasa entre nosotros tiene que terminar en pololeo. Si no, ¿para qué tanto?"
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Oye, ahí me perdís. Que me guste hablar o salir contigo no significa que te deba una relación."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que estábamos acercándonos a eso."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Podemos acercarnos sin llegar a lo mismo. Y si no te sirve, prefiero que me lo digai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Me apuré al darlo por hecho. Perdón."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por reconocerlo. Dejemos que baje un poquito la tensión."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación termina antes de lo habitual. La confianza no desaparece de golpe, pero algo quedó incómodo."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -627,34 +1765,136 @@
       },
       {
         "personaje": "Narrador",
-        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+        "texto": "Hay una pausa breve en el chat. Ninguno de los dos quiere fingir que la conversación no importa."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Me da un poquito de susto encariñarme. ¿Te pasa algo parecido?"
       }
     ],
     "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: ¿Y si me encariño?. Dejar espacio para retratos.",
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about ¿y si me encariño?. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Responder sin asumir que quieren ser pareja.",
+        "texto": "Aceptar el panorama sin expectativas obligatorias.",
         "efectos": {
           "cony": 4,
           "confianza_cony": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Sí. Pero prefiero decirlo a tiempo en vez de hacerme el que no siente nada."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso me calma. A veces me hago la chora para que no se note."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Quiero seguir conociéndote sin convertir cada conversación en una prueba."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me tinca. Si alguna vez queremos cosas distintas, lo hablamos de frente."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces seguimos sumando momentos buenos, de a poquito."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Ya po. Y no perdai esa confianza con la que me hablai."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La charla se alarga unos minutos. No hay promesas grandes, pero sí ganas reales de volver a conversar."
+          }
+        ]
       },
       {
-        "texto": "Coquetear y seguir el juego.",
+        "texto": "Coquetear sin esconder que también te estás encariñando.",
         "efectos": {
           "cony": 5,
           "confianza_cony": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "A mí me preocupa que un día me mirís así y se me olvide hacerme el choro."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "JAJA, ¿así cómo? Si ni me estai viendo ahora."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Con esa sonrisa que ponís cuando creís que no te estoy mirando."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Ya, basta, que me voy a poner roja y después te voy a echar la culpa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "¿Ves? Por estas cosas se me hace corto el rato cuando hablamos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "A mí también. Pero no te vayai a pasar películas: prefiero descubrir las cosas mientras pasan."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Trato hecho. Ni promesas adelantadas ni hacerme el indiferente."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso. Y sigue coqueteando si querís... que yo decido si te sigo el juego."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cony tarda un poco en desconectarse. Antes de irse, deja un último corazón que Cáceres mira sonriendo."
+          }
+        ]
       },
       {
-        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "texto": "Presionarla para definir la relación ahora.",
         "efectos": {
           "cony": -3,
           "confianza_cony": -5,
           "sospecha": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero admití que lo que pasa entre nosotros tiene que terminar en pololeo. Si no, ¿para qué tanto?"
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Oye, ahí me perdís. Que me guste hablar o salir contigo no significa que te deba una relación."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que estábamos acercándonos a eso."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Podemos acercarnos sin llegar a lo mismo. Y si no te sirve, prefiero que me lo digai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Me apuré al darlo por hecho. Perdón."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por reconocerlo. Dejemos que baje un poquito la tensión."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación termina antes de lo habitual. La confianza no desaparece de golpe, pero algo quedó incómodo."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -682,34 +1922,136 @@
       },
       {
         "personaje": "Narrador",
-        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+        "texto": "Hay una pausa breve en el chat. Ninguno de los dos quiere fingir que la conversación no importa."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Dime la verdad: ¿el meme era horrible o te reíste?"
       }
     ],
     "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: El meme equivocado. Dejar espacio para retratos.",
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about el meme equivocado. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Responder sin asumir que quieren ser pareja.",
+        "texto": "Responder con cariño y sin apurar nada.",
         "efectos": {
           "cony": 4,
           "confianza_cony": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Era espantoso. Me reí tanto que lo guardé."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "¡Sabía! Ese humor malo es una prueba de compatibilidad."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Quiero seguir conociéndote sin convertir cada conversación en una prueba."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me tinca. Si alguna vez queremos cosas distintas, lo hablamos de frente."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces seguimos sumando momentos buenos, de a poquito."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Ya po. Y no perdai esa confianza con la que me hablai."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La charla se alarga unos minutos. No hay promesas grandes, pero sí ganas reales de volver a conversar."
+          }
+        ]
       },
       {
-        "texto": "Coquetear y seguir el juego.",
+        "texto": "Seguir el coqueteo y ver si Cony te responde.",
         "efectos": {
           "cony": 5,
           "confianza_cony": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Con esos memes me vai a terminar gustando más de lo que corresponde."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Ya empezaste con las amenazas románticas, JAJA."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No es amenaza: es una advertencia de que quiero seguir hablando contigo."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Bueno, entonces prepárate, porque tengo como veinte memes peores."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "¿Ves? Por estas cosas se me hace corto el rato cuando hablamos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "A mí también. Pero no te vayai a pasar películas: prefiero descubrir las cosas mientras pasan."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Trato hecho. Ni promesas adelantadas ni hacerme el indiferente."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso. Y sigue coqueteando si querís... que yo decido si te sigo el juego."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cony tarda un poco en desconectarse. Antes de irse, deja un último corazón que Cáceres mira sonriendo."
+          }
+        ]
       },
       {
-        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "texto": "Presionarla para definir la relación ahora.",
         "efectos": {
           "cony": -3,
           "confianza_cony": -5,
           "sospecha": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero admití que lo que pasa entre nosotros tiene que terminar en pololeo. Si no, ¿para qué tanto?"
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Oye, ahí me perdís. Que me guste hablar o salir contigo no significa que te deba una relación."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que estábamos acercándonos a eso."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Podemos acercarnos sin llegar a lo mismo. Y si no te sirve, prefiero que me lo digai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Me apuré al darlo por hecho. Perdón."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por reconocerlo. Dejemos que baje un poquito la tensión."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación termina antes de lo habitual. La confianza no desaparece de golpe, pero algo quedó incómodo."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -737,34 +2079,136 @@
       },
       {
         "personaje": "Narrador",
-        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+        "texto": "Hay una pausa breve en el chat. Ninguno de los dos quiere fingir que la conversación no importa."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "¿Podemos juntarnos sin tener que convertirlo en una cita perfecta?"
       }
     ],
     "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: La cita sin tensión. Dejar espacio para retratos.",
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about la cita sin tensión. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Responder sin asumir que quieren ser pareja.",
+        "texto": "Decirle lo que sientes sin imponer etiquetas.",
         "efectos": {
           "cony": 4,
           "confianza_cony": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "De todas maneras. Prefiero que seamos nosotros y no dos personas actuando."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Menos mal, porque me carga fingir que no tengo hambre."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Quiero seguir conociéndote sin convertir cada conversación en una prueba."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me tinca. Si alguna vez queremos cosas distintas, lo hablamos de frente."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces seguimos sumando momentos buenos, de a poquito."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Ya po. Y no perdai esa confianza con la que me hablai."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La charla se alarga unos minutos. No hay promesas grandes, pero sí ganas reales de volver a conversar."
+          }
+        ]
       },
       {
-        "texto": "Coquetear y seguir el juego.",
+        "texto": "Seguir el coqueteo y ver si Cony te responde.",
         "efectos": {
           "cony": 5,
           "confianza_cony": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Si te reís conmigo como en los chats, ya va a ser mi cita favorita."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "No digai eso antes de tiempo, que después te voy a cobrar la promesa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Cóbremela. Yo llevo algo rico y tú elegís dónde sentarnos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Trato, pero voy a fingir que la idea fue mía."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "¿Ves? Por estas cosas se me hace corto el rato cuando hablamos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "A mí también. Pero no te vayai a pasar películas: prefiero descubrir las cosas mientras pasan."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Trato hecho. Ni promesas adelantadas ni hacerme el indiferente."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso. Y sigue coqueteando si querís... que yo decido si te sigo el juego."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cony tarda un poco en desconectarse. Antes de irse, deja un último corazón que Cáceres mira sonriendo."
+          }
+        ]
       },
       {
-        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "texto": "Presionarla para definir la relación ahora.",
         "efectos": {
           "cony": -3,
           "confianza_cony": -5,
           "sospecha": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero admití que lo que pasa entre nosotros tiene que terminar en pololeo. Si no, ¿para qué tanto?"
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Oye, ahí me perdís. Que me guste hablar o salir contigo no significa que te deba una relación."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que estábamos acercándonos a eso."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Podemos acercarnos sin llegar a lo mismo. Y si no te sirve, prefiero que me lo digai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Me apuré al darlo por hecho. Perdón."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por reconocerlo. Dejemos que baje un poquito la tensión."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación termina antes de lo habitual. La confianza no desaparece de golpe, pero algo quedó incómodo."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -792,34 +2236,136 @@
       },
       {
         "personaje": "Narrador",
-        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+        "texto": "Hay una pausa breve en el chat. Ninguno de los dos quiere fingir que la conversación no importa."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Mi amiga dice que me conoces más de lo que admito. ¿Qué opinai?"
       }
     ],
     "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: La amiga escéptica. Dejar espacio para retratos.",
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about la amiga escéptica. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Responder sin asumir que quieren ser pareja.",
+        "texto": "Aceptar el panorama sin expectativas obligatorias.",
         "efectos": {
           "cony": 4,
           "confianza_cony": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Que conocer a alguien toma tiempo y que todavía me faltan hartas cosas tuyas por descubrir."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Mejor respuesta que tratar de decir que ya me leíste completa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Quiero seguir conociéndote sin convertir cada conversación en una prueba."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me tinca. Si alguna vez queremos cosas distintas, lo hablamos de frente."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces seguimos sumando momentos buenos, de a poquito."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Ya po. Y no perdai esa confianza con la que me hablai."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La charla se alarga unos minutos. No hay promesas grandes, pero sí ganas reales de volver a conversar."
+          }
+        ]
       },
       {
-        "texto": "Coquetear y seguir el juego.",
+        "texto": "Seguir el coqueteo y ver si Cony te responde.",
         "efectos": {
           "cony": 5,
           "confianza_cony": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Opino que tu amiga tiene buen ojo, pero todavía me falta descubrir cómo se gana tu sonrisa favorita."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Esa sonrisa no se gana por puntos, por si acaso."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces tendré que seguir haciéndote reír sin esperar premio."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso suena bastante más atractivo de lo que te imaginai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "¿Ves? Por estas cosas se me hace corto el rato cuando hablamos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "A mí también. Pero no te vayai a pasar películas: prefiero descubrir las cosas mientras pasan."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Trato hecho. Ni promesas adelantadas ni hacerme el indiferente."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso. Y sigue coqueteando si querís... que yo decido si te sigo el juego."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cony tarda un poco en desconectarse. Antes de irse, deja un último corazón que Cáceres mira sonriendo."
+          }
+        ]
       },
       {
-        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "texto": "Presionarla para definir la relación ahora.",
         "efectos": {
           "cony": -3,
           "confianza_cony": -5,
           "sospecha": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero admití que lo que pasa entre nosotros tiene que terminar en pololeo. Si no, ¿para qué tanto?"
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Oye, ahí me perdís. Que me guste hablar o salir contigo no significa que te deba una relación."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que estábamos acercándonos a eso."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Podemos acercarnos sin llegar a lo mismo. Y si no te sirve, prefiero que me lo digai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Me apuré al darlo por hecho. Perdón."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por reconocerlo. Dejemos que baje un poquito la tensión."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación termina antes de lo habitual. La confianza no desaparece de golpe, pero algo quedó incómodo."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -847,34 +2393,136 @@
       },
       {
         "personaje": "Narrador",
-        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+        "texto": "Hay una pausa breve en el chat. Ninguno de los dos quiere fingir que la conversación no importa."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "¿Te animaríai a ir a esa plaza conmigo aunque no hagamos nada especial?"
       }
     ],
     "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: Caminar sin destino. Dejar espacio para retratos.",
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about caminar sin destino. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Responder sin asumir que quieren ser pareja.",
+        "texto": "Responder con cariño y sin apurar nada.",
         "efectos": {
           "cony": 4,
           "confianza_cony": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Claro. Quiero conocer el lugar que te calma cuando todo se pone pesado."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me gusta que no te burlís de las cosas pequeñas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Quiero seguir conociéndote sin convertir cada conversación en una prueba."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me tinca. Si alguna vez queremos cosas distintas, lo hablamos de frente."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces seguimos sumando momentos buenos, de a poquito."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Ya po. Y no perdai esa confianza con la que me hablai."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La charla se alarga unos minutos. No hay promesas grandes, pero sí ganas reales de volver a conversar."
+          }
+        ]
       },
       {
-        "texto": "Coquetear y seguir el juego.",
+        "texto": "Seguir el coqueteo y ver si Cony te responde.",
         "efectos": {
           "cony": 5,
           "confianza_cony": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Voy por los perros famosos, pero me quedo por la guía turística."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "JAJA. La guía cobra una bebida y papas fritas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Me parece barato para pasear contigo."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "No te apurís con los halagos, que todavía no hemos salido de la plaza."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "¿Ves? Por estas cosas se me hace corto el rato cuando hablamos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "A mí también. Pero no te vayai a pasar películas: prefiero descubrir las cosas mientras pasan."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Trato hecho. Ni promesas adelantadas ni hacerme el indiferente."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso. Y sigue coqueteando si querís... que yo decido si te sigo el juego."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cony tarda un poco en desconectarse. Antes de irse, deja un último corazón que Cáceres mira sonriendo."
+          }
+        ]
       },
       {
-        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "texto": "Presionarla para definir la relación ahora.",
         "efectos": {
           "cony": -3,
           "confianza_cony": -5,
           "sospecha": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero admití que lo que pasa entre nosotros tiene que terminar en pololeo. Si no, ¿para qué tanto?"
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Oye, ahí me perdís. Que me guste hablar o salir contigo no significa que te deba una relación."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que estábamos acercándonos a eso."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Podemos acercarnos sin llegar a lo mismo. Y si no te sirve, prefiero que me lo digai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Me apuré al darlo por hecho. Perdón."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por reconocerlo. Dejemos que baje un poquito la tensión."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación termina antes de lo habitual. La confianza no desaparece de golpe, pero algo quedó incómodo."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -902,34 +2550,136 @@
       },
       {
         "personaje": "Narrador",
-        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+        "texto": "Hay una pausa breve en el chat. Ninguno de los dos quiere fingir que la conversación no importa."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "A veces me demoro en responder. ¿Vas a mandarme un operativo de búsqueda?"
       }
     ],
     "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: No contestar de inmediato. Dejar espacio para retratos.",
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about no contestar de inmediato. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Responder sin asumir que quieren ser pareja.",
+        "texto": "Decirle lo que sientes sin imponer etiquetas.",
         "efectos": {
           "cony": 4,
           "confianza_cony": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "No. Si estás ocupada, hablamos cuando ambos podamos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso me quita un peso de encima."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Quiero seguir conociéndote sin convertir cada conversación en una prueba."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me tinca. Si alguna vez queremos cosas distintas, lo hablamos de frente."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces seguimos sumando momentos buenos, de a poquito."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Ya po. Y no perdai esa confianza con la que me hablai."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La charla se alarga unos minutos. No hay promesas grandes, pero sí ganas reales de volver a conversar."
+          }
+        ]
       },
       {
-        "texto": "Coquetear y seguir el juego.",
+        "texto": "Seguir el coqueteo y ver si Cony te responde.",
         "efectos": {
           "cony": 5,
           "confianza_cony": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Operativo no. Aunque si desaparecís tres días voy a sospechar que encontraste alguien más chistoso."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "JAJA, difícil. Pero capaz solo esté durmiendo."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces te dejo descansar y después me contai qué soñaste."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Ya po. Si me acuerdo y no es demasiado vergonzoso."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "¿Ves? Por estas cosas se me hace corto el rato cuando hablamos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "A mí también. Pero no te vayai a pasar películas: prefiero descubrir las cosas mientras pasan."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Trato hecho. Ni promesas adelantadas ni hacerme el indiferente."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso. Y sigue coqueteando si querís... que yo decido si te sigo el juego."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cony tarda un poco en desconectarse. Antes de irse, deja un último corazón que Cáceres mira sonriendo."
+          }
+        ]
       },
       {
-        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "texto": "Presionarla para definir la relación ahora.",
         "efectos": {
           "cony": -3,
           "confianza_cony": -5,
           "sospecha": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero admití que lo que pasa entre nosotros tiene que terminar en pololeo. Si no, ¿para qué tanto?"
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Oye, ahí me perdís. Que me guste hablar o salir contigo no significa que te deba una relación."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que estábamos acercándonos a eso."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Podemos acercarnos sin llegar a lo mismo. Y si no te sirve, prefiero que me lo digai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Me apuré al darlo por hecho. Perdón."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por reconocerlo. Dejemos que baje un poquito la tensión."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación termina antes de lo habitual. La confianza no desaparece de golpe, pero algo quedó incómodo."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -957,34 +2707,136 @@
       },
       {
         "personaje": "Narrador",
-        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+        "texto": "Hay una pausa breve en el chat. Ninguno de los dos quiere fingir que la conversación no importa."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Tengo algo que decirte y no sé si te va a incomodar. ¿Lo conversamos?"
       }
     ],
     "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: Una conversación incómoda. Dejar espacio para retratos.",
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about una conversación incómoda. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Responder sin asumir que quieren ser pareja.",
+        "texto": "Aceptar el panorama sin expectativas obligatorias.",
         "efectos": {
           "cony": 4,
           "confianza_cony": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Sí. Prefiero una conversación incómoda antes que dejarte sola con la duda."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias. Eso no hace desaparecer el tema, pero ayuda."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Quiero seguir conociéndote sin convertir cada conversación en una prueba."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me tinca. Si alguna vez queremos cosas distintas, lo hablamos de frente."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces seguimos sumando momentos buenos, de a poquito."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Ya po. Y no perdai esa confianza con la que me hablai."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La charla se alarga unos minutos. No hay promesas grandes, pero sí ganas reales de volver a conversar."
+          }
+        ]
       },
       {
-        "texto": "Coquetear y seguir el juego.",
+        "texto": "Seguir el coqueteo y ver si Cony te responde.",
         "efectos": {
           "cony": 5,
           "confianza_cony": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me asusta más que dejes de hablarme a que me digai una verdad difícil."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Ojo, que eso también vale para ti. Nada de hacerse el héroe callado."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Trato. Si meto la pata, me lo decís y lo conversamos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Bien. No necesito perfección; necesito que no nos mintamos."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "¿Ves? Por estas cosas se me hace corto el rato cuando hablamos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "A mí también. Pero no te vayai a pasar películas: prefiero descubrir las cosas mientras pasan."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Trato hecho. Ni promesas adelantadas ni hacerme el indiferente."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso. Y sigue coqueteando si querís... que yo decido si te sigo el juego."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cony tarda un poco en desconectarse. Antes de irse, deja un último corazón que Cáceres mira sonriendo."
+          }
+        ]
       },
       {
-        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "texto": "Presionarla para definir la relación ahora.",
         "efectos": {
           "cony": -3,
           "confianza_cony": -5,
           "sospecha": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero admití que lo que pasa entre nosotros tiene que terminar en pololeo. Si no, ¿para qué tanto?"
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Oye, ahí me perdís. Que me guste hablar o salir contigo no significa que te deba una relación."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que estábamos acercándonos a eso."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Podemos acercarnos sin llegar a lo mismo. Y si no te sirve, prefiero que me lo digai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Me apuré al darlo por hecho. Perdón."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por reconocerlo. Dejemos que baje un poquito la tensión."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación termina antes de lo habitual. La confianza no desaparece de golpe, pero algo quedó incómodo."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -1012,34 +2864,136 @@
       },
       {
         "personaje": "Narrador",
-        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+        "texto": "Hay una pausa breve en el chat. Ninguno de los dos quiere fingir que la conversación no importa."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "¿Qué hacís cuando algo te gusta y al mismo tiempo te da miedo?"
       }
     ],
     "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: Las primeras dudas. Dejar espacio para retratos.",
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about las primeras dudas. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Responder sin asumir que quieren ser pareja.",
+        "texto": "Responder con cariño y sin apurar nada.",
         "efectos": {
           "cony": 4,
           "confianza_cony": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Lo digo. Así no tengo que adivinar lo que siente la otra persona."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me gusta esa valentía tranquila. Es más difícil de lo que parece."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Quiero seguir conociéndote sin convertir cada conversación en una prueba."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me tinca. Si alguna vez queremos cosas distintas, lo hablamos de frente."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces seguimos sumando momentos buenos, de a poquito."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Ya po. Y no perdai esa confianza con la que me hablai."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La charla se alarga unos minutos. No hay promesas grandes, pero sí ganas reales de volver a conversar."
+          }
+        ]
       },
       {
-        "texto": "Coquetear y seguir el juego.",
+        "texto": "Confesarle que te gusta y seguir el coqueteo.",
         "efectos": {
           "cony": 5,
           "confianza_cony": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "En este momento me gustai tú y me da un poquito de miedo decirlo."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Mira al valiente. No sabía que ibai a decirlo tan de frente."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No quería hacerme el desentendido cuando te tengo al frente."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Bueno... a mí también me cuesta dejar de pensar en ti. Pero vamos lento."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "¿Ves? Por estas cosas se me hace corto el rato cuando hablamos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "A mí también. Pero no te vayai a pasar películas: prefiero descubrir las cosas mientras pasan."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Trato hecho. Ni promesas adelantadas ni hacerme el indiferente."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso. Y sigue coqueteando si querís... que yo decido si te sigo el juego."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cony tarda un poco en desconectarse. Antes de irse, deja un último corazón que Cáceres mira sonriendo."
+          }
+        ]
       },
       {
-        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "texto": "Presionarla para definir la relación ahora.",
         "efectos": {
           "cony": -3,
           "confianza_cony": -5,
           "sospecha": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero admití que lo que pasa entre nosotros tiene que terminar en pololeo. Si no, ¿para qué tanto?"
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Oye, ahí me perdís. Que me guste hablar o salir contigo no significa que te deba una relación."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que estábamos acercándonos a eso."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Podemos acercarnos sin llegar a lo mismo. Y si no te sirve, prefiero que me lo digai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Me apuré al darlo por hecho. Perdón."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por reconocerlo. Dejemos que baje un poquito la tensión."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación termina antes de lo habitual. La confianza no desaparece de golpe, pero algo quedó incómodo."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -1067,34 +3021,136 @@
       },
       {
         "personaje": "Narrador",
-        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+        "texto": "Hay una pausa breve en el chat. Ninguno de los dos quiere fingir que la conversación no importa."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Me gusta tener mis propios planes. ¿Eso te complicaría?"
       }
     ],
     "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: La independencia. Dejar espacio para retratos.",
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about la independencia. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Responder sin asumir que quieren ser pareja.",
+        "texto": "Decirle lo que sientes sin imponer etiquetas.",
         "efectos": {
           "cony": 4,
           "confianza_cony": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "No. No quiero que dejes de ser tú para que pasemos tiempo juntos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me quedo con eso. Me costó aprender a cuidar mi espacio."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Quiero seguir conociéndote sin convertir cada conversación en una prueba."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me tinca. Si alguna vez queremos cosas distintas, lo hablamos de frente."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces seguimos sumando momentos buenos, de a poquito."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Ya po. Y no perdai esa confianza con la que me hablai."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La charla se alarga unos minutos. No hay promesas grandes, pero sí ganas reales de volver a conversar."
+          }
+        ]
       },
       {
-        "texto": "Coquetear y seguir el juego.",
+        "texto": "Seguir el coqueteo y ver si Cony te responde.",
         "efectos": {
           "cony": 5,
           "confianza_cony": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Mientras tengai un ratito para reírte conmigo, no me complica que salgai a conquistar el mundo."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "¿Y si vuelvo cansada y cero simpática?"
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Te invito un té, me contai el día o te dejo descansar, como prefirai."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Ay, qué bien vendís la convivencia sin prometerla, JAJA."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "¿Ves? Por estas cosas se me hace corto el rato cuando hablamos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "A mí también. Pero no te vayai a pasar películas: prefiero descubrir las cosas mientras pasan."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Trato hecho. Ni promesas adelantadas ni hacerme el indiferente."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso. Y sigue coqueteando si querís... que yo decido si te sigo el juego."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cony tarda un poco en desconectarse. Antes de irse, deja un último corazón que Cáceres mira sonriendo."
+          }
+        ]
       },
       {
-        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "texto": "Presionarla para definir la relación ahora.",
         "efectos": {
           "cony": -3,
           "confianza_cony": -5,
           "sospecha": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero admití que lo que pasa entre nosotros tiene que terminar en pololeo. Si no, ¿para qué tanto?"
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Oye, ahí me perdís. Que me guste hablar o salir contigo no significa que te deba una relación."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que estábamos acercándonos a eso."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Podemos acercarnos sin llegar a lo mismo. Y si no te sirve, prefiero que me lo digai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Me apuré al darlo por hecho. Perdón."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por reconocerlo. Dejemos que baje un poquito la tensión."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación termina antes de lo habitual. La confianza no desaparece de golpe, pero algo quedó incómodo."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -1122,34 +3178,136 @@
       },
       {
         "personaje": "Narrador",
-        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+        "texto": "Hay una pausa breve en el chat. Ninguno de los dos quiere fingir que la conversación no importa."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Y si un día la química baja, ¿qué hacemos con todo lo demás?"
       }
     ],
     "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: No todo es química. Dejar espacio para retratos.",
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about no todo es química. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Responder sin asumir que quieren ser pareja.",
+        "texto": "Aceptar el panorama sin expectativas obligatorias.",
         "efectos": {
           "cony": 4,
           "confianza_cony": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Conversar. Me importan las personas también cuando no hay mariposas."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso quería escuchar. No somos una escena romántica de película."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Quiero seguir conociéndote sin convertir cada conversación en una prueba."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me tinca. Si alguna vez queremos cosas distintas, lo hablamos de frente."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces seguimos sumando momentos buenos, de a poquito."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Ya po. Y no perdai esa confianza con la que me hablai."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La charla se alarga unos minutos. No hay promesas grandes, pero sí ganas reales de volver a conversar."
+          }
+        ]
       },
       {
-        "texto": "Coquetear y seguir el juego.",
+        "texto": "Seguir el coqueteo y ver si Cony te responde.",
         "efectos": {
           "cony": 5,
           "confianza_cony": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Por suerte conmigo tenís material: chistes malos, paseos y ganas de verte igual."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "El paquete de chistes malos no sé si lo pedí."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Viene incluido. Pero podís devolverlo si no te hace reír."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "No, si ya me encariñé con el desastre."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "¿Ves? Por estas cosas se me hace corto el rato cuando hablamos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "A mí también. Pero no te vayai a pasar películas: prefiero descubrir las cosas mientras pasan."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Trato hecho. Ni promesas adelantadas ni hacerme el indiferente."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso. Y sigue coqueteando si querís... que yo decido si te sigo el juego."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cony tarda un poco en desconectarse. Antes de irse, deja un último corazón que Cáceres mira sonriendo."
+          }
+        ]
       },
       {
-        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "texto": "Presionarla para definir la relación ahora.",
         "efectos": {
           "cony": -3,
           "confianza_cony": -5,
           "sospecha": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero admití que lo que pasa entre nosotros tiene que terminar en pololeo. Si no, ¿para qué tanto?"
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Oye, ahí me perdís. Que me guste hablar o salir contigo no significa que te deba una relación."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que estábamos acercándonos a eso."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Podemos acercarnos sin llegar a lo mismo. Y si no te sirve, prefiero que me lo digai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Me apuré al darlo por hecho. Perdón."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por reconocerlo. Dejemos que baje un poquito la tensión."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación termina antes de lo habitual. La confianza no desaparece de golpe, pero algo quedó incómodo."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -1177,34 +3335,136 @@
       },
       {
         "personaje": "Narrador",
-        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+        "texto": "Hay una pausa breve en el chat. Ninguno de los dos quiere fingir que la conversación no importa."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "¿Teníamos un chiste privado o me lo inventé yo?"
       }
     ],
     "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: El chiste privado. Dejar espacio para retratos.",
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about el chiste privado. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Responder sin asumir que quieren ser pareja.",
+        "texto": "Responder con cariño y sin apurar nada.",
         "efectos": {
           "cony": 4,
           "confianza_cony": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Lo tenemos. Y prefiero que siga siendo nuestro, sin contárselo a todo el mundo."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Qué alivio, porque afuera no lo encontrarían gracioso."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Quiero seguir conociéndote sin convertir cada conversación en una prueba."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me tinca. Si alguna vez queremos cosas distintas, lo hablamos de frente."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces seguimos sumando momentos buenos, de a poquito."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Ya po. Y no perdai esa confianza con la que me hablai."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La charla se alarga unos minutos. No hay promesas grandes, pero sí ganas reales de volver a conversar."
+          }
+        ]
       },
       {
-        "texto": "Coquetear y seguir el juego.",
+        "texto": "Seguir el coqueteo y ver si Cony te responde.",
         "efectos": {
           "cony": 5,
           "confianza_cony": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Me encanta que alguien me mire y nos dé risa la misma estupidez sin explicarla."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso sí es intimidad, ah. Mucho más rara que un beso."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No me obliguís a elegir entre las dos cosas."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "JAJA, tranquilo. Nadie te está tomando examen."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "¿Ves? Por estas cosas se me hace corto el rato cuando hablamos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "A mí también. Pero no te vayai a pasar películas: prefiero descubrir las cosas mientras pasan."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Trato hecho. Ni promesas adelantadas ni hacerme el indiferente."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso. Y sigue coqueteando si querís... que yo decido si te sigo el juego."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cony tarda un poco en desconectarse. Antes de irse, deja un último corazón que Cáceres mira sonriendo."
+          }
+        ]
       },
       {
-        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "texto": "Presionarla para definir la relación ahora.",
         "efectos": {
           "cony": -3,
           "confianza_cony": -5,
           "sospecha": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero admití que lo que pasa entre nosotros tiene que terminar en pololeo. Si no, ¿para qué tanto?"
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Oye, ahí me perdís. Que me guste hablar o salir contigo no significa que te deba una relación."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que estábamos acercándonos a eso."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Podemos acercarnos sin llegar a lo mismo. Y si no te sirve, prefiero que me lo digai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Me apuré al darlo por hecho. Perdón."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por reconocerlo. Dejemos que baje un poquito la tensión."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación termina antes de lo habitual. La confianza no desaparece de golpe, pero algo quedó incómodo."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -1232,34 +3492,136 @@
       },
       {
         "personaje": "Narrador",
-        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+        "texto": "Hay una pausa breve en el chat. Ninguno de los dos quiere fingir que la conversación no importa."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "No sé si estoy cambiando de opinión o si solo me gusta estar contigo. ¿Qué pensai?"
       }
     ],
     "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: Una posibilidad nueva. Dejar espacio para retratos.",
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about una posibilidad nueva. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Responder sin asumir que quieren ser pareja.",
+        "texto": "Decirle lo que sientes sin imponer etiquetas.",
         "efectos": {
           "cony": 4,
           "confianza_cony": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Que no hay que ponerle nombre hoy. Lo que sentís también puede cambiar."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias. Me daba susto que lo tomarai como una promesa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Quiero seguir conociéndote sin convertir cada conversación en una prueba."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me tinca. Si alguna vez queremos cosas distintas, lo hablamos de frente."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces seguimos sumando momentos buenos, de a poquito."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Ya po. Y no perdai esa confianza con la que me hablai."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La charla se alarga unos minutos. No hay promesas grandes, pero sí ganas reales de volver a conversar."
+          }
+        ]
       },
       {
-        "texto": "Coquetear y seguir el juego.",
+        "texto": "Coquetear y darle espacio para decidir a su ritmo.",
         "efectos": {
           "cony": 5,
           "confianza_cony": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pienso que me gusta conocerte incluso cuando no sabemos qué va a pasar."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Pucha, así me cuesta mantener la pose de chica despreocupada."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "No la perdai por mí; si querís te hago reír hasta que vuelva."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "JAJA, no sé si quiero que vuelva tan rápido."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "¿Ves? Por estas cosas se me hace corto el rato cuando hablamos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "A mí también. Pero no te vayai a pasar películas: prefiero descubrir las cosas mientras pasan."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Trato hecho. Ni promesas adelantadas ni hacerme el indiferente."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso. Y sigue coqueteando si querís... que yo decido si te sigo el juego."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cony tarda un poco en desconectarse. Antes de irse, deja un último corazón que Cáceres mira sonriendo."
+          }
+        ]
       },
       {
-        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "texto": "Presionarla para definir la relación ahora.",
         "efectos": {
           "cony": -3,
           "confianza_cony": -5,
           "sospecha": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero admití que lo que pasa entre nosotros tiene que terminar en pololeo. Si no, ¿para qué tanto?"
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Oye, ahí me perdís. Que me guste hablar o salir contigo no significa que te deba una relación."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que estábamos acercándonos a eso."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Podemos acercarnos sin llegar a lo mismo. Y si no te sirve, prefiero que me lo digai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Me apuré al darlo por hecho. Perdón."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por reconocerlo. Dejemos que baje un poquito la tensión."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación termina antes de lo habitual. La confianza no desaparece de golpe, pero algo quedó incómodo."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"
@@ -1287,34 +3649,136 @@
       },
       {
         "personaje": "Narrador",
-        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+        "texto": "Hay una pausa breve en el chat. Ninguno de los dos quiere fingir que la conversación no importa."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Si mañana volvemos a hablar, ¿podemos hacerlo igual de claro?"
       }
     ],
     "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: El mensaje sin máscara. Dejar espacio para retratos.",
     "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about el mensaje sin máscara. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
     "decisiones": [
       {
-        "texto": "Responder sin asumir que quieren ser pareja.",
+        "texto": "Aceptar el panorama sin expectativas obligatorias.",
         "efectos": {
           "cony": 4,
           "confianza_cony": 4,
           "honestidad": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Sí. Sin hacernos los indiferentes ni exigir más de lo que acordemos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Es increíble lo relajante que se siente eso."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Quiero seguir conociéndote sin convertir cada conversación en una prueba."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Me tinca. Si alguna vez queremos cosas distintas, lo hablamos de frente."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Entonces seguimos sumando momentos buenos, de a poquito."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Ya po. Y no perdai esa confianza con la que me hablai."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La charla se alarga unos minutos. No hay promesas grandes, pero sí ganas reales de volver a conversar."
+          }
+        ]
       },
       {
-        "texto": "Coquetear y seguir el juego.",
+        "texto": "Seguir el coqueteo y ver si Cony te responde.",
         "efectos": {
           "cony": 5,
           "confianza_cony": 1
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Podemos hablar claro... pero igual voy a seguir coqueteándote cuando se me antoje."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "No te he dicho que pares, por si acaso."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Qué bueno, porque tengo un montón de cosas lindas que todavía no te digo."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Guárdame algunas para cuando nos veamos. En persona me gusta más."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "¿Ves? Por estas cosas se me hace corto el rato cuando hablamos."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "A mí también. Pero no te vayai a pasar películas: prefiero descubrir las cosas mientras pasan."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Trato hecho. Ni promesas adelantadas ni hacerme el indiferente."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Eso. Y sigue coqueteando si querís... que yo decido si te sigo el juego."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cony tarda un poco en desconectarse. Antes de irse, deja un último corazón que Cáceres mira sonriendo."
+          }
+        ]
       },
       {
-        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "texto": "Presionarla para definir la relación ahora.",
         "efectos": {
           "cony": -3,
           "confianza_cony": -5,
           "sospecha": 2
-        }
+        },
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Pero admití que lo que pasa entre nosotros tiene que terminar en pololeo. Si no, ¿para qué tanto?"
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Oye, ahí me perdís. Que me guste hablar o salir contigo no significa que te deba una relación."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Pensé que estábamos acercándonos a eso."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Podemos acercarnos sin llegar a lo mismo. Y si no te sirve, prefiero que me lo digai."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya. Me apuré al darlo por hecho. Perdón."
+          },
+          {
+            "personaje": "Cony",
+            "texto": "Gracias por reconocerlo. Dejemos que baje un poquito la tensión."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación termina antes de lo habitual. La confianza no desaparece de golpe, pero algo quedó incómodo."
+          }
+        ]
       }
     ],
     "fondo": "habitacion_caceres_dia.png"

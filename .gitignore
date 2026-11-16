@@ -1,5 +1,9 @@
-target/
-distribucion/
-.idea/
+# Builds Java y Windows
+/target/
+/distribucion/
+# Archivos de IntelliJ
+/.idea/
 *.iml
-META-INF/
+# Archivos generados por jpackage y análisis
+/META-INF/
+*.log
