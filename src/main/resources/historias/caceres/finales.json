@@ -1,0 +1,338 @@
+[
+  {
+    "id": "final_lumi",
+    "titulo": "FINAL AZUL — Elegirse sin perderse",
+    "lugar": "Costanera · Un mes después",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "La relación entre Lumi y Max terminó antes de que empezara este romance. Lumi se dio tiempo para recuperar sus propias rutinas."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Te quiero, Cáceres. Mucho. Tanto que a veces me asusta volver a estar pendiente del celular."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Podemos querernos y seguir haciendo nuestras cosas. No quiero que te pierdas por estar conmigo."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Entonces hagamos eso: pareja, exclusividad conversada, y espacios propios."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Se besan frente al mar. No hay un salvador ni una víctima agradecida: dos adultos eligieron una relación y decidieron cuidarla."
+      },
+      {
+        "personaje": "Kevin (mensaje)",
+        "texto": "Oe, ¿y entonces dejaste la soltería? Milagro de la Quinta."
+      },
+      {
+        "personaje": "Seba (mensaje)",
+        "texto": "Déjalo ser feliz, wn. Y que no se olvide de los cabros."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "FIN AZUL: Cáceres y Lumi empiezan una relación. Cony siguió su camino, con un cierre honesto."
+      }
+    ],
+    "direccionVisual": "Plano medio en Costanera · Un mes después. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Viña del Mar seaside promenade sunset. adult blue-haired woman with glasses and adult man holding hands and kissing briefly, sea breeze, hopeful atmosphere. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "costanera_atardecer.png",
+    "cg": "final_azul.png"
+  },
+  {
+    "id": "final_cony_pareja",
+    "titulo": "FINAL ROSA — La que no quería pololear",
+    "lugar": "Plaza de Villa Alemana",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Cony llegó a la historia queriendo algo casual. Nadie la convenció ni la ganó; con el tiempo descubrió que quería explorar otra cosa."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Todavía me parece raro decir «mi pololo». No porque me dé vergüenza, sino porque pensé que no iba a quererlo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Si algún día dejai de quererlo, hablémoslo. No quiero que te sintai encerrada."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Ya, pero por ahora ven acá, tontito."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Cony lo besa en plena plaza. Los dos acuerdan exclusividad y seguir teniendo sus vidas propias."
+      },
+      {
+        "personaje": "Jairo (mensaje)",
+        "texto": "Tengo un formato de Excel para aniversario."
+      },
+      {
+        "personaje": "Kevin (mensaje)",
+        "texto": "QUE ALGUIEN LE QUITE EL COMPUTADOR A ESTE WN."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "FIN ROSA: Cáceres y Cony son pareja por elección mutua. Lo casual no fue un contrato eterno."
+      }
+    ],
+    "direccionVisual": "Plano medio en Plaza de Villa Alemana. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana town plaza daylight. adult couple embracing and kissing, young woman playful confident, everyday romantic ending. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "plaza_villa_alemana.png",
+    "cg": "final_rosa.png"
+  },
+  {
+    "id": "final_cony_casual",
+    "titulo": "FINAL MAGENTA — Sin ponerle nombre",
+    "lugar": "Café · Villa Alemana",
+    "dialogos": [
+      {
+        "personaje": "Cony",
+        "texto": "¿Seguimos en la misma? Me gustai y la paso bien contigo, pero hoy no quiero pololeo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Sí. Y si un día deja de hacerme bien, te lo voy a decir."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Eso. Cero dramas de pololeo imaginario."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Su relación es casual y acordada, sin exclusividad. Se gustan, salen y deciden juntos cuándo hay intimidad. No hay una obligación sexual ni una promesa futura."
+      },
+      {
+        "personaje": "Seba (mensaje)",
+        "texto": "Ojo, hermano, un vínculo casual igual se cuida."
+      },
+      {
+        "personaje": "Kevin (mensaje)",
+        "texto": "Y si querís algo distinto algún día, dilo antes de hacerte el mártir."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "FIN MAGENTA: No son pololos. Son dos adultos que mantienen un vínculo casual por voluntad de ambos."
+      }
+    ],
+    "direccionVisual": "Plano medio en Café · Villa Alemana. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, cozy cafe in Villa Alemana. two fictional adults laughing over coffee, relaxed independent atmosphere, no physical intimacy. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "cafe_vina.png",
+    "cg": "final_magenta.png"
+  },
+  {
+    "id": "final_acuerdos",
+    "titulo": "FINAL VIOLETA — Todas las cartas sobre la mesa",
+    "lugar": "Mesa frente al mar",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Cáceres habló con ambas antes de que existieran compromisos contradictorios. Lumi terminó con Max y eligió explorar un vínculo nuevo; Cony mantuvo su deseo de no ser polola."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Yo te quiero, pero necesito cuidar mis espacios. Y poder decir si esto ya no me hace bien."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "A mí me gustai y acepto seguir viéndote sabiendo que también sales con Lumi. No me prometai lo que no quiero."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Entonces acordamos transparencia, límites, protección y la libertad de cualquiera para cambiar de opinión."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Los tres consienten relaciones no exclusivas entre Cáceres y cada una. Lumi y Cony no son pareja entre sí; nadie asume encuentros sexuales compartidos."
+      },
+      {
+        "personaje": "Jairo (mensaje)",
+        "texto": "¿Y eso lo pongo en una planilla...?"
+      },
+      {
+        "personaje": "Kevin (mensaje)",
+        "texto": "NO, JAIRO."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "FIN VIOLETA: vínculos no exclusivos claros. No significa pareja entre ellas ni escenas íntimas compartidas."
+      }
+    ],
+    "direccionVisual": "Plano medio en Mesa frente al mar. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, bright seaside cafe in Viña del Mar. three adult friends seated at a table with comfortable interpersonal distance, honest conversation and sea in background. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "cafe_vina.png",
+    "cg": "final_violeta.png"
+  },
+  {
+    "id": "final_descubierto",
+    "titulo": "FINAL GRIS — La mentira tiene piernas",
+    "lugar": "Terminal · Valparaíso",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Cáceres intentó evitar una conversación incómoda inventando versiones diferentes de la misma historia."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "No me molesta que hablís con otras personas. Me molesta que mintai cuando te pregunto de frente."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Yo ya venía de una relación donde me ocultaban cosas. No voy a quedarme para repetir eso."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "La cagué. No fue una confusión: elegí esconderlo."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No te vamos a celebrar una cagá porque te caemos bien."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Podís aprender, pero no exigir que te perdonen."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Ambas deciden tomar distancia. El final no castiga el deseo; muestra la consecuencia de mentir."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Yo había dicho que no hiciera Excel... bueno, técnicamente sí lo dije."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "FIN GRIS: Cáceres queda soltero. La confianza no se recupera con un botón."
+      }
+    ],
+    "direccionVisual": "Plano medio en Terminal · Valparaíso. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Valparaiso bus terminal, overcast daylight. adult man standing by himself as two adult women walk away in different directions, nonviolent dramatic scene. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "terminal_valparaiso.png",
+    "cg": "final_gris.png"
+  },
+  {
+    "id": "final_crecimiento",
+    "titulo": "FINAL SECRETO — La Quinta sigue girando",
+    "lugar": "Mirador · Amanecer",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Cáceres cierra un mes lleno de conversaciones, besos posibles y decisiones difíciles. No comienza una relación nueva."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Me gustó conocerlas. Pero también aprendí que puedo estar tranquilo conmigo mismo."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Hermano, eso es más maduro que la mitad de las cosas que dijimos en Discord."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Habla por ti, wn. Yo di consejos de lujo."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Yo propuse lo del Excel. Claramente fui clave."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "LA CONCHETUMARE, JAIRO."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi sigue construyendo su propia vida. Cony sigue decidiendo qué vínculos quiere. Cáceres se reúne con sus amigos para desayunar."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "FIN SECRETO: no es necesario conquistar a nadie para terminar una historia con dignidad."
+      }
+    ],
+    "direccionVisual": "Plano medio en Mirador · Amanecer. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Viña del Mar sunrise lookout. four adult male friends laughing over takeaway breakfasts, warm pastel dawn and hills. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "mirador_vina.png",
+    "cg": "final_secreto.png"
+  },
+  {
+    "id": "final_lumi_max",
+    "titulo": "FINAL ÍNDIGO — Ella decidió quedarse",
+    "lugar": "Parque de Viña",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi eligió intentar otra vez su relación con Max. No fue una decisión de Cáceres; él no podía decidir por ella."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Te agradezco que me escucharas. Sigo intentando entender qué necesito, pero no quiero darte falsas esperanzas."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Está bien. Tampoco voy a quedarme esperando a que cambies de opinión."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Se despiden. Cáceres se aleja sin sentirse dueño de ninguna respuesta."
+      },
+      {
+        "personaje": "Seba (mensaje)",
+        "texto": "No te estacionís sentimentalmente esperando algo que no depende de ti."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "FIN ÍNDIGO: Lumi continúa con Max por ahora. Cáceres sigue su vida."
+      }
+    ],
+    "direccionVisual": "Plano medio en Parque de Viña. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, urban park in Viña del Mar. adult blue-haired woman with glasses and adult man saying friendly goodbye at a crossroads, respectful bittersweet ending. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "parque_vina.png",
+    "cg": "final_indigo.png"
+  },
+  {
+    "id": "final_calvo",
+    "titulo": "FINAL CALVO — La última entrada",
+    "lugar": "Discord · Epílogo",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Treinta días. Docenas de mensajes. Montones de bromas. Ningún acuerdo romántico se convirtió en una relación."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "No voy a mentir: pensé que iba a salir pololeando. Capaz no era el momento."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Estar soltero no es perder, hermano. Pero te pegaste el speedrun de indecisión más largo del mundo."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Lo importante es que no te inventís un final que nadie aceptó."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Yo propongo un DLC de peluquería para cerrar el arco."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "JAIRO CONCHETUMARE."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Se ríen. Cáceres apaga el monitor y sale a vivir otro día."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "FIN CALVO: no hubo romance esta vez, pero sí una historia que recordar."
+      }
+    ],
+    "direccionVisual": "Plano medio en Discord · Epílogo. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, adult bedroom with gaming computer. adult man at computer with friends on virtual voice chat, funny relaxed ending, violet screen glow. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "discord_noche.png",
+    "cg": "final_calvo.png"
+  }
+]

@@ -1,0 +1,96 @@
+.root, .scroll-fondo, .scroll-fondo > .viewport {
+    -fx-background-color: #130f1f;
+    -fx-font-family: "DejaVu Sans", "Arial", sans-serif;
+}
+.label { -fx-text-fill: #f3ebfa; }
+.logo {
+    -fx-text-fill: #efb6fa;
+    -fx-font-size: 55px;
+    -fx-font-weight: bold;
+}
+.subtitulo { -fx-font-size: 16px; -fx-text-fill: #c5b4d9; }
+.etiqueta-caps { -fx-font-size: 12px; -fx-text-fill: #ad91c2; -fx-font-weight: bold; }
+.titulo-tarjeta { -fx-font-size: 27px; -fx-font-weight: bold; }
+.titulo-mediano { -fx-font-size: 28px; -fx-font-weight: bold; -fx-text-fill: #f1c0ff; }
+.acento { -fx-text-fill: #e7b4fa; -fx-font-size: 14px; -fx-font-weight: bold; }
+.texto-suave { -fx-text-fill: #bcaecb; -fx-font-size: 13px; }
+.tarjeta, .panel, .panel-dialogo {
+    -fx-background-color: #241b33;
+    -fx-background-radius: 17px;
+    -fx-border-color: #4a375b;
+    -fx-border-radius: 17px;
+    -fx-border-width: 1px;
+}
+.panel-dialogo { -fx-min-height: 250px; }
+.personaje { -fx-text-fill: #ffb4d8; -fx-font-size: 23px; -fx-font-weight: bold; }
+.dialogo { -fx-text-fill: #f7f0ff; -fx-font-size: 19px; -fx-line-spacing: 4px; }
+.boton-primario, .boton-secundario, .boton-evento {
+    -fx-cursor: hand;
+    -fx-font-size: 15px;
+    -fx-padding: 12px 18px;
+    -fx-background-radius: 10px;
+    -fx-text-fill: #ffffff;
+}
+.boton-primario { -fx-background-color: #705097; }
+.boton-primario:hover { -fx-background-color: #8965b5; }
+.boton-secundario { -fx-background-color: #393049; }
+.boton-secundario:hover { -fx-background-color: #55426a; }
+.boton-evento { -fx-background-color: #312440; -fx-alignment: center-left; }
+.boton-evento:hover { -fx-background-color: #4b365f; }
+.progreso > .track { -fx-background-color: #3a2d4b; }
+.progreso > .bar { -fx-background-color: #cf9de5; }
+.scroll-bar { -fx-background-color: #241b33; }
+.scroll-bar .thumb { -fx-background-color: #5f4a74; -fx-background-radius: 8px; }
+/* v0.5: mejoras de lectura para diálogos largos y control de turnos */
+.titled-pane > .title { -fx-background-color: #2b2238; -fx-padding: 12px; }
+.titled-pane > .title > .text { -fx-fill: #e7c3ef; }
+.titled-pane > .content { -fx-background-color: #241b33; }
+.text-area { -fx-control-inner-background: #1b1727; -fx-text-fill: #ece4f4; -fx-font-size: 13px; }
+.text-area .content { -fx-background-color: #1b1727; }
+
+/* ===== QUINTAVERSO: escenario de novela visual v0.5 gráfica ===== */
+.visor-visual { -fx-background-color: #130f1f; }
+.panel-encabezado-visual {
+    -fx-background-color: rgba(22, 12, 34, 0.87);
+    -fx-background-radius: 0 0 18 18;
+    -fx-border-color: rgba(223, 158, 255, 0.30);
+    -fx-border-width: 0 0 1 0;
+    -fx-border-radius: 0 0 18 18;
+}
+.scroll-dialogos,
+.scroll-dialogos > .viewport {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+.scroll-dialogos .panel-dialogo {
+    -fx-background-color: rgba(20, 13, 32, 0.93);
+    -fx-background-radius: 15px;
+    -fx-border-color: rgba(224, 154, 243, 0.65);
+    -fx-border-width: 1px;
+    -fx-border-radius: 15px;
+    -fx-min-height: 135px;
+}
+.scroll-dialogos .panel {
+    -fx-background-color: rgba(26, 18, 40, .94);
+}
+.scroll-dialogos .titulo-mediano { -fx-font-size: 24px; }
+.scroll-dialogos .personaje { -fx-font-size: 21px; }
+.scroll-dialogos .dialogo { -fx-font-size: 19px; }
+.avatar-faltante {
+    -fx-background-color: rgba(29, 19, 45, .86);
+    -fx-background-radius: 22px;
+    -fx-border-color: rgba(240, 171, 252, .72);
+    -fx-border-radius: 22px;
+    -fx-padding: 24px;
+}
+.avatar-inicial { -fx-text-fill: #f7d7ff; -fx-font-size: 80px; -fx-font-weight: bold; }
+
+.panel-final-visual {
+    -fx-background-color: rgba(18, 12, 30, .91);
+    -fx-background-radius: 20px;
+    -fx-border-color: rgba(234, 161, 255, .65);
+    -fx-border-radius: 20px;
+    -fx-border-width: 1px;
+}
+.panel-final-visual .logo { -fx-font-size: 38px; }
+.panel-final-visual .titulo-mediano { -fx-font-size: 23px; }

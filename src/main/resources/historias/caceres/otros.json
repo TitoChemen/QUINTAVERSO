@@ -1,0 +1,1362 @@
+[
+  {
+    "id": "reflexion_1",
+    "titulo": "Cuaderno: No confundir atracción con obligación",
+    "lugar": "Pieza de Cáceres · Cuaderno",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "La ciudad sigue funcionando al otro lado de la ventana. Cáceres deja el teléfono boca abajo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Se puede tener ganas de besar a alguien sin prometerle una vida entera."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Anota una idea. No la comparte para recibir aprobación. Quiere recordarla."
+      }
+    ],
+    "direccionVisual": "Plano medio en Pieza de Cáceres · Cuaderno. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, bedroom in Villa Alemana at dusk. adult student writing in notebook by the window, contemplative, evening light. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Escribirlo para no olvidarlo.",
+        "efectos": {
+          "claridad": 7,
+          "honestidad": 3
+        }
+      },
+      {
+        "texto": "Dejarlo para después.",
+        "efectos": {
+          "claridad": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "reflexion_2",
+    "titulo": "Cuaderno: La culpa no es brújula",
+    "lugar": "Pieza de Cáceres · Cuaderno",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "La ciudad sigue funcionando al otro lado de la ventana. Cáceres deja el teléfono boca abajo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Sentirte culpable puede señalar un error, pero no reemplaza decir la verdad."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Anota una idea. No la comparte para recibir aprobación. Quiere recordarla."
+      }
+    ],
+    "direccionVisual": "Plano medio en Pieza de Cáceres · Cuaderno. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, bedroom in Villa Alemana at dusk. adult student writing in notebook by the window, contemplative, evening light. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Escribirlo para no olvidarlo.",
+        "efectos": {
+          "claridad": 7,
+          "honestidad": 3
+        }
+      },
+      {
+        "texto": "Dejarlo para después.",
+        "efectos": {
+          "claridad": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "reflexion_3",
+    "titulo": "Cuaderno: Lo que no sabes",
+    "lugar": "Pieza de Cáceres · Cuaderno",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "La ciudad sigue funcionando al otro lado de la ventana. Cáceres deja el teléfono boca abajo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Quizás todavía no sabes con quién quieres estar. Eso también se puede reconocer."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Anota una idea. No la comparte para recibir aprobación. Quiere recordarla."
+      }
+    ],
+    "direccionVisual": "Plano medio en Pieza de Cáceres · Cuaderno. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, bedroom in Villa Alemana at dusk. adult student writing in notebook by the window, contemplative, evening light. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Escribirlo para no olvidarlo.",
+        "efectos": {
+          "claridad": 7,
+          "honestidad": 3
+        }
+      },
+      {
+        "texto": "Dejarlo para después.",
+        "efectos": {
+          "claridad": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "reflexion_4",
+    "titulo": "Cuaderno: No eres el salvador de nadie",
+    "lugar": "Pieza de Cáceres · Cuaderno",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "La ciudad sigue funcionando al otro lado de la ventana. Cáceres deja el teléfono boca abajo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Escuchar a Lumi no convierte su conflicto con Max en un problema que debas solucionar."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Anota una idea. No la comparte para recibir aprobación. Quiere recordarla."
+      }
+    ],
+    "direccionVisual": "Plano medio en Pieza de Cáceres · Cuaderno. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, bedroom in Villa Alemana at dusk. adult student writing in notebook by the window, contemplative, evening light. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Escribirlo para no olvidarlo.",
+        "efectos": {
+          "claridad": 7,
+          "honestidad": 3
+        }
+      },
+      {
+        "texto": "Dejarlo para después.",
+        "efectos": {
+          "claridad": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "reflexion_5",
+    "titulo": "Cuaderno: Cony no es una apuesta",
+    "lugar": "Pieza de Cáceres · Cuaderno",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "La ciudad sigue funcionando al otro lado de la ventana. Cáceres deja el teléfono boca abajo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Que quiera algo casual no significa que debas tratarla como una conquista."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Anota una idea. No la comparte para recibir aprobación. Quiere recordarla."
+      }
+    ],
+    "direccionVisual": "Plano medio en Pieza de Cáceres · Cuaderno. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, bedroom in Villa Alemana at dusk. adult student writing in notebook by the window, contemplative, evening light. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Escribirlo para no olvidarlo.",
+        "efectos": {
+          "claridad": 7,
+          "honestidad": 3
+        }
+      },
+      {
+        "texto": "Dejarlo para después.",
+        "efectos": {
+          "claridad": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "reflexion_6",
+    "titulo": "Cuaderno: Tus amigos te conocen",
+    "lugar": "Pieza de Cáceres · Cuaderno",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "La ciudad sigue funcionando al otro lado de la ventana. Cáceres deja el teléfono boca abajo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Kevin y Seba molestan, pero también te dicen cuándo estás esquivando lo evidente."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Anota una idea. No la comparte para recibir aprobación. Quiere recordarla."
+      }
+    ],
+    "direccionVisual": "Plano medio en Pieza de Cáceres · Cuaderno. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, bedroom in Villa Alemana at dusk. adult student writing in notebook by the window, contemplative, evening light. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Escribirlo para no olvidarlo.",
+        "efectos": {
+          "claridad": 7,
+          "honestidad": 3
+        }
+      },
+      {
+        "texto": "Dejarlo para después.",
+        "efectos": {
+          "claridad": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "reflexion_7",
+    "titulo": "Cuaderno: La primera mentira",
+    "lugar": "Pieza de Cáceres · Cuaderno",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "La ciudad sigue funcionando al otro lado de la ventana. Cáceres deja el teléfono boca abajo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Muchas mentiras empiezan con ganas de evitar una conversación incómoda."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Anota una idea. No la comparte para recibir aprobación. Quiere recordarla."
+      }
+    ],
+    "direccionVisual": "Plano medio en Pieza de Cáceres · Cuaderno. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, bedroom in Villa Alemana at dusk. adult student writing in notebook by the window, contemplative, evening light. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Escribirlo para no olvidarlo.",
+        "efectos": {
+          "claridad": 7,
+          "honestidad": 3
+        }
+      },
+      {
+        "texto": "Dejarlo para después.",
+        "efectos": {
+          "claridad": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "reflexion_8",
+    "titulo": "Cuaderno: La libertad",
+    "lugar": "Pieza de Cáceres · Cuaderno",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "La ciudad sigue funcionando al otro lado de la ventana. Cáceres deja el teléfono boca abajo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Elegir con quién estar incluye aceptar que otras personas también pueden decir que no."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Anota una idea. No la comparte para recibir aprobación. Quiere recordarla."
+      }
+    ],
+    "direccionVisual": "Plano medio en Pieza de Cáceres · Cuaderno. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, bedroom in Villa Alemana at dusk. adult student writing in notebook by the window, contemplative, evening light. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Escribirlo para no olvidarlo.",
+        "efectos": {
+          "claridad": 7,
+          "honestidad": 3
+        }
+      },
+      {
+        "texto": "Dejarlo para después.",
+        "efectos": {
+          "claridad": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "reflexion_9",
+    "titulo": "Cuaderno: El deseo y el después",
+    "lugar": "Pieza de Cáceres · Cuaderno",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "La ciudad sigue funcionando al otro lado de la ventana. Cáceres deja el teléfono boca abajo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Una noche deseada puede ser bonita sin volverse una promesa que nadie hizo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Anota una idea. No la comparte para recibir aprobación. Quiere recordarla."
+      }
+    ],
+    "direccionVisual": "Plano medio en Pieza de Cáceres · Cuaderno. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, bedroom in Villa Alemana at dusk. adult student writing in notebook by the window, contemplative, evening light. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Escribirlo para no olvidarlo.",
+        "efectos": {
+          "claridad": 7,
+          "honestidad": 3
+        }
+      },
+      {
+        "texto": "Dejarlo para después.",
+        "efectos": {
+          "claridad": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "reflexion_10",
+    "titulo": "Cuaderno: Aprender a estar solo",
+    "lugar": "Pieza de Cáceres · Cuaderno",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "La ciudad sigue funcionando al otro lado de la ventana. Cáceres deja el teléfono boca abajo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "La soledad no es un castigo ni un final malo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Anota una idea. No la comparte para recibir aprobación. Quiere recordarla."
+      }
+    ],
+    "direccionVisual": "Plano medio en Pieza de Cáceres · Cuaderno. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, bedroom in Villa Alemana at dusk. adult student writing in notebook by the window, contemplative, evening light. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Escribirlo para no olvidarlo.",
+        "efectos": {
+          "claridad": 7,
+          "honestidad": 3
+        }
+      },
+      {
+        "texto": "Dejarlo para después.",
+        "efectos": {
+          "claridad": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "reflexion_11",
+    "titulo": "Cuaderno: El miedo a perder",
+    "lugar": "Pieza de Cáceres · Cuaderno",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "La ciudad sigue funcionando al otro lado de la ventana. Cáceres deja el teléfono boca abajo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "No puedes conservar a alguien a fuerza de controlar sus decisiones."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Anota una idea. No la comparte para recibir aprobación. Quiere recordarla."
+      }
+    ],
+    "direccionVisual": "Plano medio en Pieza de Cáceres · Cuaderno. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, bedroom in Villa Alemana at dusk. adult student writing in notebook by the window, contemplative, evening light. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Escribirlo para no olvidarlo.",
+        "efectos": {
+          "claridad": 7,
+          "honestidad": 3
+        }
+      },
+      {
+        "texto": "Dejarlo para después.",
+        "efectos": {
+          "claridad": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "reflexion_12",
+    "titulo": "Cuaderno: El cierre",
+    "lugar": "Pieza de Cáceres · Cuaderno",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "La ciudad sigue funcionando al otro lado de la ventana. Cáceres deja el teléfono boca abajo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Un buen final no es sumar dos corazones. Es entender lo que realmente acordaron."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Anota una idea. No la comparte para recibir aprobación. Quiere recordarla."
+      }
+    ],
+    "direccionVisual": "Plano medio en Pieza de Cáceres · Cuaderno. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, bedroom in Villa Alemana at dusk. adult student writing in notebook by the window, contemplative, evening light. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Escribirlo para no olvidarlo.",
+        "efectos": {
+          "claridad": 7,
+          "honestidad": 3
+        }
+      },
+      {
+        "texto": "Dejarlo para después.",
+        "efectos": {
+          "claridad": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "paseo_1",
+    "titulo": "Caminata: Plaza de Villa Alemana",
+    "lugar": "Plaza de Villa Alemana · Quinta Región",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Los niños juegan a lo lejos y el viento mueve las hojas. Cáceres aprende a caminar sin mirar cada notificación."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Tenía que salir un rato. Estoy pensando demasiado en los chats."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Respira, mira alrededor y recuerda que su vida es más grande que una conversación."
+      }
+    ],
+    "direccionVisual": "Plano medio en Plaza de Villa Alemana · Quinta Región. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Plaza de Villa Alemana, coastal central Chile. adult young man walking alone thoughtfully on Plaza de Villa Alemana, realistic urban Chilean ambience. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Volver con la mente más clara.",
+        "efectos": {
+          "claridad": 5,
+          "sospecha": -2
+        }
+      },
+      {
+        "texto": "Compartir una talla con los cabros.",
+        "efectos": {
+          "amistad": 3,
+          "claridad": 2
+        }
+      }
+    ],
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "paseo_2",
+    "titulo": "Caminata: Micro a Viña",
+    "lugar": "Micro a Viña · Quinta Región",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Una pareja se ríe al fondo de la micro. Cáceres sonríe y se pone audífonos."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Tenía que salir un rato. Estoy pensando demasiado en los chats."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Respira, mira alrededor y recuerda que su vida es más grande que una conversación."
+      }
+    ],
+    "direccionVisual": "Plano medio en Micro a Viña · Quinta Región. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Micro a Viña, coastal central Chile. adult young man walking alone thoughtfully on Micro a Viña, realistic urban Chilean ambience. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Volver con la mente más clara.",
+        "efectos": {
+          "claridad": 5,
+          "sospecha": -2
+        }
+      },
+      {
+        "texto": "Compartir una talla con los cabros.",
+        "efectos": {
+          "amistad": 3,
+          "claridad": 2
+        }
+      }
+    ],
+    "fondo": "terminal_valparaiso.png"
+  },
+  {
+    "id": "paseo_3",
+    "titulo": "Caminata: Costanera",
+    "lugar": "Costanera · Quinta Región",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "La brisa salada le despeina lo poco que le queda de dignidad; el mar no opina de su vida romántica."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Tenía que salir un rato. Estoy pensando demasiado en los chats."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Respira, mira alrededor y recuerda que su vida es más grande que una conversación."
+      }
+    ],
+    "direccionVisual": "Plano medio en Costanera · Quinta Región. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Costanera, coastal central Chile. adult young man walking alone thoughtfully on Costanera, realistic urban Chilean ambience. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Volver con la mente más clara.",
+        "efectos": {
+          "claridad": 5,
+          "sospecha": -2
+        }
+      },
+      {
+        "texto": "Compartir una talla con los cabros.",
+        "efectos": {
+          "amistad": 3,
+          "claridad": 2
+        }
+      }
+    ],
+    "fondo": "costanera_atardecer.png"
+  },
+  {
+    "id": "paseo_4",
+    "titulo": "Caminata: Café pequeño",
+    "lugar": "Café pequeño · Quinta Región",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Pide un café y escucha conversaciones que no tienen nada que ver con él."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Tenía que salir un rato. Estoy pensando demasiado en los chats."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Respira, mira alrededor y recuerda que su vida es más grande que una conversación."
+      }
+    ],
+    "direccionVisual": "Plano medio en Café pequeño · Quinta Región. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Café pequeño, coastal central Chile. adult young man walking alone thoughtfully on Café pequeño, realistic urban Chilean ambience. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Volver con la mente más clara.",
+        "efectos": {
+          "claridad": 5,
+          "sospecha": -2
+        }
+      },
+      {
+        "texto": "Compartir una talla con los cabros.",
+        "efectos": {
+          "amistad": 3,
+          "claridad": 2
+        }
+      }
+    ],
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "paseo_5",
+    "titulo": "Caminata: Plaza Victoria",
+    "lugar": "Plaza Victoria · Quinta Región",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Valparaíso va a su ritmo. Nadie se detiene a resolverle su corazón."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Tenía que salir un rato. Estoy pensando demasiado en los chats."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Respira, mira alrededor y recuerda que su vida es más grande que una conversación."
+      }
+    ],
+    "direccionVisual": "Plano medio en Plaza Victoria · Quinta Región. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Plaza Victoria, coastal central Chile. adult young man walking alone thoughtfully on Plaza Victoria, realistic urban Chilean ambience. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Volver con la mente más clara.",
+        "efectos": {
+          "claridad": 5,
+          "sospecha": -2
+        }
+      },
+      {
+        "texto": "Compartir una talla con los cabros.",
+        "efectos": {
+          "amistad": 3,
+          "claridad": 2
+        }
+      }
+    ],
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "paseo_6",
+    "titulo": "Caminata: Parque de noche",
+    "lugar": "Parque de noche · Quinta Región",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Los postes alumbran el camino. Cáceres recuerda una conversación incómoda y piensa cómo decir la verdad."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Tenía que salir un rato. Estoy pensando demasiado en los chats."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Respira, mira alrededor y recuerda que su vida es más grande que una conversación."
+      }
+    ],
+    "direccionVisual": "Plano medio en Parque de noche · Quinta Región. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Parque de noche, coastal central Chile. adult young man walking alone thoughtfully on Parque de noche, realistic urban Chilean ambience. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Volver con la mente más clara.",
+        "efectos": {
+          "claridad": 5,
+          "sospecha": -2
+        }
+      },
+      {
+        "texto": "Compartir una talla con los cabros.",
+        "efectos": {
+          "amistad": 3,
+          "claridad": 2
+        }
+      }
+    ],
+    "fondo": "parque_vina.png"
+  },
+  {
+    "id": "paseo_7",
+    "titulo": "Caminata: Terminal",
+    "lugar": "Terminal · Quinta Región",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Mira las micros salir y entrar. Qué fácil sería cambiarse de destino solo con pagar otro pasaje."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Tenía que salir un rato. Estoy pensando demasiado en los chats."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Respira, mira alrededor y recuerda que su vida es más grande que una conversación."
+      }
+    ],
+    "direccionVisual": "Plano medio en Terminal · Quinta Región. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Terminal, coastal central Chile. adult young man walking alone thoughtfully on Terminal, realistic urban Chilean ambience. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Volver con la mente más clara.",
+        "efectos": {
+          "claridad": 5,
+          "sospecha": -2
+        }
+      },
+      {
+        "texto": "Compartir una talla con los cabros.",
+        "efectos": {
+          "amistad": 3,
+          "claridad": 2
+        }
+      }
+    ],
+    "fondo": "terminal_valparaiso.png"
+  },
+  {
+    "id": "paseo_8",
+    "titulo": "Caminata: Feria",
+    "lugar": "Feria · Quinta Región",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Una vendedora le ofrece flores. Cáceres compra una para su propia pieza."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Tenía que salir un rato. Estoy pensando demasiado en los chats."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Respira, mira alrededor y recuerda que su vida es más grande que una conversación."
+      }
+    ],
+    "direccionVisual": "Plano medio en Feria · Quinta Región. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Feria, coastal central Chile. adult young man walking alone thoughtfully on Feria, realistic urban Chilean ambience. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Volver con la mente más clara.",
+        "efectos": {
+          "claridad": 5,
+          "sospecha": -2
+        }
+      },
+      {
+        "texto": "Compartir una talla con los cabros.",
+        "efectos": {
+          "amistad": 3,
+          "claridad": 2
+        }
+      }
+    ],
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "paseo_9",
+    "titulo": "Caminata: Mirador",
+    "lugar": "Mirador · Quinta Región",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Las luces de la Quinta empiezan a encenderse. No hay respuestas mágicas desde arriba."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Tenía que salir un rato. Estoy pensando demasiado en los chats."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Respira, mira alrededor y recuerda que su vida es más grande que una conversación."
+      }
+    ],
+    "direccionVisual": "Plano medio en Mirador · Quinta Región. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Mirador, coastal central Chile. adult young man walking alone thoughtfully on Mirador, realistic urban Chilean ambience. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Volver con la mente más clara.",
+        "efectos": {
+          "claridad": 5,
+          "sospecha": -2
+        }
+      },
+      {
+        "texto": "Compartir una talla con los cabros.",
+        "efectos": {
+          "amistad": 3,
+          "claridad": 2
+        }
+      }
+    ],
+    "fondo": "mirador_vina.png"
+  },
+  {
+    "id": "paseo_10",
+    "titulo": "Caminata: Paseo corto",
+    "lugar": "Paseo corto · Quinta Región",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Hace calor. Compra agua y vuelve a casa con la cabeza un poco más ordenada."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Tenía que salir un rato. Estoy pensando demasiado en los chats."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Respira, mira alrededor y recuerda que su vida es más grande que una conversación."
+      }
+    ],
+    "direccionVisual": "Plano medio en Paseo corto · Quinta Región. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Paseo corto, coastal central Chile. adult young man walking alone thoughtfully on Paseo corto, realistic urban Chilean ambience. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Volver con la mente más clara.",
+        "efectos": {
+          "claridad": 5,
+          "sospecha": -2
+        }
+      },
+      {
+        "texto": "Compartir una talla con los cabros.",
+        "efectos": {
+          "amistad": 3,
+          "claridad": 2
+        }
+      }
+    ],
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "paseo_11",
+    "titulo": "Caminata: Bajada al mar",
+    "lugar": "Bajada al mar · Quinta Región",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Se sienta en un muro y mira cómo pasan las nubes. Se permite no tener un plan perfecto."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Tenía que salir un rato. Estoy pensando demasiado en los chats."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Respira, mira alrededor y recuerda que su vida es más grande que una conversación."
+      }
+    ],
+    "direccionVisual": "Plano medio en Bajada al mar · Quinta Región. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Bajada al mar, coastal central Chile. adult young man walking alone thoughtfully on Bajada al mar, realistic urban Chilean ambience. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Volver con la mente más clara.",
+        "efectos": {
+          "claridad": 5,
+          "sospecha": -2
+        }
+      },
+      {
+        "texto": "Compartir una talla con los cabros.",
+        "efectos": {
+          "amistad": 3,
+          "claridad": 2
+        }
+      }
+    ],
+    "fondo": "costanera_atardecer.png"
+  },
+  {
+    "id": "paseo_12",
+    "titulo": "Caminata: Ruta de vuelta",
+    "lugar": "Ruta de vuelta · Quinta Región",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Ya conoce cada curva del camino. Lo que aún no conoce son todas sus propias decisiones."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Tenía que salir un rato. Estoy pensando demasiado en los chats."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Respira, mira alrededor y recuerda que su vida es más grande que una conversación."
+      }
+    ],
+    "direccionVisual": "Plano medio en Ruta de vuelta · Quinta Región. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Ruta de vuelta, coastal central Chile. adult young man walking alone thoughtfully on Ruta de vuelta, realistic urban Chilean ambience. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Volver con la mente más clara.",
+        "efectos": {
+          "claridad": 5,
+          "sospecha": -2
+        }
+      },
+      {
+        "texto": "Compartir una talla con los cabros.",
+        "efectos": {
+          "amistad": 3,
+          "claridad": 2
+        }
+      }
+    ],
+    "fondo": "terminal_valparaiso.png"
+  },
+  {
+    "id": "lumi_rutina_1",
+    "titulo": "Un momento de rutina",
+    "lugar": "Quinta Región · Día cotidiano",
+    "dialogos": [
+      {
+        "personaje": "Lumi",
+        "texto": "Hoy estoy a full, después te cuento cómo me fue."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No ocurre un gran evento. A veces el tiempo pasa y eso está bien."
+      }
+    ],
+    "direccionVisual": "Plano medio en Quinta Región · Día cotidiano. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Terminar y seguir con el día."
+      }
+    ],
+    "fondo": "costanera_atardecer.png"
+  },
+  {
+    "id": "lumi_rutina_2",
+    "titulo": "Un momento de rutina",
+    "lugar": "Quinta Región · Día cotidiano",
+    "dialogos": [
+      {
+        "personaje": "Lumi",
+        "texto": "Me fue bien en algo que me importaba. Quería compartirlo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No ocurre un gran evento. A veces el tiempo pasa y eso está bien."
+      }
+    ],
+    "direccionVisual": "Plano medio en Quinta Región · Día cotidiano. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Terminar y seguir con el día."
+      }
+    ],
+    "fondo": "parque_vina.png"
+  },
+  {
+    "id": "lumi_rutina_3",
+    "titulo": "Un momento de rutina",
+    "lugar": "Quinta Región · Día cotidiano",
+    "dialogos": [
+      {
+        "personaje": "Lumi",
+        "texto": "Voy a pasar la tarde con mis cosas. Hablamos después."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No ocurre un gran evento. A veces el tiempo pasa y eso está bien."
+      }
+    ],
+    "direccionVisual": "Plano medio en Quinta Región · Día cotidiano. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Terminar y seguir con el día."
+      }
+    ],
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "lumi_rutina_4",
+    "titulo": "Un momento de rutina",
+    "lugar": "Quinta Región · Día cotidiano",
+    "dialogos": [
+      {
+        "personaje": "Lumi",
+        "texto": "Hoy quiero una conversación liviana, sin analizar la vida."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No ocurre un gran evento. A veces el tiempo pasa y eso está bien."
+      }
+    ],
+    "direccionVisual": "Plano medio en Quinta Región · Día cotidiano. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Terminar y seguir con el día."
+      }
+    ],
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "cony_rutina_1",
+    "titulo": "Un momento de rutina",
+    "lugar": "Quinta Región · Día cotidiano",
+    "dialogos": [
+      {
+        "personaje": "Cony",
+        "texto": "Ando en otra, pero te mando un saludo jajaja."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No ocurre un gran evento. A veces el tiempo pasa y eso está bien."
+      }
+    ],
+    "direccionVisual": "Plano medio en Quinta Región · Día cotidiano. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Terminar y seguir con el día."
+      }
+    ],
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "cony_rutina_2",
+    "titulo": "Un momento de rutina",
+    "lugar": "Quinta Región · Día cotidiano",
+    "dialogos": [
+      {
+        "personaje": "Cony",
+        "texto": "Hoy me reí acordándome de una talla tuya."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No ocurre un gran evento. A veces el tiempo pasa y eso está bien."
+      }
+    ],
+    "direccionVisual": "Plano medio en Quinta Región · Día cotidiano. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Terminar y seguir con el día."
+      }
+    ],
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "cony_rutina_3",
+    "titulo": "Un momento de rutina",
+    "lugar": "Quinta Región · Día cotidiano",
+    "dialogos": [
+      {
+        "personaje": "Cony",
+        "texto": "Voy a salir con unas amigas; hablamos después."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No ocurre un gran evento. A veces el tiempo pasa y eso está bien."
+      }
+    ],
+    "direccionVisual": "Plano medio en Quinta Región · Día cotidiano. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Terminar y seguir con el día."
+      }
+    ],
+    "fondo": "costanera_atardecer.png"
+  },
+  {
+    "id": "cony_rutina_4",
+    "titulo": "Un momento de rutina",
+    "lugar": "Quinta Región · Día cotidiano",
+    "dialogos": [
+      {
+        "personaje": "Cony",
+        "texto": "Estoy ocupada, pero me gusta conversar sin presiones."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No ocurre un gran evento. A veces el tiempo pasa y eso está bien."
+      }
+    ],
+    "direccionVisual": "Plano medio en Quinta Región · Día cotidiano. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Terminar y seguir con el día."
+      }
+    ],
+    "fondo": "parque_vina.png"
+  },
+  {
+    "id": "discord_rutina_1",
+    "titulo": "Un momento de rutina",
+    "lugar": "Quinta Región · Día cotidiano",
+    "dialogos": [
+      {
+        "personaje": "Kevin",
+        "texto": "Oe wn, ¿qué tal la vida? ¿Seguís con las mismas preguntas?"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No ocurre un gran evento. A veces el tiempo pasa y eso está bien."
+      }
+    ],
+    "direccionVisual": "Plano medio en Quinta Región · Día cotidiano. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Terminar y seguir con el día."
+      }
+    ],
+    "fondo": "parque_vina.png"
+  },
+  {
+    "id": "discord_rutina_2",
+    "titulo": "Un momento de rutina",
+    "lugar": "Quinta Región · Día cotidiano",
+    "dialogos": [
+      {
+        "personaje": "Kevin",
+        "texto": "Hoy solo vinimos a jugar, sin terapia sentimental."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No ocurre un gran evento. A veces el tiempo pasa y eso está bien."
+      }
+    ],
+    "direccionVisual": "Plano medio en Quinta Región · Día cotidiano. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Terminar y seguir con el día."
+      }
+    ],
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "discord_rutina_3",
+    "titulo": "Un momento de rutina",
+    "lugar": "Quinta Región · Día cotidiano",
+    "dialogos": [
+      {
+        "personaje": "Kevin",
+        "texto": "El Jairo tiene una teoría nueva y es una aberración."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No ocurre un gran evento. A veces el tiempo pasa y eso está bien."
+      }
+    ],
+    "direccionVisual": "Plano medio en Quinta Región · Día cotidiano. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Terminar y seguir con el día."
+      }
+    ],
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "discord_rutina_4",
+    "titulo": "Un momento de rutina",
+    "lugar": "Quinta Región · Día cotidiano",
+    "dialogos": [
+      {
+        "personaje": "Kevin",
+        "texto": "No te olvidís de vivir fuera del celular."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No ocurre un gran evento. A veces el tiempo pasa y eso está bien."
+      }
+    ],
+    "direccionVisual": "Plano medio en Quinta Región · Día cotidiano. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Terminar y seguir con el día."
+      }
+    ],
+    "fondo": "costanera_atardecer.png"
+  },
+  {
+    "id": "reflexion_rutina_1",
+    "titulo": "Un momento de rutina",
+    "lugar": "Quinta Región · Día cotidiano",
+    "dialogos": [
+      {
+        "personaje": "Cáceres",
+        "texto": "Hoy basta con no complicar más las cosas."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No ocurre un gran evento. A veces el tiempo pasa y eso está bien."
+      }
+    ],
+    "direccionVisual": "Plano medio en Quinta Región · Día cotidiano. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Terminar y seguir con el día."
+      }
+    ],
+    "fondo": "parque_vina.png"
+  },
+  {
+    "id": "reflexion_rutina_2",
+    "titulo": "Un momento de rutina",
+    "lugar": "Quinta Región · Día cotidiano",
+    "dialogos": [
+      {
+        "personaje": "Cáceres",
+        "texto": "La calma también es una buena decisión."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No ocurre un gran evento. A veces el tiempo pasa y eso está bien."
+      }
+    ],
+    "direccionVisual": "Plano medio en Quinta Región · Día cotidiano. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Terminar y seguir con el día."
+      }
+    ],
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "reflexion_rutina_3",
+    "titulo": "Un momento de rutina",
+    "lugar": "Quinta Región · Día cotidiano",
+    "dialogos": [
+      {
+        "personaje": "Cáceres",
+        "texto": "No necesito inventar una respuesta ahora."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No ocurre un gran evento. A veces el tiempo pasa y eso está bien."
+      }
+    ],
+    "direccionVisual": "Plano medio en Quinta Región · Día cotidiano. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Terminar y seguir con el día."
+      }
+    ],
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "reflexion_rutina_4",
+    "titulo": "Un momento de rutina",
+    "lugar": "Quinta Región · Día cotidiano",
+    "dialogos": [
+      {
+        "personaje": "Cáceres",
+        "texto": "Tengo derecho a cambiar de opinión, con respeto."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No ocurre un gran evento. A veces el tiempo pasa y eso está bien."
+      }
+    ],
+    "direccionVisual": "Plano medio en Quinta Región · Día cotidiano. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Terminar y seguir con el día."
+      }
+    ],
+    "fondo": "costanera_atardecer.png"
+  },
+  {
+    "id": "paseo_rutina_1",
+    "titulo": "Un momento de rutina",
+    "lugar": "Quinta Región · Día cotidiano",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "La ciudad cambia mientras caminas sin apuro."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No ocurre un gran evento. A veces el tiempo pasa y eso está bien."
+      }
+    ],
+    "direccionVisual": "Plano medio en Quinta Región · Día cotidiano. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Terminar y seguir con el día."
+      }
+    ],
+    "fondo": "parque_vina.png"
+  },
+  {
+    "id": "paseo_rutina_2",
+    "titulo": "Un momento de rutina",
+    "lugar": "Quinta Región · Día cotidiano",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Hay un poco de viento y poca prisa."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No ocurre un gran evento. A veces el tiempo pasa y eso está bien."
+      }
+    ],
+    "direccionVisual": "Plano medio en Quinta Región · Día cotidiano. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Terminar y seguir con el día."
+      }
+    ],
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "paseo_rutina_3",
+    "titulo": "Un momento de rutina",
+    "lugar": "Quinta Región · Día cotidiano",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Un paseo no resuelve todo, pero ayuda."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No ocurre un gran evento. A veces el tiempo pasa y eso está bien."
+      }
+    ],
+    "direccionVisual": "Plano medio en Quinta Región · Día cotidiano. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Terminar y seguir con el día."
+      }
+    ],
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "paseo_rutina_4",
+    "titulo": "Un momento de rutina",
+    "lugar": "Quinta Región · Día cotidiano",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El ruido de la calle se mezcla con tus pensamientos."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No ocurre un gran evento. A veces el tiempo pasa y eso está bien."
+      }
+    ],
+    "direccionVisual": "Plano medio en Quinta Región · Día cotidiano. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, central Chile, ordinary day. adult character taking a short break in an everyday quiet moment. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Terminar y seguir con el día."
+      }
+    ],
+    "fondo": "costanera_atardecer.png"
+  }
+]

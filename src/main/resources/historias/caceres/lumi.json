@@ -1,0 +1,1322 @@
+[
+  {
+    "id": "lumi_1",
+    "titulo": "Chat con Lumi: Autonomía de un lunes",
+    "lugar": "Chat · Lumi",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El celular vibra. Esta vez la conversación empieza por algo propio de Lumi: autonomía de un lunes."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Mi agenda está llena y me encanta. Me carga cuando alguien cree que estar de pareja significa hacer todo juntos."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Eso no cambia que a veces quiera pasarme una tarde entera abrazada a alguien."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "No tienes que elegir entre independencia y cariño."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      }
+    ],
+    "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: Autonomía de un lunes. Alternar detalles del día y reacciones auténticas.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Viña del Mar, Chile, slice-of-life scene. adult independent blue-haired woman with glasses engaged in her own day; scene focused on autonomía de un lunes, phone message overlay space. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, grounded, character-driven, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Seguir conversando y escuchar de verdad.",
+        "efectos": {
+          "lumi": 4,
+          "confianza_lumi": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Tirar una talla para aliviar la tensión.",
+        "efectos": {
+          "lumi": 3,
+          "amistad": 1
+        }
+      },
+      {
+        "texto": "Cambiar el tema a «¿y Max?».",
+        "efectos": {
+          "lumi": -2,
+          "confianza_lumi": -4,
+          "sospecha": 1
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "lumi_2",
+    "titulo": "Chat con Lumi: La playlist imposible",
+    "lugar": "Chat · Lumi",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El celular vibra. Esta vez la conversación empieza por algo propio de Lumi: la playlist imposible."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Hice una playlist para caminar sola por Viña. Pasé de música triste a perreo en tres canciones."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "El algoritmo cree que soy cuatro personas distintas."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Pásame esa playlist, quiero conocer esas cuatro versiones."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      }
+    ],
+    "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: La playlist imposible. Alternar detalles del día y reacciones auténticas.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Viña del Mar, Chile, slice-of-life scene. adult independent blue-haired woman with glasses engaged in her own day; scene focused on la playlist imposible, phone message overlay space. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, grounded, character-driven, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Seguir conversando y escuchar de verdad.",
+        "efectos": {
+          "lumi": 4,
+          "confianza_lumi": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Tirar una talla para aliviar la tensión.",
+        "efectos": {
+          "lumi": 3,
+          "amistad": 1
+        }
+      },
+      {
+        "texto": "Cambiar el tema a «¿y Max?».",
+        "efectos": {
+          "lumi": -2,
+          "confianza_lumi": -4,
+          "sospecha": 1
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "lumi_3",
+    "titulo": "Chat con Lumi: Desayuno sin apuro",
+    "lugar": "Chat · Lumi",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El celular vibra. Esta vez la conversación empieza por algo propio de Lumi: desayuno sin apuro."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Hoy me preparé desayuno antes de revisar el celular. Parece una estupidez, pero me hizo bien."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Cuando me enamoro me olvido de esos rituales y después me enojo conmigo misma."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Que alguien te guste no tiene por qué borrarte la mañana."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      }
+    ],
+    "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: Desayuno sin apuro. Alternar detalles del día y reacciones auténticas.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Viña del Mar, Chile, slice-of-life scene. adult independent blue-haired woman with glasses engaged in her own day; scene focused on desayuno sin apuro, phone message overlay space. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, grounded, character-driven, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Seguir conversando y escuchar de verdad.",
+        "efectos": {
+          "lumi": 4,
+          "confianza_lumi": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Tirar una talla para aliviar la tensión.",
+        "efectos": {
+          "lumi": 3,
+          "amistad": 1
+        }
+      },
+      {
+        "texto": "Cambiar el tema a «¿y Max?».",
+        "efectos": {
+          "lumi": -2,
+          "confianza_lumi": -4,
+          "sospecha": 1
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "lumi_4",
+    "titulo": "Chat con Lumi: El mural",
+    "lugar": "Chat · Lumi",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El celular vibra. Esta vez la conversación empieza por algo propio de Lumi: el mural."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Pasé por un mural precioso y me quedé mirándolo como diez minutos."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "A veces quisiera fotografiar esas cosas y armar una colección."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Hagamos una ruta fotográfica cuando quieras."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      }
+    ],
+    "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: El mural. Alternar detalles del día y reacciones auténticas.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Viña del Mar, Chile, slice-of-life scene. adult independent blue-haired woman with glasses engaged in her own day; scene focused on el mural, phone message overlay space. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, grounded, character-driven, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Seguir conversando y escuchar de verdad.",
+        "efectos": {
+          "lumi": 4,
+          "confianza_lumi": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Tirar una talla para aliviar la tensión.",
+        "efectos": {
+          "lumi": 3,
+          "amistad": 1
+        }
+      },
+      {
+        "texto": "Cambiar el tema a «¿y Max?».",
+        "efectos": {
+          "lumi": -2,
+          "confianza_lumi": -4,
+          "sospecha": 1
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "lumi_5",
+    "titulo": "Chat con Lumi: La tía del almacén",
+    "lugar": "Chat · Lumi",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El celular vibra. Esta vez la conversación empieza por algo propio de Lumi: la tía del almacén."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "La señora del almacén me preguntó por Max antes de preguntarme por mí."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Me dio rabia. Como si yo no tuviera nombre propio."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "No eres un apéndice de nadie, po."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      }
+    ],
+    "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: La tía del almacén. Alternar detalles del día y reacciones auténticas.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Viña del Mar, Chile, slice-of-life scene. adult independent blue-haired woman with glasses engaged in her own day; scene focused on la tía del almacén, phone message overlay space. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, grounded, character-driven, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Seguir conversando y escuchar de verdad.",
+        "efectos": {
+          "lumi": 4,
+          "confianza_lumi": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Tirar una talla para aliviar la tensión.",
+        "efectos": {
+          "lumi": 3,
+          "amistad": 1
+        }
+      },
+      {
+        "texto": "Cambiar el tema a «¿y Max?».",
+        "efectos": {
+          "lumi": -2,
+          "confianza_lumi": -4,
+          "sospecha": 1
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "lumi_6",
+    "titulo": "Chat con Lumi: Lluvia sobre la micro",
+    "lugar": "Chat · Lumi",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El celular vibra. Esta vez la conversación empieza por algo propio de Lumi: lluvia sobre la micro."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Me mojé hasta los calcetines. Igual me reí cuando se me dio vuelta el paraguas."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Una cabra me ofreció compartir el suyo. La gente sorprende."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Las mejores anécdotas salen cuando todo sale mal."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      }
+    ],
+    "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: Lluvia sobre la micro. Alternar detalles del día y reacciones auténticas.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Viña del Mar, Chile, slice-of-life scene. adult independent blue-haired woman with glasses engaged in her own day; scene focused on lluvia sobre la micro, phone message overlay space. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, grounded, character-driven, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Seguir conversando y escuchar de verdad.",
+        "efectos": {
+          "lumi": 4,
+          "confianza_lumi": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Tirar una talla para aliviar la tensión.",
+        "efectos": {
+          "lumi": 3,
+          "amistad": 1
+        }
+      },
+      {
+        "texto": "Cambiar el tema a «¿y Max?».",
+        "efectos": {
+          "lumi": -2,
+          "confianza_lumi": -4,
+          "sospecha": 1
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "lumi_7",
+    "titulo": "Chat con Lumi: El proyecto que empieza",
+    "lugar": "Chat · Lumi",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El celular vibra. Esta vez la conversación empieza por algo propio de Lumi: el proyecto que empieza."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Estoy armando una idea que me entusiasma y no necesito permiso para intentarla."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Aunque me encantaría que alguien se interesara de verdad en escucharla."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Te escucho, cuenta desde el principio."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      }
+    ],
+    "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: El proyecto que empieza. Alternar detalles del día y reacciones auténticas.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Viña del Mar, Chile, slice-of-life scene. adult independent blue-haired woman with glasses engaged in her own day; scene focused on el proyecto que empieza, phone message overlay space. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, grounded, character-driven, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Seguir conversando y escuchar de verdad.",
+        "efectos": {
+          "lumi": 4,
+          "confianza_lumi": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Tirar una talla para aliviar la tensión.",
+        "efectos": {
+          "lumi": 3,
+          "amistad": 1
+        }
+      },
+      {
+        "texto": "Cambiar el tema a «¿y Max?».",
+        "efectos": {
+          "lumi": -2,
+          "confianza_lumi": -4,
+          "sospecha": 1
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "lumi_8",
+    "titulo": "Chat con Lumi: La foto que no subió",
+    "lugar": "Chat · Lumi",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El celular vibra. Esta vez la conversación empieza por algo propio de Lumi: la foto que no subió."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Me saqué una foto que me gustó y la borré por pensar demasiado en qué dirían."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Después dije: ¿desde cuándo me importa tanto?"
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Si te gustaba a ti, ya era suficiente motivo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      }
+    ],
+    "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: La foto que no subió. Alternar detalles del día y reacciones auténticas.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Viña del Mar, Chile, slice-of-life scene. adult independent blue-haired woman with glasses engaged in her own day; scene focused on la foto que no subió, phone message overlay space. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, grounded, character-driven, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Seguir conversando y escuchar de verdad.",
+        "efectos": {
+          "lumi": 4,
+          "confianza_lumi": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Tirar una talla para aliviar la tensión.",
+        "efectos": {
+          "lumi": 3,
+          "amistad": 1
+        }
+      },
+      {
+        "texto": "Cambiar el tema a «¿y Max?».",
+        "efectos": {
+          "lumi": -2,
+          "confianza_lumi": -4,
+          "sospecha": 1
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "lumi_9",
+    "titulo": "Chat con Lumi: La comida favorita",
+    "lugar": "Chat · Lumi",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El celular vibra. Esta vez la conversación empieza por algo propio de Lumi: la comida favorita."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Un día te voy a mostrar un local que tiene la mejor comida del planeta."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Y no, no te voy a decir dónde; si te cuento, pierde la gracia."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Me gustan los misterios que terminan en comida."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      }
+    ],
+    "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: La comida favorita. Alternar detalles del día y reacciones auténticas.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Viña del Mar, Chile, slice-of-life scene. adult independent blue-haired woman with glasses engaged in her own day; scene focused on la comida favorita, phone message overlay space. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, grounded, character-driven, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Seguir conversando y escuchar de verdad.",
+        "efectos": {
+          "lumi": 4,
+          "confianza_lumi": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Tirar una talla para aliviar la tensión.",
+        "efectos": {
+          "lumi": 3,
+          "amistad": 1
+        }
+      },
+      {
+        "texto": "Cambiar el tema a «¿y Max?».",
+        "efectos": {
+          "lumi": -2,
+          "confianza_lumi": -4,
+          "sospecha": 1
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "lumi_10",
+    "titulo": "Chat con Lumi: La tarde de silencio",
+    "lugar": "Chat · Lumi",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El celular vibra. Esta vez la conversación empieza por algo propio de Lumi: la tarde de silencio."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Hoy no estaba triste ni enojada. Solo no quería conversar con nadie."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Antes sentía que tenía que justificar eso."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Puedes decirme que necesitas espacio y listo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      }
+    ],
+    "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: La tarde de silencio. Alternar detalles del día y reacciones auténticas.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Viña del Mar, Chile, slice-of-life scene. adult independent blue-haired woman with glasses engaged in her own day; scene focused on la tarde de silencio, phone message overlay space. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, grounded, character-driven, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Seguir conversando y escuchar de verdad.",
+        "efectos": {
+          "lumi": 4,
+          "confianza_lumi": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Tirar una talla para aliviar la tensión.",
+        "efectos": {
+          "lumi": 3,
+          "amistad": 1
+        }
+      },
+      {
+        "texto": "Cambiar el tema a «¿y Max?».",
+        "efectos": {
+          "lumi": -2,
+          "confianza_lumi": -4,
+          "sospecha": 1
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "lumi_11",
+    "titulo": "Chat con Lumi: El miedo a necesitar",
+    "lugar": "Chat · Lumi",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El celular vibra. Esta vez la conversación empieza por algo propio de Lumi: el miedo a necesitar."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "A mí me cuesta reconocer que extraño a alguien. Me siento demasiado vulnerable."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Después cuando estoy enamorada me pongo intensa y quiero saber todo de él."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Extrañar es normal; perderte en la otra persona no te hace bien."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      }
+    ],
+    "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: El miedo a necesitar. Alternar detalles del día y reacciones auténticas.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Viña del Mar, Chile, slice-of-life scene. adult independent blue-haired woman with glasses engaged in her own day; scene focused on el miedo a necesitar, phone message overlay space. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, grounded, character-driven, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Seguir conversando y escuchar de verdad.",
+        "efectos": {
+          "lumi": 4,
+          "confianza_lumi": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Tirar una talla para aliviar la tensión.",
+        "efectos": {
+          "lumi": 3,
+          "amistad": 1
+        }
+      },
+      {
+        "texto": "Cambiar el tema a «¿y Max?».",
+        "efectos": {
+          "lumi": -2,
+          "confianza_lumi": -4,
+          "sospecha": 1
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "lumi_12",
+    "titulo": "Chat con Lumi: Audífonos y costa",
+    "lugar": "Chat · Lumi",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El celular vibra. Esta vez la conversación empieza por algo propio de Lumi: audífonos y costa."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Caminé por la costa sin apurarme. Me dio una paz tremenda."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Quiero repetirlo sin mirar el celular a cada rato."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Te puedo acompañar o puedes ir sola, como prefieras."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      }
+    ],
+    "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: Audífonos y costa. Alternar detalles del día y reacciones auténticas.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Viña del Mar, Chile, slice-of-life scene. adult independent blue-haired woman with glasses engaged in her own day; scene focused on audífonos y costa, phone message overlay space. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, grounded, character-driven, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Seguir conversando y escuchar de verdad.",
+        "efectos": {
+          "lumi": 4,
+          "confianza_lumi": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Tirar una talla para aliviar la tensión.",
+        "efectos": {
+          "lumi": 3,
+          "amistad": 1
+        }
+      },
+      {
+        "texto": "Cambiar el tema a «¿y Max?».",
+        "efectos": {
+          "lumi": -2,
+          "confianza_lumi": -4,
+          "sospecha": 1
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "lumi_13",
+    "titulo": "Chat con Lumi: El recuerdo divertido",
+    "lugar": "Chat · Lumi",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El celular vibra. Esta vez la conversación empieza por algo propio de Lumi: el recuerdo divertido."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Una vez me confundí de micro y terminé lejísimos. Igual encontré un café lindo."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Tal vez tengo suerte para perderme."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Entonces yo me encargo de llevar un mapa."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      }
+    ],
+    "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: El recuerdo divertido. Alternar detalles del día y reacciones auténticas.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Viña del Mar, Chile, slice-of-life scene. adult independent blue-haired woman with glasses engaged in her own day; scene focused on el recuerdo divertido, phone message overlay space. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, grounded, character-driven, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Seguir conversando y escuchar de verdad.",
+        "efectos": {
+          "lumi": 4,
+          "confianza_lumi": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Tirar una talla para aliviar la tensión.",
+        "efectos": {
+          "lumi": 3,
+          "amistad": 1
+        }
+      },
+      {
+        "texto": "Cambiar el tema a «¿y Max?».",
+        "efectos": {
+          "lumi": -2,
+          "confianza_lumi": -4,
+          "sospecha": 1
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "lumi_14",
+    "titulo": "Chat con Lumi: Una llamada pendiente",
+    "lugar": "Chat · Lumi",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El celular vibra. Esta vez la conversación empieza por algo propio de Lumi: una llamada pendiente."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Me cuesta decir que algo me duele sin sentir que exagero."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "No quiero volver a quedarme callada para evitar un conflicto."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Podés hablar sin pedir disculpas por sentir."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      }
+    ],
+    "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: Una llamada pendiente. Alternar detalles del día y reacciones auténticas.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Viña del Mar, Chile, slice-of-life scene. adult independent blue-haired woman with glasses engaged in her own day; scene focused on una llamada pendiente, phone message overlay space. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, grounded, character-driven, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Seguir conversando y escuchar de verdad.",
+        "efectos": {
+          "lumi": 4,
+          "confianza_lumi": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Tirar una talla para aliviar la tensión.",
+        "efectos": {
+          "lumi": 3,
+          "amistad": 1
+        }
+      },
+      {
+        "texto": "Cambiar el tema a «¿y Max?».",
+        "efectos": {
+          "lumi": -2,
+          "confianza_lumi": -4,
+          "sospecha": 1
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "lumi_15",
+    "titulo": "Chat con Lumi: La amiga sincera",
+    "lugar": "Chat · Lumi",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El celular vibra. Esta vez la conversación empieza por algo propio de Lumi: la amiga sincera."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Mi amiga me dijo que me estoy esforzando demasiado por hacer feliz a todos."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Y me molestó porque tiene razón."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Por algo te lo dijo alguien que te quiere."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      }
+    ],
+    "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: La amiga sincera. Alternar detalles del día y reacciones auténticas.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Viña del Mar, Chile, slice-of-life scene. adult independent blue-haired woman with glasses engaged in her own day; scene focused on la amiga sincera, phone message overlay space. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, grounded, character-driven, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Seguir conversando y escuchar de verdad.",
+        "efectos": {
+          "lumi": 4,
+          "confianza_lumi": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Tirar una talla para aliviar la tensión.",
+        "efectos": {
+          "lumi": 3,
+          "amistad": 1
+        }
+      },
+      {
+        "texto": "Cambiar el tema a «¿y Max?».",
+        "efectos": {
+          "lumi": -2,
+          "confianza_lumi": -4,
+          "sospecha": 1
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "lumi_16",
+    "titulo": "Chat con Lumi: La feria del sábado",
+    "lugar": "Chat · Lumi",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El celular vibra. Esta vez la conversación empieza por algo propio de Lumi: la feria del sábado."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Compré flores para mi pieza. Me gustó elegirlas por mí misma."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "No todo gesto bonito tiene que venir de una pareja."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Eso sí que suena a una buena tarde."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      }
+    ],
+    "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: La feria del sábado. Alternar detalles del día y reacciones auténticas.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Viña del Mar, Chile, slice-of-life scene. adult independent blue-haired woman with glasses engaged in her own day; scene focused on la feria del sábado, phone message overlay space. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, grounded, character-driven, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Seguir conversando y escuchar de verdad.",
+        "efectos": {
+          "lumi": 4,
+          "confianza_lumi": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Tirar una talla para aliviar la tensión.",
+        "efectos": {
+          "lumi": 3,
+          "amistad": 1
+        }
+      },
+      {
+        "texto": "Cambiar el tema a «¿y Max?».",
+        "efectos": {
+          "lumi": -2,
+          "confianza_lumi": -4,
+          "sospecha": 1
+        }
+      }
+    ],
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "lumi_17",
+    "titulo": "Chat con Lumi: La ambición",
+    "lugar": "Chat · Lumi",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El celular vibra. Esta vez la conversación empieza por algo propio de Lumi: la ambición."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Quiero hacer cosas grandes, aunque me dé miedo decirlo fuerte."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "A veces pienso que enamorarme me va a distraer de todo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Si un vínculo te obliga a achicarte, no es el adecuado."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      }
+    ],
+    "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: La ambición. Alternar detalles del día y reacciones auténticas.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Viña del Mar, Chile, slice-of-life scene. adult independent blue-haired woman with glasses engaged in her own day; scene focused on la ambición, phone message overlay space. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, grounded, character-driven, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Seguir conversando y escuchar de verdad.",
+        "efectos": {
+          "lumi": 4,
+          "confianza_lumi": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Tirar una talla para aliviar la tensión.",
+        "efectos": {
+          "lumi": 3,
+          "amistad": 1
+        }
+      },
+      {
+        "texto": "Cambiar el tema a «¿y Max?».",
+        "efectos": {
+          "lumi": -2,
+          "confianza_lumi": -4,
+          "sospecha": 1
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "lumi_18",
+    "titulo": "Chat con Lumi: Un vestido guardado",
+    "lugar": "Chat · Lumi",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El celular vibra. Esta vez la conversación empieza por algo propio de Lumi: un vestido guardado."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Encontré ropa que no usaba porque a Max no le gustaba."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "La probé y pensé: qué ridículo haberla escondido."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Quédate con la que te haga sentir tú."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      }
+    ],
+    "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: Un vestido guardado. Alternar detalles del día y reacciones auténticas.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Viña del Mar, Chile, slice-of-life scene. adult independent blue-haired woman with glasses engaged in her own day; scene focused on un vestido guardado, phone message overlay space. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, grounded, character-driven, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Seguir conversando y escuchar de verdad.",
+        "efectos": {
+          "lumi": 4,
+          "confianza_lumi": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Tirar una talla para aliviar la tensión.",
+        "efectos": {
+          "lumi": 3,
+          "amistad": 1
+        }
+      },
+      {
+        "texto": "Cambiar el tema a «¿y Max?».",
+        "efectos": {
+          "lumi": -2,
+          "confianza_lumi": -4,
+          "sospecha": 1
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "lumi_19",
+    "titulo": "Chat con Lumi: El mensaje no enviado",
+    "lugar": "Chat · Lumi",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El celular vibra. Esta vez la conversación empieza por algo propio de Lumi: el mensaje no enviado."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Escribí un párrafo larguísimo y lo borré."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Creo que a veces confundo explicar con justificarme."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "No siempre se necesita una tesis para poner un límite."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      }
+    ],
+    "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: El mensaje no enviado. Alternar detalles del día y reacciones auténticas.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Viña del Mar, Chile, slice-of-life scene. adult independent blue-haired woman with glasses engaged in her own day; scene focused on el mensaje no enviado, phone message overlay space. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, grounded, character-driven, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Seguir conversando y escuchar de verdad.",
+        "efectos": {
+          "lumi": 4,
+          "confianza_lumi": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Tirar una talla para aliviar la tensión.",
+        "efectos": {
+          "lumi": 3,
+          "amistad": 1
+        }
+      },
+      {
+        "texto": "Cambiar el tema a «¿y Max?».",
+        "efectos": {
+          "lumi": -2,
+          "confianza_lumi": -4,
+          "sospecha": 1
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "lumi_20",
+    "titulo": "Chat con Lumi: Una tarde liviana",
+    "lugar": "Chat · Lumi",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El celular vibra. Esta vez la conversación empieza por algo propio de Lumi: una tarde liviana."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Hoy no pasó nada dramático. Y, qué alivio, estuvo buenísimo."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Podríamos hablar de cualquier tontera y no del amor."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Tengo un repertorio completo de tonteras."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      }
+    ],
+    "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: Una tarde liviana. Alternar detalles del día y reacciones auténticas.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Viña del Mar, Chile, slice-of-life scene. adult independent blue-haired woman with glasses engaged in her own day; scene focused on una tarde liviana, phone message overlay space. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, grounded, character-driven, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Seguir conversando y escuchar de verdad.",
+        "efectos": {
+          "lumi": 4,
+          "confianza_lumi": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Tirar una talla para aliviar la tensión.",
+        "efectos": {
+          "lumi": 3,
+          "amistad": 1
+        }
+      },
+      {
+        "texto": "Cambiar el tema a «¿y Max?».",
+        "efectos": {
+          "lumi": -2,
+          "confianza_lumi": -4,
+          "sospecha": 1
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "lumi_21",
+    "titulo": "Chat con Lumi: Mirar al futuro",
+    "lugar": "Chat · Lumi",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El celular vibra. Esta vez la conversación empieza por algo propio de Lumi: mirar al futuro."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Me pregunto dónde voy a estar el próximo año."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "No quiero responder esa pregunta pensando primero en otra persona."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Podés construir un futuro sin dejar de querer a alguien."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      }
+    ],
+    "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: Mirar al futuro. Alternar detalles del día y reacciones auténticas.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Viña del Mar, Chile, slice-of-life scene. adult independent blue-haired woman with glasses engaged in her own day; scene focused on mirar al futuro, phone message overlay space. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, grounded, character-driven, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Seguir conversando y escuchar de verdad.",
+        "efectos": {
+          "lumi": 4,
+          "confianza_lumi": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Tirar una talla para aliviar la tensión.",
+        "efectos": {
+          "lumi": 3,
+          "amistad": 1
+        }
+      },
+      {
+        "texto": "Cambiar el tema a «¿y Max?».",
+        "efectos": {
+          "lumi": -2,
+          "confianza_lumi": -4,
+          "sospecha": 1
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "lumi_22",
+    "titulo": "Chat con Lumi: La canción vergonzosa",
+    "lugar": "Chat · Lumi",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El celular vibra. Esta vez la conversación empieza por algo propio de Lumi: la canción vergonzosa."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Tengo una canción terrible pegada y no la voy a reconocer en público."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "No me juzgues si un día la canto en el auto."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "No prometo no grabar el concierto."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      }
+    ],
+    "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: La canción vergonzosa. Alternar detalles del día y reacciones auténticas.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Viña del Mar, Chile, slice-of-life scene. adult independent blue-haired woman with glasses engaged in her own day; scene focused on la canción vergonzosa, phone message overlay space. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, grounded, character-driven, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Seguir conversando y escuchar de verdad.",
+        "efectos": {
+          "lumi": 4,
+          "confianza_lumi": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Tirar una talla para aliviar la tensión.",
+        "efectos": {
+          "lumi": 3,
+          "amistad": 1
+        }
+      },
+      {
+        "texto": "Cambiar el tema a «¿y Max?».",
+        "efectos": {
+          "lumi": -2,
+          "confianza_lumi": -4,
+          "sospecha": 1
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "lumi_23",
+    "titulo": "Chat con Lumi: El límite más difícil",
+    "lugar": "Chat · Lumi",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El celular vibra. Esta vez la conversación empieza por algo propio de Lumi: el límite más difícil."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Decir no me cuesta mucho cuando tengo miedo de perder a alguien."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Estoy practicándolo con cosas chicas."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "La persona correcta también respeta tus no."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      }
+    ],
+    "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: El límite más difícil. Alternar detalles del día y reacciones auténticas.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Viña del Mar, Chile, slice-of-life scene. adult independent blue-haired woman with glasses engaged in her own day; scene focused on el límite más difícil, phone message overlay space. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, grounded, character-driven, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Seguir conversando y escuchar de verdad.",
+        "efectos": {
+          "lumi": 4,
+          "confianza_lumi": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Tirar una talla para aliviar la tensión.",
+        "efectos": {
+          "lumi": 3,
+          "amistad": 1
+        }
+      },
+      {
+        "texto": "Cambiar el tema a «¿y Max?».",
+        "efectos": {
+          "lumi": -2,
+          "confianza_lumi": -4,
+          "sospecha": 1
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "lumi_24",
+    "titulo": "Chat con Lumi: Un mensaje sin urgencia",
+    "lugar": "Chat · Lumi",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El celular vibra. Esta vez la conversación empieza por algo propio de Lumi: un mensaje sin urgencia."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Me gustó que me escribieras sin exigirme respuesta inmediata."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Se siente raro, pero bonito, que algo pueda ser simple."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "No hay prueba de velocidad para hablar conmigo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi demora un momento en responder. No porque tenga que hacerlo, sino porque está viviendo su día."
+      }
+    ],
+    "direccionVisual": "Pantalla de mensajería junto a Lumi en una escena cotidiana. Tema: Un mensaje sin urgencia. Alternar detalles del día y reacciones auténticas.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Viña del Mar, Chile, slice-of-life scene. adult independent blue-haired woman with glasses engaged in her own day; scene focused on un mensaje sin urgencia, phone message overlay space. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, grounded, character-driven, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Seguir conversando y escuchar de verdad.",
+        "efectos": {
+          "lumi": 4,
+          "confianza_lumi": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Tirar una talla para aliviar la tensión.",
+        "efectos": {
+          "lumi": 3,
+          "amistad": 1
+        }
+      },
+      {
+        "texto": "Cambiar el tema a «¿y Max?».",
+        "efectos": {
+          "lumi": -2,
+          "confianza_lumi": -4,
+          "sospecha": 1
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  }
+]

@@ -1,0 +1,25 @@
+QUINTAVERSO v0.5 — Reporte de verificación de la entrega
+
+Verificado en este entorno:
+- Archivos JSON parseados con Python 3.
+- 205 IDs únicos y 205 nodos estructuralmente alcanzables.
+- 817 líneas de diálogo y 334 decisiones.
+- Todos los enlaces entre nodos existen.
+- Los 21 eventos especiales anunciados por GestorEventos.java tienen escenas.
+- Las series cotidianas incluyen: 24 Lumi, 24 Cony, 18 Discord,
+  12 reflexiones y 12 paseos, más 4 escenas de rutina por categoría.
+- El núcleo de lógica independiente de librerías externas compila con:
+  javac --release 21 -encoding UTF-8
+- Prueba Java de calendario: 90 turnos, 30 días, cierre al día 31;
+  siempre existen acciones habituales, salto de día funcional.
+- Guardado v0.5 usa nombre diferente al de v0.4.
+- module-info.java ubicado en src/main/java/module-info.java.
+
+NO verificado en este entorno:
+- Maven clean test y JavaFX de interfaz: Maven/JavaFX no estaban
+  instalados y no había acceso a repositorios de dependencias.
+- Los JUnit se incluyen para ejecutarlos desde IntelliJ con Maven.
+
+Ruta recomendada en Windows:
+IntelliJ > Maven > QUINTAVERSO > Lifecycle > test
+IntelliJ > Maven > QUINTAVERSO > Plugins > javafx > javafx:run

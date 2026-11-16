@@ -1,0 +1,15 @@
+QUINTAVERSO v0.5 — EDICION GRAFICA (temporada Caceres)
+
+1. Extrae el archivo ZIP completo en una carpeta nueva.
+2. Abre QUINTAVERSO-v0.5-GRAFICO como proyecto Maven en IntelliJ IDEA.
+3. Configura Project SDK = Java 21.
+4. En Maven ejecuta Lifecycle > test y despues Plugins > javafx > javafx:run.
+5. Elige temporada Caceres. Los fondos y personajes aparecen en las escenas.
+   Cada uno de los ocho finales muestra su propia ilustracion (CG).
+
+Codigo del motor adaptado + 205 escenas con fondo + 8 CG + 10 fondos + sprites.
+Lee docs/INTEGRACION_GRAFICA.md para detalles y personalizacion.
+
+No sobreescribe partidas v0.4. Conserva las decisiones y el guardado de v0.5.
+El entorno donde se creo este ZIP no pudo ejecutar la UI JavaFX/Maven completa
+por falta de dependencias; los JSON, rutas de imagen y Java puro se validaron.

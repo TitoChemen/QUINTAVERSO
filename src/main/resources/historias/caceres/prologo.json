@@ -1,0 +1,190 @@
+[
+  {
+    "id": "prologo_inicio",
+    "titulo": "El último pelo de la esperanza",
+    "lugar": "Villa Alemana · Discord, 23:47",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "La pantalla ilumina la pieza de Cáceres. Hay dos conversaciones abiertas, tres amigos conectados a Discord y cero ideas claras sobre lo que siente."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Oe, Cáceres, ¿cómo tenís dos chats abiertos y menos capacidad de decidir que un semáforo desenchufado?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Hermano, no confundái que te hablen bonito con que ya tenís dos pololas. Pensá primero."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Yo les mandaría un Excel con los horarios, pa no equivocarme."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "JAJAJA CÁLLATE, JAIRO. Tú no sabís ni cuándo se manda un buenas noches."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Ya, ¿van a darme un consejo o solo van a webearme toda la noche?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Las dos, po. Pero en serio: ni la Lumi ni la Cony son trofeos. Habla claro."
+      }
+    ],
+    "direccionVisual": "Discord visto como interfaz ficticia sin logos oficiales. Protagonista solo a su escritorio, luz violeta del monitor.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, bedroom in Villa Alemana late at night. adult young man at a desk, worried but amused, violet monitor light, phone displaying two unread notifications. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "siguiente": "prologo_promesa",
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "prologo_promesa",
+    "titulo": "El consejo que nadie pidió",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Kevin",
+        "texto": "No podís arreglar la relación de la Lumi por ella. Y tampoco podís esperar que la Cony quiera lo mismo que tú."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Eso es lo que me complica. Con una me dan ganas de cuidarla, con la otra... puta, me prende la forma que tiene de hablar."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Yo digo que te hagai el difícil. Lo vi en un video."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Por eso mismo no tenís polola, Jairo."
+      }
+    ],
+    "direccionVisual": "Plano medio en Discord. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Discord. El consejo que nadie pidió. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "«Voy a preguntar qué quiere cada una, sin vender humo.»",
+        "siguiente": "prologo_dos_chats",
+        "efectos": {
+          "honestidad": 8,
+          "claridad": 8,
+          "amistad": 3
+        },
+        "eventos": [
+          "prometi_ser_claro"
+        ]
+      },
+      {
+        "texto": "«Improviso. Si la cago, me disculpo.»",
+        "siguiente": "prologo_dos_chats",
+        "efectos": {
+          "sospecha": 8,
+          "claridad": -5
+        },
+        "eventos": [
+          "prometi_improvisar"
+        ]
+      },
+      {
+        "texto": "«Por ahora quiero conocerlas, nada más.»",
+        "siguiente": "prologo_dos_chats",
+        "efectos": {
+          "claridad": 6,
+          "amistad": 3
+        },
+        "eventos": [
+          "prometi_ir_lento"
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "prologo_dos_chats",
+    "titulo": "Dos notificaciones, dos realidades",
+    "lugar": "Habitación de Cáceres",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El teléfono vibra. Lumi manda una foto de su cuaderno lleno de ideas para un proyecto. Cony envía un audio entre risas."
+      },
+      {
+        "personaje": "Lumi (mensaje)",
+        "texto": "Hoy salí sola a hacer mil cosas, me encantó. ¿Después te puedo contar una tontera?"
+      },
+      {
+        "personaje": "Cony (audio)",
+        "texto": "Oye, wn, me acordé de ti. ¿Cuándo salimos a hacer algo entretenido? Nada de entrevista de pega, eso sí."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Ya empezó el QUINTAVERSO, ctm."
+      }
+    ],
+    "direccionVisual": "Plano medio en Habitación de Cáceres. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Habitación de Cáceres. Dos notificaciones, dos realidades. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Responder a Lumi y preguntarle por su proyecto.",
+        "siguiente": "prologo_cierre",
+        "efectos": {
+          "lumi": 6,
+          "confianza_lumi": 5
+        },
+        "eventos": [
+          "primera_lumi"
+        ]
+      },
+      {
+        "texto": "Responder a Cony con una talla y proponer un café.",
+        "siguiente": "prologo_cierre",
+        "efectos": {
+          "cony": 6,
+          "confianza_cony": 5
+        },
+        "eventos": [
+          "primera_cony"
+        ]
+      },
+      {
+        "texto": "Responder a ambas con calma, sin prometer nada.",
+        "siguiente": "prologo_cierre",
+        "efectos": {
+          "honestidad": 5,
+          "claridad": 4
+        },
+        "eventos": [
+          "primera_ambas"
+        ]
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "prologo_cierre",
+    "titulo": "Comienza el calendario",
+    "lugar": "Lunes · Villa Alemana",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Al otro día, el calendario está completamente libre. Ni Lumi ni Cony saben qué pasará. Cáceres tampoco."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Durante 30 días elegirás cómo ocupar mañana, tarde y noche. Una buena conversación no garantiza un romance; una mala decisión puede cerrar puertas."
+      },
+      {
+        "personaje": "Kevin (mensaje)",
+        "texto": "Y si te mandai una cagá, mínimo no nos mintai al contarla. KASDKASDK."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Los personajes son adultos; los vínculos, deseos y límites se deben conversar. El juego no supone consentimiento por subir una barra de afinidad."
+      }
+    ],
+    "direccionVisual": "Plano medio en Lunes · Villa Alemana. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Lunes · Villa Alemana. Comienza el calendario. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "plaza_villa_alemana.png"
+  }
+]

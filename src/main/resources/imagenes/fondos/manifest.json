@@ -1,0 +1,52 @@
+[
+  {
+    "archivo": "habitacion_caceres_noche.png",
+    "calidad": "generacion individual",
+    "resolucion": "1600x900"
+  },
+  {
+    "archivo": "habitacion_caceres_dia.png",
+    "calidad": "generacion individual",
+    "resolucion": "1600x900"
+  },
+  {
+    "archivo": "discord_noche.png",
+    "calidad": "generacion individual",
+    "resolucion": "1600x900"
+  },
+  {
+    "archivo": "cafe_vina.png",
+    "calidad": "generacion individual",
+    "resolucion": "1600x900"
+  },
+  {
+    "archivo": "plaza_villa_alemana.png",
+    "calidad": "generacion individual",
+    "resolucion": "1600x900"
+  },
+  {
+    "archivo": "costanera_atardecer.png",
+    "calidad": "generacion individual",
+    "resolucion": "1600x900"
+  },
+  {
+    "archivo": "muelle_noche.png",
+    "calidad": "borrador ampliado de una lamina; menor nitidez",
+    "resolucion": "1600x900 (original ~410x230)"
+  },
+  {
+    "archivo": "terminal_valparaiso.png",
+    "calidad": "borrador ampliado de una lamina; menor nitidez",
+    "resolucion": "1600x900 (original ~410x230)"
+  },
+  {
+    "archivo": "mirador_vina.png",
+    "calidad": "borrador ampliado de una lamina; menor nitidez",
+    "resolucion": "1600x900 (original ~410x230)"
+  },
+  {
+    "archivo": "parque_vina.png",
+    "calidad": "borrador ampliado de una lamina; menor nitidez",
+    "resolucion": "1600x900 (original ~410x230)"
+  }
+]

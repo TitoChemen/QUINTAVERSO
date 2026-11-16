@@ -1,0 +1,974 @@
+[
+  {
+    "id": "discord_1",
+    "titulo": "En Discord: La hoja Excel",
+    "lugar": "Discord · Canal de los cabros",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El canal de voz está activo. Entre juegos y bromas surge un tema: la hoja excel."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Yo digo que hagai un Excel: columna de afecto, columna de disponibilidad y semáforo de riesgo."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "El wn convirtió el amor en control de inventario."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Más útil sería preguntarle a la persona qué quiere."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      }
+    ],
+    "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, discord voice chat at an adult gaming desk, Chile. computer monitors, headsets, four adult friends joking and advising one another, comedic composition. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Tomarse en serio el consejo útil.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 4,
+          "honestidad": 1
+        }
+      },
+      {
+        "texto": "Responder con una talla y pasar un buen rato.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 1
+        }
+      },
+      {
+        "texto": "Hacerse el desentendido.",
+        "efectos": {
+          "amistad": 1,
+          "claridad": -3
+        }
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "discord_2",
+    "titulo": "En Discord: El visto",
+    "lugar": "Discord · Canal de los cabros",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El canal de voz está activo. Entre juegos y bromas surge un tema: el visto."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "La Lumi me dejó en visto hace una hora."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Capaz está ocupada, hermano. Nadie está obligado a contestarte al tiro."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "O puede ser una prueba psicológica de nivel siete."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      }
+    ],
+    "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, discord voice chat at an adult gaming desk, Chile. computer monitors, headsets, four adult friends joking and advising one another, comedic composition. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Tomarse en serio el consejo útil.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 4,
+          "honestidad": 1
+        }
+      },
+      {
+        "texto": "Responder con una talla y pasar un buen rato.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 1
+        }
+      },
+      {
+        "texto": "Hacerse el desentendido.",
+        "efectos": {
+          "amistad": 1,
+          "claridad": -3
+        }
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "discord_3",
+    "titulo": "En Discord: La cita",
+    "lugar": "Discord · Canal de los cabros",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El canal de voz está activo. Entre juegos y bromas surge un tema: la cita."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Oe, pa una cita funciona escuchar y no vender un personaje que no erís."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "¿Y llevar una presentación de PowerPoint?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Especialmente NO llevar PowerPoint, por favor."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      }
+    ],
+    "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, discord voice chat at an adult gaming desk, Chile. computer monitors, headsets, four adult friends joking and advising one another, comedic composition. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Tomarse en serio el consejo útil.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 4,
+          "honestidad": 1
+        }
+      },
+      {
+        "texto": "Responder con una talla y pasar un buen rato.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 1
+        }
+      },
+      {
+        "texto": "Hacerse el desentendido.",
+        "efectos": {
+          "amistad": 1,
+          "claridad": -3
+        }
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "discord_4",
+    "titulo": "En Discord: El pelo",
+    "lugar": "Discord · Canal de los cabros",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El canal de voz está activo. Entre juegos y bromas surge un tema: el pelo."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Cáceres, no te preocupís por las entradas de pelo. Tu mayor problema es que respondís tres días después."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Déjame tener una crisis a la vez."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Hermano, administrai el romanticismo como ticket de soporte."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      }
+    ],
+    "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, discord voice chat at an adult gaming desk, Chile. computer monitors, headsets, four adult friends joking and advising one another, comedic composition. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Tomarse en serio el consejo útil.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 4,
+          "honestidad": 1
+        }
+      },
+      {
+        "texto": "Responder con una talla y pasar un buen rato.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 1
+        }
+      },
+      {
+        "texto": "Hacerse el desentendido.",
+        "efectos": {
+          "amistad": 1,
+          "claridad": -3
+        }
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "discord_5",
+    "titulo": "En Discord: Tesis de Jairo",
+    "lugar": "Discord · Canal de los cabros",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El canal de voz está activo. Entre juegos y bromas surge un tema: tesis de jairo."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Para mí el amor es un RPG y hay que subir carisma."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Eso explica por qué nunca salís de la pantalla de creación de personaje."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Habla con gente real, experto."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      }
+    ],
+    "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, discord voice chat at an adult gaming desk, Chile. computer monitors, headsets, four adult friends joking and advising one another, comedic composition. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Tomarse en serio el consejo útil.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 4,
+          "honestidad": 1
+        }
+      },
+      {
+        "texto": "Responder con una talla y pasar un buen rato.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 1
+        }
+      },
+      {
+        "texto": "Hacerse el desentendido.",
+        "efectos": {
+          "amistad": 1,
+          "claridad": -3
+        }
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "discord_6",
+    "titulo": "En Discord: ¿Exclusividad?",
+    "lugar": "Discord · Canal de los cabros",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El canal de voz está activo. Entre juegos y bromas surge un tema: ¿exclusividad?."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Si no hay pololeo, ¿qué significa exclusividad?"
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Lo que conversen. No hay contrato implícito."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "¿Y si hacemos un EULA de pareja?"
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      }
+    ],
+    "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, discord voice chat at an adult gaming desk, Chile. computer monitors, headsets, four adult friends joking and advising one another, comedic composition. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Tomarse en serio el consejo útil.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 4,
+          "honestidad": 1
+        }
+      },
+      {
+        "texto": "Responder con una talla y pasar un buen rato.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 1
+        }
+      },
+      {
+        "texto": "Hacerse el desentendido.",
+        "efectos": {
+          "amistad": 1,
+          "claridad": -3
+        }
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "discord_7",
+    "titulo": "En Discord: Max",
+    "lugar": "Discord · Canal de los cabros",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El canal de voz está activo. Entre juegos y bromas surge un tema: max."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Si la Lumi está con Max, tú no eres el reemplazo designado."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Podís acompañarla sin convertirte en el protagonista de su ruptura."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Voy anotando: no ser reemplazo, entendido."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      }
+    ],
+    "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, discord voice chat at an adult gaming desk, Chile. computer monitors, headsets, four adult friends joking and advising one another, comedic composition. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Tomarse en serio el consejo útil.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 4,
+          "honestidad": 1
+        }
+      },
+      {
+        "texto": "Responder con una talla y pasar un buen rato.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 1
+        }
+      },
+      {
+        "texto": "Hacerse el desentendido.",
+        "efectos": {
+          "amistad": 1,
+          "claridad": -3
+        }
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "discord_8",
+    "titulo": "En Discord: Cony",
+    "lugar": "Discord · Canal de los cabros",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El canal de voz está activo. Entre juegos y bromas surge un tema: cony."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Cony puede querer algo casual sin que eso sea una invitación a prometerle matrimonio."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Lo importante es que ambas partes quieran lo mismo y puedan cambiar de opinión."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Entonces no compro anillo en el primer café."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      }
+    ],
+    "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, discord voice chat at an adult gaming desk, Chile. computer monitors, headsets, four adult friends joking and advising one another, comedic composition. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Tomarse en serio el consejo útil.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 4,
+          "honestidad": 1
+        }
+      },
+      {
+        "texto": "Responder con una talla y pasar un buen rato.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 1
+        }
+      },
+      {
+        "texto": "Hacerse el desentendido.",
+        "efectos": {
+          "amistad": 1,
+          "claridad": -3
+        }
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "discord_9",
+    "titulo": "En Discord: Ciberseguridad sentimental",
+    "lugar": "Discord · Canal de los cabros",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El canal de voz está activo. Entre juegos y bromas surge un tema: ciberseguridad sentimental."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "¿Y si cambiamos todas las contraseñas a un solo secreto compartido?"
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Hermano, soy informático y hasta a mí me dio vergüenza escucharte."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "La confianza no es pedirle claves a nadie."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      }
+    ],
+    "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, discord voice chat at an adult gaming desk, Chile. computer monitors, headsets, four adult friends joking and advising one another, comedic composition. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Tomarse en serio el consejo útil.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 4,
+          "honestidad": 1
+        }
+      },
+      {
+        "texto": "Responder con una talla y pasar un buen rato.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 1
+        }
+      },
+      {
+        "texto": "Hacerse el desentendido.",
+        "efectos": {
+          "amistad": 1,
+          "claridad": -3
+        }
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "discord_10",
+    "titulo": "En Discord: El consejo bueno",
+    "lugar": "Discord · Canal de los cabros",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El canal de voz está activo. Entre juegos y bromas surge un tema: el consejo bueno."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Siento que a veces la voy a cagar haga lo que haga."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Vas a equivocarte igual. La diferencia es si te haces cargo o te escondes."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Y si no sabís qué querís, dilo así."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      }
+    ],
+    "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, discord voice chat at an adult gaming desk, Chile. computer monitors, headsets, four adult friends joking and advising one another, comedic composition. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Tomarse en serio el consejo útil.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 4,
+          "honestidad": 1
+        }
+      },
+      {
+        "texto": "Responder con una talla y pasar un buen rato.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 1
+        }
+      },
+      {
+        "texto": "Hacerse el desentendido.",
+        "efectos": {
+          "amistad": 1,
+          "claridad": -3
+        }
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "discord_11",
+    "titulo": "En Discord: El meme",
+    "lugar": "Discord · Canal de los cabros",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El canal de voz está activo. Entre juegos y bromas surge un tema: el meme."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Tengo el meme perfecto para declararse. Es una rana con un corazón."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Prohibido enviar ranas sin contexto."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "A veces un mensaje honesto sirve más que doce stickers."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      }
+    ],
+    "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, discord voice chat at an adult gaming desk, Chile. computer monitors, headsets, four adult friends joking and advising one another, comedic composition. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Tomarse en serio el consejo útil.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 4,
+          "honestidad": 1
+        }
+      },
+      {
+        "texto": "Responder con una talla y pasar un buen rato.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 1
+        }
+      },
+      {
+        "texto": "Hacerse el desentendido.",
+        "efectos": {
+          "amistad": 1,
+          "claridad": -3
+        }
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "discord_12",
+    "titulo": "En Discord: Rumores",
+    "lugar": "Discord · Canal de los cabros",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El canal de voz está activo. Entre juegos y bromas surge un tema: rumores."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Ojo con contar los chats privados de la gente acá."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Una talla no justifica dejar mal a alguien."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "¿Ni aunque sea material de stand-up?"
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      }
+    ],
+    "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, discord voice chat at an adult gaming desk, Chile. computer monitors, headsets, four adult friends joking and advising one another, comedic composition. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Tomarse en serio el consejo útil.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 4,
+          "honestidad": 1
+        }
+      },
+      {
+        "texto": "Responder con una talla y pasar un buen rato.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 1
+        }
+      },
+      {
+        "texto": "Hacerse el desentendido.",
+        "efectos": {
+          "amistad": 1,
+          "claridad": -3
+        }
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "discord_13",
+    "titulo": "En Discord: Pena",
+    "lugar": "Discord · Canal de los cabros",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El canal de voz está activo. Entre juegos y bromas surge un tema: pena."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Me da miedo que la Lumi vuelva con Max y yo quede ahí esperando."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Entonces no te pongai en pausa. Ella decide su vida y tú la tuya."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Acompañar no es reservarse un turno."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      }
+    ],
+    "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, discord voice chat at an adult gaming desk, Chile. computer monitors, headsets, four adult friends joking and advising one another, comedic composition. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Tomarse en serio el consejo útil.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 4,
+          "honestidad": 1
+        }
+      },
+      {
+        "texto": "Responder con una talla y pasar un buen rato.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 1
+        }
+      },
+      {
+        "texto": "Hacerse el desentendido.",
+        "efectos": {
+          "amistad": 1,
+          "claridad": -3
+        }
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "discord_14",
+    "titulo": "En Discord: Deseo y cariño",
+    "lugar": "Discord · Canal de los cabros",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El canal de voz está activo. Entre juegos y bromas surge un tema: deseo y cariño."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "No entiendo cómo se puede querer pasar la noche con alguien sin querer pololear."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Porque el deseo y el compromiso no son la misma cosa, genio."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Y ambas cosas requieren sinceridad."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      }
+    ],
+    "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, discord voice chat at an adult gaming desk, Chile. computer monitors, headsets, four adult friends joking and advising one another, comedic composition. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Tomarse en serio el consejo útil.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 4,
+          "honestidad": 1
+        }
+      },
+      {
+        "texto": "Responder con una talla y pasar un buen rato.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 1
+        }
+      },
+      {
+        "texto": "Hacerse el desentendido.",
+        "efectos": {
+          "amistad": 1,
+          "claridad": -3
+        }
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "discord_15",
+    "titulo": "En Discord: Escuchar un no",
+    "lugar": "Discord · Canal de los cabros",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El canal de voz está activo. Entre juegos y bromas surge un tema: escuchar un no."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Si te dicen que no, es no. Si te dicen todavía no sé, no es un sí escondido."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "¿Y si mando un formulario de confirmación?"
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Jairo, desenchufa el router."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      }
+    ],
+    "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, discord voice chat at an adult gaming desk, Chile. computer monitors, headsets, four adult friends joking and advising one another, comedic composition. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Tomarse en serio el consejo útil.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 4,
+          "honestidad": 1
+        }
+      },
+      {
+        "texto": "Responder con una talla y pasar un buen rato.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 1
+        }
+      },
+      {
+        "texto": "Hacerse el desentendido.",
+        "efectos": {
+          "amistad": 1,
+          "claridad": -3
+        }
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "discord_16",
+    "titulo": "En Discord: La disculpa",
+    "lugar": "Discord · Canal de los cabros",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El canal de voz está activo. Entre juegos y bromas surge un tema: la disculpa."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Pedir perdón sin cambiar nada es como hacer commit sin guardar archivos."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "JAJAJA, esa te salió técnica. Igual tiene razón."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "¿Puedo hacer rollback de una cita mala?"
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      }
+    ],
+    "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, discord voice chat at an adult gaming desk, Chile. computer monitors, headsets, four adult friends joking and advising one another, comedic composition. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Tomarse en serio el consejo útil.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 4,
+          "honestidad": 1
+        }
+      },
+      {
+        "texto": "Responder con una talla y pasar un buen rato.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 1
+        }
+      },
+      {
+        "texto": "Hacerse el desentendido.",
+        "efectos": {
+          "amistad": 1,
+          "claridad": -3
+        }
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "discord_17",
+    "titulo": "En Discord: Elegir",
+    "lugar": "Discord · Canal de los cabros",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El canal de voz está activo. Entre juegos y bromas surge un tema: elegir."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Tengo que decidir qué clase de persona quiero ser, no solo con quién salir."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Eso, hermano. Ahí recién empezamos a hablar."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "¿Y una clase de persona con mejores entradas de pelo?"
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      }
+    ],
+    "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, discord voice chat at an adult gaming desk, Chile. computer monitors, headsets, four adult friends joking and advising one another, comedic composition. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Tomarse en serio el consejo útil.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 4,
+          "honestidad": 1
+        }
+      },
+      {
+        "texto": "Responder con una talla y pasar un buen rato.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 1
+        }
+      },
+      {
+        "texto": "Hacerse el desentendido.",
+        "efectos": {
+          "amistad": 1,
+          "claridad": -3
+        }
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "discord_18",
+    "titulo": "En Discord: La última talla",
+    "lugar": "Discord · Canal de los cabros",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El canal de voz está activo. Entre juegos y bromas surge un tema: la última talla."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Si terminai solo no significa que perdiste."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Pero si terminai solo por mentiroso, ahí sí que te vamos a webear."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Yo propongo una copa para el último pelo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Ya, está bien. Igual me sirve hablarlo con ustedes, aunque sean unos wnes."
+      }
+    ],
+    "direccionVisual": "Plano medio en Discord · Canal de los cabros. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, discord voice chat at an adult gaming desk, Chile. computer monitors, headsets, four adult friends joking and advising one another, comedic composition. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Tomarse en serio el consejo útil.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 4,
+          "honestidad": 1
+        }
+      },
+      {
+        "texto": "Responder con una talla y pasar un buen rato.",
+        "efectos": {
+          "amistad": 5,
+          "claridad": 1
+        }
+      },
+      {
+        "texto": "Hacerse el desentendido.",
+        "efectos": {
+          "amistad": 1,
+          "claridad": -3
+        }
+      }
+    ],
+    "fondo": "discord_noche.png"
+  }
+]

@@ -1,0 +1,5 @@
+target/
+distribucion/
+.idea/
+*.iml
+META-INF/

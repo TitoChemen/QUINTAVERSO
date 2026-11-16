@@ -1,0 +1,22 @@
+QUINTAVERSO — PACK DE 10 FONDOS, TEMPORADA CACERES
+
+Carpeta de destino en JavaFX: src/main/resources/imagenes/fondos/
+
+Incluye 10 PNG panoramicos a 1600x900:
+- habitacion_caceres_noche.png
+- habitacion_caceres_dia.png
+- discord_noche.png
+- cafe_vina.png
+- plaza_villa_alemana.png
+- costanera_atardecer.png
+- muelle_noche.png
+- terminal_valparaiso.png
+- mirador_vina.png
+- parque_vina.png
+
+IMPORTANTE SOBRE LA CALIDAD:
+Los primeros SEIS fondos fueron generados como imagenes independientes, con detalle nativo.
+Los ULTIMOS CUATRO (muelle, terminal, mirador, parque) se separaron de una lamina de escenarios y ampliaron a 1600x900. Son fondos de prueba/borradores: aunque ocupan 1600x900, NO tienen la misma nitidez original que los otros seis. Recomendamos reemplazarlos por generaciones dedicadas antes de publicar el juego.
+
+No contienen personajes, para permitir la superposicion de sprites y paneles de dialogo en JavaFX.
+Estos son fondos ilustrados, no fotografias exactas de los lugares.

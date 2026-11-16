@@ -1,0 +1,2845 @@
+[
+  {
+    "id": "evento_fiesta",
+    "titulo": "La conejita de la fiesta (recuerdo)",
+    "lugar": "Fiesta de disfraces · Villa Alemana",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Unas luces de colores cortan la oscuridad. Suena música demasiado fuerte. Kevin saluda a Cáceres y le hace señas para acercarse."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Oe, ven. Te presento a la Cony. Pero no te pongai raro, por favor."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "¿Así que tú eres el famoso Cáceres? Espero que sea famoso por algo bueno."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Es famoso por quedarse diez minutos pensando una respuesta de dos palabras."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Yo tengo un tutorial pa eso."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Jairo, nadie te pidió un tutorial de nada."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Cony se ríe. Cáceres siente el impulso de quedarse a conocerla."
+      }
+    ],
+    "direccionVisual": "Secuencia narrativa con planos generales de Fiesta de disfraces · Villa Alemana, planos medios del diálogo y primeros planos en las decisiones.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Fiesta de disfraces · Villa Alemana. adult Chilean costume party, four friends introducing an adult playful young woman, warm colorful lights, no identifiable celebrities. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Invitarla a salir al patio para poder escucharla.",
+        "siguiente": "fiesta_patio",
+        "efectos": {
+          "cony": 10,
+          "confianza_cony": 7
+        },
+        "eventos": [
+          "fiesta_conversacion"
+        ]
+      },
+      {
+        "texto": "Quedarte en el grupo y hacerla reír.",
+        "siguiente": "fiesta_grupo",
+        "efectos": {
+          "cony": 7,
+          "amistad": 7
+        },
+        "eventos": [
+          "fiesta_grupo"
+        ]
+      },
+      {
+        "texto": "Preguntarle directamente si quiere intercambiar números.",
+        "siguiente": "fiesta_numero",
+        "efectos": {
+          "cony": 5,
+          "honestidad": 5
+        },
+        "eventos": [
+          "fiesta_numero"
+        ]
+      }
+    ],
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "fiesta_patio",
+    "titulo": "Lo que dijo en el patio",
+    "lugar": "Patio de la fiesta",
+    "dialogos": [
+      {
+        "personaje": "Cony",
+        "texto": "Te vi más nervioso que la chucha allá adentro. Tranquilo, no te voy a interrogar."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Es que el Kevin me presenta como si yo fuera un producto en oferta."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "JAJAJA. Me caíste bien. ¿Nos seguimos hablando después?"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Intercambian sus números. No pactan nada más; tampoco necesitan hacerlo."
+      }
+    ],
+    "direccionVisual": "Plano medio en Patio de la fiesta. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Patio de la fiesta. Lo que dijo en el patio. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "fiesta_grupo",
+    "titulo": "La carcajada",
+    "lugar": "Fiesta",
+    "dialogos": [
+      {
+        "personaje": "Jairo",
+        "texto": "Tengo un consejo para el amor: nunca mandar dos mensajes seguidos."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "¿Y quién te enseñó eso?"
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Nadie, por eso no le funciona."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Cony se ríe tanto que casi deja caer su vaso. Cáceres piensa que le gustaría volver a verla."
+      }
+    ],
+    "direccionVisual": "Plano medio en Fiesta. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Fiesta. La carcajada. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "fiesta_numero",
+    "titulo": "Un número, no una promesa",
+    "lugar": "Fiesta",
+    "dialogos": [
+      {
+        "personaje": "Cáceres",
+        "texto": "Me gustó conversar contigo. ¿Te parece si nos hablamos después?"
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Sí, po. Pero no me mandís un testamento de buenas noches."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Se agregan. Que haya química no significa que ya exista una relación."
+      }
+    ],
+    "direccionVisual": "Plano medio en Fiesta. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Fiesta. Un número, no una promesa. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "evento_lumi_identidad",
+    "titulo": "La Lumi que no cabe en un chat",
+    "lugar": "Cafetería de Viña",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi llega sola, con una bolsa llena de cosas para sus proyectos. Pide antes de mirar el teléfono. Su día empezó mucho antes que esta cita."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Yo hago todo sola cuando quiero. Me gusta moverme, inventar panoramas, tener mis tiempos."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "¿Y el Max?"
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Ahí está mi contradicción. Cuando me enamoro me pongo demasiado pendiente de la persona. Empiezo a mirar si respondió y me olvido de lo que quería hacer."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Quiero aprender a querer sin volverme adicta a la atención del otro."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No espera que Cáceres le solucione el dilema. Quiere ser escuchada."
+      }
+    ],
+    "direccionVisual": "Secuencia narrativa con planos generales de Cafetería de Viña, planos medios del diálogo y primeros planos en las decisiones.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Cafetería de Viña. independent adult blue-haired woman with glasses at cafe, notebooks and project materials, candid conversation. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "«Me interesa conocer tu mundo, no solo tus problemas.»",
+        "siguiente": "lumi_identidad_escucha",
+        "efectos": {
+          "lumi": 8,
+          "confianza_lumi": 10,
+          "claridad": 4
+        },
+        "eventos": [
+          "lumi_mundo"
+        ]
+      },
+      {
+        "texto": "«Si Max falla tanto, yo te trataría mejor.»",
+        "siguiente": "lumi_identidad_comparacion",
+        "efectos": {
+          "lumi": 2,
+          "confianza_lumi": -7,
+          "sospecha": 6
+        }
+      },
+      {
+        "texto": "«Suena agotador. ¿Qué harías solo por ti?»",
+        "siguiente": "lumi_identidad_pregunta",
+        "efectos": {
+          "lumi": 6,
+          "confianza_lumi": 8,
+          "honestidad": 4
+        },
+        "eventos": [
+          "lumi_mundo"
+        ]
+      }
+    ],
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "lumi_identidad_escucha",
+    "titulo": "Sin pedir explicaciones",
+    "lugar": "Cafetería",
+    "dialogos": [
+      {
+        "personaje": "Lumi",
+        "texto": "Eso me gustó. A veces siento que la gente solo escucha la parte sentimental de mi vida."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Bueno, entonces cuéntame qué estás armando."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La conversación se extiende entre ideas, música y planes que no incluyen a Max."
+      }
+    ],
+    "direccionVisual": "Plano medio en Cafetería. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Cafetería. Sin pedir explicaciones. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "lumi_identidad_comparacion",
+    "titulo": "La comparación incómoda",
+    "lugar": "Cafetería",
+    "dialogos": [
+      {
+        "personaje": "Lumi",
+        "texto": "No necesito que compitas con él. Necesito aprender a no olvidarme de mí."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Sí, tienes razón. Me apuré."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi bebe un sorbo de café y cambia de tema. Algo quedó en el aire."
+      }
+    ],
+    "direccionVisual": "Plano medio en Cafetería. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Cafetería. La comparación incómoda. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "lumi_identidad_pregunta",
+    "titulo": "Lo que ella elige",
+    "lugar": "Cafetería",
+    "dialogos": [
+      {
+        "personaje": "Lumi",
+        "texto": "Me iría a sacar fotos por toda la costa. Sola, si quiero. Acompañada, si me nace."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Suena a un buen plan. ¿Me mostrarías algunas después?"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi sonríe: esta vez el tema es lo que ella desea."
+      }
+    ],
+    "direccionVisual": "Plano medio en Cafetería. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Cafetería. Lo que ella elige. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "evento_cony_libre",
+    "titulo": "La Cony viene sin contrato",
+    "lugar": "Plaza de Villa Alemana",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Cony llega con una sonrisa traviesa. Se sienta frente a Cáceres, no a su lado; quiere mirarlo a la cara."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Te lo digo altiro: me gustai, me atraís, me dan ganas de besarte. Pero no estoy buscando pololo por ahora."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "¿Y entonces qué andai buscando?"
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Salir, pelarme si hay ganas, quizá acostarme con alguien si ambos queremos. Sin venderle cuentos a nadie."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Y si algún día me cambia la cabeza, lo voy a decir. Pero no me esperís como si fuera una promesa."
+      }
+    ],
+    "direccionVisual": "Secuencia narrativa con planos generales de Plaza de Villa Alemana, planos medios del diálogo y primeros planos en las decisiones.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Plaza de Villa Alemana. two adult young people having a frank conversation on a small town plaza bench, daylight, respectful body language. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "«Me sirve algo casual, pero hablemos de límites.»",
+        "siguiente": "cony_libre_acuerdo",
+        "efectos": {
+          "cony": 8,
+          "confianza_cony": 12,
+          "honestidad": 8
+        },
+        "eventos": [
+          "cony_casual_acordado"
+        ],
+        "desactivarEventos": [
+          "cony_sin_prisa"
+        ]
+      },
+      {
+        "texto": "«Prefiero ir lento. Me gustai, pero no quiero fingir.»",
+        "siguiente": "cony_libre_lento",
+        "efectos": {
+          "cony": 6,
+          "confianza_cony": 8,
+          "claridad": 6
+        },
+        "eventos": [
+          "cony_sin_prisa"
+        ],
+        "desactivarEventos": [
+          "cony_casual_acordado"
+        ]
+      },
+      {
+        "texto": "«Ya te voy a convencer de ser mi polola.»",
+        "siguiente": "cony_libre_presion",
+        "efectos": {
+          "cony": -8,
+          "confianza_cony": -15,
+          "sospecha": 8
+        },
+        "eventos": [
+          "cony_presionada"
+        ]
+      }
+    ],
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "cony_libre_acuerdo",
+    "titulo": "Sin letra chica",
+    "lugar": "Plaza",
+    "dialogos": [
+      {
+        "personaje": "Cony",
+        "texto": "Me gusta eso. Si nos besamos o pasa algo más, no voy a asumir exclusividad."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Entonces hablamos si cambia lo que sentimos. Nada de desaparecer ni inventar compromisos."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Se despiden con un abrazo. Hay ganas, pero también una conversación que sostiene esas ganas."
+      }
+    ],
+    "direccionVisual": "Plano medio en Plaza. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Plaza. Sin letra chica. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "cony_libre_lento",
+    "titulo": "Sin apurarla",
+    "lugar": "Plaza",
+    "dialogos": [
+      {
+        "personaje": "Cony",
+        "texto": "Perfecto. Me gusta cuando alguien dice lo que quiere sin hacerse el interesante."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Yo necesito cachar si lo casual me acomoda de verdad."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Cony asiente. Nadie tiene que apurar a nadie."
+      }
+    ],
+    "direccionVisual": "Plano medio en Plaza. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Plaza. Sin apurarla. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "cony_libre_presion",
+    "titulo": "La sonrisa se borra",
+    "lugar": "Plaza",
+    "dialogos": [
+      {
+        "personaje": "Cony",
+        "texto": "Eso mismo es lo que no quiero. No soy un desafío que tengai que ganar."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Ya. Estuvo feo cómo sonó."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La conversación se enfría. Las ganas no compensan el desprecio por un límite."
+      }
+    ],
+    "direccionVisual": "Plano medio en Plaza. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Plaza. La sonrisa se borra. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "evento_max_planton",
+    "titulo": "La tercera cancelación",
+    "lugar": "Llamada de Lumi · Noche",
+    "dialogos": [
+      {
+        "personaje": "Lumi",
+        "texto": "Max volvió a cancelar. Le pedí que viniera a algo importante para mí. Lo había anotado hace semanas."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "¿Te avisó antes?"
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Diez minutos después de la hora. Y terminó diciendo que yo exageraba."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Qué rabia. Porque puedo organizarlo todo sola, pero cuando amo a alguien me dan ganas de que esté presente."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Cáceres tiene un consejo en la punta de la lengua. Puede ser útil o sonar como si estuviera esperando su oportunidad."
+      }
+    ],
+    "direccionVisual": "Secuencia narrativa con planos generales de Llamada de Lumi · Noche, planos medios del diálogo y primeros planos en las decisiones.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Llamada de Lumi · Noche. blue-haired adult woman with glasses taking a late-night phone call by a window, holding back frustration. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "«Puedes decirle que esto te duele, sin pedir permiso.»",
+        "siguiente": "max_planton_apoyo",
+        "efectos": {
+          "confianza_lumi": 10,
+          "honestidad": 5,
+          "lumi": 4
+        },
+        "eventos": [
+          "max_planton_escuchado"
+        ]
+      },
+      {
+        "texto": "«Déjalo y quédate conmigo.»",
+        "siguiente": "max_planton_presion",
+        "efectos": {
+          "confianza_lumi": -8,
+          "lumi": 2,
+          "sospecha": 10
+        },
+        "eventos": [
+          "max_planton_escuchado"
+        ]
+      },
+      {
+        "texto": "«¿Quieres desahogarte o prefieres pensar qué decirle?»",
+        "siguiente": "max_planton_escucha",
+        "efectos": {
+          "confianza_lumi": 12,
+          "lumi": 5,
+          "claridad": 4
+        },
+        "eventos": [
+          "max_planton_escuchado"
+        ]
+      }
+    ],
+    "fondo": "habitacion_caceres_noche.png"
+  },
+  {
+    "id": "max_planton_apoyo",
+    "titulo": "Lo que no se negocia",
+    "lugar": "Llamada",
+    "dialogos": [
+      {
+        "personaje": "Lumi",
+        "texto": "A veces necesito que alguien me lo diga así. Sin tratarme de exagerada."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "No tengo que decidir por ti. Solo me importa que te escuchen."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi termina la llamada y escribe en su cuaderno lo que quiere decir."
+      }
+    ],
+    "direccionVisual": "Plano medio en Llamada. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Llamada. Lo que no se negocia. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "max_planton_presion",
+    "titulo": "La oportunidad equivocada",
+    "lugar": "Llamada",
+    "dialogos": [
+      {
+        "personaje": "Lumi",
+        "texto": "No soy un premio por el que estai compitiendo, Cáceres."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Perdón. Fue una mala forma de decirlo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Hay un silencio que no se arregla coqueteando."
+      }
+    ],
+    "direccionVisual": "Plano medio en Llamada. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Llamada. La oportunidad equivocada. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "max_planton_escucha",
+    "titulo": "Primero escuchar",
+    "lugar": "Llamada",
+    "dialogos": [
+      {
+        "personaje": "Lumi",
+        "texto": "Quiero desahogarme un rato. Después pensaré qué hago."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Dale. Te escucho."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "A veces el buen consejo no empieza con una solución."
+      }
+    ],
+    "direccionVisual": "Plano medio en Llamada. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Llamada. Primero escuchar. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "evento_consejo_1",
+    "titulo": "Los asesores no contratados",
+    "lugar": "Discord · Viernes",
+    "dialogos": [
+      {
+        "personaje": "Cáceres",
+        "texto": "La Cony quiere algo casual y la Lumi está complicada con Max. ¿Cómo hago para no quedar como un imbécil?"
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Preguntando y escuchando, po. Ni la Lumi necesita un salvador ni la Cony te debe pololeo."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Si tú querís algo distinto, dilo antes de hacerte ilusiones."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Yo vi un hilo que dice que hay que responder cada 37 minutos exactos."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Jairo, tú no eres un reloj atómico con Tinder."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "JAJAJA, ya, pero los escucho."
+      }
+    ],
+    "direccionVisual": "Secuencia narrativa con planos generales de Discord · Viernes, planos medios del diálogo y primeros planos en las decisiones.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Discord · Viernes. four adult male friends in separate gaming desks in a video-call style composition; humorous Chilean dialogue. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Hacerles caso y hablar directo.",
+        "siguiente": "consejo_1_directo",
+        "efectos": {
+          "amistad": 8,
+          "claridad": 8,
+          "honestidad": 5
+        },
+        "eventos": [
+          "consejo_escuchado"
+        ]
+      },
+      {
+        "texto": "Pedirle a Jairo el hilo para reírse.",
+        "siguiente": "consejo_1_jairo",
+        "efectos": {
+          "amistad": 8,
+          "claridad": -3
+        }
+      },
+      {
+        "texto": "Cambiar el tema y jugar.",
+        "siguiente": "consejo_1_juego",
+        "efectos": {
+          "amistad": 5
+        }
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "consejo_1_directo",
+    "titulo": "Un consejo útil",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "Entonces no prometai exclusividad a nadie si ni tú sabís si la querís."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Eso. Trátalas bien sin intentar controlar la historia."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La llamada sigue con risas, pero el consejo queda."
+      }
+    ],
+    "direccionVisual": "Plano medio en Discord. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Discord. Un consejo útil. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "consejo_1_jairo",
+    "titulo": "El método de los 37 minutos",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Jairo",
+        "texto": "En el hilo decía que genera misterio."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Genera que te bloqueen, hermano."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Todos se ríen. Cáceres por fin deja de mirar el teléfono un rato."
+      }
+    ],
+    "direccionVisual": "Plano medio en Discord. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Discord. El método de los 37 minutos. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "consejo_1_juego",
+    "titulo": "Ranked sentimental",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "Ya, a jugar. Pero después no nos vengai con que todo te pilló de sorpresa."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Cambian a un juego. La noche no necesita una respuesta inmediata."
+      }
+    ],
+    "direccionVisual": "Plano medio en Discord. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Discord. Ranked sentimental. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "evento_cony_cita",
+    "titulo": "Química en la Quinta",
+    "lugar": "Paseo nocturno · Villa Alemana",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Cony llega con una chaqueta clara. Caminan bajo las luces amarillas de la plaza, compartiendo papas fritas de una bolsa."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Me caís muy bien, pero no te quiero vender una película de amor."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "¿Y si solo quiero estar aquí y pasarlo bien?"
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Entonces ven, po. No te hagai el dramático."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Cony se acerca, dejando espacio para que Cáceres elija."
+      }
+    ],
+    "direccionVisual": "Secuencia narrativa con planos generales de Paseo nocturno · Villa Alemana, planos medios del diálogo y primeros planos en las decisiones.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Paseo nocturno · Villa Alemana. adult couple sharing fries on a lamplit Chilean plaza at night; romantic but not graphic. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Preguntar si puede besarla.",
+        "siguiente": "cony_cita_beso",
+        "efectos": {
+          "cony": 10,
+          "confianza_cony": 8,
+          "honestidad": 3
+        },
+        "eventos": [
+          "cony_primer_beso"
+        ]
+      },
+      {
+        "texto": "Seguir caminando y conversando.",
+        "siguiente": "cony_cita_camino",
+        "efectos": {
+          "cony": 7,
+          "confianza_cony": 9
+        }
+      },
+      {
+        "texto": "Preguntar si esto significa que serán pareja.",
+        "siguiente": "cony_cita_etiqueta",
+        "efectos": {
+          "cony": -4,
+          "confianza_cony": -7
+        }
+      }
+    ],
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "cony_cita_beso",
+    "titulo": "Un beso sin letra chica",
+    "lugar": "Plaza",
+    "dialogos": [
+      {
+        "personaje": "Cáceres",
+        "texto": "¿Puedo besarte?"
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Sí, tontito, te estaba dando todas las señales."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Se besan con ganas y después se ríen por lo nervioso que estaba Cáceres."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Que nos besemos no me convierte en tu polola, ¿ya?"
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Entendido."
+      }
+    ],
+    "direccionVisual": "Plano medio en Plaza. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Plaza. Un beso sin letra chica. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "cony_cita_camino",
+    "titulo": "La cita que no necesitó beso",
+    "lugar": "Plaza",
+    "dialogos": [
+      {
+        "personaje": "Cony",
+        "texto": "Me gustó que no vinieras con un libreto."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "No tengo libreto. Tengo hambre."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Compran algo más para comer y la noche termina con un abrazo largo."
+      }
+    ],
+    "direccionVisual": "Plano medio en Plaza. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Plaza. La cita que no necesitó beso. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "cony_cita_etiqueta",
+    "titulo": "La pregunta anticipada",
+    "lugar": "Plaza",
+    "dialogos": [
+      {
+        "personaje": "Cony",
+        "texto": "No, po. Te lo dije. Me gusta conocerte, no quiero ponerle nombre todavía."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Cáceres se da cuenta de que estaba intentando asegurarse de una respuesta que ella no ofreció."
+      }
+    ],
+    "direccionVisual": "Plano medio en Plaza. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Plaza. La pregunta anticipada. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "evento_lumi_taller",
+    "titulo": "Lo que enciende a Lumi",
+    "lugar": "Taller creativo · Viña del Mar",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi trabaja concentrada en un proyecto creativo. Tiene las mangas remangadas y los lentes un poco torcidos de tanto moverse."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Cuando me meto en esto me olvido del mundo. Antes me daba culpa no responderle a Max mientras hacía algo mío."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Se te nota feliz. ¿Necesitas ayuda?"
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Sí, pero no me lo hagai tú. Dame esa herramienta y quédate a hacerme compañía."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No parece necesitar que la rescaten: necesita espacio para seguir siendo ella."
+      }
+    ],
+    "direccionVisual": "Secuencia narrativa con planos generales de Taller creativo · Viña del Mar, planos medios del diálogo y primeros planos en las decisiones.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Taller creativo · Viña del Mar. creative workshop in Chile, independent adult woman with blue hair glasses painting or crafting, adult male friend observing respectfully. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Ayudar sin quitarle el control.",
+        "siguiente": "lumi_taller_bien",
+        "efectos": {
+          "lumi": 7,
+          "confianza_lumi": 12,
+          "claridad": 5
+        },
+        "eventos": [
+          "lumi_taller_visto"
+        ]
+      },
+      {
+        "texto": "Decir que prefieres irte si no te presta atención.",
+        "siguiente": "lumi_taller_mal",
+        "efectos": {
+          "lumi": -6,
+          "confianza_lumi": -9
+        },
+        "eventos": [
+          "lumi_taller_visto"
+        ]
+      }
+    ],
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "lumi_taller_bien",
+    "titulo": "Su proyecto, su momento",
+    "lugar": "Taller",
+    "dialogos": [
+      {
+        "personaje": "Lumi",
+        "texto": "Gracias. ¿Cachai lo distinto que es que alguien me acompañe sin ponerse al centro?"
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Y además me quedó pintura en la cara. Es excelente intercambio."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Ambos se ríen. Ella vuelve a concentrarse, contenta."
+      }
+    ],
+    "direccionVisual": "Plano medio en Taller. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Taller. Su proyecto, su momento. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "lumi_taller_mal",
+    "titulo": "La atención no es deuda",
+    "lugar": "Taller",
+    "dialogos": [
+      {
+        "personaje": "Lumi",
+        "texto": "Te invité para compartir algo importante para mí, no para dejar de hacerlo por ti."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Sí... me fui en la volá."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi se toma un momento antes de retomar su trabajo."
+      }
+    ],
+    "direccionVisual": "Plano medio en Taller. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Taller. La atención no es deuda. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "evento_cony_noche",
+    "titulo": "La invitación",
+    "lugar": "Departamento de Cony · Noche",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Después de una salida entre risas, Cony invita a Cáceres a subir. La casa está tranquila; la conversación también."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Me atraís, Cáceres. Tengo ganas de estar contigo esta noche. Te lo pregunto bien claro porque no quiero suposiciones."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "A mí también me gustai. ¿Y seguimos con lo que hablamos? Sin prometer pololeo."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Exacto. Si cambiamos de opinión, paramos. Y mañana seguimos siendo dos personas que se respetan."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La decisión es de ambos; no hay presión, ni obligación de que suceda nada."
+      }
+    ],
+    "direccionVisual": "Secuencia narrativa con planos generales de Departamento de Cony · Noche, planos medios del diálogo y primeros planos en las decisiones.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Departamento de Cony · Noche. adult couple on a living room sofa at night, warm interior, looking at each other, intimacy implied not shown, fully clothed. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "«Sí, quiero quedarme contigo. Estoy cómodo con esto.»",
+        "siguiente": "cony_noche_si",
+        "efectos": {
+          "cony": 12,
+          "confianza_cony": 10,
+          "honestidad": 5
+        },
+        "eventos": [
+          "cony_intimidad"
+        ]
+      },
+      {
+        "texto": "«Me gustai, pero hoy prefiero irme a casa.»",
+        "siguiente": "cony_noche_no",
+        "efectos": {
+          "cony": 4,
+          "confianza_cony": 9,
+          "claridad": 6
+        },
+        "eventos": [
+          "cony_respeto_limite"
+        ]
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "cony_noche_si",
+    "titulo": "Puerta cerrada, conversación abierta",
+    "lugar": "Departamento de Cony · Noche",
+    "dialogos": [
+      {
+        "personaje": "Cony",
+        "texto": "¿Estás seguro?"
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Sí. ¿Tú también?"
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Sí."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Se besan. Cony le toma la mano y lo guía hacia el pasillo. La escena se funde a negro."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Esa noche tienen un encuentro íntimo consensuado. No se muestra. Ninguno promete una relación por haberlo vivido."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Al amanecer tendrán que hablar de cómo se sienten, no fingir que no pasó nada."
+      }
+    ],
+    "direccionVisual": "Plano medio en Departamento de Cony · Noche. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Departamento de Cony · Noche. Puerta cerrada, conversación abierta. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "cony_noche_no",
+    "titulo": "Decir que no también acerca",
+    "lugar": "Departamento de Cony",
+    "dialogos": [
+      {
+        "personaje": "Cony",
+        "texto": "Gracias por decirlo. Me gusta saber que podís elegir sin hacerte el valiente."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "La próxima cita la hacemos con menos nervios."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Se abrazan y Cáceres vuelve a su casa. La confianza crece incluso sin pasar la noche juntos."
+      }
+    ],
+    "direccionVisual": "Plano medio en Departamento de Cony. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Departamento de Cony. Decir que no también acerca. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "evento_max_mentira",
+    "titulo": "La verdad a medias",
+    "lugar": "Mirador · Viña del Mar",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi llega seria. Tiene su bolso cruzado y ojeras de una noche mal dormida."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Max me dijo que estaba enfermo el día que canceló. Después vi una historia: estaba de fiesta, tranquilo, con gente que ni conocía."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Lo que me dolió no fue la fiesta. Fue que me mintiera y me hiciera sentir ridícula por preguntar."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Eso sí que es una cagá."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Y lo peor es que una parte de mí quiere perdonarlo altiro. Cuando amo, me cuesta soltar."
+      }
+    ],
+    "direccionVisual": "Secuencia narrativa con planos generales de Mirador · Viña del Mar, planos medios del diálogo y primeros planos en las decisiones.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Mirador · Viña del Mar. independent adult blue-haired woman with glasses seated on coastal viewpoint, disappointed after discovering a lie, respectful friend alongside. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "«No tienes que decidir hoy. Lo importante es que te respeten.»",
+        "siguiente": "max_mentira_apoyo",
+        "efectos": {
+          "confianza_lumi": 12,
+          "honestidad": 6,
+          "claridad": 5
+        },
+        "eventos": [
+          "max_mentira_escuchada"
+        ]
+      },
+      {
+        "texto": "«Te lo dije, conmigo no pasaría.»",
+        "siguiente": "max_mentira_ego",
+        "efectos": {
+          "lumi": -4,
+          "confianza_lumi": -12,
+          "sospecha": 10
+        },
+        "eventos": [
+          "max_mentira_escuchada"
+        ]
+      },
+      {
+        "texto": "«¿Qué necesitarías para volver a confiar en él?»",
+        "siguiente": "max_mentira_pregunta",
+        "efectos": {
+          "confianza_lumi": 10,
+          "lumi": 3,
+          "claridad": 7
+        },
+        "eventos": [
+          "max_mentira_escuchada"
+        ]
+      }
+    ],
+    "fondo": "mirador_vina.png"
+  },
+  {
+    "id": "max_mentira_apoyo",
+    "titulo": "La noche de los límites",
+    "lugar": "Mirador",
+    "dialogos": [
+      {
+        "personaje": "Lumi",
+        "texto": "Me cuesta creer que puedo quererlo y aun así decirle basta."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Eso solo lo podís decidir tú."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi deja el teléfono en el bolso y mira el mar. Por una vez no espera una notificación."
+      }
+    ],
+    "direccionVisual": "Plano medio en Mirador. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Mirador. La noche de los límites. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "mirador_vina.png"
+  },
+  {
+    "id": "max_mentira_ego",
+    "titulo": "No era una competencia",
+    "lugar": "Mirador",
+    "dialogos": [
+      {
+        "personaje": "Lumi",
+        "texto": "No necesito que la caguemos con otra comparación. Necesito ordenar mi cabeza."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Perdón. Fue egoísta."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Ella necesita distancia. Cáceres entiende que tratarla bien no le garantiza nada."
+      }
+    ],
+    "direccionVisual": "Plano medio en Mirador. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Mirador. No era una competencia. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "mirador_vina.png"
+  },
+  {
+    "id": "max_mentira_pregunta",
+    "titulo": "La pregunta necesaria",
+    "lugar": "Mirador",
+    "dialogos": [
+      {
+        "personaje": "Lumi",
+        "texto": "No sé. Tal vez que deje de minimizar todo lo que siento. O tal vez ya sea tarde."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La respuesta le pertenece a ella, incluso si no es la que Cáceres espera."
+      }
+    ],
+    "direccionVisual": "Plano medio en Mirador. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Mirador. La pregunta necesaria. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "mirador_vina.png"
+  },
+  {
+    "id": "evento_cony_despues",
+    "titulo": "Lo que pasó anoche",
+    "lugar": "Cocina de Cony · Mañana",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "La mañana encuentra dos tazas sobre la mesa. Cony está preparando café; Cáceres mira su celular apagado."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Oe. Anoche nos acostamos y yo lo pasé bien. Pero quiero saber si quedamos en la misma página."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "A mí también me gustó. No quiero inventar una historia distinta a la que hablamos."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Bien. Que haya intimidad no significa que seamos pololos. Y si algo cambia, lo hablamos."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "A veces lo más íntimo es poder conversar sin inventar promesas."
+      }
+    ],
+    "direccionVisual": "Secuencia narrativa con planos generales de Cocina de Cony · Mañana, planos medios del diálogo y primeros planos en las decisiones.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Cocina de Cony · Mañana. morning kitchen scene, adult couple in casual fully clothed outfits drinking coffee across a table, sincere talk. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "«Sigamos con acuerdos claros; no asumo exclusividad.»",
+        "siguiente": "cony_despues_claro",
+        "efectos": {
+          "confianza_cony": 12,
+          "honestidad": 8,
+          "claridad": 6
+        },
+        "eventos": [
+          "cony_limites_revisados"
+        ]
+      },
+      {
+        "texto": "«En verdad yo quiero exclusividad, necesito pensarlo.»",
+        "siguiente": "cony_despues_honesto",
+        "efectos": {
+          "confianza_cony": 7,
+          "honestidad": 10,
+          "claridad": 7
+        },
+        "eventos": [
+          "cony_necesita_revisar"
+        ]
+      },
+      {
+        "texto": "«No hace falta hablar, total fue una noche.»",
+        "siguiente": "cony_despues_evasivo",
+        "efectos": {
+          "confianza_cony": -15,
+          "honestidad": -10,
+          "sospecha": 7
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "cony_despues_claro",
+    "titulo": "Lo acordado vale",
+    "lugar": "Cocina",
+    "dialogos": [
+      {
+        "personaje": "Cony",
+        "texto": "Me gusta poder hablarte así de frente."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Y si alguna vez queremos algo distinto, no lo escondemos."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La despedida es cálida y tranquila. El vínculo continúa sin convertirse automáticamente en noviazgo."
+      }
+    ],
+    "direccionVisual": "Plano medio en Cocina. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Cocina. Lo acordado vale. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "cony_despues_honesto",
+    "titulo": "Querer otra cosa es válido",
+    "lugar": "Cocina",
+    "dialogos": [
+      {
+        "personaje": "Cony",
+        "texto": "Gracias por no fingir que te acomoda todo. No sé si puedo darte eso ahora."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No se pelean. Ponen la historia en pausa para pensar qué esperan."
+      }
+    ],
+    "direccionVisual": "Plano medio en Cocina. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Cocina. Querer otra cosa es válido. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "cony_despues_evasivo",
+    "titulo": "El silencio no resuelve",
+    "lugar": "Cocina",
+    "dialogos": [
+      {
+        "personaje": "Cony",
+        "texto": "No me molesta que haya sido una noche. Me molesta que no podai hablar de eso."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Tenís razón."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Aparece una distancia que no estaba la noche anterior."
+      }
+    ],
+    "direccionVisual": "Plano medio en Cocina. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Cocina. El silencio no resuelve. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "evento_lumi_decision",
+    "titulo": "Lumi no es un premio",
+    "lugar": "Parque de Viña del Mar",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi citó a Cáceres para caminar. No está llorando. Está cansada, pero sorprendentemente serena."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Hoy hablé con Max. Le dije que no quiero seguir justificando mentiras ni cancelaciones."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Me pidió otra oportunidad. Y una parte mía todavía lo ama, aunque me esté haciendo daño."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "No te pido que elijas por mí. Necesito hablar en voz alta antes de decidir."
+      }
+    ],
+    "direccionVisual": "Secuencia narrativa con planos generales de Parque de Viña del Mar, planos medios del diálogo y primeros planos en las decisiones.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Parque de Viña del Mar. blue-haired adult woman with glasses standing in green city park, emotional independence, candid conversation. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "«Lo que decidas, que sea por ti. Mereces un vínculo que respete tu vida.»",
+        "siguiente": "lumi_decision_ruptura",
+        "efectos": {
+          "confianza_lumi": 13,
+          "claridad": 10,
+          "honestidad": 6
+        },
+        "eventos": [
+          "max_ruptura"
+        ],
+        "desactivarEventos": [
+          "lumi_sigue_max"
+        ]
+      },
+      {
+        "texto": "«Si quieres darle otra oportunidad, tiene que cambiar de verdad.»",
+        "siguiente": "lumi_decision_sigue",
+        "efectos": {
+          "confianza_lumi": 6,
+          "claridad": 2
+        },
+        "eventos": [
+          "lumi_sigue_max"
+        ],
+        "desactivarEventos": [
+          "max_ruptura"
+        ]
+      },
+      {
+        "texto": "«Termina con él y pololea conmigo.»",
+        "siguiente": "lumi_decision_presion",
+        "efectos": {
+          "confianza_lumi": -18,
+          "sospecha": 15,
+          "lumi": -5
+        },
+        "eventos": [
+          "lumi_sigue_max"
+        ],
+        "desactivarEventos": [
+          "max_ruptura"
+        ]
+      }
+    ],
+    "fondo": "parque_vina.png"
+  },
+  {
+    "id": "lumi_decision_ruptura",
+    "titulo": "El mensaje definitivo",
+    "lugar": "Parque",
+    "dialogos": [
+      {
+        "personaje": "Lumi",
+        "texto": "Tenís razón. Y la verdad es que ya tomé la decisión antes de venir. Terminé con Max esta mañana."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "¿Cómo te sentís?"
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Triste. Liberada. Con ganas de escribirle. Todo junto."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Y por favor no tomes esto como que ya estoy disponible para ti. Necesito recuperar mi propio ritmo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Cáceres asiente. Acompañarla no significa apropiarse del capítulo siguiente."
+      }
+    ],
+    "direccionVisual": "Plano medio en Parque. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Parque. El mensaje definitivo. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "parque_vina.png"
+  },
+  {
+    "id": "lumi_decision_sigue",
+    "titulo": "Otra oportunidad, sus condiciones",
+    "lugar": "Parque",
+    "dialogos": [
+      {
+        "personaje": "Lumi",
+        "texto": "Quiero intentar una vez más, pero con límites concretos. No necesito que estés de acuerdo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Es tu decisión. Espero que te cuides."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi sigue con Max por ahora. No es una invitación para que Cáceres se quede esperando eternamente."
+      }
+    ],
+    "direccionVisual": "Plano medio en Parque. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Parque. Otra oportunidad, sus condiciones. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "parque_vina.png"
+  },
+  {
+    "id": "lumi_decision_presion",
+    "titulo": "El ultimátum ajeno",
+    "lugar": "Parque",
+    "dialogos": [
+      {
+        "personaje": "Lumi",
+        "texto": "Cáceres, no. Que Max me haya fallado no te da derecho a decirme con quién estar."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Tienes razón. Me fui al carajo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi elige tomar distancia y ordenar su vida sin esa presión."
+      }
+    ],
+    "direccionVisual": "Plano medio en Parque. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Parque. El ultimátum ajeno. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "parque_vina.png"
+  },
+  {
+    "id": "evento_cruce",
+    "titulo": "La Quinta es un pañuelo",
+    "lugar": "Terminal de Valparaíso",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Cáceres espera una micro cuando oye dos voces conocidas. Lumi mira un mapa y Cony está comprando agua."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Oe, ¡Cáceres! ¿Qué hacís acá?"
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Ah, hola. ¿Nos conocemos?"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Aún no se ha dicho ninguna mentira. La siguiente frase puede cambiar eso."
+      }
+    ],
+    "direccionVisual": "Secuencia narrativa con planos generales de Terminal de Valparaíso, planos medios del diálogo y primeros planos en las decisiones.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Terminal de Valparaíso. three fully dressed adult acquaintances meeting unexpectedly at Valparaiso bus terminal, awkward but nonviolent atmosphere. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Presentarlas por sus nombres y explicar cómo se conocen.",
+        "siguiente": "cruce_claro",
+        "efectos": {
+          "honestidad": 9,
+          "confianza_lumi": 5,
+          "confianza_cony": 5,
+          "sospecha": -10
+        },
+        "eventos": [
+          "cruce_honesto"
+        ]
+      },
+      {
+        "texto": "Decirle a cada una que la otra es solo «una desconocida».",
+        "siguiente": "cruce_mentira",
+        "efectos": {
+          "honestidad": -25,
+          "sospecha": 45,
+          "confianza_lumi": -10,
+          "confianza_cony": -10
+        },
+        "eventos": [
+          "mentira_grave"
+        ]
+      },
+      {
+        "texto": "Presentarlas y reconocer que ambas te interesan, sin esconderlo.",
+        "siguiente": "cruce_frente",
+        "efectos": {
+          "honestidad": 12,
+          "claridad": 10,
+          "sospecha": -5
+        },
+        "eventos": [
+          "cruce_honesto",
+          "intereses_declarados"
+        ]
+      }
+    ],
+    "fondo": "terminal_valparaiso.png"
+  },
+  {
+    "id": "cruce_claro",
+    "titulo": "La presentación",
+    "lugar": "Terminal",
+    "dialogos": [
+      {
+        "personaje": "Cáceres",
+        "texto": "Lumi, ella es la Cony. Nos conocimos en una fiesta. Cony, Lumi, una amiga con la que hablo harto."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Mucho gusto."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Igual."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La situación es extraña, pero no tiene por qué convertirse en tragedia. La verdad deja espacio para conversar después."
+      }
+    ],
+    "direccionVisual": "Plano medio en Terminal. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Terminal. La presentación. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "terminal_valparaiso.png"
+  },
+  {
+    "id": "cruce_mentira",
+    "titulo": "La captura que faltaba",
+    "lugar": "Terminal",
+    "dialogos": [
+      {
+        "personaje": "Cony",
+        "texto": "¿Desconocida? Si me saludaste recién, poh."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Cáceres, eso no sonó nada bien."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La mentira es tan torpe que ninguna necesita una captura de pantalla para entenderla."
+      }
+    ],
+    "direccionVisual": "Plano medio en Terminal. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Terminal. La captura que faltaba. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "terminal_valparaiso.png"
+  },
+  {
+    "id": "cruce_frente",
+    "titulo": "Sin andar a escondidas",
+    "lugar": "Terminal",
+    "dialogos": [
+      {
+        "personaje": "Cáceres",
+        "texto": "Me gusta conversar con ambas, pero no quiero hacerlas creer que hay un compromiso que nadie pactó."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Por lo menos sabís decirlo de frente."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "No es una conversación para tener acá, pero agradezco que no inventes cosas."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La incomodidad no desaparece; al menos nadie fue engañado."
+      }
+    ],
+    "direccionVisual": "Plano medio en Terminal. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Terminal. Sin andar a escondidas. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "terminal_valparaiso.png"
+  },
+  {
+    "id": "evento_lumi_espacio",
+    "titulo": "Después de Max",
+    "lugar": "Costanera de Viña",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi camina con un bolso pequeño. Tiene el celular silenciado por primera vez en semanas."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Lo echo de menos, y eso me da rabia. Me acostumbré a saber qué hacía a cada rato."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Quiero salir de eso sin pasar directo a depender de otra persona."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Puedo acompañarte sin que esto se vuelva una cuenta pendiente."
+      }
+    ],
+    "direccionVisual": "Secuencia narrativa con planos generales de Costanera de Viña, planos medios del diálogo y primeros planos en las decisiones.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Costanera de Viña. adult blue-haired woman glasses walking alone with adult male friend along sea promenade in Viña del Mar at golden hour. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Respetar su espacio y hablar de sus proyectos.",
+        "siguiente": "lumi_espacio_bien",
+        "efectos": {
+          "lumi": 7,
+          "confianza_lumi": 12,
+          "honestidad": 5
+        },
+        "eventos": [
+          "lumi_espacio_respetado"
+        ]
+      },
+      {
+        "texto": "Confesar que te gusta, pero dejar claro que no esperas respuesta.",
+        "siguiente": "lumi_espacio_confesion",
+        "efectos": {
+          "lumi": 8,
+          "confianza_lumi": 7,
+          "claridad": 5
+        },
+        "eventos": [
+          "lumi_espacio_respetado"
+        ]
+      },
+      {
+        "texto": "Presionarla para comenzar una relación inmediatamente.",
+        "siguiente": "lumi_espacio_mal",
+        "efectos": {
+          "confianza_lumi": -15,
+          "sospecha": 8
+        }
+      }
+    ],
+    "fondo": "costanera_atardecer.png"
+  },
+  {
+    "id": "lumi_espacio_bien",
+    "titulo": "Tiempo propio",
+    "lugar": "Costanera",
+    "dialogos": [
+      {
+        "personaje": "Lumi",
+        "texto": "Me hace bien que no estés mirando la historia como una carrera."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Además tenís unos proyectos buenísimos. Prefiero escucharte hablando de eso."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Terminan mirando las olas. La complicidad crece sin urgencia."
+      }
+    ],
+    "direccionVisual": "Plano medio en Costanera. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Costanera. Tiempo propio. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "costanera_atardecer.png"
+  },
+  {
+    "id": "lumi_espacio_confesion",
+    "titulo": "Una verdad sin presión",
+    "lugar": "Costanera",
+    "dialogos": [
+      {
+        "personaje": "Lumi",
+        "texto": "Gracias por decirlo así. A mí también me pasa algo contigo, pero aún no estoy lista para definirlo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Está bien. Nadie te puso reloj."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Las palabras quedan flotando sin volverse un contrato."
+      }
+    ],
+    "direccionVisual": "Plano medio en Costanera. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Costanera. Una verdad sin presión. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "costanera_atardecer.png"
+  },
+  {
+    "id": "lumi_espacio_mal",
+    "titulo": "No es el momento",
+    "lugar": "Costanera",
+    "dialogos": [
+      {
+        "personaje": "Lumi",
+        "texto": "Te dije que necesitaba respirar. Si me apurás, me pasa lo mismo de siempre."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Perdón. No te escuché."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La tarde termina antes de lo esperado."
+      }
+    ],
+    "direccionVisual": "Plano medio en Costanera. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Costanera. No es el momento. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "costanera_atardecer.png"
+  },
+  {
+    "id": "evento_cony_cambio",
+    "titulo": "Cony no esperaba extrañarte",
+    "lugar": "Café",
+    "dialogos": [
+      {
+        "personaje": "Cony",
+        "texto": "Te voy a decir algo, pero no te agrandís."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Ya me agrandé, perdón."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "JAJAJA. Me pasa que te extraño cuando no hablamos. Y yo juraba que este mes iba a estar cero romántica."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "No significa que mañana quiera pololear. Solo estoy pensando que quizá no sé todo lo que voy a querer."
+      }
+    ],
+    "direccionVisual": "Secuencia narrativa con planos generales de Café, planos medios del diálogo y primeros planos en las decisiones.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Café. young adult couple at cafe counter, woman looking surprised by her own feelings, warm tone. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "«No tienes que decidir nada hoy; me gusta conocerte.»",
+        "siguiente": "cony_cambio_libre",
+        "efectos": {
+          "cony": 9,
+          "confianza_cony": 12,
+          "claridad": 5
+        },
+        "eventos": [
+          "cony_pareja_posible"
+        ]
+      },
+      {
+        "texto": "«A mí también me pasa, pero quiero ser cuidadoso.»",
+        "siguiente": "cony_cambio_honesto",
+        "efectos": {
+          "cony": 9,
+          "confianza_cony": 10,
+          "honestidad": 7
+        },
+        "eventos": [
+          "cony_pareja_posible"
+        ]
+      },
+      {
+        "texto": "«Sabía que te iba a terminar convenciendo.»",
+        "siguiente": "cony_cambio_ego",
+        "efectos": {
+          "cony": -10,
+          "confianza_cony": -12,
+          "sospecha": 5
+        }
+      }
+    ],
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "cony_cambio_libre",
+    "titulo": "Sin convencer a nadie",
+    "lugar": "Café",
+    "dialogos": [
+      {
+        "personaje": "Cony",
+        "texto": "Me gusta que no andís intentando ganarme una discusión."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Prefiero que lo conversemos cuando de verdad sepamos."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Cony sonríe. No se ha convertido mágicamente en otra persona; simplemente se permitió dudar."
+      }
+    ],
+    "direccionVisual": "Plano medio en Café. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Café. Sin convencer a nadie. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "cony_cambio_honesto",
+    "titulo": "La posibilidad",
+    "lugar": "Café",
+    "dialogos": [
+      {
+        "personaje": "Cony",
+        "texto": "Por eso mismo se siente distinto. No hay apuro."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Pero hay ganas de seguir viéndonos."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Ambos asienten. Los dos saben que todavía faltan conversaciones."
+      }
+    ],
+    "direccionVisual": "Plano medio en Café. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Café. La posibilidad. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "cony_cambio_ego",
+    "titulo": "No era un desafío",
+    "lugar": "Café",
+    "dialogos": [
+      {
+        "personaje": "Cony",
+        "texto": "¿Convencerme? No es una competencia, Cáceres."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "El comentario corta la confianza que venían construyendo."
+      }
+    ],
+    "direccionVisual": "Plano medio en Café. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Café. No era un desafío. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "evento_consejo_2",
+    "titulo": "La asamblea sentimental",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Kevin",
+        "texto": "A ver, reporte del desastre. ¿Qué quieren ellas? ¿Qué querís tú? No, Jairo, tú no."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Yo solo iba a recomendar un tutorial sobre cómo hacer contacto visual."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Hermano, la Cony ha sido clarísima con lo casual. Si después cambia, bien, pero no te basís en eso."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Y a la Lumi no le podís cobrar interés por haberla escuchado cuando Max la cagó."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Ya, esa sí que me llegó."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Yo le hubiese mandado un corazoncito de agradecimiento, pero ya me retaron."
+      }
+    ],
+    "direccionVisual": "Secuencia narrativa con planos generales de Discord, planos medios del diálogo y primeros planos en las decisiones.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Discord. four adult young Chilean gaming friends at desks with headphones, comedic evening group call. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Aceptar que un buen trato no compra amor.",
+        "siguiente": "consejo_2_madurez",
+        "efectos": {
+          "amistad": 9,
+          "claridad": 10,
+          "honestidad": 6
+        },
+        "eventos": [
+          "consejo_segundo"
+        ]
+      },
+      {
+        "texto": "Agradecerles con una talla y seguir jugando.",
+        "siguiente": "consejo_2_talla",
+        "efectos": {
+          "amistad": 10,
+          "claridad": 3
+        },
+        "eventos": [
+          "consejo_segundo"
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "consejo_2_madurez",
+    "titulo": "El consejo que se queda",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "Eso, wn. Ser buena persona no es una inversión con retorno garantizado."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Y cuando no sepai, habla. Es mejor que tener tres finales inventados en la cabeza."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Cáceres anota la idea. Jairo sigue buscando su tutorial en silencio."
+      }
+    ],
+    "direccionVisual": "Plano medio en Discord. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Discord. El consejo que se queda. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "consejo_2_talla",
+    "titulo": "Una noche liviana",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Jairo",
+        "texto": "¿Entonces les mando una encuesta de satisfacción de la relación?"
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "DESINSTÁLALE EL EXCEL A ESTE CULIAO."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Cáceres se ríe. Hasta un consejo serio puede terminar bien en el grupo."
+      }
+    ],
+    "direccionVisual": "Plano medio en Discord. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Discord. Una noche liviana. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "evento_lumi_sentimientos",
+    "titulo": "No quiero reemplazar a nadie",
+    "lugar": "Muelle · Viña del Mar",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "La tarde está fría. Lumi llegó antes; está mirando barcos y tarareando una canción."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Me está pasando algo contigo. Me gusta cómo me tratás, cómo no me pedís que desaparezca de mi propia vida."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Pero también me asusta. Cuando me enamoro me vuelvo demasiado pendiente, y no quiero repetir eso."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Yo tampoco quiero que esto sea un reemplazo de Max."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Lumi le sostiene la mirada. Esta vez quiere decidir con la cabeza y el corazón, no con miedo."
+      }
+    ],
+    "direccionVisual": "Secuencia narrativa con planos generales de Muelle · Viña del Mar, planos medios del diálogo y primeros planos en las decisiones.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Muelle · Viña del Mar. adult blue-haired glasses woman confessing feelings to adult man on pier at sunset, emotional, fully clothed. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "«Me gustai. Quiero intentarlo despacio, sin perder nuestros espacios.»",
+        "siguiente": "lumi_sentimientos_si",
+        "efectos": {
+          "lumi": 15,
+          "confianza_lumi": 12,
+          "honestidad": 7
+        },
+        "eventos": [
+          "lumi_romance"
+        ]
+      },
+      {
+        "texto": "«Te quiero, pero ahora no estoy listo para una relación.»",
+        "siguiente": "lumi_sentimientos_no",
+        "efectos": {
+          "confianza_lumi": 8,
+          "honestidad": 10,
+          "claridad": 9
+        },
+        "eventos": [
+          "lumi_amistad_elegida"
+        ],
+        "desactivarEventos": [
+          "lumi_romance"
+        ]
+      },
+      {
+        "texto": "«Prométeme que estarás pendiente de mí todo el día.»",
+        "siguiente": "lumi_sentimientos_mal",
+        "efectos": {
+          "confianza_lumi": -20,
+          "lumi": -12,
+          "sospecha": 10
+        }
+      }
+    ],
+    "fondo": "muelle_noche.png"
+  },
+  {
+    "id": "lumi_sentimientos_si",
+    "titulo": "Un beso con los pies en la tierra",
+    "lugar": "Muelle",
+    "dialogos": [
+      {
+        "personaje": "Lumi",
+        "texto": "Eso sí me gusta. Quiero poder extrañarte sin angustiarme y seguir haciendo mis cosas."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Y yo quiero conocerte, no vigilarte."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Se acercan y se besan. Después se separan con una risa nerviosa, sabiendo que una promesa todavía se construye día a día."
+      }
+    ],
+    "direccionVisual": "Plano medio en Muelle. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Muelle. Un beso con los pies en la tierra. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "muelle_noche.png"
+  },
+  {
+    "id": "lumi_sentimientos_no",
+    "titulo": "Una respuesta honesta",
+    "lugar": "Muelle",
+    "dialogos": [
+      {
+        "personaje": "Lumi",
+        "texto": "Me duele un poco, pero te agradezco que no me des esperanzas falsas."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Caminan de vuelta por la costa. A veces una amistad sincera es la decisión correcta."
+      }
+    ],
+    "direccionVisual": "Plano medio en Muelle. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Muelle. Una respuesta honesta. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "muelle_noche.png"
+  },
+  {
+    "id": "lumi_sentimientos_mal",
+    "titulo": "El miedo se parece demasiado",
+    "lugar": "Muelle",
+    "dialogos": [
+      {
+        "personaje": "Lumi",
+        "texto": "Eso es lo que me da miedo. No quiero depender de un mensaje para estar tranquila."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La conversación se enfría. El cariño no justifica controlar a nadie."
+      }
+    ],
+    "direccionVisual": "Plano medio en Muelle. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Muelle. El miedo se parece demasiado. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "muelle_noche.png"
+  },
+  {
+    "id": "evento_cony_pareja",
+    "titulo": "La posibilidad de algo serio",
+    "lugar": "Plaza · Villa Alemana",
+    "dialogos": [
+      {
+        "personaje": "Cony",
+        "texto": "¿Te acordai cuando te dije que no quería pololo ni cagando?"
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Imposible olvidarlo. Me lo dijiste como tres veces."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Sigo siendo yo. Pero me gusta estar contigo incluso cuando no estamos coqueteando."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Quiero preguntarte algo: ¿y si probamos salir en serio? No porque te lo deba, sino porque me nace."
+      }
+    ],
+    "direccionVisual": "Secuencia narrativa con planos generales de Plaza · Villa Alemana, planos medios del diálogo y primeros planos en las decisiones.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Plaza · Villa Alemana. adult young couple in a Chilean town plaza, candid heart-to-heart conversation, emotional but hopeful. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "«Sí, pero definamos qué significa para nosotros.»",
+        "siguiente": "cony_pareja_si",
+        "efectos": {
+          "cony": 15,
+          "confianza_cony": 15,
+          "honestidad": 8
+        },
+        "eventos": [
+          "cony_pareja",
+          "cony_limites_revisados"
+        ],
+        "desactivarEventos": [
+          "cony_casual_acordado"
+        ]
+      },
+      {
+        "texto": "«Me importas, pero prefiero mantenerlo casual.»",
+        "siguiente": "cony_pareja_casual",
+        "efectos": {
+          "cony": 5,
+          "confianza_cony": 8,
+          "honestidad": 8
+        },
+        "eventos": [
+          "cony_casual_acordado",
+          "cony_limites_revisados"
+        ],
+        "desactivarEventos": [
+          "cony_pareja"
+        ]
+      },
+      {
+        "texto": "«No siento lo mismo. Mejor no sigamos como si nada.»",
+        "siguiente": "cony_pareja_no",
+        "efectos": {
+          "honestidad": 10,
+          "claridad": 10
+        },
+        "eventos": [
+          "cony_cierre_amable"
+        ],
+        "desactivarEventos": [
+          "cony_pareja",
+          "cony_casual_acordado"
+        ]
+      }
+    ],
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "cony_pareja_si",
+    "titulo": "Una relación elegida",
+    "lugar": "Plaza",
+    "dialogos": [
+      {
+        "personaje": "Cony",
+        "texto": "Me gusta que me lo preguntís. Si vamos a ser pareja, quiero exclusividad y seguir teniendo mi vida."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Eso también quiero. Si algo cambia, lo hablamos antes de hacernos daño."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Cony le toma la mano. Por primera vez, la palabra pareja nació de ella sin que nadie la presionara."
+      }
+    ],
+    "direccionVisual": "Plano medio en Plaza. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Plaza. Una relación elegida. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "cony_pareja_casual",
+    "titulo": "Seguimos como hablamos",
+    "lugar": "Plaza",
+    "dialogos": [
+      {
+        "personaje": "Cony",
+        "texto": "Me dio nervio preguntarlo, pero gracias por ser claro."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Me gusta compartir contigo. Solo que no quiero prometer una relación que no siento."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Deciden seguir viéndose sin exclusividad. La conversación evita falsas expectativas."
+      }
+    ],
+    "direccionVisual": "Plano medio en Plaza. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Plaza. Seguimos como hablamos. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "cony_pareja_no",
+    "titulo": "El cierre amable",
+    "lugar": "Plaza",
+    "dialogos": [
+      {
+        "personaje": "Cony",
+        "texto": "Me da pena, pero prefiero esto a hacer como que queremos lo mismo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Se despiden bien. A veces una historia se termina por respeto, no por una pelea."
+      }
+    ],
+    "direccionVisual": "Plano medio en Plaza. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Plaza. El cierre amable. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "evento_cony_reglas",
+    "titulo": "Lo casual también se conversa",
+    "lugar": "Chat nocturno · Cony",
+    "dialogos": [
+      {
+        "personaje": "Cony",
+        "texto": "Oe, necesito confirmar algo. Dijimos que lo nuestro puede ser casual. ¿Seguimos bien con eso?"
+      },
+      {
+        "personaje": "Cony",
+        "texto": "No quiero que ninguno asuma que puede exigir exclusividad sin hablarlo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Sí, prefiero ser claro ahora a que después sea una cagá."
+      }
+    ],
+    "direccionVisual": "Secuencia narrativa con planos generales de Chat nocturno · Cony, planos medios del diálogo y primeros planos en las decisiones.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Chat nocturno · Cony. adult young woman on phone at night in her living room, thoughtfully discussing boundaries, fully clothed. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "«Sí. Si conocemos a otra persona lo conversamos con respeto.»",
+        "siguiente": "cony_reglas_si",
+        "efectos": {
+          "confianza_cony": 12,
+          "honestidad": 9,
+          "claridad": 6
+        },
+        "eventos": [
+          "cony_limites_revisados"
+        ]
+      },
+      {
+        "texto": "«En verdad necesito exclusividad. No quiero mentirte.»",
+        "siguiente": "cony_reglas_no",
+        "efectos": {
+          "confianza_cony": 7,
+          "honestidad": 10,
+          "claridad": 7
+        },
+        "eventos": [
+          "cony_necesita_revisar"
+        ],
+        "desactivarEventos": [
+          "cony_limites_revisados"
+        ]
+      },
+      {
+        "texto": "«No preguntís tanto; mejor no hablemos de eso.»",
+        "siguiente": "cony_reglas_oculta",
+        "efectos": {
+          "confianza_cony": -12,
+          "honestidad": -12,
+          "sospecha": 12
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_noche.png"
+  },
+  {
+    "id": "cony_reglas_si",
+    "titulo": "Sin trampas",
+    "lugar": "Chat",
+    "dialogos": [
+      {
+        "personaje": "Cony",
+        "texto": "Perfecto. Eso me deja tranquila."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No se prometieron lo que no quieren. Es un acuerdo concreto, no una insinuación romántica automática."
+      }
+    ],
+    "direccionVisual": "Plano medio en Chat. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Chat. Sin trampas. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "cony_reglas_no",
+    "titulo": "Cambiar de opinión",
+    "lugar": "Chat",
+    "dialogos": [
+      {
+        "personaje": "Cony",
+        "texto": "Gracias por hablarlo. Yo todavía no sé si quiero eso."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Quedan de pensar antes de seguir. El deseo no reemplaza la compatibilidad."
+      }
+    ],
+    "direccionVisual": "Plano medio en Chat. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Chat. Cambiar de opinión. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "cony_reglas_oculta",
+    "titulo": "La pregunta sigue ahí",
+    "lugar": "Chat",
+    "dialogos": [
+      {
+        "personaje": "Cony",
+        "texto": "Para mí no es drama hablarlo, pero sí lo sería que lo escondieras."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Cáceres deja el chat en silencio. Lo pendiente no desaparece."
+      }
+    ],
+    "direccionVisual": "Plano medio en Chat. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Chat. La pregunta sigue ahí. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "evento_acuerdos",
+    "titulo": "Una mesa para hablar sin secretos",
+    "lugar": "Café frente al mar · Viña",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Cáceres propone una conversación transparente. Lumi ya terminó su relación con Max y tomó tiempo para sí misma. Cony conoce el interés de Cáceres por Lumi."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Me importan las dos, pero no voy a fingir que los sentimientos son una competencia. Quiero preguntar algo, sin esperar que acepten."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Yo suelo vincularme con mucha intensidad. No voy a tolerar secretos ni sentir que pierdo mi espacio."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Y yo no quiero que me presenten como la polola de nadie si no elegí serlo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Nadie está obligado a decir que sí. Se conversa sobre límites, cuidado, comunicación y el derecho a retirarse."
+      }
+    ],
+    "direccionVisual": "Secuencia narrativa con planos generales de Café frente al mar · Viña, planos medios del diálogo y primeros planos en las decisiones.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Café frente al mar · Viña. three fully clothed adults at bright seaside cafe discussing boundaries respectfully with clear physical space between them. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Proponer vínculos no exclusivos, con acuerdos explícitos de ambas.",
+        "siguiente": "acuerdos_si",
+        "efectos": {
+          "honestidad": 10,
+          "confianza_lumi": 8,
+          "confianza_cony": 8,
+          "claridad": 10
+        },
+        "eventos": [
+          "acuerdo_conversado",
+          "acuerdo_lumi",
+          "acuerdo_cony"
+        ],
+        "desactivarEventos": [
+          "lumi_exclusiva",
+          "cony_pareja"
+        ]
+      },
+      {
+        "texto": "Aceptar que no estás listo para ese acuerdo.",
+        "siguiente": "acuerdos_no",
+        "efectos": {
+          "honestidad": 8,
+          "claridad": 8
+        },
+        "eventos": [
+          "acuerdo_conversado"
+        ],
+        "desactivarEventos": [
+          "acuerdo_lumi",
+          "acuerdo_cony"
+        ]
+      },
+      {
+        "texto": "Insistir en que deben aceptarlo porque las quieres.",
+        "siguiente": "acuerdos_presion",
+        "efectos": {
+          "honestidad": -20,
+          "sospecha": 20,
+          "confianza_lumi": -15,
+          "confianza_cony": -15
+        },
+        "desactivarEventos": [
+          "acuerdo_lumi",
+          "acuerdo_cony"
+        ]
+      }
+    ],
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "acuerdos_si",
+    "titulo": "Sí, pero con condiciones",
+    "lugar": "Café frente al mar",
+    "dialogos": [
+      {
+        "personaje": "Lumi",
+        "texto": "Quiero intentar un vínculo no exclusivo contigo, pero sin controlarnos. Y quiero poder decir basta si me supera."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Yo también acepto seguir viéndote sabiendo que estás con Lumi. No estoy prometiendo pololeo ni que esto dure para siempre."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Entonces ninguno se entera por terceros. Hablamos de límites, protección y expectativas antes de cualquier paso íntimo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Las tres personas consienten libremente a explorar relaciones no exclusivas. Esto NO implica que Lumi y Cony tengan una relación entre ellas ni encuentros sexuales compartidos."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "El acuerdo recién comienza. Será tan honesto como las conversaciones que mantengan después."
+      }
+    ],
+    "direccionVisual": "Plano medio en Café frente al mar. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Café frente al mar. Sí, pero con condiciones. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "acuerdos_no",
+    "titulo": "Más fácil decir no a tiempo",
+    "lugar": "Café",
+    "dialogos": [
+      {
+        "personaje": "Cáceres",
+        "texto": "No quiero prometer algo que no sé manejar. Prefiero decidir con quién quiero estar o tomarme un tiempo."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Gracias por decirlo."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Sí, mucho mejor que improvisar a escondidas."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La mesa se vacía sin escándalo. Todavía quedan decisiones."
+      }
+    ],
+    "direccionVisual": "Plano medio en Café. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Café. Más fácil decir no a tiempo. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "acuerdos_presion",
+    "titulo": "Eso no es un acuerdo",
+    "lugar": "Café",
+    "dialogos": [
+      {
+        "personaje": "Cony",
+        "texto": "No, Cáceres. Un acuerdo no sirve si alguien siente que tiene que aceptarlo."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Yo vine a conversar, no a que me vendan una decisión tomada."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Ambas se van. La falta de consentimiento no se arregla con mejores estadísticas."
+      }
+    ],
+    "direccionVisual": "Plano medio en Café. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Café. Eso no es un acuerdo. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "evento_definir_rumbo",
+    "titulo": "El futuro no se decide solo",
+    "lugar": "Mirador · Noche",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Falta poco para terminar el mes. Cáceres se queda mirando las luces y revisa las conversaciones importantes que tuvo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "No puedo tener todo lo que quiera sin hablar de lo que eso significa para los demás."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Puede elegir una forma de vincularse o reconocer que necesita estar solo. Algunas opciones dependen de lo que ocurrió antes."
+      }
+    ],
+    "direccionVisual": "Secuencia narrativa con planos generales de Mirador · Noche, planos medios del diálogo y primeros planos en las decisiones.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Mirador · Noche. adult young man contemplative on night viewpoint over Viña del Mar, moonlight, crossroads of relationships. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Elegir exclusividad con Lumi, y explicárselo a Cony.",
+        "siguiente": "rumbo_lumi",
+        "efectos": {
+          "honestidad": 8,
+          "claridad": 7
+        },
+        "eventos": [
+          "lumi_exclusiva"
+        ],
+        "desactivarEventos": [
+          "cony_pareja",
+          "cony_casual_acordado",
+          "acuerdo_lumi",
+          "acuerdo_cony",
+          "acuerdo_conversado"
+        ],
+        "condiciones": [
+          {
+            "evento": "lumi_romance"
+          },
+          {
+            "evento": "max_ruptura"
+          }
+        ]
+      },
+      {
+        "texto": "Elegir una relación con Cony, y cerrar otros vínculos con respeto.",
+        "siguiente": "rumbo_cony",
+        "efectos": {
+          "honestidad": 8,
+          "claridad": 7
+        },
+        "eventos": [
+          "cony_pareja"
+        ],
+        "desactivarEventos": [
+          "lumi_romance",
+          "lumi_exclusiva",
+          "acuerdo_lumi",
+          "acuerdo_cony",
+          "acuerdo_conversado"
+        ],
+        "condiciones": [
+          {
+            "evento": "cony_pareja_posible"
+          }
+        ]
+      },
+      {
+        "texto": "Mantener el acuerdo casual con Cony, sin fingir noviazgo.",
+        "siguiente": "rumbo_casual",
+        "efectos": {
+          "honestidad": 6,
+          "claridad": 8
+        },
+        "eventos": [
+          "cony_casual_acordado",
+          "cony_limites_revisados"
+        ],
+        "desactivarEventos": [
+          "cony_pareja",
+          "lumi_romance",
+          "lumi_exclusiva",
+          "acuerdo_lumi",
+          "acuerdo_cony",
+          "acuerdo_conversado"
+        ],
+        "condiciones": [
+          {
+            "evento": "cony_casual_acordado"
+          }
+        ]
+      },
+      {
+        "texto": "Continuar con los acuerdos no exclusivos ya aceptados.",
+        "siguiente": "rumbo_acuerdos",
+        "efectos": {
+          "honestidad": 5,
+          "claridad": 5
+        },
+        "condiciones": [
+          {
+            "evento": "acuerdo_lumi"
+          },
+          {
+            "evento": "acuerdo_cony"
+          },
+          {
+            "evento": "acuerdo_conversado"
+          }
+        ]
+      },
+      {
+        "texto": "Priorizar crecer personalmente y no iniciar un compromiso.",
+        "siguiente": "rumbo_solo",
+        "efectos": {
+          "honestidad": 9,
+          "claridad": 15,
+          "amistad": 7
+        },
+        "eventos": [
+          "priorizo_crecer"
+        ],
+        "desactivarEventos": [
+          "lumi_exclusiva",
+          "cony_pareja",
+          "cony_casual_acordado",
+          "acuerdo_lumi",
+          "acuerdo_cony",
+          "acuerdo_conversado",
+          "lumi_romance"
+        ]
+      }
+    ],
+    "fondo": "mirador_vina.png"
+  },
+  {
+    "id": "rumbo_lumi",
+    "titulo": "Hablar con ambas",
+    "lugar": "Mensajes y costa",
+    "dialogos": [
+      {
+        "personaje": "Cony",
+        "texto": "Gracias por decírmelo. No me agrada perder algo bonito, pero no voy a aceptar que me mientan."
+      },
+      {
+        "personaje": "Lumi",
+        "texto": "Si vamos a intentar ser pareja, hagámoslo sin juegos de control ni secretos."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Eso quiero. No porque me sienta obligado, sino porque lo elijo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La exclusividad nace de un acuerdo real. La historia casual con Cony se cierra con claridad."
+      }
+    ],
+    "direccionVisual": "Plano medio en Mensajes y costa. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Mensajes y costa. Hablar con ambas. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "rumbo_cony",
+    "titulo": "Ponerle nombre a lo elegido",
+    "lugar": "Plaza y mensajes",
+    "dialogos": [
+      {
+        "personaje": "Lumi",
+        "texto": "Entiendo. Necesitaba saberlo. Gracias por no dejarme esperando."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Entonces lo intentamos de verdad, pero sin convertirnos en otra gente."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Trato hecho."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Cony eligió explorar una relación; no fue un premio por insistir."
+      }
+    ],
+    "direccionVisual": "Plano medio en Plaza y mensajes. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Plaza y mensajes. Ponerle nombre a lo elegido. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "rumbo_casual",
+    "titulo": "Elegir sin inventar un pololeo",
+    "lugar": "Mensajes",
+    "dialogos": [
+      {
+        "personaje": "Cony",
+        "texto": "Me gusta así, con confianza y sin inventarnos algo que no hemos querido."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Y si algún día cambia, te lo digo antes, no después."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Siguen viéndose sin exclusividad. Existe intimidad si ambos la desean, pero no hay obligación ni promesa de ser pareja."
+      }
+    ],
+    "direccionVisual": "Plano medio en Mensajes. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Mensajes. Elegir sin inventar un pololeo. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "rumbo_acuerdos",
+    "titulo": "Una elección revisable",
+    "lugar": "Café",
+    "dialogos": [
+      {
+        "personaje": "Lumi",
+        "texto": "Seguimos con lo que conversamos. Necesito poder decir si algo me incomoda."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Y cero secretos. Lo demás, lo veremos."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No se trata de coleccionar parejas; se trata de continuar solo con el consentimiento de todos."
+      }
+    ],
+    "direccionVisual": "Plano medio en Café. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Café. Una elección revisable. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "rumbo_solo",
+    "titulo": "La libertad de no elegir pareja",
+    "lugar": "Mirador",
+    "dialogos": [
+      {
+        "personaje": "Cáceres",
+        "texto": "Me gustó conocerlas, pero necesito aprender a decidir sin miedo a quedarme solo."
+      },
+      {
+        "personaje": "Kevin (mensaje)",
+        "texto": "Buena, wn. Y si necesitai una noche de juegos, estamos."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Elegir estar solo es una opción, no una derrota."
+      }
+    ],
+    "direccionVisual": "Plano medio en Mirador. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Mirador. La libertad de no elegir pareja. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "mirador_vina.png"
+  },
+  {
+    "id": "evento_vispera",
+    "titulo": "Una última conversa",
+    "lugar": "Discord · Noche",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "Y entonces, ¿qué aprendimos de este mes de drama premium?"
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Que escuchar no te garantiza un beso. Y un beso no garantiza una relación."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Mira qué bonito habla el wn. Casi me emociono."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Yo aprendí que no hay que mandar un Excel con horarios a la primera cita."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "ESO ES LO ÚNICO QUE TENÍAS QUE APRENDER, JAIRO."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Los cabros se ríen. Lo que ocurra mañana dependerá de las decisiones ya tomadas."
+      }
+    ],
+    "direccionVisual": "Secuencia narrativa con planos generales de Discord · Noche, planos medios del diálogo y primeros planos en las decisiones.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Discord · Noche. humorous heartfelt final Discord gaming call among four adult Chilean friends. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "«Quiero seguir creciendo, tenga o no pareja.»",
+        "siguiente": "vispera_crece",
+        "efectos": {
+          "amistad": 10,
+          "claridad": 12,
+          "honestidad": 5
+        },
+        "eventos": [
+          "priorizo_crecer"
+        ]
+      },
+      {
+        "texto": "«Lo importante es no seguir mintiéndome.»",
+        "siguiente": "vispera_sincero",
+        "efectos": {
+          "amistad": 8,
+          "honestidad": 8,
+          "claridad": 5
+        }
+      },
+      {
+        "texto": "«Lo importante es que no me quede más calvo.»",
+        "siguiente": "vispera_pelo",
+        "efectos": {
+          "amistad": 10
+        }
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "vispera_crece",
+    "titulo": "Hay vida más allá del chat",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "Por fin una frase con sentido."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "¿Y la calvicie?"
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "La calvicie es el DLC inevitable."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Cáceres se despide del grupo y mira su agenda. Mañana habrá otra página."
+      }
+    ],
+    "direccionVisual": "Plano medio en Discord. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Discord. Hay vida más allá del chat. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "vispera_sincero",
+    "titulo": "Una conclusión útil",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Kevin",
+        "texto": "Esa es la idea, hermano. La honestidad no asegura un final perfecto, pero evita muchas cagadas."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La llamada se alarga entre chistes y recuerdos."
+      }
+    ],
+    "direccionVisual": "Plano medio en Discord. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Discord. Una conclusión útil. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "vispera_pelo",
+    "titulo": "Un tema eterno",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "JAJAJA. No puedo hacerte promesas ahí."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Yo tengo un enlace a un tratamiento milagroso."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "BORRA ESE ENLACE, JAIRO."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "El grupo estalla de risa."
+      }
+    ],
+    "direccionVisual": "Plano medio en Discord. Mostrar gestos, pausas y lenguaje corporal; la emoción debe coincidir con los diálogos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Discord. Un tema eterno. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, cinematic, sincere and expressive, no text, no watermark, no nudity.",
+    "fondo": "discord_noche.png"
+  }
+]

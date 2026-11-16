@@ -1,0 +1,1322 @@
+[
+  {
+    "id": "cony_1",
+    "titulo": "Chat con Cony: La voz de la fiesta",
+    "lugar": "Chat · Cony",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Entre audios y tallas aparece un tema distinto: la voz de la fiesta."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Oe, me acordé de cuando te quedaste callado en la fiesta y después no paraste de hablar."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Fue como desbloquearte un DLC de personalidad."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Y tú venías con el DLC de molestar instalado."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+      }
+    ],
+    "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: La voz de la fiesta. Dejar espacio para retratos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about la voz de la fiesta. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Responder sin asumir que quieren ser pareja.",
+        "efectos": {
+          "cony": 4,
+          "confianza_cony": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Coquetear y seguir el juego.",
+        "efectos": {
+          "cony": 5,
+          "confianza_cony": 1
+        }
+      },
+      {
+        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "efectos": {
+          "cony": -3,
+          "confianza_cony": -5,
+          "sospecha": 2
+        }
+      }
+    ],
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "cony_2",
+    "titulo": "Chat con Cony: Sin etiquetas",
+    "lugar": "Chat · Cony",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Entre audios y tallas aparece un tema distinto: sin etiquetas."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Me gusta salir, conocer gente, pasarlo bien. No estoy buscando que me pidan pololeo."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Te lo digo ahora pa que después no aparezcan los malentendidos."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Gracias por decírmelo así de claro."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+      }
+    ],
+    "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: Sin etiquetas. Dejar espacio para retratos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about sin etiquetas. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Responder sin asumir que quieren ser pareja.",
+        "efectos": {
+          "cony": 4,
+          "confianza_cony": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Coquetear y seguir el juego.",
+        "efectos": {
+          "cony": 5,
+          "confianza_cony": 1
+        }
+      },
+      {
+        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "efectos": {
+          "cony": -3,
+          "confianza_cony": -5,
+          "sospecha": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "cony_3",
+    "titulo": "Chat con Cony: Plan improvisado",
+    "lugar": "Chat · Cony",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Entre audios y tallas aparece un tema distinto: plan improvisado."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Tengo ganas de salir pero no de hacer un panorama de tres horas con itinerario."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Una caminata y algo rico me basta."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Plan aprobado por el comité de flojera."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+      }
+    ],
+    "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: Plan improvisado. Dejar espacio para retratos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about plan improvisado. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Responder sin asumir que quieren ser pareja.",
+        "efectos": {
+          "cony": 4,
+          "confianza_cony": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Coquetear y seguir el juego.",
+        "efectos": {
+          "cony": 5,
+          "confianza_cony": 1
+        }
+      },
+      {
+        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "efectos": {
+          "cony": -3,
+          "confianza_cony": -5,
+          "sospecha": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "cony_4",
+    "titulo": "Chat con Cony: La prima copuchenta",
+    "lugar": "Chat · Cony",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Entre audios y tallas aparece un tema distinto: la prima copuchenta."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Mi prima me preguntó si estábamos saliendo. Le dije que estábamos conversando."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Me miró como si hubiera cometido un crimen."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Las primas están contratadas por la CIA, parece."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+      }
+    ],
+    "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: La prima copuchenta. Dejar espacio para retratos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about la prima copuchenta. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Responder sin asumir que quieren ser pareja.",
+        "efectos": {
+          "cony": 4,
+          "confianza_cony": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Coquetear y seguir el juego.",
+        "efectos": {
+          "cony": 5,
+          "confianza_cony": 1
+        }
+      },
+      {
+        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "efectos": {
+          "cony": -3,
+          "confianza_cony": -5,
+          "sospecha": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "cony_5",
+    "titulo": "Chat con Cony: El audio de treinta segundos",
+    "lugar": "Chat · Cony",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Entre audios y tallas aparece un tema distinto: el audio de treinta segundos."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Te iba a mandar un audio cortito y duró cuatro minutos."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Todo porque me puse a contar un cahuín sin importancia."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Manda la segunda temporada de ese audio."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+      }
+    ],
+    "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: El audio de treinta segundos. Dejar espacio para retratos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about el audio de treinta segundos. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Responder sin asumir que quieren ser pareja.",
+        "efectos": {
+          "cony": 4,
+          "confianza_cony": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Coquetear y seguir el juego.",
+        "efectos": {
+          "cony": 5,
+          "confianza_cony": 1
+        }
+      },
+      {
+        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "efectos": {
+          "cony": -3,
+          "confianza_cony": -5,
+          "sospecha": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "cony_6",
+    "titulo": "Chat con Cony: La ropa para salir",
+    "lugar": "Chat · Cony",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Entre audios y tallas aparece un tema distinto: la ropa para salir."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Estoy pensando si usar algo arreglado o andar cómoda."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Me da paja que alguien crea que me vestí para impresionarlo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Ponte lo que te haga sentir bien, no lo que esperen."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+      }
+    ],
+    "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: La ropa para salir. Dejar espacio para retratos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about la ropa para salir. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Responder sin asumir que quieren ser pareja.",
+        "efectos": {
+          "cony": 4,
+          "confianza_cony": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Coquetear y seguir el juego.",
+        "efectos": {
+          "cony": 5,
+          "confianza_cony": 1
+        }
+      },
+      {
+        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "efectos": {
+          "cony": -3,
+          "confianza_cony": -5,
+          "sospecha": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "cony_7",
+    "titulo": "Chat con Cony: Las ganas de besar",
+    "lugar": "Chat · Cony",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Entre audios y tallas aparece un tema distinto: las ganas de besar."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Te digo algo y no te pongai nervioso: me dieron ganas de besarte la otra vez."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Pero que me den ganas no significa que haya firmado contrato de pareja."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Quedó clarísimo. A mí también me gustai."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+      }
+    ],
+    "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: Las ganas de besar. Dejar espacio para retratos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about las ganas de besar. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Responder sin asumir que quieren ser pareja.",
+        "efectos": {
+          "cony": 4,
+          "confianza_cony": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Coquetear y seguir el juego.",
+        "efectos": {
+          "cony": 5,
+          "confianza_cony": 1
+        }
+      },
+      {
+        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "efectos": {
+          "cony": -3,
+          "confianza_cony": -5,
+          "sospecha": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "cony_8",
+    "titulo": "Chat con Cony: La noche divertida",
+    "lugar": "Chat · Cony",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Entre audios y tallas aparece un tema distinto: la noche divertida."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Quiero un panorama donde nos riamos y no tengamos que fingir que somos elegantes."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Si terminamos comiendo papas fritas sentados en una plaza, mejor."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Alta cocina francesa versión quinta región."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+      }
+    ],
+    "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: La noche divertida. Dejar espacio para retratos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about la noche divertida. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Responder sin asumir que quieren ser pareja.",
+        "efectos": {
+          "cony": 4,
+          "confianza_cony": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Coquetear y seguir el juego.",
+        "efectos": {
+          "cony": 5,
+          "confianza_cony": 1
+        }
+      },
+      {
+        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "efectos": {
+          "cony": -3,
+          "confianza_cony": -5,
+          "sospecha": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_noche.png"
+  },
+  {
+    "id": "cony_9",
+    "titulo": "Chat con Cony: La pregunta de frente",
+    "lugar": "Chat · Cony",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Entre audios y tallas aparece un tema distinto: la pregunta de frente."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "¿A ti te molesta que alguien quiera algo casual?"
+      },
+      {
+        "personaje": "Cony",
+        "texto": "A veces siento que me miran como si eso fuera una falta de respeto."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Mientras se converse y sea mutuo, no tiene nada de malo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+      }
+    ],
+    "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: La pregunta de frente. Dejar espacio para retratos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about la pregunta de frente. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Responder sin asumir que quieren ser pareja.",
+        "efectos": {
+          "cony": 4,
+          "confianza_cony": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Coquetear y seguir el juego.",
+        "efectos": {
+          "cony": 5,
+          "confianza_cony": 1
+        }
+      },
+      {
+        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "efectos": {
+          "cony": -3,
+          "confianza_cony": -5,
+          "sospecha": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "cony_10",
+    "titulo": "Chat con Cony: El mensaje a destiempo",
+    "lugar": "Chat · Cony",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Entre audios y tallas aparece un tema distinto: el mensaje a destiempo."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Ayer quise hablarte a las dos de la mañana y dije: mejor no despertar al pobre wn."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Tengo un horario de ideas peligrosísimo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Mis notificaciones agradecen tu consideración."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+      }
+    ],
+    "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: El mensaje a destiempo. Dejar espacio para retratos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about el mensaje a destiempo. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Responder sin asumir que quieren ser pareja.",
+        "efectos": {
+          "cony": 4,
+          "confianza_cony": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Coquetear y seguir el juego.",
+        "efectos": {
+          "cony": 5,
+          "confianza_cony": 1
+        }
+      },
+      {
+        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "efectos": {
+          "cony": -3,
+          "confianza_cony": -5,
+          "sospecha": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "cony_11",
+    "titulo": "Chat con Cony: El día sin drama",
+    "lugar": "Chat · Cony",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Entre audios y tallas aparece un tema distinto: el día sin drama."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Hoy fui a hacer trámites, comí algo rico y volví. Cero novelón."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "No todos los días necesitan un capítulo intenso."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Menos mal, si estamos en una visual novel."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+      }
+    ],
+    "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: El día sin drama. Dejar espacio para retratos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about el día sin drama. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Responder sin asumir que quieren ser pareja.",
+        "efectos": {
+          "cony": 4,
+          "confianza_cony": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Coquetear y seguir el juego.",
+        "efectos": {
+          "cony": 5,
+          "confianza_cony": 1
+        }
+      },
+      {
+        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "efectos": {
+          "cony": -3,
+          "confianza_cony": -5,
+          "sospecha": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "cony_12",
+    "titulo": "Chat con Cony: ¿Y si me encariño?",
+    "lugar": "Chat · Cony",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Entre audios y tallas aparece un tema distinto: ¿y si me encariño?."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Me hago la canchera pero igual me gusta cuando me tratan con cariño."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Eso no significa que me vea pololeando mañana."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Una cosa no obliga a la otra."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+      }
+    ],
+    "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: ¿Y si me encariño?. Dejar espacio para retratos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about ¿y si me encariño?. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Responder sin asumir que quieren ser pareja.",
+        "efectos": {
+          "cony": 4,
+          "confianza_cony": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Coquetear y seguir el juego.",
+        "efectos": {
+          "cony": 5,
+          "confianza_cony": 1
+        }
+      },
+      {
+        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "efectos": {
+          "cony": -3,
+          "confianza_cony": -5,
+          "sospecha": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "cony_13",
+    "titulo": "Chat con Cony: El meme equivocado",
+    "lugar": "Chat · Cony",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Entre audios y tallas aparece un tema distinto: el meme equivocado."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Te mandé un meme y después vi que era pésimo."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Ahora me da vergüenza hasta abrir el chat."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Ese meme es patrimonio cultural, no se borra."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+      }
+    ],
+    "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: El meme equivocado. Dejar espacio para retratos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about el meme equivocado. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Responder sin asumir que quieren ser pareja.",
+        "efectos": {
+          "cony": 4,
+          "confianza_cony": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Coquetear y seguir el juego.",
+        "efectos": {
+          "cony": 5,
+          "confianza_cony": 1
+        }
+      },
+      {
+        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "efectos": {
+          "cony": -3,
+          "confianza_cony": -5,
+          "sospecha": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "cony_14",
+    "titulo": "Chat con Cony: La cita sin tensión",
+    "lugar": "Chat · Cony",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Entre audios y tallas aparece un tema distinto: la cita sin tensión."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "¿Podemos juntarnos sin hablar de qué somos cada cinco minutos?"
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Me gusta saber a qué atenerme, pero también pasarlo bien."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Sí, se puede hablar claro y después disfrutar el día."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+      }
+    ],
+    "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: La cita sin tensión. Dejar espacio para retratos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about la cita sin tensión. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Responder sin asumir que quieren ser pareja.",
+        "efectos": {
+          "cony": 4,
+          "confianza_cony": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Coquetear y seguir el juego.",
+        "efectos": {
+          "cony": 5,
+          "confianza_cony": 1
+        }
+      },
+      {
+        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "efectos": {
+          "cony": -3,
+          "confianza_cony": -5,
+          "sospecha": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "cony_15",
+    "titulo": "Chat con Cony: La amiga escéptica",
+    "lugar": "Chat · Cony",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Entre audios y tallas aparece un tema distinto: la amiga escéptica."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Una amiga me dijo que todos los hombres prometen cosas bonitas."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Yo le dije que prefiero mirar cómo se comportan."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Buena política, yo también haría eso."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+      }
+    ],
+    "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: La amiga escéptica. Dejar espacio para retratos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about la amiga escéptica. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Responder sin asumir que quieren ser pareja.",
+        "efectos": {
+          "cony": 4,
+          "confianza_cony": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Coquetear y seguir el juego.",
+        "efectos": {
+          "cony": 5,
+          "confianza_cony": 1
+        }
+      },
+      {
+        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "efectos": {
+          "cony": -3,
+          "confianza_cony": -5,
+          "sospecha": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "cony_16",
+    "titulo": "Chat con Cony: Caminar sin destino",
+    "lugar": "Chat · Cony",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Entre audios y tallas aparece un tema distinto: caminar sin destino."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Hay una plaza donde me gusta ir a mirar a los perros pasar."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Suena estúpido, pero me baja las revoluciones."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Quiero conocer esa plaza de perros famosos."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+      }
+    ],
+    "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: Caminar sin destino. Dejar espacio para retratos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about caminar sin destino. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Responder sin asumir que quieren ser pareja.",
+        "efectos": {
+          "cony": 4,
+          "confianza_cony": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Coquetear y seguir el juego.",
+        "efectos": {
+          "cony": 5,
+          "confianza_cony": 1
+        }
+      },
+      {
+        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "efectos": {
+          "cony": -3,
+          "confianza_cony": -5,
+          "sospecha": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "cony_17",
+    "titulo": "Chat con Cony: No contestar de inmediato",
+    "lugar": "Chat · Cony",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Entre audios y tallas aparece un tema distinto: no contestar de inmediato."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "A veces dejo el teléfono tirado y se me olvida contestar."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "No es una estrategia de seducción, es que tengo vida."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Se agradece la aclaración, su señoría."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+      }
+    ],
+    "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: No contestar de inmediato. Dejar espacio para retratos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about no contestar de inmediato. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Responder sin asumir que quieren ser pareja.",
+        "efectos": {
+          "cony": 4,
+          "confianza_cony": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Coquetear y seguir el juego.",
+        "efectos": {
+          "cony": 5,
+          "confianza_cony": 1
+        }
+      },
+      {
+        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "efectos": {
+          "cony": -3,
+          "confianza_cony": -5,
+          "sospecha": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "cony_18",
+    "titulo": "Chat con Cony: Una conversación incómoda",
+    "lugar": "Chat · Cony",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Entre audios y tallas aparece un tema distinto: una conversación incómoda."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Si algún día lo que queremos deja de coincidir, prefiero que me lo digai."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "No quiero andar adivinando intenciones."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Te lo diría, y espero lo mismo de ti."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+      }
+    ],
+    "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: Una conversación incómoda. Dejar espacio para retratos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about una conversación incómoda. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Responder sin asumir que quieren ser pareja.",
+        "efectos": {
+          "cony": 4,
+          "confianza_cony": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Coquetear y seguir el juego.",
+        "efectos": {
+          "cony": 5,
+          "confianza_cony": 1
+        }
+      },
+      {
+        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "efectos": {
+          "cony": -3,
+          "confianza_cony": -5,
+          "sospecha": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "cony_19",
+    "titulo": "Chat con Cony: Las primeras dudas",
+    "lugar": "Chat · Cony",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Entre audios y tallas aparece un tema distinto: las primeras dudas."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Me sorprendí pensando en ti sin que me hubieras escrito."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "No voy a hacer un escándalo, pero me pareció curioso."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "A mí también me pasa a veces."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+      }
+    ],
+    "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: Las primeras dudas. Dejar espacio para retratos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about las primeras dudas. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Responder sin asumir que quieren ser pareja.",
+        "efectos": {
+          "cony": 4,
+          "confianza_cony": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Coquetear y seguir el juego.",
+        "efectos": {
+          "cony": 5,
+          "confianza_cony": 1
+        }
+      },
+      {
+        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "efectos": {
+          "cony": -3,
+          "confianza_cony": -5,
+          "sospecha": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "cony_20",
+    "titulo": "Chat con Cony: La independencia",
+    "lugar": "Chat · Cony",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Entre audios y tallas aparece un tema distinto: la independencia."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Me gusta pagar mis cosas y decidir mis panoramas."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Si tengo una relación, no voy a desaparecer de mi vida."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Ni deberías tener que hacerlo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+      }
+    ],
+    "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: La independencia. Dejar espacio para retratos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about la independencia. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Responder sin asumir que quieren ser pareja.",
+        "efectos": {
+          "cony": 4,
+          "confianza_cony": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Coquetear y seguir el juego.",
+        "efectos": {
+          "cony": 5,
+          "confianza_cony": 1
+        }
+      },
+      {
+        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "efectos": {
+          "cony": -3,
+          "confianza_cony": -5,
+          "sospecha": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "cony_21",
+    "titulo": "Chat con Cony: No todo es química",
+    "lugar": "Chat · Cony",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Entre audios y tallas aparece un tema distinto: no todo es química."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Podemos tener química y aun así querer cosas distintas."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Es raro decirlo, pero me da tranquilidad que entiendas eso."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Prefiero una verdad incómoda a una promesa falsa."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+      }
+    ],
+    "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: No todo es química. Dejar espacio para retratos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about no todo es química. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Responder sin asumir que quieren ser pareja.",
+        "efectos": {
+          "cony": 4,
+          "confianza_cony": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Coquetear y seguir el juego.",
+        "efectos": {
+          "cony": 5,
+          "confianza_cony": 1
+        }
+      },
+      {
+        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "efectos": {
+          "cony": -3,
+          "confianza_cony": -5,
+          "sospecha": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "cony_22",
+    "titulo": "Chat con Cony: El chiste privado",
+    "lugar": "Chat · Cony",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Entre audios y tallas aparece un tema distinto: el chiste privado."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Ya nadie más entiende el chiste de la fiesta."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Es nuestra pequeña tontera, parece."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "De las pocas tradiciones que respetaré."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+      }
+    ],
+    "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: El chiste privado. Dejar espacio para retratos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about el chiste privado. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Responder sin asumir que quieren ser pareja.",
+        "efectos": {
+          "cony": 4,
+          "confianza_cony": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Coquetear y seguir el juego.",
+        "efectos": {
+          "cony": 5,
+          "confianza_cony": 1
+        }
+      },
+      {
+        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "efectos": {
+          "cony": -3,
+          "confianza_cony": -5,
+          "sospecha": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "cony_23",
+    "titulo": "Chat con Cony: Una posibilidad nueva",
+    "lugar": "Chat · Cony",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Entre audios y tallas aparece un tema distinto: una posibilidad nueva."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Antes habría dicho que no me veo en una relación ni a palos."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Ahora diría que no sé. Pero todavía quiero decidirlo yo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "No hay que apurar esa respuesta."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+      }
+    ],
+    "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: Una posibilidad nueva. Dejar espacio para retratos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about una posibilidad nueva. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Responder sin asumir que quieren ser pareja.",
+        "efectos": {
+          "cony": 4,
+          "confianza_cony": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Coquetear y seguir el juego.",
+        "efectos": {
+          "cony": 5,
+          "confianza_cony": 1
+        }
+      },
+      {
+        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "efectos": {
+          "cony": -3,
+          "confianza_cony": -5,
+          "sospecha": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "cony_24",
+    "titulo": "Chat con Cony: El mensaje sin máscara",
+    "lugar": "Chat · Cony",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Entre audios y tallas aparece un tema distinto: el mensaje sin máscara."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Contigo he podido decir lo que quiero sin hacerme la desentendida."
+      },
+      {
+        "personaje": "Cony",
+        "texto": "Eso vale más de lo que parece."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "A mí también me sirve saber dónde estamos parados."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No se promete una relación. Se entiende mejor lo que cada uno espera."
+      }
+    ],
+    "direccionVisual": "Captura de chat estilizada, Cony haciendo su vida por cuenta propia. Tema: El mensaje sin máscara. Dejar espacio para retratos.",
+    "promptImagen": "Anime visual novel background, fictional adult characters aged 20+, Villa Alemana, Chile, slice-of-life. fictional adult young woman with expressive mischievous smile, on her phone, independent and relaxed, daily vignette about el mensaje sin máscara. Composition: 16:9, cinematic framing, natural gestures, detailed anime illustration, warm, humorous, no text, no watermark, no nudity.",
+    "decisiones": [
+      {
+        "texto": "Responder sin asumir que quieren ser pareja.",
+        "efectos": {
+          "cony": 4,
+          "confianza_cony": 4,
+          "honestidad": 2
+        }
+      },
+      {
+        "texto": "Coquetear y seguir el juego.",
+        "efectos": {
+          "cony": 5,
+          "confianza_cony": 1
+        }
+      },
+      {
+        "texto": "Insistir en que tarde o temprano serán pololos.",
+        "efectos": {
+          "cony": -3,
+          "confianza_cony": -5,
+          "sospecha": 2
+        }
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  }
+]
