@@ -7,7 +7,7 @@ import java.util.Map;
 
 /** Estado persistente: decisiones, estadísticas, historial y actividades. */
 public class EstadoPartida {
-    public static final int VERSION_GUARDADO = 3;
+    public static final int VERSION_GUARDADO = 4;
     private int versionGuardado = VERSION_GUARDADO;
     private String temporada = "caceres";
     private int dia = 1;
@@ -44,6 +44,20 @@ public class EstadoPartida {
     public EstadoPartida(String temporada) {
         this();
         this.temporada = temporada;
+        if ("seba".equals(temporada)) {
+            estadisticas.clear();
+            estadisticas.put("kelly", 55);
+            estadisticas.put("confianza_kelly", 55);
+            estadisticas.put("amira", 40);
+            estadisticas.put("javi", 0);
+            estadisticas.put("fena", 0);
+            estadisticas.put("honestidad", 50);
+            estadisticas.put("sospecha", 0);
+            estadisticas.put("amistad", 45);
+            estadisticas.put("autoestima", 35);
+            estadisticas.put("estilo", 0);
+            registrarEvento("seba_pareja_kelly");
+        }
     }
 
     public int obtenerEstadistica(String clave) { return estadisticas.getOrDefault(clave, 0); }

@@ -1,0 +1,589 @@
+[
+  {
+    "id": "final_seba_verde",
+    "titulo": "FINAL VERDE · El Seba fiel",
+    "lugar": "Café con Kelly · Un mes después",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Un mes después de la fiesta, Kelly y Seba caminan por la costanera. El teléfono de él vibra: Rodrigo quiere organizar otro carrete."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "¿Vas a ir?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Si te tinca, vamos juntos. Y si no, también podemos quedarnos comiendo completos."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Me gustan las dos opciones. Lo que me gusta más es que conversemos las cosas."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No evitaron todas las discusiones, pero aprendieron a no vivir en modo sospecha."
+      },
+      {
+        "personaje": "Kevin (mensaje)",
+        "texto": "HERMANO, ¿CÓMO LOGRASTE EL FINAL SIN CAGAZO?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Porque esta vez usé la cabeza, wn."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "fondo": "costanera_atardecer.png",
+    "cg": "seba/final_verde.png"
+  },
+  {
+    "id": "final_seba_azul",
+    "titulo": "FINAL AZUL · Una segunda oportunidad",
+    "lugar": "Plaza · Tarde",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly observa a Seba desde el otro lado de la plaza. La foto de Rodrigo nunca desapareció de su memoria, pero ya no monopoliza sus conversaciones."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Todavía hay días en que me acuerdo y me enojo."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Lo sé. No te voy a apurar para que lo olvidís."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "No se trata de olvidarlo. Se trata de lo que hacemos después."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No vuelven a ser la pareja de antes. Eligen conocerse como son ahora, con límites y pequeñas pruebas de confianza."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Entonces hagamos una cosa nueva, no una mentira más bonita."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "fondo": "costanera_atardecer.png",
+    "cg": "seba/final_azul.png"
+  },
+  {
+    "id": "final_seba_gris",
+    "titulo": "FINAL GRIS · La noche que lo arruinó todo",
+    "lugar": "Habitación de Seba · Noche",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El chat de Kelly queda en silencio. Su último mensaje no es una amenaza: «No puedo seguir con alguien que me oculta cosas»."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Pensé que si nadie se enteraba, no iba a pasar nada."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Pero tú sí sabías lo que pasó, hermano."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Amira dejó de responder por un tiempo. Rodrigo se disculpó por la forma, no por negarse a mentir. Seba no puede elegir qué sentirán los demás."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "La peor parte es que podría haber dicho la verdad antes."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No hay pantalla de victoria; hay un futuro en el que Seba tendrá que aprender sin exigir que nadie vuelva."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "fondo": "costanera_atardecer.png",
+    "cg": "seba/final_gris.png"
+  },
+  {
+    "id": "final_seba_violeta",
+    "titulo": "FINAL VIOLETA · Siempre fuiste tú",
+    "lugar": "Muelle · Atardecer",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Amira y Seba caminan por el muelle. La conversación es distinta a la de todas sus salidas como amigos: ahora se miran con nuevos nervios."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Si me hubieran dicho que terminaríamos así, no les habría creído."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Yo tampoco. Pero prefiero que hayamos llegado hablando y no escondiéndonos."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Entonces prométeme algo simple: si algo cambia, no te desaparezcas."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Eso sí puedo prometerlo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La amistad no desaparece: se transforma porque ambos quisieron intentarlo."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "fondo": "costanera_atardecer.png",
+    "cg": "seba/final_violeta.png"
+  },
+  {
+    "id": "final_seba_rojo",
+    "titulo": "FINAL ROJO · El cagazo legendario",
+    "lugar": "Plaza · Dos meses después",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly terminó la relación. La confesión llegó tarde para arreglarla, pero a tiempo para que Seba dejara de mentir."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "No quiero que nuestra historia sea «la noche en que cagamos todo». Quiero saber qué somos sin esconder a nadie."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Lo sé. No empezamos bien. No quiero seguir igual."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Amira y Seba deciden probar una relación, sabiendo que ninguno está obligado a olvidar el daño causado."
+      },
+      {
+        "personaje": "Rodrigo (mensaje)",
+        "texto": "Aviso importante: el próximo carrete NO tiene camas disponibles."
+      },
+      {
+        "personaje": "Kevin (mensaje)",
+        "texto": "JAJAJA CALLATE RODRIGO."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "fondo": "costanera_atardecer.png",
+    "cg": "seba/final_rojo.png"
+  },
+  {
+    "id": "final_seba_celeste",
+    "titulo": "FINAL CELESTE · La indicada",
+    "lugar": "Cafetería · Mañana",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Javi deja un cargador USB-C sobre la mesa como chiste privado. Seba llega con dos cafés."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "La primera vez me prestaron energía. Ahora prefiero que me regalen tiempo."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "De eso tengo. Y esta vez no estoy escapando de ninguna relación."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Me gusta que puedas hablar de tu pasado sin cargarlo sobre mí."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Su relación no tiene por qué ser perfecta para ser buena. Se construye con citas, planes pequeños y conversaciones claras."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "¿Y si nos perdemos por Viña?"
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Mientras me avises, nos perdemos los dos."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "fondo": "costanera_atardecer.png",
+    "cg": "seba/final_celeste.png"
+  },
+  {
+    "id": "final_seba_naranja",
+    "titulo": "FINAL NARANJA · Seba y Feña",
+    "lugar": "Feria · Tarde",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "La feria está iluminada. Feña toma la mano de Seba y ambos se ríen recordando la primera apuesta del arcade."
+      },
+      {
+        "personaje": "Feña",
+        "texto": "Mira que pasamos por discusiones para llegar a algo tan simple como comernos un helado juntos."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Es que contigo hasta perder en los juegos sale bien, po."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "A unos metros, Richie los ve juntos. Sonríe apenas para saludarlos, pero se le nota la tristeza."
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Que les vaya bien, cabros. Voy a tomarme mi tiempo, pero quería decírselos."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Gracias, hermano. No te voy a apurar. Seguís siendo importante para mí."
+      },
+      {
+        "personaje": "Feña",
+        "texto": "Nadie gana una persona como si fuera un premio. Elegimos estar juntos porque queremos."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Seba y Feña se marchan tomados de la mano. Richie camina solo hacia la otra calle, triste, pero respetando su decisión."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "fondo": "costanera_atardecer.png",
+    "cg": "seba/final_naranja_sebaxfena.png"
+  },
+  {
+    "id": "final_seba_harem",
+    "titulo": "FINAL NEGRO · El harem colapsó",
+    "lugar": "Discord · 00:04",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Dos notificaciones llegan al mismo tiempo. Luego tres. Seba había prometido exclusividad y honestidad a personas distintas sin decirles la verdad."
+      },
+      {
+        "personaje": "Javi (mensaje)",
+        "texto": "No necesito que me expliques por qué le dijiste lo mismo a otra persona. Prefiero no seguir."
+      },
+      {
+        "personaje": "Amira (mensaje)",
+        "texto": "Yo no voy a competir por tu atención, Seba."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Chucha..."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "¿QUÉ HICISTE AHORA, WN?"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Según mi Excel, las probabilidades de éxito eran... cero."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "El servidor se queda sin respuesta. Nadie está obligado a quedarse en una relación que nunca aceptó."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Capaz que no era un harem. Era una colección de mentiras."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "fondo": "discord_noche.png",
+    "cg": "seba/final_negro.png"
+  },
+  {
+    "id": "final_seba_blanco",
+    "titulo": "FINAL BLANCO · El soltero profesional",
+    "lugar": "Parque · Mañana",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Seba sale a caminar sin mirar notificaciones románticas. Hace tiempo no sentía un domingo tan suyo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "¿Y, hermano, con quién quedaste al final?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Conmigo, wn. Suena cursi, pero estoy tranquilo."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "¿Y eso significa que vais a pasar más rato en Discord?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No seai barsa, también tengo vida."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Seba entiende que estar solo no es lo mismo que no tener a nadie. Hay amistades, proyectos y tiempo para aprender a quererse."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "fondo": "costanera_atardecer.png",
+    "cg": "seba/final_blanco.png"
+  },
+  {
+    "id": "final_seba_amarillo",
+    "titulo": "FINAL AMARILLO OCULTO · Kelly nunca lo pilló",
+    "lugar": "Café con Kelly · Un mes después",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly llega sonriente. Para ella, aquella fiesta es apenas una fecha más en el calendario."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Qué bueno que hemos estado tranquilos últimamente, Seba."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Sí. Me gusta que podamos salir sin dramas."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Aparece una notificación de Rodrigo. Seba la borra sin abrirla. Amira no lo ha vuelto a mencionar."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "¿Pasó algo?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Nada... Solo los cabros molestando."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly no descubrió lo que pasó aquella noche. Seba conserva la relación que quería, pero también una decisión que todavía no se atreve a conversar."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "A veces la paz también pesa cuando no contaste toda la historia."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "fondo": "costanera_atardecer.png"
+  },
+  {
+    "id": "final_seba_femboy",
+    "titulo": "FINAL ROSA SECRETO · Femboy supremo",
+    "lugar": "Discord · 23:59",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Seba enciende la cámara. Lleva un conjunto de inspiración femboy rosa y negro que eligió con cariño: chaqueta, falda plisada y medias altas. Sonríe antes de que aparezcan las reacciones."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "WN... ¿QUÉ TE PASÓ?"
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Hermano, no puede ser. ¿Ese es el Seba?"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Según mis cálculos, tenemos nueva integrante en el servidor."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Sigo siendo el mismo wn, Jairo. Ahora tengo más estilo que ustedes juntos."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Ya, pero fuera de webeo: te quedó terrible bacán."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Gracias. Y para que quede claro, no es por perder una apuesta. Me gusta verme así."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Sebastián no necesitó perder a nadie para descubrir una forma de expresarse. Eligió su propia apariencia y se sintió libre."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "fondo": "discord_noche.png",
+    "decisiones": [
+      {
+        "texto": "Seguir mostrando mi estilo con Javi a mi lado.",
+        "siguiente": "seba_epilogo_femboy_javi",
+        "condiciones": [
+          {
+            "evento": "seba_javi_pareja",
+            "eventoActivo": true
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Javi (mensaje)",
+            "texto": "A mí me encanta que te sintai cómodo. ¿Me mostrás el outfit completo después?"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Obvio. Pero nada de robarme la chaqueta."
+          }
+        ]
+      },
+      {
+        "texto": "Disfrutar mi nueva etapa a mi propio ritmo.",
+        "siguiente": "seba_epilogo_femboy_solo",
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "No necesito un jurado para sentirme bien con lo que elijo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Apaga la cámara con la misma sonrisa con la que la encendió."
+          }
+        ]
+      }
+    ],
+    "cg": "seba/final_rosa_secreto.png"
+  },
+  {
+    "id": "seba_epilogo_femboy_javi",
+    "titulo": "Epílogo rosa · Tu estilo, tu historia",
+    "lugar": "Costanera · Atardecer",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Javi y Seba caminan por la costanera. Ella le ayuda a acomodar el cuello de la chaqueta."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Me gusta que me contís estas cosas. No tenís que actuar distinto conmigo."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No quería otra vida, solo dejar de esconder una parte de la mía."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Ríen mientras el viento despeina a ambos. No hay una etiqueta que resuma todo lo que son."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "fondo": "costanera_atardecer.png"
+  },
+  {
+    "id": "seba_epilogo_femboy_solo",
+    "titulo": "Epílogo rosa · Sin pedir permiso",
+    "lugar": "Pieza de Seba · Mañana",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Seba ordena la ropa de su armario. Entre poleras comunes ahora hay colores que antes le daba vergüenza probar."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Esto me gusta a mí. Y eso basta."
+      },
+      {
+        "personaje": "Jairo (mensaje)",
+        "texto": "Aún tengo una planilla de outfits por si te interesa."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "JAJA, ese wn nunca aprende."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La puerta del armario se cierra, pero ninguna posibilidad se cierra con ella."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "final_seba_naranja_picnic",
+    "titulo": "FINAL NARANJA ALTERNATIVO · Amigos bajo el sol",
+    "lugar": "Parque · Picnic de domingo",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Un mantel a cuadros cubre el pasto. Richie y Feña están juntos, y Seba llega cargando una bolsa de bebidas y completos."
+      },
+      {
+        "personaje": "Richie",
+        "texto": "¡Hermano! Pensábamos que te habíai quedado dormido."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "¿Y perderme este picnic? Si vine a fiscalizar que tratís bien a la Feña, wn."
+      },
+      {
+        "personaje": "Feña",
+        "texto": "JAJA, son los dos igual de pesados. Richie, ayúdame con las servilletas."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Richie le da un beso a Feña y después le hace espacio a Seba en el mantel. Los tres conversan como amigos."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Fuera de webeo, me alegro de verlos felices. Y me gusta que podamos seguir saliendo juntos."
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Gracias por eso, Seba. No quería perder a mi amigo por esta historia."
+      },
+      {
+        "personaje": "Feña",
+        "texto": "Tranquilos, que aquí hay cariño para todos, pero las papas fritas son mías."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Seba se ríe con ellos, sin tristeza ni envidia. A veces el final feliz es celebrar el amor de tus amigos y seguir formando parte de sus vidas."
+      }
+    ],
+    "cg": "seba/final_naranja_richiexfena.png"
+  },
+  {
+    "id": "final_seba_turquesa",
+    "titulo": "FINAL TURQUESA · El combo de Richie",
+    "lugar": "Salida de la feria · Una tarde inolvidable",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "La imagen de aquel combo vuelve a Seba cada vez que pasa por la feria. La discusión con Richie terminó con un golpe en la boca y el grupo dividido."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Me fui a pelear por Feña como si ella no tuviera voz. Hasta me puse a provocar al Richie."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Hermano, las relaciones no se deciden a combos. Y ninguno de los dos estuvo bien en lo que hizo."
+      },
+      {
+        "personaje": "Richie (mensaje)",
+        "texto": "No quiero hablar ahora. Necesito distancia, y no voy a repetir lo de esa tarde."
+      },
+      {
+        "personaje": "Feña (mensaje)",
+        "texto": "No soy la razón de una pelea. Voy a tomar distancia de los dos por un tiempo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Seba mira su reflejo. No se ganó a nadie ni arregló nada. Perdió una amistad por dejar que el orgullo hablara más fuerte."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Puta la wea... esta vez el cagazo me llegó directo al hocico."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La historia no termina con una victoria. Termina con Sebastián entendiendo que debe aprender a resolver sus problemas sin violencia."
+      }
+    ],
+    "cg": "seba/final_turquesa.png"
+  }
+]

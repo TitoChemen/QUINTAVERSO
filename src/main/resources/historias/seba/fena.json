@@ -1,0 +1,528 @@
+[
+  {
+    "id": "seba_fena_1",
+    "titulo": "Episodio 1 · El saludo incómodo",
+    "lugar": "Feña · Quinta Región",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Feña se encuentra con Seba saliendo de una feria y ve que Richie los mira desde lejos."
+      },
+      {
+        "personaje": "Feña",
+        "texto": "No quiero que me miren como si fuera parte de una apuesta."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Richie también está pasando por algo con esto."
+      },
+      {
+        "personaje": "Feña",
+        "texto": "Richie me dijo que te gustan las tallas malas."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Me está difamando. Son tallas de excelencia dudosa."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Richie deja su bebida sobre la mesa, fingiendo ofenderse."
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Al menos reconoció que son dudosas."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Feña detiene el paso frente a un puesto de flores y observa a Richie alejarse."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Preguntarle qué quiere ella realmente.",
+        "efectos": {
+          "fena": 10,
+          "honestidad": 3
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Antes de cualquier cosa, quiero saber qué querís tú."
+          },
+          {
+            "personaje": "Feña",
+            "texto": "Gracias. Parecía que todos tenían una opinión menos yo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Feña decide por sí misma si quiere continuar el encuentro. Seba acepta su ritmo."
+          }
+        ]
+      },
+      {
+        "texto": "Hablar solo de lo que siente Richie.",
+        "efectos": {
+          "honestidad": -4,
+          "sospecha": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Feña",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Feña da un paso atrás y recuerda que su tiempo también merece respeto."
+          }
+        ]
+      }
+    ],
+    "fondo": "parque_vina.png"
+  },
+  {
+    "id": "seba_fena_2",
+    "titulo": "Episodio 2 · Una partida pendiente",
+    "lugar": "Feña · Quinta Región",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Feña desafía a Seba a un juego en una feria de arcade."
+      },
+      {
+        "personaje": "Feña",
+        "texto": "Si perdís, me invitai un helado. Si gano, igual."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Eso no es una apuesta justa."
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Podemos salir los tres sin que se convierta en una competencia, cierto?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Claro. Yo vine a pasarla bien con ustedes."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Feña decide qué lugar visitar, sin pedir permiso a ninguno."
+      },
+      {
+        "personaje": "Feña",
+        "texto": "Entonces vamos a comer. Que tengo hambre hace una hora."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La pantalla del arcade parpadea con un nuevo récord. Feña levanta los brazos celebrando."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Aceptar el juego sin convertirlo en conquista.",
+        "efectos": {
+          "fena": 10,
+          "honestidad": 3
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Ya, pero si gano tú elegís el sabor."
+          },
+          {
+            "personaje": "Feña",
+            "texto": "Trato hecho. Y deja de mirar el marcador."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Feña decide por sí misma si quiere continuar el encuentro. Seba acepta su ritmo."
+          }
+        ]
+      },
+      {
+        "texto": "Fardar frente a Richie para hacerlo sentir mal.",
+        "efectos": {
+          "honestidad": -4,
+          "sospecha": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Feña",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Feña da un paso atrás y recuerda que su tiempo también merece respeto."
+          }
+        ]
+      }
+    ],
+    "fondo": "parque_vina.png"
+  },
+  {
+    "id": "seba_fena_3",
+    "titulo": "Episodio 3 · La conversación con Richie",
+    "lugar": "Feña · Quinta Región",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Richie busca a Seba para hablar a solas después de notar la cercanía con Feña."
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Hermano, no quiero andar compitiendo con un amigo."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Ni yo quiero hacerte daño a escondidas."
+      },
+      {
+        "personaje": "Feña",
+        "texto": "No me gusta que la gente hable de mí como si no estuviera presente."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Te escucho, Feña."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Richie asiente. No es un punto que tenga que ganar ninguno."
+      },
+      {
+        "personaje": "Feña",
+        "texto": "Quiero decidir yo cómo vivo mis relaciones."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Richie deja de mirar sus zapatillas y espera a que Seba termine de hablar."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Hablar con Richie sin atribuirle derechos sobre Feña.",
+        "efectos": {
+          "fena": 10,
+          "honestidad": 10
+        },
+        "eventos": [
+          "seba_richie_hablado"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me interesa conocerla, pero ella decide lo que quiere. Te lo debía de frente."
+          },
+          {
+            "personaje": "Richie",
+            "texto": "No me hace feliz, pero prefiero esto antes que una traición."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Feña decide por sí misma si quiere continuar el encuentro. Seba acepta su ritmo."
+          }
+        ]
+      },
+      {
+        "texto": "Mentirle para evitar el conflicto.",
+        "efectos": {
+          "honestidad": -10,
+          "sospecha": 5,
+          "amistad": -12
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Richie",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Feña da un paso atrás y recuerda que su tiempo también merece respeto."
+          }
+        ],
+        "eventos": [
+          "seba_engano_richie"
+        ]
+      }
+    ],
+    "fondo": "parque_vina.png"
+  },
+  {
+    "id": "seba_fena_4",
+    "titulo": "Episodio 4 · Los planes de Feña",
+    "lugar": "Feña · Quinta Región",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Feña cuenta que quiere enfocarse en sus propios proyectos y que no todo gira en torno a romance."
+      },
+      {
+        "personaje": "Feña",
+        "texto": "No voy a cambiar mis planes porque un par de cabros estén confundidos."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Me parece justo."
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Seba, no confundamos llevarnos bien con tener derecho a competir."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No quiero perder un amigo por hacerme el vivo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Los dos esperan la respuesta de Feña antes de sacar conclusiones."
+      },
+      {
+        "personaje": "Feña",
+        "texto": "Gracias. Ahora sí podemos conversar los tres."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Feña le muestra un cuaderno con ideas y tareas; no necesita un salvador, sino atención."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Apoyar sus metas sin esperar recompensa.",
+        "efectos": {
+          "fena": 10,
+          "honestidad": 3
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Si te va bien con tus proyectos, bacán. Quiero conocerte, no frenarte."
+          },
+          {
+            "personaje": "Feña",
+            "texto": "Eso me da tranquilidad."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Feña decide por sí misma si quiere continuar el encuentro. Seba acepta su ritmo."
+          }
+        ]
+      },
+      {
+        "texto": "Insistir en que debería priorizar una pareja.",
+        "efectos": {
+          "honestidad": -4,
+          "sospecha": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Feña",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Feña da un paso atrás y recuerda que su tiempo también merece respeto."
+          }
+        ]
+      }
+    ],
+    "fondo": "parque_vina.png"
+  },
+  {
+    "id": "seba_fena_5",
+    "titulo": "Episodio 5 · Sin intermediarios",
+    "lugar": "Feña · Quinta Región",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Feña propone dejar de enviar mensajes a través de amigos."
+      },
+      {
+        "personaje": "Feña",
+        "texto": "Si queremos hablar, hablemos nosotros. No necesito voceros."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Mejor que sean conversaciones de dos."
+      },
+      {
+        "personaje": "Feña",
+        "texto": "Tengo derecho a elegir con quién quiero estar, incluso si eso pone incómodo al grupo."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Y nosotros tenemos que respetarlo sin armar un show."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Richie no se ríe. Esta vez está escuchando algo serio."
+      },
+      {
+        "personaje": "Richie",
+        "texto": "No quiero quedar como enemigo por sentir distinto."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Feña silencia el chat grupal y guarda el celular para conversar sin intermediarios."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Aceptar conversar directamente y sin presiones.",
+        "efectos": {
+          "fena": 10,
+          "honestidad": 3
+        },
+        "eventos": [
+          "seba_fena_vinculo"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Es verdad. Si me da vergüenza preguntarte algo, tengo que hacerlo igual."
+          },
+          {
+            "personaje": "Feña",
+            "texto": "JAJA, menos mal. El Jairo ya me estaba haciendo una encuesta."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Feña decide por sí misma si quiere continuar el encuentro. Seba acepta su ritmo."
+          }
+        ]
+      },
+      {
+        "texto": "Pedirle a Jairo que gestione la relación.",
+        "efectos": {
+          "honestidad": -4,
+          "sospecha": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Feña",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Feña da un paso atrás y recuerda que su tiempo también merece respeto."
+          }
+        ]
+      }
+    ],
+    "fondo": "parque_vina.png"
+  },
+  {
+    "id": "seba_fena_6",
+    "titulo": "Episodio 6 · Una decisión propia",
+    "lugar": "Feña · Quinta Región",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Feña le dice a Seba que aún tiene dudas sobre cómo afectará al grupo."
+      },
+      {
+        "personaje": "Feña",
+        "texto": "No quiero sentir que si elijo salir contigo pierdo a todos los demás."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No voy a exigirte eso."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Si la respuesta no me favorece, igual puedo alegrarme por ustedes."
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Eso espero. Yo quiero seguir siendo tu amigo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Feña les recuerda que no está votando entre dos bandos."
+      },
+      {
+        "personaje": "Feña",
+        "texto": "La amistad no tiene por qué romperse por una decisión sincera."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Una ráfaga desordena el pelo de Feña. Seba tarda en responder, esta vez por respeto."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Dejarle espacio y respetar lo que decida.",
+        "efectos": {
+          "fena": 10,
+          "honestidad": 3
+        },
+        "eventos": [
+          "seba_fena_vinculo"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Podemos conocernos sin convertirlo en guerra. Si no querís, lo respeto."
+          },
+          {
+            "personaje": "Feña",
+            "texto": "Así sí me dan ganas de seguir hablando contigo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Feña decide por sí misma si quiere continuar el encuentro. Seba acepta su ritmo."
+          }
+        ]
+      },
+      {
+        "texto": "Exigirle una respuesta inmediata.",
+        "efectos": {
+          "honestidad": -4,
+          "sospecha": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Feña",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Feña da un paso atrás y recuerda que su tiempo también merece respeto."
+          }
+        ],
+        "eventos": [
+          "seba_presiono_fena"
+        ]
+      }
+    ],
+    "fondo": "parque_vina.png"
+  }
+]

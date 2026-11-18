@@ -1,0 +1,691 @@
+[
+  {
+    "id": "seba_confesar_kelly",
+    "titulo": "La mañana siguiente · Dar la cara",
+    "lugar": "Llamada de Kelly",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Seba marca el número de Kelly con la mano temblando. Hay tres llamadas perdidas suyas desde la noche anterior."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "¿Llegaste bien? Me tení preocupada desde anoche."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Sí. Pero tengo que contarte algo que va a doler. No quiero que te enteres por Rodrigo.",
+        "expresion": "nervioso"
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Seba... ¿qué hiciste?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Besé a Amira. Fue una decisión mía. No voy a echarle la culpa al carrete ni a nadie.",
+        "expresion": "serio"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly deja de hablar. Al otro lado se escucha una puerta cerrándose."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "No me duele solo el beso. Me duele que ahora tenga que preguntarme qué más no sé."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Entiendo si no querís verme. No te voy a pedir que me perdonís ahora.",
+        "expresion": "pensativo"
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Necesito terminar esto. No puedo seguir fingiendo que todo está bien."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La llamada termina sin insultos ni reconciliación. Decir la verdad fue lo mínimo; no un premio."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Aceptar la ruptura y no insistir.",
+        "eventos": [
+          "seba_kelly_termino",
+          "seba_acepta_responsabilidad"
+        ],
+        "efectos": {
+          "honestidad": 10,
+          "kelly": -15
+        },
+        "desactivarEventos": [
+          "seba_pareja_kelly"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Te respeto. Voy a dejarte tranquila.",
+            "expresion": "serio"
+          }
+        ]
+      },
+      {
+        "texto": "Rogar que lo olvide y presionarla.",
+        "eventos": [
+          "seba_kelly_termino",
+          "seba_egoista"
+        ],
+        "efectos": {
+          "honestidad": -10,
+          "kelly": -25
+        },
+        "desactivarEventos": [
+          "seba_pareja_kelly"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Kelly",
+            "texto": "No me tratís como si mi dolor fuera un obstáculo para tu felicidad."
+          }
+        ]
+      }
+    ],
+    "fondo": "habitacion_caceres_noche.png"
+  },
+  {
+    "id": "seba_amira_corte_mentira",
+    "titulo": "El ultimátum · «Me bajo de tu mentira»",
+    "lugar": "Pasillo de la fiesta",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Seba guarda el teléfono y le dice a Amira que no piensa hablar con Kelly. Ella retrocede dos pasos."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "¿Me estai diciendo que la vas a mirar a la cara mañana y actuar como si nada?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No quiero perderla. Podríamos dejar esto entre nosotros.",
+        "expresion": "nervioso"
+      },
+      {
+        "personaje": "Amira",
+        "texto": "No. No me metai en esa weá. Los dos nos equivocamos, pero tú estai eligiendo mentir otra vez."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Amira, por favor...",
+        "expresion": "sorprendido"
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Te dije que si me pedíai esto, yo me bajaba. Se acabó, Seba."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Amira entra al canal del grupo y escribe un mensaje antes de poder arrepentirse."
+      },
+      {
+        "personaje": "Amira (mensaje)",
+        "texto": "Cabros, les voy a contar algo feo: Seba y yo nos besamos en la fiesta mientras él seguía con Kelly. Yo también fui parte, pero no voy a esconderlo."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Chucha. Esta weá ya no es talla."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Seba, ¿es verdad?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "...Sí.",
+        "expresion": "sentado"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La confianza se rompe por la infidelidad y por el intento de encubrirla. Amira silencia a Seba y abandona el chat."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Admitir delante del grupo que Amira dice la verdad.",
+        "eventos": [
+          "seba_amira_delato_grupo",
+          "seba_amira_distanciada",
+          "seba_kelly_termino",
+          "seba_intento_reconocer"
+        ],
+        "efectos": {
+          "honestidad": 4,
+          "amistad": -15,
+          "amira": -35
+        },
+        "desactivarEventos": [
+          "seba_pareja_kelly",
+          "seba_amira_pareja",
+          "seba_amira_vinculo"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Es verdad. Fui yo quien pidió esconderlo. No la culpen a ella.",
+            "expresion": "serio"
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Tarde, pero gracias por no echarle la culpa a otra persona."
+          }
+        ],
+        "siguiente": "seba_verdad_llega_kelly"
+      },
+      {
+        "texto": "Acusar a Amira de arruinarme la vida.",
+        "eventos": [
+          "seba_amira_delato_grupo",
+          "seba_amira_distanciada",
+          "seba_kelly_termino",
+          "seba_egoista"
+        ],
+        "efectos": {
+          "honestidad": -18,
+          "amistad": -22,
+          "amira": -40
+        },
+        "desactivarEventos": [
+          "seba_pareja_kelly",
+          "seba_amira_pareja",
+          "seba_amira_vinculo"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Hermano, el mensaje no besó a nadie. Tú tomaste esa decisión."
+          },
+          {
+            "personaje": "Rodrigo",
+            "texto": "Por primera vez estoy callado y el cagazo sigue creciendo."
+          }
+        ],
+        "siguiente": "seba_verdad_llega_kelly"
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_post_delatado",
+    "titulo": "Día 12 · Todos se enteraron",
+    "lugar": "Discord / Habitación",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Pasaron dos días. Kelly bloqueó a Seba y Amira no respondió ningún mensaje. En Discord nadie hace bromas."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Nunca pensé que el silencio del server iba a sonar tan fuerte.",
+        "expresion": "sentado"
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Amira dijo lo que pasó porque no iba a cargar sola con tu mentira."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Yo iba a hacer un PowerPoint sobre el escándalo, pero borré todo. Esta vez no da risa."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "No vayai a convertir una disculpa en una forma de recuperarlas. Dejá que decidan ellas."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Lo sé. Lo que pasa es que ahora de verdad me quedé solo con mis decisiones.",
+        "expresion": "pensativo"
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Reconocer la mentira y dejar de insistir.",
+        "eventos": [
+          "seba_acepta_responsabilidad"
+        ],
+        "efectos": {
+          "honestidad": 8,
+          "autoestima": 3
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "No voy a mandarle cincuenta mensajes. Ella dijo que necesitaba espacio."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Primera decisión correcta de esta semana, hermano."
+          }
+        ]
+      },
+      {
+        "texto": "Mandar audios culpando a Amira.",
+        "eventos": [
+          "seba_egoista"
+        ],
+        "efectos": {
+          "honestidad": -10,
+          "amistad": -10
+        },
+        "reaccion": [
+          {
+            "personaje": "Kevin",
+            "texto": "Te voy a silenciar un rato si seguís responsabilizándola.",
+            "expresion": "serio"
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_amira_distancia",
+    "titulo": "Día 16 · El asiento vacío",
+    "lugar": "Café / Discord",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Amira ya no aparece en las llamadas. Ni en las salidas. Ni en el grupo de memes."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "¿Alguien sabe si está bien?",
+        "expresion": "sentado"
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Está bien. Hablé con ella. Pero me pidió que no te diera noticias para acercarte."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Ya. Entendido."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Hoy no tengo consejos. De verdad no."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Nadie convierte la ausencia de Amira en una promesa de regreso. El asiento queda vacío."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Respetar su distancia.",
+        "eventos": [
+          "seba_respetar_distancia"
+        ],
+        "efectos": {
+          "honestidad": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Si algún día quiere hablar, que sea porque ella lo eligió.",
+            "expresion": "serio"
+          }
+        ]
+      },
+      {
+        "texto": "Pedirle a Kevin que la convenza.",
+        "eventos": [
+          "seba_presiono_amira"
+        ],
+        "efectos": {
+          "honestidad": -8
+        },
+        "reaccion": [
+          {
+            "personaje": "Kevin",
+            "texto": "No soy tu mensajero, wn. Respétala.",
+            "expresion": "serio"
+          }
+        ]
+      }
+    ],
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "seba_amira_cierre",
+    "titulo": "Día 20 · No es una confesión",
+    "lugar": "Chat privado",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Amira envía una nota de voz después de diez días. No pide verse. No hace bromas."
+      },
+      {
+        "personaje": "Amira (audio)",
+        "texto": "Seba, me enteré de que preguntaste por mí. Quiero que estés bien, pero no quiero estar contigo."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "...",
+        "expresion": "pensativo"
+      },
+      {
+        "personaje": "Amira (audio)",
+        "texto": "Antes sentí cosas que no supe manejar. Eso no significa que después de la mentira te deba una oportunidad."
+      },
+      {
+        "personaje": "Amira (audio)",
+        "texto": "No me arrepiento de haber dicho la verdad. Me arrepiento de haber sido parte de lo que pasó."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "El mensaje no invita a una cita. Es un cierre, y Seba tiene que escucharlo como tal."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Agradecerle el mensaje, sin pedir nada más.",
+        "eventos": [
+          "seba_amira_cierre_respetado"
+        ],
+        "efectos": {
+          "honestidad": 6,
+          "autoestima": 4
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba (mensaje)",
+            "texto": "Gracias por decírmelo. No te escribiré más. Te deseo cosas buenas.",
+            "expresion": "pensativo"
+          }
+        ]
+      },
+      {
+        "texto": "Responder con despecho y bloquearla.",
+        "eventos": [
+          "seba_amira_cierre_hostil"
+        ],
+        "efectos": {
+          "honestidad": -9,
+          "amistad": -4
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "Seba escribe algo cruel, lo envía y apaga la pantalla. La última palabra no arregla nada."
+          }
+        ]
+      }
+    ],
+    "fondo": "habitacion_caceres_noche.png"
+  },
+  {
+    "id": "seba_amira_reencuentro_honesto",
+    "titulo": "Día 20 · No estamos en la misma noche",
+    "lugar": "Muelle",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Desde la conversación con Kelly, Amira y Seba han mantenido distancia. Se encuentran de casualidad frente al muelle."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Pensé que ibai a esquivarme.",
+        "expresion": "serio"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Te debía espacio. Lo sigo haciendo.",
+        "expresion": "pensativo"
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Me enteré de que le contaste a Kelly. Eso no arregla lo que hicimos, pero al menos no seguiste mintiendo."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No espero que pase algo entre nosotros por eso.",
+        "expresion": "serio"
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Bien. Porque yo tampoco tengo claro qué siento. Te echo de menos como amigo y eso me confunde."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "El viento obliga a ambos a acercarse para escucharse. Ninguno da un paso físico."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Hay algo que te quiero decir, pero no hoy. Antes necesito saber si de verdad aprendimos algo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Reconocer el daño y aceptar ir lento.",
+        "eventos": [
+          "seba_amira_puerta_abierta",
+          "seba_amira_vinculo"
+        ],
+        "efectos": {
+          "honestidad": 7,
+          "amira": 8
+        },
+        "condiciones": [
+          {
+            "evento": "seba_acepta_responsabilidad",
+            "eventoActivo": true
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Amira",
+            "texto": "Podemos volver a hablar. No te prometo nada."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Con eso me basta.",
+            "expresion": "espalda"
+          }
+        ]
+      },
+      {
+        "texto": "Insistir en una relación porque ya terminamos con Kelly.",
+        "eventos": [
+          "seba_amira_puerta_cerrada"
+        ],
+        "efectos": {
+          "amira": -15
+        },
+        "reaccion": [
+          {
+            "personaje": "Amira",
+            "texto": "No po, Seba. Si decís eso, no entendiste lo que te expliqué."
+          }
+        ]
+      },
+      {
+        "texto": "Pedir disculpas y no hablar todavía de romance.",
+        "eventos": [
+          "seba_amira_puerta_abierta"
+        ],
+        "efectos": {
+          "honestidad": 4
+        },
+        "reaccion": [
+          {
+            "personaje": "Amira",
+            "texto": "Gracias. Partamos por no hacernos daño."
+          }
+        ]
+      }
+    ],
+    "fondo": "muelle_noche.png"
+  },
+  {
+    "id": "seba_amira_confesion_tardia",
+    "titulo": "Día 23 · Sin obligación de quedarse",
+    "lugar": "Parque",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Tres días después de retomar la conversación, Amira propone caminar. Seba llega temprano; no lleva flores."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "He dado mil vueltas a esto. No me enamoré de la fiesta, po. Me importabai desde antes."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No quiero que esta vez confundamos cariño con hacer las cosas apurados.",
+        "expresion": "pensativo"
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Eso quería escuchar. Me gustai, pero no voy a repetir lo que hicimos con Kelly."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Amira se detiene y lo mira de frente. No hay beso ni promesa automática."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Si alguna vez intentamos algo, tiene que ser limpio. Y si no, prefiero que sigamos siendo honestos."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Decirle que también sientes algo y empezar despacio.",
+        "eventos": [
+          "seba_amira_confesion_valida",
+          "seba_amira_vinculo"
+        ],
+        "efectos": {
+          "amira": 12,
+          "honestidad": 5
+        },
+        "condiciones": [
+          {
+            "evento": "seba_amira_puerta_abierta",
+            "eventoActivo": true
+          },
+          {
+            "evento": "seba_acepta_responsabilidad",
+            "eventoActivo": true
+          },
+          {
+            "evento": "seba_kelly_termino",
+            "eventoActivo": true
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Sí me gustai. Pero si vamos a intentarlo, sin secretos.",
+            "expresion": "coqueto"
+          },
+          {
+            "personaje": "Amira",
+            "texto": "Entonces no volvamos a hacer mierda la amistad por miedo a hablar."
+          }
+        ]
+      },
+      {
+        "texto": "Agradecerle y elegir conservar la amistad.",
+        "eventos": [
+          "seba_amira_solo_amigos"
+        ],
+        "efectos": {
+          "amistad": 9,
+          "honestidad": 6
+        },
+        "reaccion": [
+          {
+            "personaje": "Amira",
+            "texto": "Gracias por no usar mis sentimientos para arreglar tu culpa."
+          }
+        ]
+      }
+    ],
+    "fondo": "parque_vina.png"
+  },
+  {
+    "id": "seba_verdad_llega_kelly",
+    "titulo": "La verdad no esperaba permiso",
+    "lugar": "Llamada de Kelly",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Kevin le dice a Kelly que necesita hablar. Ella ya recibió mensajes del grupo y llama directamente a Seba."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "¿Es verdad lo que contó Amira? Porque me estoy enterando por todos menos por ti."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Sí. Nos besamos. Y después le pedí que guardara el secreto.",
+        "expresion": "sentado"
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Te pregunté si estabai bien. Te pedí que me avisaras. Y tú elegiste mentirme."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Seba intenta encontrar una respuesta, pero ninguna cambia lo que ocurrió."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "No quiero seguir contigo. Y no quiero que me llamís mañana para explicármelo otra vez."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Lo entiendo. Aunque me cueste aceptarlo.",
+        "expresion": "pensativo"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La llamada termina. Kelly toma su decisión; la escena no promete una reconciliación."
+      }
+    ],
+    "fondo": "habitacion_caceres_noche.png",
+    "decisiones": [
+      {
+        "texto": "Respetar su decisión y detener los mensajes.",
+        "eventos": [
+          "seba_respeta_ruptura"
+        ],
+        "efectos": {
+          "honestidad": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Perdón, Kelly. No voy a insistir.",
+            "expresion": "serio"
+          }
+        ]
+      },
+      {
+        "texto": "Insistir en justificarse culpando a Amira.",
+        "eventos": [
+          "seba_egoista"
+        ],
+        "efectos": {
+          "honestidad": -11
+        },
+        "reaccion": [
+          {
+            "personaje": "Kelly",
+            "texto": "No. La decisión de mentir fue tuya, Sebastián."
+          }
+        ]
+      }
+    ]
+  }
+]

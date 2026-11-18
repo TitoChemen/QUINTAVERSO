@@ -1,0 +1,3443 @@
+[
+  {
+    "id": "seba_discord_01",
+    "titulo": "Discord 01 · El servidor en llamas",
+    "lugar": "Discord · Noche",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Noche de Discord 01. Jairo comparte una pantalla titulada «Manual de conquista 2026»."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Cabros, necesito silencio. Hoy explico el método científico del coqueteo."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Hermano, tu método tiene una encuesta de tu mamá como única muestra."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Y en la diapositiva dos hay una foto de una sopaipilla."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Era para estudiar el atractivo del producto local."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Yo entré a jugar, no a defender tu tesis de grado.",
+        "expresion": "pensativo"
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Lo estamos transmitiendo sin querer, conchetumare."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "CORTA LA TRANSMISIÓN."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Primera norma del amor: no lo dejís a Jairo administrar el servidor.",
+        "expresion": "espalda"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La música del canal baja y queda un momento para responder sin levantar la voz."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Al final, siempre terminamos acá para jugar y conversar, aunque se nos enrede la semana.",
+        "expresion": "saludando"
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Dejar que Jairo termine su presentación absurda.",
+        "eventos": [
+          "seba_discord_respetuoso_01"
+        ],
+        "efectos": {
+          "amistad": 4,
+          "honestidad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Hermano, tu método tiene una encuesta de tu mamá como única muestra."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Cortarle el PowerPoint antes de la diapositiva dos.",
+        "eventos": [
+          "seba_discord_impulsivo_01"
+        ],
+        "efectos": {
+          "amistad": -2,
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Primera norma del amor: no lo dejís a Jairo administrar el servidor."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_discord_02",
+    "titulo": "Discord 02 · El micrófono abierto",
+    "lugar": "Discord · Noche",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Noche de Discord 02. Seba descubre que Rodrigo lleva media hora hablando con el micrófono abierto."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Cabros, ¿por qué nadie me responde?"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Porque llevai treinta minutos diciendo que tu teclado es una nave espacial."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Y le dijiste «mi amor» al monitor."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Eso era al juego, weón."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Una palabra más y te pongo sonido de bocina como efecto de entrada.",
+        "expresion": "pensativo"
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "El monitor tiene derecho a una relación sana."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Apaguen los clips, por la chucha."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Ahora te entiendo cuando tenís miedo de mis screenshots.",
+        "expresion": "espalda"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La música del canal baja y queda un momento para responder sin levantar la voz."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Al final, siempre terminamos acá para jugar y conversar, aunque se nos enrede la semana.",
+        "expresion": "saludando"
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Advertirle a Rodrigo que tiene el micrófono abierto.",
+        "eventos": [
+          "seba_discord_respetuoso_02"
+        ],
+        "efectos": {
+          "amistad": 4,
+          "honestidad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Porque llevai treinta minutos diciendo que tu teclado es una nave espacial."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Guardar el audio para webearlo sin pedir permiso.",
+        "eventos": [
+          "seba_discord_impulsivo_02"
+        ],
+        "efectos": {
+          "amistad": -2,
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Ahora te entiendo cuando tenís miedo de mis screenshots."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_discord_03",
+    "titulo": "Discord 03 · Una discusión por skins",
+    "lugar": "Discord · Noche",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Noche de Discord 03. Los cabros votan cuál avatar se queda como foto oficial del servidor."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Propongo uno serio. Necesitamos profesionalismo."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Yo edité a Kevin con la cara de un gato."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Es literalmente el mismo gato que subiste ayer."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Pon el del gato. Total nadie nos toma en serio.",
+        "expresion": "pensativo"
+      },
+      {
+        "personaje": "Richie",
+        "texto": "¿Y por qué Seba aparece con una corona?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Es reconocimiento a mis aportes, gracias.",
+        "expresion": "coqueto"
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Voté por el dibujo de una papa."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Ganó la papa, cabros. Qué triste."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Alguien comparte un clip; nadie lo vuelve a enviar sin permiso."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Al final, siempre terminamos acá para jugar y conversar, aunque se nos enrede la semana.",
+        "expresion": "saludando"
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Votar por la foto ridícula de la papa.",
+        "eventos": [
+          "seba_discord_respetuoso_03"
+        ],
+        "efectos": {
+          "amistad": 4,
+          "honestidad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo edité a Kevin con la cara de un gato."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Defender una imagen seria para el servidor.",
+        "eventos": [
+          "seba_discord_impulsivo_03"
+        ],
+        "efectos": {
+          "amistad": -2,
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Ganó la papa, cabros. Qué triste."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_discord_04",
+    "titulo": "Discord 04 · Consejero en huelga",
+    "lugar": "Discord · Noche",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Noche de Discord 04. Kevin anuncia que dejará de responder dramas románticos por una noche."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Hoy no doy consejos. Me declaro en paro."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "¿Ni uno cortito?"
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "NI UNO."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Mi consulta es estadística, no romántica: ¿cuánto dura una amistad después de un rechazo?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Ya lo hiciste hablar, imbécil.",
+        "expresion": "cintura"
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "No me metai en investigaciones de campo."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Entonces podemos jugar una partida sin sesión de terapia."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Lo mejor es que los consejos se nos devuelven como boomerang.",
+        "expresion": "neutral"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La música del canal baja y queda un momento para responder sin levantar la voz."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Al final, siempre terminamos acá para jugar y conversar, aunque se nos enrede la semana.",
+        "expresion": "saludando"
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Respetar la noche sin consejos de Kevin.",
+        "eventos": [
+          "seba_discord_respetuoso_04"
+        ],
+        "efectos": {
+          "amistad": 4,
+          "honestidad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "¿Ni uno cortito?"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Insistirle hasta conseguir una opinión.",
+        "eventos": [
+          "seba_discord_impulsivo_04"
+        ],
+        "efectos": {
+          "amistad": -2,
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Lo mejor es que los consejos se nos devuelven como boomerang."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_discord_05",
+    "titulo": "Discord 05 · La revancha de Richie",
+    "lugar": "Discord · Noche",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Noche de Discord 05. Richie reta a Seba a un duelo en un juego de peleas."
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Seba, si ganai, te doy el rango de campeón."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Me gusta. Si perdís, dejai de ponerme el emoji de payaso.",
+        "expresion": "sorprendido"
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Esto se graba por si hay cagazo."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Nadie rompa un control, por favor."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Según los datos, ambos tenemos sesgo de superioridad."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Jairo, mirá el combate y cállate."
+      },
+      {
+        "personaje": "Richie",
+        "texto": "¡GANÉ, CONCHETUMARE!"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Revancha. No me pueden dejar así.",
+        "expresion": "saludando"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La música del canal baja y queda un momento para responder sin levantar la voz."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Al final, siempre terminamos acá para jugar y conversar, aunque se nos enrede la semana.",
+        "expresion": "saludando"
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Pedir la revancha a Richie sin desquitarme.",
+        "eventos": [
+          "seba_discord_respetuoso_05"
+        ],
+        "efectos": {
+          "amistad": 4,
+          "honestidad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Me gusta. Si perdís, dejai de ponerme el emoji de payaso."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Acusar a Richie de hacer trampa.",
+        "eventos": [
+          "seba_discord_impulsivo_05"
+        ],
+        "efectos": {
+          "amistad": -2,
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Revancha. No me pueden dejar así."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_discord_06",
+    "titulo": "Discord 06 · La encuesta imposible",
+    "lugar": "Discord · Noche",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Noche de Discord 06. Jairo abre una encuesta anónima sobre «qué es una buena amistad»."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Pregunta uno: ¿Le contarías a un amigo que se está equivocando?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Obvio, pero no por humillarlo.",
+        "expresion": "sorprendido"
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "La pregunta dos dice «¿y si es muy porfiado?»."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Esa es una encuesta contra nosotros mismos."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Yo marqué «depende»."
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Vos siempre marcai depende, Rodriguito."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Pregunta tres: ¿Puede una sopaipilla ser tu mejor amiga?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Cierra la encuesta antes de que llamemos a un psicólogo.",
+        "expresion": "saludando"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Alguien comparte un clip; nadie lo vuelve a enviar sin permiso."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Al final, siempre terminamos acá para jugar y conversar, aunque se nos enrede la semana.",
+        "expresion": "saludando"
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Responder la encuesta de Jairo con sinceridad.",
+        "eventos": [
+          "seba_discord_respetuoso_06"
+        ],
+        "efectos": {
+          "amistad": 4,
+          "honestidad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Obvio, pero no por humillarlo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Poner puras respuestas de meme.",
+        "eventos": [
+          "seba_discord_impulsivo_06"
+        ],
+        "efectos": {
+          "amistad": -2,
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Cierra la encuesta antes de que llamemos a un psicólogo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_discord_07",
+    "titulo": "Discord 07 · El ruido de los teclados",
+    "lugar": "Discord · Noche",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Noche de Discord 07. Una partida competitiva empieza con una pelea por quién manda las instrucciones."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "La estrategia es simple: nadie se separa."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Voy por la izquierda."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "TE DIJERON QUE NO TE SEPARARAS."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Lo perdimos. Tres segundos de partida.",
+        "expresion": "coqueto"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Mi internet tiene lag ético."
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Qué chucha significa eso."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Significa que vamos a perder por tercera vez."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Por lo menos la derrota es en familia.",
+        "expresion": "serio"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La música del canal baja y queda un momento para responder sin levantar la voz."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Al final, siempre terminamos acá para jugar y conversar, aunque se nos enrede la semana.",
+        "expresion": "saludando"
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Seguir la estrategia de Kevin.",
+        "eventos": [
+          "seba_discord_respetuoso_07"
+        ],
+        "efectos": {
+          "amistad": 4,
+          "honestidad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Rodrigo",
+            "texto": "Voy por la izquierda."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Irme por mi cuenta y arriesgar al equipo.",
+        "eventos": [
+          "seba_discord_impulsivo_07"
+        ],
+        "efectos": {
+          "amistad": -2,
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Por lo menos la derrota es en familia."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_discord_08",
+    "titulo": "Discord 08 · Los límites del chiste",
+    "lugar": "Discord · Noche",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Noche de Discord 08. Seba nota que las bromas empiezan a incomodar a alguien del grupo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Oye, bajemos un poco el tono. No todo da para clip."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Pucha, era broma nomás."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Las bromas sirven si todos se pueden reír, no solo el que las hace."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Yo también me he pasado de la raya.",
+        "expresion": "coqueto"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Yo tengo humor clínico: cero efectividad."
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Jairo, eso fue lo primero inteligente que dijiste hoy."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Podemos seguir webiando sin echarnos encima el grupo.",
+        "expresion": "saludando"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Por primera vez, el canal baja de volumen porque alguien pidió respeto."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La música del canal baja y queda un momento para responder sin levantar la voz."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Al final, siempre terminamos acá para jugar y conversar, aunque se nos enrede la semana.",
+        "expresion": "saludando"
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Pedir disculpas si una talla incomodó a alguien.",
+        "eventos": [
+          "seba_discord_respetuoso_08"
+        ],
+        "efectos": {
+          "amistad": 4,
+          "honestidad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Rodrigo",
+            "texto": "Pucha, era broma nomás."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Restarle importancia porque «era broma».",
+        "eventos": [
+          "seba_discord_impulsivo_08"
+        ],
+        "efectos": {
+          "amistad": -2,
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Podemos seguir webiando sin echarnos encima el grupo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_discord_09",
+    "titulo": "Discord 09 · La previa",
+    "lugar": "Discord · Noche",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Noche de Discord 09. El grupo organiza la fiesta y nadie consigue ponerse de acuerdo con el transporte."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Cabros, recuerden llevar cargador."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Y no grabar a los demás sin permiso."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Yo voy a pasarla bien, no a dar un examen de conducta.",
+        "expresion": "coqueto"
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "No es examen, es sentido común."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "La cuota de sopaipillas la llevo yo."
+      },
+      {
+        "personaje": "Richie",
+        "texto": "No se come sopaipilla en todos los carretes, hermano."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Y si alguien se queda dormido, lo dejamos descansar, punto."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Con tanto discurso, mañana van a llegar todos vestidos como monitores de campamento.",
+        "expresion": "sorprendido"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Alguien comparte un clip; nadie lo vuelve a enviar sin permiso."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Al final, siempre terminamos acá para jugar y conversar, aunque se nos enrede la semana.",
+        "expresion": "saludando"
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Ofrecerme a organizar el regreso seguro.",
+        "eventos": [
+          "seba_discord_respetuoso_09"
+        ],
+        "efectos": {
+          "amistad": 4,
+          "honestidad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Y no grabar a los demás sin permiso."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Ignorar todos los acuerdos de la previa.",
+        "eventos": [
+          "seba_discord_impulsivo_09"
+        ],
+        "efectos": {
+          "amistad": -2,
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Con tanto discurso, mañana van a llegar todos vestidos como monitores de campamento."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_discord_10",
+    "titulo": "Discord 10 · Las voces del regreso",
+    "lugar": "Discord · Noche",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Noche de Discord 10. El servidor abre tarde, después de la fiesta. Nadie sabe cómo empezar."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Desde que Amira dejó el servidor, algunos miembros esperan antes de bromear sobre la fiesta.",
+        "condiciones": [
+          {
+            "evento": "seba_amira_delato_grupo",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly y Seba siguen juntos; hoy el grupo evita presuponer que todas las amistades son romances.",
+        "condiciones": [
+          {
+            "evento": "seba_kelly_termino",
+            "eventoActivo": false
+          }
+        ]
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Seba escucha la llamada mientras recuerda que Kelly ya tomó su propia decisión.",
+        "condiciones": [
+          {
+            "evento": "seba_kelly_termino",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "¿Están todos en su casa?"
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Yo sí. Estoy muerto de sueño."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Casi me quedé dormido en la micro."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Yo tengo una cantidad preocupante de notificaciones."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Voy a dejar el micrófono un segundo.",
+        "expresion": "neutral"
+      },
+      {
+        "personaje": "Richie",
+        "texto": "No tenís que contar nada ahora si no querís."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Pero si hay algo importante, que se hable con quien corresponde."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Los iconos de voz se encienden y se apagan sin ponerse de acuerdo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La música del canal baja y queda un momento para responder sin levantar la voz."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Al final, siempre terminamos acá para jugar y conversar, aunque se nos enrede la semana.",
+        "expresion": "saludando"
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Confirmar que llegué bien y dejar el chat tranquilo.",
+        "eventos": [
+          "seba_discord_respetuoso_10"
+        ],
+        "efectos": {
+          "amistad": 4,
+          "honestidad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Yo sí. Estoy muerto de sueño."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Presionar a todos para que cuenten la fiesta en público.",
+        "eventos": [
+          "seba_discord_impulsivo_10"
+        ],
+        "efectos": {
+          "amistad": -2,
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Pero si hay algo importante, que se hable con quien corresponde."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      },
+      {
+        "texto": "Hablar con Kevin en privado sobre mis errores.",
+        "eventos": [
+          "seba_discord_apoyo_10"
+        ],
+        "efectos": {
+          "honestidad": 5,
+          "amistad": 2
+        },
+        "condiciones": [
+          {
+            "evento": "seba_infidelidad",
+            "eventoActivo": true
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Kevin",
+            "texto": "Te escucho, pero no puedo resolver tus consecuencias por ti."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "No te lo pido. Solo necesitaba decirlo en voz alta.",
+            "expresion": "pensativo"
+          }
+        ]
+      },
+      {
+        "texto": "Quedarme a jugar sin traer dramas ajenos.",
+        "eventos": [
+          "seba_discord_paz_10"
+        ],
+        "efectos": {
+          "amistad": 3
+        },
+        "condiciones": [
+          {
+            "evento": "seba_infidelidad",
+            "eventoActivo": false
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Hoy quiero una noche tranquila.",
+            "expresion": "saludando"
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Aprobado. Pero sin Rodrigo de administrador."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_discord_11",
+    "titulo": "Discord 11 · El chat sin stickers",
+    "lugar": "Discord · Noche",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Noche de Discord 11. Rodrigo intenta poner un meme, pero descubre que no todo se arregla haciendo reír."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Amira está fuera del servidor desde la pelea. Su ausencia pesa y nadie la reemplaza por una broma.",
+        "condiciones": [
+          {
+            "evento": "seba_amira_delato_grupo",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No todos vivieron la fiesta de la misma forma. Esta noche hablarán solo de lo que cada uno sabe.",
+        "condiciones": [
+          {
+            "evento": "seba_amira_delato_grupo",
+            "eventoActivo": false
+          }
+        ]
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Tengo un sticker que resume nuestra semana."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Guardátelo por hoy, viejo."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No es el momento, Rodrigo.",
+        "expresion": "espalda"
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Ya. Perdón."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "A veces la talla llega antes de que alguien procese lo que pasó."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Podemos jugar algo tranqui, sin repetir la discusión."
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Voy a poner música bajita."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Gracias por no convertir el chat en un juicio público.",
+        "expresion": "pensativo"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La música del canal baja y queda un momento para responder sin levantar la voz."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Al final, siempre terminamos acá para jugar y conversar, aunque se nos enrede la semana.",
+        "expresion": "saludando"
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Dejar que se calme el ambiente.",
+        "eventos": [
+          "seba_discord_respetuoso_11"
+        ],
+        "efectos": {
+          "amistad": 4,
+          "honestidad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Guardátelo por hoy, viejo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Mandar un sticker fuera de lugar.",
+        "eventos": [
+          "seba_discord_impulsivo_11"
+        ],
+        "efectos": {
+          "amistad": -2,
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Gracias por no convertir el chat en un juicio público."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      },
+      {
+        "texto": "Hablar con Kevin en privado sobre mis errores.",
+        "eventos": [
+          "seba_discord_apoyo_11"
+        ],
+        "efectos": {
+          "honestidad": 5,
+          "amistad": 2
+        },
+        "condiciones": [
+          {
+            "evento": "seba_infidelidad",
+            "eventoActivo": true
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Kevin",
+            "texto": "Te escucho, pero no puedo resolver tus consecuencias por ti."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "No te lo pido. Solo necesitaba decirlo en voz alta.",
+            "expresion": "pensativo"
+          }
+        ]
+      },
+      {
+        "texto": "Quedarme a jugar sin traer dramas ajenos.",
+        "eventos": [
+          "seba_discord_paz_11"
+        ],
+        "efectos": {
+          "amistad": 3
+        },
+        "condiciones": [
+          {
+            "evento": "seba_infidelidad",
+            "eventoActivo": false
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Hoy quiero una noche tranquila.",
+            "expresion": "saludando"
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Aprobado. Pero sin Rodrigo de administrador."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_discord_12",
+    "titulo": "Discord 12 · La versión de los hechos",
+    "lugar": "Discord · Noche",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Noche de Discord 12. Una captura incompleta circula fuera del grupo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Desde que Amira dejó el servidor, algunos miembros esperan antes de bromear sobre la fiesta.",
+        "condiciones": [
+          {
+            "evento": "seba_amira_delato_grupo",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly y Seba siguen juntos; hoy el grupo evita presuponer que todas las amistades son romances.",
+        "condiciones": [
+          {
+            "evento": "seba_kelly_termino",
+            "eventoActivo": false
+          }
+        ]
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Seba escucha la llamada mientras recuerda que Kelly ya tomó su propia decisión.",
+        "condiciones": [
+          {
+            "evento": "seba_kelly_termino",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "A mí me mandaron una captura cortada."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Por eso no quería reenviar nada."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Nadie saque conclusiones con tres mensajes de contexto."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Mi tesis de la sopaipilla tenía más información que esa captura."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Hablemos de hechos, no de rumores.",
+        "expresion": "saludando"
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Y si alguien necesita conversar de verdad, en privado."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Yo metí la pata compartiendo cosas antes. Lo admito."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "El grupo decide borrar la captura y no inventar lo que no sabe."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Alguien comparte un clip; nadie lo vuelve a enviar sin permiso."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Al final, siempre terminamos acá para jugar y conversar, aunque se nos enrede la semana.",
+        "expresion": "saludando"
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Pedir que borren la captura y hablen en privado.",
+        "eventos": [
+          "seba_discord_respetuoso_12"
+        ],
+        "efectos": {
+          "amistad": 4,
+          "honestidad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Rodrigo",
+            "texto": "Por eso no quería reenviar nada."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Exigir que publiquen todos los mensajes.",
+        "eventos": [
+          "seba_discord_impulsivo_12"
+        ],
+        "efectos": {
+          "amistad": -2,
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Rodrigo",
+            "texto": "Yo metí la pata compartiendo cosas antes. Lo admito."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      },
+      {
+        "texto": "Hablar con Kevin en privado sobre mis errores.",
+        "eventos": [
+          "seba_discord_apoyo_12"
+        ],
+        "efectos": {
+          "honestidad": 5,
+          "amistad": 2
+        },
+        "condiciones": [
+          {
+            "evento": "seba_infidelidad",
+            "eventoActivo": true
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Kevin",
+            "texto": "Te escucho, pero no puedo resolver tus consecuencias por ti."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "No te lo pido. Solo necesitaba decirlo en voz alta.",
+            "expresion": "pensativo"
+          }
+        ]
+      },
+      {
+        "texto": "Quedarme a jugar sin traer dramas ajenos.",
+        "eventos": [
+          "seba_discord_paz_12"
+        ],
+        "efectos": {
+          "amistad": 3
+        },
+        "condiciones": [
+          {
+            "evento": "seba_infidelidad",
+            "eventoActivo": false
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Hoy quiero una noche tranquila.",
+            "expresion": "saludando"
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Aprobado. Pero sin Rodrigo de administrador."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_discord_13",
+    "titulo": "Discord 13 · La noche de la pausa",
+    "lugar": "Discord · Noche",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Noche de Discord 13. Cáceres propone un juego cooperativo sin competencia ni rankings."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Hoy solo construimos una casa. Nada de pelear."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Hice una ventana de doce bloques por error."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Eso es un hoyo en el techo, Jairo."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Déjenla. Parece departamento en Viña.",
+        "expresion": "saludando"
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Voy a poner un jardín."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Yo puse una estatua de mí mismo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "BORRA LA ESTATUA."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Puta, después de todo lo de esta semana, necesitaba reírme así.",
+        "expresion": "cintura"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La música del canal baja y queda un momento para responder sin levantar la voz."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Al final, siempre terminamos acá para jugar y conversar, aunque se nos enrede la semana.",
+        "expresion": "saludando"
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Construir una casa en equipo.",
+        "eventos": [
+          "seba_discord_respetuoso_13"
+        ],
+        "efectos": {
+          "amistad": 4,
+          "honestidad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Hice una ventana de doce bloques por error."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Poner una estatua absurda en medio de todo.",
+        "eventos": [
+          "seba_discord_impulsivo_13"
+        ],
+        "efectos": {
+          "amistad": -2,
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Puta, después de todo lo de esta semana, necesitaba reírme así."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      },
+      {
+        "texto": "Hablar con Kevin en privado sobre mis errores.",
+        "eventos": [
+          "seba_discord_apoyo_13"
+        ],
+        "efectos": {
+          "honestidad": 5,
+          "amistad": 2
+        },
+        "condiciones": [
+          {
+            "evento": "seba_infidelidad",
+            "eventoActivo": true
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Kevin",
+            "texto": "Te escucho, pero no puedo resolver tus consecuencias por ti."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "No te lo pido. Solo necesitaba decirlo en voz alta.",
+            "expresion": "pensativo"
+          }
+        ]
+      },
+      {
+        "texto": "Quedarme a jugar sin traer dramas ajenos.",
+        "eventos": [
+          "seba_discord_paz_13"
+        ],
+        "efectos": {
+          "amistad": 3
+        },
+        "condiciones": [
+          {
+            "evento": "seba_infidelidad",
+            "eventoActivo": false
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Hoy quiero una noche tranquila.",
+            "expresion": "saludando"
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Aprobado. Pero sin Rodrigo de administrador."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_discord_14",
+    "titulo": "Discord 14 · Un consejo que no arregla nada",
+    "lugar": "Discord · Noche",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Noche de Discord 14. Kevin le explica a Seba la diferencia entre disculparse y pedir que todo vuelva a la normalidad."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Desde que Amira dejó el servidor, algunos miembros esperan antes de bromear sobre la fiesta.",
+        "condiciones": [
+          {
+            "evento": "seba_amira_delato_grupo",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly y Seba siguen juntos; hoy el grupo evita presuponer que todas las amistades son romances.",
+        "condiciones": [
+          {
+            "evento": "seba_kelly_termino",
+            "eventoActivo": false
+          }
+        ]
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Seba escucha la llamada mientras recuerda que Kelly ya tomó su propia decisión.",
+        "condiciones": [
+          {
+            "evento": "seba_kelly_termino",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Si pedís perdón, no podís exigir una respuesta positiva."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Sí. Estoy intentando aprender esa parte.",
+        "expresion": "espalda"
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "A veces uno quiere arreglar el daño para sentirse menos culpable."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "¿Entonces cómo ayudai?"
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Escuchando el límite que te pusieron."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Y aceptando que te pueden decir que no."
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Lo dicen fácil, pero cuesta hacerlo."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Prefiero que cueste a seguir haciéndome el vivo.",
+        "expresion": "cintura"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La música del canal baja y queda un momento para responder sin levantar la voz."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Al final, siempre terminamos acá para jugar y conversar, aunque se nos enrede la semana.",
+        "expresion": "saludando"
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Escuchar el consejo de Kevin sin pedir absolución.",
+        "eventos": [
+          "seba_discord_respetuoso_14"
+        ],
+        "efectos": {
+          "amistad": 4,
+          "honestidad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Sí. Estoy intentando aprender esa parte."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Pedirle que convenza a otros de perdonarme.",
+        "eventos": [
+          "seba_discord_impulsivo_14"
+        ],
+        "efectos": {
+          "amistad": -2,
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Prefiero que cueste a seguir haciéndome el vivo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      },
+      {
+        "texto": "Hablar con Kevin en privado sobre mis errores.",
+        "eventos": [
+          "seba_discord_apoyo_14"
+        ],
+        "efectos": {
+          "honestidad": 5,
+          "amistad": 2
+        },
+        "condiciones": [
+          {
+            "evento": "seba_infidelidad",
+            "eventoActivo": true
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Kevin",
+            "texto": "Te escucho, pero no puedo resolver tus consecuencias por ti."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "No te lo pido. Solo necesitaba decirlo en voz alta.",
+            "expresion": "pensativo"
+          }
+        ]
+      },
+      {
+        "texto": "Quedarme a jugar sin traer dramas ajenos.",
+        "eventos": [
+          "seba_discord_paz_14"
+        ],
+        "efectos": {
+          "amistad": 3
+        },
+        "condiciones": [
+          {
+            "evento": "seba_infidelidad",
+            "eventoActivo": false
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Hoy quiero una noche tranquila.",
+            "expresion": "saludando"
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Aprobado. Pero sin Rodrigo de administrador."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_discord_15",
+    "titulo": "Discord 15 · La gran noche de mods",
+    "lugar": "Discord · Noche",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Noche de Discord 15. Rodrigo consigue permisos temporales del servidor y amenaza con cambiar todos los canales."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Bienvenidos a RodrigoVerso."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "El canal general ahora se llama «Ronquidos»."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "¿Quién le dio permisos de administrador?"
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "YO NO FUI."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Rodrigo, dame los permisos o te cambio la contraseña del Wi-Fi.",
+        "expresion": "sorprendido"
+      },
+      {
+        "personaje": "Richie",
+        "texto": "La broma duró trece segundos."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Fue el reinado más corto de la historia."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Y el más peligroso.",
+        "expresion": "coqueto"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Alguien comparte un clip; nadie lo vuelve a enviar sin permiso."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Al final, siempre terminamos acá para jugar y conversar, aunque se nos enrede la semana.",
+        "expresion": "saludando"
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Pedirle a Rodrigo que devuelva los permisos.",
+        "eventos": [
+          "seba_discord_respetuoso_15"
+        ],
+        "efectos": {
+          "amistad": 4,
+          "honestidad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "El canal general ahora se llama «Ronquidos»."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Entrar a pelear por el control del servidor.",
+        "eventos": [
+          "seba_discord_impulsivo_15"
+        ],
+        "efectos": {
+          "amistad": -2,
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Y el más peligroso."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      },
+      {
+        "texto": "Hablar con Kevin en privado sobre mis errores.",
+        "eventos": [
+          "seba_discord_apoyo_15"
+        ],
+        "efectos": {
+          "honestidad": 5,
+          "amistad": 2
+        },
+        "condiciones": [
+          {
+            "evento": "seba_infidelidad",
+            "eventoActivo": true
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Kevin",
+            "texto": "Te escucho, pero no puedo resolver tus consecuencias por ti."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "No te lo pido. Solo necesitaba decirlo en voz alta.",
+            "expresion": "pensativo"
+          }
+        ]
+      },
+      {
+        "texto": "Quedarme a jugar sin traer dramas ajenos.",
+        "eventos": [
+          "seba_discord_paz_15"
+        ],
+        "efectos": {
+          "amistad": 3
+        },
+        "condiciones": [
+          {
+            "evento": "seba_infidelidad",
+            "eventoActivo": false
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Hoy quiero una noche tranquila.",
+            "expresion": "saludando"
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Aprobado. Pero sin Rodrigo de administrador."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_discord_16",
+    "titulo": "Discord 16 · El dibujo de Seba",
+    "lugar": "Discord · Noche",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Noche de Discord 16. Jairo encuentra un boceto de los amigos y quiere mostrarlo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Desde que Amira dejó el servidor, algunos miembros esperan antes de bromear sobre la fiesta.",
+        "condiciones": [
+          {
+            "evento": "seba_amira_delato_grupo",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly y Seba siguen juntos; hoy el grupo evita presuponer que todas las amistades son romances.",
+        "condiciones": [
+          {
+            "evento": "seba_kelly_termino",
+            "eventoActivo": false
+          }
+        ]
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Seba escucha la llamada mientras recuerda que Kelly ya tomó su propia decisión.",
+        "condiciones": [
+          {
+            "evento": "seba_kelly_termino",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Hice un dibujo grupal. No me juzguen."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "¿Por qué mi brazo tiene ocho tatuajes? Solo tengo uno.",
+        "expresion": "neutral"
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "El mío parece vendedor de completos."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Yo tengo cara de sueño, realismo cien por ciento."
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Mi gorro está en el lado correcto, al menos."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "A mí me dibujaste con una hamburguesa en cada mano."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Es simbolismo."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Igual lo voy a guardar. Está horrible y por eso me gusta.",
+        "expresion": "coqueto"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La música del canal baja y queda un momento para responder sin levantar la voz."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Al final, siempre terminamos acá para jugar y conversar, aunque se nos enrede la semana.",
+        "expresion": "saludando"
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Guardar el dibujo y agradecerle a Jairo.",
+        "eventos": [
+          "seba_discord_respetuoso_16"
+        ],
+        "efectos": {
+          "amistad": 4,
+          "honestidad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "¿Por qué mi brazo tiene ocho tatuajes? Solo tengo uno."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Burlarme de las proporciones de todos.",
+        "eventos": [
+          "seba_discord_impulsivo_16"
+        ],
+        "efectos": {
+          "amistad": -2,
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Igual lo voy a guardar. Está horrible y por eso me gusta."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      },
+      {
+        "texto": "Hablar con Kevin en privado sobre mis errores.",
+        "eventos": [
+          "seba_discord_apoyo_16"
+        ],
+        "efectos": {
+          "honestidad": 5,
+          "amistad": 2
+        },
+        "condiciones": [
+          {
+            "evento": "seba_infidelidad",
+            "eventoActivo": true
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Kevin",
+            "texto": "Te escucho, pero no puedo resolver tus consecuencias por ti."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "No te lo pido. Solo necesitaba decirlo en voz alta.",
+            "expresion": "pensativo"
+          }
+        ]
+      },
+      {
+        "texto": "Quedarme a jugar sin traer dramas ajenos.",
+        "eventos": [
+          "seba_discord_paz_16"
+        ],
+        "efectos": {
+          "amistad": 3
+        },
+        "condiciones": [
+          {
+            "evento": "seba_infidelidad",
+            "eventoActivo": false
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Hoy quiero una noche tranquila.",
+            "expresion": "saludando"
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Aprobado. Pero sin Rodrigo de administrador."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_discord_17",
+    "titulo": "Discord 17 · La opinión de Richie",
+    "lugar": "Discord · Noche",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Noche de Discord 17. Richie reconoce que no le gusta competir por la atención de las personas."
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Yo no quiero que una amistad se vuelva concurso."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Te escucho, hermano.",
+        "expresion": "saludando"
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Una persona no es un premio que se gana."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "¿Podemos poner esa frase como norma del server?"
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Sí, sin nombrar a nadie."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Aprobado por unanimidad."
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Lo que pase después lo decidiremos hablando."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Vale. Prefiero una conversación incómoda a una cagada irreversible.",
+        "expresion": "espalda"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La música del canal baja y queda un momento para responder sin levantar la voz."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Al final, siempre terminamos acá para jugar y conversar, aunque se nos enrede la semana.",
+        "expresion": "saludando"
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Escuchar el límite que propone Richie.",
+        "eventos": [
+          "seba_discord_respetuoso_17"
+        ],
+        "efectos": {
+          "amistad": 4,
+          "honestidad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Te escucho, hermano."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Convertirlo en competencia.",
+        "eventos": [
+          "seba_discord_impulsivo_17"
+        ],
+        "efectos": {
+          "amistad": -2,
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Vale. Prefiero una conversación incómoda a una cagada irreversible."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      },
+      {
+        "texto": "Hablar con Kevin en privado sobre mis errores.",
+        "eventos": [
+          "seba_discord_apoyo_17"
+        ],
+        "efectos": {
+          "honestidad": 5,
+          "amistad": 2
+        },
+        "condiciones": [
+          {
+            "evento": "seba_infidelidad",
+            "eventoActivo": true
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Kevin",
+            "texto": "Te escucho, pero no puedo resolver tus consecuencias por ti."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "No te lo pido. Solo necesitaba decirlo en voz alta.",
+            "expresion": "pensativo"
+          }
+        ]
+      },
+      {
+        "texto": "Quedarme a jugar sin traer dramas ajenos.",
+        "eventos": [
+          "seba_discord_paz_17"
+        ],
+        "efectos": {
+          "amistad": 3
+        },
+        "condiciones": [
+          {
+            "evento": "seba_infidelidad",
+            "eventoActivo": false
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Hoy quiero una noche tranquila.",
+            "expresion": "saludando"
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Aprobado. Pero sin Rodrigo de administrador."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_discord_18",
+    "titulo": "Discord 18 · La primera partida con Javi",
+    "lugar": "Discord · Noche",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Noche de Discord 18. Una voz nueva entra al canal para conocer el grupo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Desde que Amira dejó el servidor, algunos miembros esperan antes de bromear sobre la fiesta.",
+        "condiciones": [
+          {
+            "evento": "seba_amira_delato_grupo",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly y Seba siguen juntos; hoy el grupo evita presuponer que todas las amistades son romances.",
+        "condiciones": [
+          {
+            "evento": "seba_kelly_termino",
+            "eventoActivo": false
+          }
+        ]
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Seba escucha la llamada mientras recuerda que Kelly ya tomó su propia decisión.",
+        "condiciones": [
+          {
+            "evento": "seba_kelly_termino",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Hola, ¿se me escucha o estoy hablando sola?"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Se escucha perfecto. Soy el encargado de bienvenida."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Nadie lo nombró encargado de nada."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Hola, Javi. No le hagai caso, tiene un PowerPoint para cada persona.",
+        "expresion": "sorprendido"
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Entonces ya tengo miedo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Bienvenida a la fauna del server."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Prometemos portarnos relativamente bien."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Relativamente es una palabra peligrosa, cabros."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Alguien comparte un clip; nadie lo vuelve a enviar sin permiso."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Al final, siempre terminamos acá para jugar y conversar, aunque se nos enrede la semana.",
+        "expresion": "saludando"
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Presentar a Javi sin chistes incómodos.",
+        "eventos": [
+          "seba_discord_respetuoso_18"
+        ],
+        "efectos": {
+          "amistad": 4,
+          "honestidad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Se escucha perfecto. Soy el encargado de bienvenida."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Dejar a Jairo hacer su cuestionario de bienvenida.",
+        "eventos": [
+          "seba_discord_impulsivo_18"
+        ],
+        "efectos": {
+          "amistad": -2,
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Javi",
+            "texto": "Relativamente es una palabra peligrosa, cabros."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      },
+      {
+        "texto": "Hablar con Kevin en privado sobre mis errores.",
+        "eventos": [
+          "seba_discord_apoyo_18"
+        ],
+        "efectos": {
+          "honestidad": 5,
+          "amistad": 2
+        },
+        "condiciones": [
+          {
+            "evento": "seba_infidelidad",
+            "eventoActivo": true
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Kevin",
+            "texto": "Te escucho, pero no puedo resolver tus consecuencias por ti."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "No te lo pido. Solo necesitaba decirlo en voz alta.",
+            "expresion": "pensativo"
+          }
+        ]
+      },
+      {
+        "texto": "Quedarme a jugar sin traer dramas ajenos.",
+        "eventos": [
+          "seba_discord_paz_18"
+        ],
+        "efectos": {
+          "amistad": 3
+        },
+        "condiciones": [
+          {
+            "evento": "seba_infidelidad",
+            "eventoActivo": false
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Hoy quiero una noche tranquila.",
+            "expresion": "saludando"
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Aprobado. Pero sin Rodrigo de administrador."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_discord_19",
+    "titulo": "Discord 19 · Las preguntas difíciles",
+    "lugar": "Discord · Noche",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Noche de Discord 19. Una partida cooperativa se detiene cuando Seba decide preguntar cómo está cada uno."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Oigan, ¿y ustedes cómo han estado de verdad?",
+        "expresion": "saludando"
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Cansado, pero bien. Gracias por preguntar."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Yo estoy tratando de ordenar mi calendario."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Tengo prueba y no estudié."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "A mí me cuesta quedarme callado cuando estoy nervioso."
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Se nota, hermano."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No todo tiene que ser una talla. Los leo.",
+        "expresion": "espalda"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La partida continúa con menos gritos y más escucha."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La música del canal baja y queda un momento para responder sin levantar la voz."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Al final, siempre terminamos acá para jugar y conversar, aunque se nos enrede la semana.",
+        "expresion": "saludando"
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Escuchar lo que sienten los demás.",
+        "eventos": [
+          "seba_discord_respetuoso_19"
+        ],
+        "efectos": {
+          "amistad": 4,
+          "honestidad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Cansado, pero bien. Gracias por preguntar."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Responder todo hablando de mí.",
+        "eventos": [
+          "seba_discord_impulsivo_19"
+        ],
+        "efectos": {
+          "amistad": -2,
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "No todo tiene que ser una talla. Los leo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      },
+      {
+        "texto": "Hablar con Kevin en privado sobre mis errores.",
+        "eventos": [
+          "seba_discord_apoyo_19"
+        ],
+        "efectos": {
+          "honestidad": 5,
+          "amistad": 2
+        },
+        "condiciones": [
+          {
+            "evento": "seba_infidelidad",
+            "eventoActivo": true
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Kevin",
+            "texto": "Te escucho, pero no puedo resolver tus consecuencias por ti."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "No te lo pido. Solo necesitaba decirlo en voz alta.",
+            "expresion": "pensativo"
+          }
+        ]
+      },
+      {
+        "texto": "Quedarme a jugar sin traer dramas ajenos.",
+        "eventos": [
+          "seba_discord_paz_19"
+        ],
+        "efectos": {
+          "amistad": 3
+        },
+        "condiciones": [
+          {
+            "evento": "seba_infidelidad",
+            "eventoActivo": false
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Hoy quiero una noche tranquila.",
+            "expresion": "saludando"
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Aprobado. Pero sin Rodrigo de administrador."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_discord_20",
+    "titulo": "Discord 20 · El cumpleaños inventado",
+    "lugar": "Discord · Noche",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Noche de Discord 20. Rodrigo confunde una notificación y organiza un cumpleaños que no existe."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Kevin explica que Amira pidió distancia y que nadie la va a presionar para volver al grupo.",
+        "condiciones": [
+          {
+            "evento": "seba_amira_delato_grupo",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Amira aún no sabe cómo cerrar su propia historia. Kevin pide que el grupo no especule.",
+        "condiciones": [
+          {
+            "evento": "seba_infidelidad",
+            "eventoActivo": true
+          },
+          {
+            "evento": "seba_amira_delato_grupo",
+            "eventoActivo": false
+          }
+        ]
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "El canal está tranquilo: nadie necesita una historia romántica para tener tema de conversación.",
+        "condiciones": [
+          {
+            "evento": "seba_infidelidad",
+            "eventoActivo": false
+          }
+        ]
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "FELIZ CUMPLEAÑOS, KEVIN."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Weón, faltan meses."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Ya hice una torta digital."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "La torta dice «Feliz martes»."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Hoy es jueves, Jairo.",
+        "expresion": "cintura"
+      },
+      {
+        "personaje": "Richie",
+        "texto": "La intención es lo que cuenta."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Bueno, tenemos excusa para comer igual."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Acepto mi cumpleaños falso solo si no cantan."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La música del canal baja y queda un momento para responder sin levantar la voz."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Al final, siempre terminamos acá para jugar y conversar, aunque se nos enrede la semana.",
+        "expresion": "saludando"
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Reírme del cumpleaños inventado sin humillar a Rodrigo.",
+        "eventos": [
+          "seba_discord_respetuoso_20"
+        ],
+        "efectos": {
+          "amistad": 4,
+          "honestidad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Weón, faltan meses."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Usarlo para burlarme de Rodrigo toda la noche.",
+        "eventos": [
+          "seba_discord_impulsivo_20"
+        ],
+        "efectos": {
+          "amistad": -2,
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Acepto mi cumpleaños falso solo si no cantan."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      },
+      {
+        "texto": "Hablar con Kevin en privado sobre mis errores.",
+        "eventos": [
+          "seba_discord_apoyo_20"
+        ],
+        "efectos": {
+          "honestidad": 5,
+          "amistad": 2
+        },
+        "condiciones": [
+          {
+            "evento": "seba_infidelidad",
+            "eventoActivo": true
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Kevin",
+            "texto": "Te escucho, pero no puedo resolver tus consecuencias por ti."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "No te lo pido. Solo necesitaba decirlo en voz alta.",
+            "expresion": "pensativo"
+          }
+        ]
+      },
+      {
+        "texto": "Quedarme a jugar sin traer dramas ajenos.",
+        "eventos": [
+          "seba_discord_paz_20"
+        ],
+        "efectos": {
+          "amistad": 3
+        },
+        "condiciones": [
+          {
+            "evento": "seba_infidelidad",
+            "eventoActivo": false
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Hoy quiero una noche tranquila.",
+            "expresion": "saludando"
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Aprobado. Pero sin Rodrigo de administrador."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_discord_21",
+    "titulo": "Discord 21 · Sin hablar de ellas",
+    "lugar": "Discord · Noche",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Noche de Discord 21. Kevin propone que durante una hora nadie nombre sus problemas amorosos."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Desde que Amira dejó el servidor, algunos miembros esperan antes de bromear sobre la fiesta.",
+        "condiciones": [
+          {
+            "evento": "seba_amira_delato_grupo",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly y Seba siguen juntos; hoy el grupo evita presuponer que todas las amistades son romances.",
+        "condiciones": [
+          {
+            "evento": "seba_kelly_termino",
+            "eventoActivo": false
+          }
+        ]
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Seba escucha la llamada mientras recuerda que Kelly ya tomó su propia decisión.",
+        "condiciones": [
+          {
+            "evento": "seba_kelly_termino",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Regla de hoy: ninguna historia romántica durante una hora."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "¿Y si necesito decir que el juego me rompió el corazón?",
+        "expresion": "sorprendido"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Eso es metáfora permitida."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "¿Y si digo que amo la pizza?"
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "SE PUEDE, RODRIGO."
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Mirá qué paz, hermano."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Me hace bien recordar que somos amigos por más cosas que el drama.",
+        "expresion": "neutral"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "El contador llega a sesenta minutos sin una sola discusión sentimental."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Alguien comparte un clip; nadie lo vuelve a enviar sin permiso."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Al final, siempre terminamos acá para jugar y conversar, aunque se nos enrede la semana.",
+        "expresion": "saludando"
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Jugar una hora sin hablar de mis romances.",
+        "eventos": [
+          "seba_discord_respetuoso_21"
+        ],
+        "efectos": {
+          "amistad": 4,
+          "honestidad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "¿Y si necesito decir que el juego me rompió el corazón?"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Romper la regla a los tres minutos.",
+        "eventos": [
+          "seba_discord_impulsivo_21"
+        ],
+        "efectos": {
+          "amistad": -2,
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Me hace bien recordar que somos amigos por más cosas que el drama."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_discord_22",
+    "titulo": "Discord 22 · La apuesta del cosplay",
+    "lugar": "Discord · Noche",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Noche de Discord 22. Jairo lanza un desafío de diseño de avatares."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Los desafío: cada uno diseña un personaje fuera de su zona de confort."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Voy a probar algo distinto entonces.",
+        "expresion": "sorprendido"
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Mientras te guste a vos, dale."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "¿Eso es una chaqueta o una falda?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Es un outfit, wn. No un problema matemático.",
+        "expresion": "coqueto"
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Te quedó bacán el diseño."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Yo voy a ir vestido de semáforo."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No todos podemos tener buen gusto, hermano.",
+        "expresion": "saludando"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La música del canal baja y queda un momento para responder sin levantar la voz."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Al final, siempre terminamos acá para jugar y conversar, aunque se nos enrede la semana.",
+        "expresion": "saludando"
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Probar un avatar distinto porque me nace.",
+        "eventos": [
+          "seba_discord_respetuoso_22"
+        ],
+        "efectos": {
+          "amistad": 4,
+          "honestidad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Voy a probar algo distinto entonces."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Hacerlo solo para que se rían los demás.",
+        "eventos": [
+          "seba_discord_impulsivo_22"
+        ],
+        "efectos": {
+          "amistad": -2,
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "No todos podemos tener buen gusto, hermano."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_discord_23",
+    "titulo": "Discord 23 · Lo que no se negocia",
+    "lugar": "Discord · Noche",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Noche de Discord 23. Los amigos discuten cómo se repara una confianza sin imponer plazos."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Desde que Amira dejó el servidor, algunos miembros esperan antes de bromear sobre la fiesta.",
+        "condiciones": [
+          {
+            "evento": "seba_amira_delato_grupo",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly y Seba siguen juntos; hoy el grupo evita presuponer que todas las amistades son romances.",
+        "condiciones": [
+          {
+            "evento": "seba_kelly_termino",
+            "eventoActivo": false
+          }
+        ]
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Seba escucha la llamada mientras recuerda que Kelly ya tomó su propia decisión.",
+        "condiciones": [
+          {
+            "evento": "seba_kelly_termino",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "La confianza se reconstruye con conducta, no con un discurso épico."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Si digo que cambié, tengo que demostrarlo.",
+        "expresion": "pensativo"
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Y la otra persona puede seguir sin querer nada."
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Eso no te hace menos valioso. Solo es su decisión."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Nota mental: el amor no tiene botón de reinicio."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Ni restauración de copia de seguridad."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Gracias, cabros. Incluso con las comparaciones horribles.",
+        "expresion": "saludando"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No hay sentencia ni consejo mágico, solo amigos escuchándose."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La música del canal baja y queda un momento para responder sin levantar la voz."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Al final, siempre terminamos acá para jugar y conversar, aunque se nos enrede la semana.",
+        "expresion": "saludando"
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Aceptar que no hay botón para restaurar la confianza.",
+        "eventos": [
+          "seba_discord_respetuoso_23"
+        ],
+        "efectos": {
+          "amistad": 4,
+          "honestidad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Si digo que cambié, tengo que demostrarlo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Insistir en que una disculpa debería bastar.",
+        "eventos": [
+          "seba_discord_impulsivo_23"
+        ],
+        "efectos": {
+          "amistad": -2,
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Gracias, cabros. Incluso con las comparaciones horribles."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_discord_24",
+    "titulo": "Discord 24 · La última noche del canal",
+    "lugar": "Discord · Noche",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Noche de Discord 24. Los cabros se conectan con cámaras encendidas después de semanas de cambios."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Desde que Amira dejó el servidor, algunos miembros esperan antes de bromear sobre la fiesta.",
+        "condiciones": [
+          {
+            "evento": "seba_amira_delato_grupo",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly y Seba siguen juntos; hoy el grupo evita presuponer que todas las amistades son romances.",
+        "condiciones": [
+          {
+            "evento": "seba_kelly_termino",
+            "eventoActivo": false
+          }
+        ]
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Seba escucha la llamada mientras recuerda que Kelly ya tomó su propia decisión.",
+        "condiciones": [
+          {
+            "evento": "seba_kelly_termino",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Miren, seguimos vivos."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Y mi PPT de conquista tiene cuarenta diapositivas nuevas."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "No lo abrís ni cagando."
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Se han hecho cosas malas y cosas buenas. Igual hay que seguir."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Propongo una foto grupal sin capturas vergonzosas."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Eso sería un milagro.",
+        "expresion": "neutral"
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Puedo apretar el botón de screenshot, cabros."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Uno, dos, tres... y que nadie haga una mueca."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Alguien comparte un clip; nadie lo vuelve a enviar sin permiso."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Al final, siempre terminamos acá para jugar y conversar, aunque se nos enrede la semana.",
+        "expresion": "saludando"
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Cerrar la temporada agradeciendo a mis amigos.",
+        "eventos": [
+          "seba_discord_respetuoso_24"
+        ],
+        "efectos": {
+          "amistad": 4,
+          "honestidad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Y mi PPT de conquista tiene cuarenta diapositivas nuevas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Convertir la última noche en otro discurso sobre mí.",
+        "eventos": [
+          "seba_discord_impulsivo_24"
+        ],
+        "efectos": {
+          "amistad": -2,
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Uno, dos, tres... y que nadie haga una mueca."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  }
+]

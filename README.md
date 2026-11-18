@@ -1,3 +1,27 @@
+# QUINTAVERSO v0.9 — La temporada de Seba, ampliada
+
+Sobre el último `QUINTAVERSO(2).rar`: 146 escenas de Seba, 24 noches Discord, 26 momentos opcionales, 1254 líneas de diálogo y 13 desenlaces. Nueva continuidad de Amira cuando Seba se niega a confesar la infidelidad, poses explícitas de Seba y un calendario con rutas organizadas en paneles.
+
+**Guía de cambios:** [`CAMBIOS_v0.9.md`](CAMBIOS_v0.9.md)  
+**Rutas y spoilers:** [`GUIA_TEMPORADA_SEBA.md`](GUIA_TEMPORADA_SEBA.md)  
+**Ejecutar:** Java 21, `mvn clean test` y `mvn javafx:run`.
+
+---
+
+# QUINTAVERSO v0.8 — Seba: finales naranja y turquesa
+
+Actualización sobre el RAR enviado el 17 de noviembre de 2026. **88 escenas de Seba y 13 finales**. El nuevo final turquesa muestra el combo de Richie; los dos finales naranjas usan imágenes distintas; el combo a Rodrigo es una elección con un capítulo de consecuencias propio. Se corrigió la búsqueda de CG separados en `imagenes/cg/caceres` y `imagenes/cg/seba` y se vincularon los retratos de las chicas, Richie y Rodrigo. Se conserva la campaña de Cáceres y los guardados.
+
+Lee [`GUIA_TEMPORADA_SEBA.md`](GUIA_TEMPORADA_SEBA.md) para rutas y requisitos. Para jugar: **Java 21**, `mvn clean test` y `mvn javafx:run`.
+
+---
+
+# QUINTAVERSO v0.7 — Temporada 03: SEBA
+
+La temporada de Seba ya es seleccionable en el menú. Incluye 81 escenas, 30 días, 11 desenlaces (10 principales y uno oculto amarillo) y un final rosa de estilo. **Lee [`GUIA_TEMPORADA_SEBA.md`](GUIA_TEMPORADA_SEBA.md)** para iniciar, conocer las rutas, las claves, las condiciones de final y los detalles de compatibilidad.
+
+---
+
 # QUINTAVERSO v0.6 — Corrección de gameplay
 
 > Actualización sobre la v0.5 gráfica. Incluye **código fuente** y recursos originales, NO el `.exe`.

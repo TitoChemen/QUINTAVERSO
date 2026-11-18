@@ -12,10 +12,17 @@ import java.util.Map;
 public final class GestorHistoria {
     private final Map<String, Escena> escenas = new LinkedHashMap<>();
 
-    public GestorHistoria() {
+    public GestorHistoria() { this("caceres"); }
+
+    public GestorHistoria(String temporada) {
+        if (!List.of("caceres", "seba").contains(temporada))
+            throw new IllegalArgumentException("Temporada sin historia: " + temporada);
         ObjectMapper mapper = new ObjectMapper();
-        for (String archivo : List.of("prologo","lumi","cony","amigos","otros","eventos","finales")) {
-            String ruta = "/historias/caceres/" + archivo + ".json";
+        List<String> archivos = "seba".equals(temporada)
+                ? List.of("prologo", "hitos", "kelly", "amira", "javi", "fena", "amigos", "discord_noches", "momentos", "continuidad", "estilo", "finales")
+                : List.of("prologo", "lumi", "cony", "amigos", "otros", "eventos", "finales");
+        for (String archivo : archivos) {
+            String ruta = "/historias/" + temporada + "/" + archivo + ".json";
             try (InputStream entrada = getClass().getResourceAsStream(ruta)) {
                 if (entrada == null) throw new IOException("Archivo ausente: " + ruta);
                 List<Escena> lista = mapper.readValue(entrada, new TypeReference<>(){});
@@ -48,6 +55,7 @@ public final class GestorHistoria {
 
     /** Las decisiones narrativas son imprescindibles; las estadísticas no crean parejas de la nada. */
     public String calcularFinal(EstadoPartida e) {
+        if ("seba".equals(e.getTemporada())) return FinalesSeba.calcular(e);
         int l = e.obtenerEstadistica("lumi");
         int c = e.obtenerEstadistica("cony");
         int h = e.obtenerEstadistica("honestidad");

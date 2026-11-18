@@ -1,0 +1,183 @@
+[
+  {
+    "id": "seba_prologo_inicio",
+    "titulo": "Prólogo · El consejero también se equivoca",
+    "lugar": "Discord · 23:47",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "La pantalla del computador ilumina a Seba. En una ventana está Discord; en la otra, un mensaje de Kelly: «¿Llegaste bien?»."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Oeee, Sebastián. Qué bonito dar consejos de amor mientras llevai diez minutos dejando en visto a tu polola."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Ya, pesao. Estoy acá, ¿o querís que me desconecte?"
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Pero respóndele, po, si nos tienes a nosotros todos los días."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Yo propongo un bot de WhatsApp que responda «te amo» cada seis horas. Eficiencia de pareja."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "JAJAJA, ese bot terminaría soltero antes que tú."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Seba mira la notificación de Kelly. Después entra otro mensaje, esta vez de Amira: «mañana me contai lo que pasó»."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Chuta. Dos conversaciones pendientes y los tres payasos opinando al mismo tiempo."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Responderle a Kelly con cariño antes de seguir jugando.",
+        "siguiente": "seba_prologo_amira",
+        "efectos": {
+          "kelly": 8,
+          "confianza_kelly": 6,
+          "honestidad": 4
+        },
+        "eventos": [
+          "seba_atento_kelly"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "«Llegué bien, amor. Perdona por demorarme. ¿Cómo estuvo tu día?»"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Kelly responde con una nota de voz tranquila. Por unos segundos Discord deja de importar."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "¡MILAGRO, WN! ¡Una decisión madura!"
+          }
+        ]
+      },
+      {
+        "texto": "Mandar un meme y seguir con los cabros.",
+        "siguiente": "seba_prologo_amira",
+        "efectos": {
+          "amistad": 4,
+          "kelly": -3,
+          "sospecha": 3
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Le mando este gatito, está chistoso."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Hermano, te preguntó si llegaste bien, no si tenís memes."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Seba ríe; la pequeña molestia queda flotando entre los mensajes."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_prologo_amira",
+    "titulo": "Prólogo · La amiga que sabe demasiado",
+    "lugar": "Plaza · Tarde siguiente",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Amira espera sentada en un banco con dos bebidas. Se mueve para hacerle espacio a Seba cuando lo ve llegar."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Te demoraste, wn. Si yo fuera Kelly ya te habría cobrado multa por minuto."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "¿Y perderías a tu mejor amigo por llegar tarde? Qué poco aguante."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "A veces tu problema es que creís que todas las bromas tienen segunda oportunidad."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Amira dice la última frase sonriendo, pero baja la mirada antes de darle la bebida."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "¿Te pasa algo conmigo?"
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Nada que no podamos hablar. Oye, Rodrigo está organizando un carrete. ¿Vay?"
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Prometer no dejar sola a Kelly durante el carrete.",
+        "efectos": {
+          "kelly": 5,
+          "honestidad": 5,
+          "amira": -2
+        },
+        "eventos": [
+          "seba_limites_claros"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Voy a ir, pero primero lo converso con Kelly. No quiero hacer estupideces."
+          },
+          {
+            "personaje": "Amira",
+            "texto": "Eso te honra, wn. Y tranqui, sigo siendo tu amiga."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Amira levanta su bebida como brindando por algo difícil de nombrar."
+          }
+        ]
+      },
+      {
+        "texto": "Decirle a Amira que con ella todo es más entretenido.",
+        "efectos": {
+          "amira": 8,
+          "sospecha": 5,
+          "honestidad": -3
+        },
+        "eventos": [
+          "seba_atraccion_amira"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Contigo nunca me aburro, aunque me molestís a cada rato."
+          },
+          {
+            "personaje": "Amira",
+            "texto": "¿Eso fue un cumplido? Anótenlo. El Seba tiene sentimientos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Los dos se ríen. Ninguno sabe si el comentario fue solo una broma."
+          }
+        ]
+      }
+    ],
+    "fondo": "plaza_villa_alemana.png"
+  }
+]

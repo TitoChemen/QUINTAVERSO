@@ -9,6 +9,7 @@ public final class GestorEventos {
                          String escenaId, String lugar, boolean unica) { }
 
     public List<Accion> disponibles(EstadoPartida e) {
+        if ("seba".equals(e.getTemporada())) return GestorEventosSeba.disponibles(e);
         List<Accion> acciones = new ArrayList<>();
         int d = e.getDia();
         int l = e.obtenerEstadistica("lumi");

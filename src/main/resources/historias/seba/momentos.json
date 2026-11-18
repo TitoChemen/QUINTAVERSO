@@ -1,0 +1,2739 @@
+[
+  {
+    "id": "seba_momento_01",
+    "titulo": "Momento 01 · La bebida olvidada",
+    "lugar": "Café",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly deja dos vasos de té sobre la mesa mientras Seba termina una tarea."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Te preparé el que te gusta. Estabai tan pegado a la pantalla que ni me saludaste."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Perdona, estoy con la cabeza en otro planeta.",
+        "expresion": "cintura"
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "No pido que apagues tu vida, po. Solo que me mirís cuando llego."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Tenís razón. Guardaré el notebook.",
+        "expresion": "cintura"
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Gracias. Te quería contar cómo me fue hoy."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "El té se enfría un poco. Por primera vez en toda la tarde, Seba escucha sin mirar notificaciones."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Dale. Te escucho de verdad.",
+        "expresion": "cintura"
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Ahora sí. Fue un día rarísimo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Su relación todavía tiene pequeñas rutinas que importan."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La conversación termina sin que nadie pueda adivinar el futuro del grupo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Cerrar el notebook y celebrar con Kelly.",
+        "eventos": [
+          "seba_momento_responsable_01"
+        ],
+        "efectos": {
+          "honestidad": 3,
+          "amistad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Perdona, estoy con la cabeza en otro planeta."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Responderle sin despegar los ojos de la pantalla.",
+        "eventos": [
+          "seba_momento_broma_01"
+        ],
+        "efectos": {
+          "autoestima": 1,
+          "amistad": -1
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Dale. Te escucho de verdad."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "seba_momento_02",
+    "titulo": "Momento 02 · El horario imposible",
+    "lugar": "Casa",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Seba intenta coordinar clases, salidas y partidas con el grupo."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Mi calendario parece una maldición.",
+        "expresion": "saludando"
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Tenís siete actividades para un día de tres turnos."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Matemáticamente eso implica viajar en el tiempo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "O aprender a decir que no."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Qué fácil lo hacen parecer, conchetumare.",
+        "expresion": "saludando"
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Podís querer a tus amigos y todavía necesitar descanso."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Seba borra dos compromisos que aceptó por pura presión."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Voy a dejar un rato para mí.",
+        "expresion": "saludando"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Fracaso de mi teoría temporal."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La conversación termina sin que nadie pueda adivinar el futuro del grupo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Dejar un espacio para descansar.",
+        "eventos": [
+          "seba_momento_responsable_02"
+        ],
+        "efectos": {
+          "honestidad": 3,
+          "amistad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Tenís siete actividades para un día de tres turnos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Anotar otros tres compromisos imposibles.",
+        "eventos": [
+          "seba_momento_broma_02"
+        ],
+        "efectos": {
+          "autoestima": 1,
+          "amistad": -1
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Voy a dejar un rato para mí."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "habitacion_caceres_noche.png"
+  },
+  {
+    "id": "seba_momento_03",
+    "titulo": "Momento 03 · La caja de memes",
+    "lugar": "Plaza",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Amira y Seba encuentran una carpeta de videos viejos de su grupo."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Mira este, cuando Jairo pensaba que era influencer."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Por qué le dimos una cámara a ese hombre.",
+        "expresion": "pensativo"
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Porque nos reíamos todos, no solo de él."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Eso echo de menos, que el grupo no fuera pura competencia.",
+        "expresion": "pensativo"
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Entonces cuidémoslo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Amira cierra el celular y lo deja boca abajo."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "¿Te molesta que a veces no sepa separar las bromas de lo serio?",
+        "expresion": "pensativo"
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Me molesta cuando te escondís detrás de una talla."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La conversación termina sin que nadie pueda adivinar el futuro del grupo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Cuidar el recuerdo sin alimentar rumores.",
+        "eventos": [
+          "seba_momento_responsable_03"
+        ],
+        "efectos": {
+          "honestidad": 3,
+          "amistad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Por qué le dimos una cámara a ese hombre."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Compartir el video para llamar la atención.",
+        "eventos": [
+          "seba_momento_broma_03"
+        ],
+        "efectos": {
+          "autoestima": 1,
+          "amistad": -1
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "¿Te molesta que a veces no sepa separar las bromas de lo serio?"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "seba_momento_04",
+    "titulo": "Momento 04 · La lluvia en Viña",
+    "lugar": "Paradero",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Una lluvia repentina deja a Richie y Seba atrapados bajo el mismo techo."
+      },
+      {
+        "personaje": "Richie",
+        "texto": "¿Tenís paraguas?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Tengo la dignidad mojada, sirve?",
+        "expresion": "serio"
+      },
+      {
+        "personaje": "Richie",
+        "texto": "No mucho."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Oye, hace rato que casi no conversamos solos.",
+        "expresion": "serio"
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Porque siempre estamos metidos en Discord."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Podríamos salir más con los cabros.",
+        "expresion": "serio"
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Dale, pero no me hagai planear un evento con veinte personas."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La micro pasa vacía y ellos suben sin apuro."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Igual te gano en el juego después.",
+        "expresion": "serio"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La conversación termina sin que nadie pueda adivinar el futuro del grupo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Aprovechar el viaje para conversar con Richie.",
+        "eventos": [
+          "seba_momento_responsable_04"
+        ],
+        "efectos": {
+          "honestidad": 3,
+          "amistad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Tengo la dignidad mojada, sirve?"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Quedarme callado por puro orgullo.",
+        "eventos": [
+          "seba_momento_broma_04"
+        ],
+        "efectos": {
+          "autoestima": 1,
+          "amistad": -1
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Richie",
+            "texto": "Dale, pero no me hagai planear un evento con veinte personas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "seba_momento_05",
+    "titulo": "Momento 05 · Una tarde de Kelly",
+    "lugar": "Parque",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly quiere celebrar una nota buena sin fiesta ni redes sociales."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Saqué buena nota. No voy a subirla a historias porque quiero contártelo primero."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "WEÓN, QUÉ BACÁN.",
+        "expresion": "sorprendido"
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Pensé que te ibai a reír porque llevo una semana nerviosa."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "¿Cómo me voy a reír de algo que te importa?",
+        "expresion": "sorprendido"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly deja que Seba la abrace. La alegría llega sin necesidad de presumirla."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "A veces siento que todos están apurados por algo más grande."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Podemos celebrar las cosas chicas también.",
+        "expresion": "sorprendido"
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Eso. Un helado es suficiente por hoy."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La conversación termina sin que nadie pueda adivinar el futuro del grupo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Celebrar el esfuerzo de Kelly con un detalle sencillo.",
+        "eventos": [
+          "seba_momento_responsable_05"
+        ],
+        "efectos": {
+          "honestidad": 3,
+          "amistad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "WEÓN, QUÉ BACÁN."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Decirle que una nota no es para tanto.",
+        "eventos": [
+          "seba_momento_broma_05"
+        ],
+        "efectos": {
+          "autoestima": 1,
+          "amistad": -1
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Podemos celebrar las cosas chicas también."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "parque_vina.png"
+  },
+  {
+    "id": "seba_momento_06",
+    "titulo": "Momento 06 · La micro perdida",
+    "lugar": "Terminal",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Amira pierde la última micro y considera pedir un favor que incomode a Kelly."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "La perdí por dos minutos. Qué rabia."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Puedo quedarme acá hasta que llegue tu transporte.",
+        "expresion": "espalda"
+      },
+      {
+        "personaje": "Amira",
+        "texto": "No es necesario que lo escondai, si somos amigos."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No quiero que Kelly piense cualquier cosa.",
+        "expresion": "espalda"
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Entonces avísale dónde estai. No quiero excusas después."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Seba revisa la señal y encuentra un mensaje sin contestar."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Tenís razón. Mejor todo claro desde el principio.",
+        "expresion": "espalda"
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Gracias. Así también me siento más tranquila."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La conversación termina sin que nadie pueda adivinar el futuro del grupo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Avisarle a Kelly dónde estoy y acompañar a Amira.",
+        "eventos": [
+          "seba_momento_responsable_06"
+        ],
+        "efectos": {
+          "honestidad": 3,
+          "amistad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Puedo quedarme acá hasta que llegue tu transporte."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Pedirle a Amira que no se lo cuente a nadie.",
+        "eventos": [
+          "seba_momento_broma_06"
+        ],
+        "efectos": {
+          "autoestima": 1,
+          "amistad": -1
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Tenís razón. Mejor todo claro desde el principio."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "seba_momento_07",
+    "titulo": "Momento 07 · La libreta de Feña",
+    "lugar": "Café",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Feña muestra a los cabros una lista de películas que quiere ver."
+      },
+      {
+        "personaje": "Feña",
+        "texto": "No se burlen de mi lista, tiene categorías."
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Tiene hasta una sección de finales malos."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Esa me interesa, soy experto en malas decisiones ficticias.",
+        "expresion": "coqueto"
+      },
+      {
+        "personaje": "Feña",
+        "texto": "Lo importante es que la película tenga sentido, aunque duela."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Hablando de decisiones que duelen..."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Ni se te ocurra convertir esto en terapia."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Feña hace una cruz sobre el título de una comedia."
+      },
+      {
+        "personaje": "Feña",
+        "texto": "Hoy quiero reírme, no analizar nuestros traumas."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Entonces elegiste mal a este grupo.",
+        "expresion": "coqueto"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La conversación termina sin que nadie pueda adivinar el futuro del grupo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Escuchar el proyecto de Feña sin competir con Richie.",
+        "eventos": [
+          "seba_momento_responsable_07"
+        ],
+        "efectos": {
+          "honestidad": 3,
+          "amistad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Richie",
+            "texto": "Tiene hasta una sección de finales malos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Interrumpir para quedarme con toda la atención.",
+        "eventos": [
+          "seba_momento_broma_07"
+        ],
+        "efectos": {
+          "autoestima": 1,
+          "amistad": -1
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Feña",
+            "texto": "Hoy quiero reírme, no analizar nuestros traumas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "seba_momento_08",
+    "titulo": "Momento 08 · El mensaje a tiempo",
+    "lugar": "Casa",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly pregunta si Seba llegará tarde a una junta de amigos."
+      },
+      {
+        "personaje": "Kelly (mensaje)",
+        "texto": "Avísame cuando salgai. No necesito un minuto a minuto, solo saber que estás bien."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Me cuesta estar pendiente del celular cuando estoy con los cabros.",
+        "expresion": "neutral"
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Configura una alarma, hermano. No es un problema filosófico."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Yo tengo once alarmas y aun así llego tarde."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Eso no ayuda nada.",
+        "expresion": "neutral"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Seba programa un recordatorio antes de guardar el teléfono."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Al final querer a alguien también es acordarse de una cosa simple.",
+        "expresion": "neutral"
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Esa frase sí te la voy a cobrar cuando se te olvide."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La conversación termina sin que nadie pueda adivinar el futuro del grupo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Configurar el recordatorio y cumplir mi palabra.",
+        "eventos": [
+          "seba_momento_responsable_08"
+        ],
+        "efectos": {
+          "honestidad": 3,
+          "amistad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Me cuesta estar pendiente del celular cuando estoy con los cabros."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Dejar los mensajes para después.",
+        "eventos": [
+          "seba_momento_broma_08"
+        ],
+        "efectos": {
+          "autoestima": 1,
+          "amistad": -1
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Al final querer a alguien también es acordarse de una cosa simple."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "habitacion_caceres_noche.png"
+  },
+  {
+    "id": "seba_momento_09",
+    "titulo": "Momento 09 · Una invitación equivocada",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Rodrigo agrega al chat a un desconocido creyendo que es Richie."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Cabros, llegó Richie."
+      },
+      {
+        "personaje": "Desconocido",
+        "texto": "Hola. Creo que se equivocaron de grupo."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Rodrigo, CÓMO METISTE A UN SEÑOR AL SERVER.",
+        "expresion": "cintura"
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Tiene el mismo avatar, pero no el mismo nombre."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Podríamos preguntarle si juega con nosotros."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "No, Jairo. Disculpa y sácalo."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Perdón, maestro, se me fue el dedo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "El desconocido sale con educación. El grupo guarda silencio tres segundos antes de estallar en risas."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Esta anécdota la contaremos por años.",
+        "expresion": "cintura"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La conversación termina sin que nadie pueda adivinar el futuro del grupo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Disculparnos con el desconocido y dejarlo salir.",
+        "eventos": [
+          "seba_momento_responsable_09"
+        ],
+        "efectos": {
+          "honestidad": 3,
+          "amistad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Desconocido",
+            "texto": "Hola. Creo que se equivocaron de grupo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Mandarle un meme antes de expulsarlo.",
+        "eventos": [
+          "seba_momento_broma_09"
+        ],
+        "efectos": {
+          "autoestima": 1,
+          "amistad": -1
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Rodrigo",
+            "texto": "Perdón, maestro, se me fue el dedo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_momento_10",
+    "titulo": "Momento 10 · El amanecer del carrete",
+    "lugar": "Habitación",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Después de la fiesta, Seba mira los mensajes que dejó sin contestar."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Hay decisiones que uno toma en segundos y le hacen ruido durante semanas.",
+        "expresion": "saludando"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "El espejo devuelve una cara cansada; en la mesa quedó una pulsera de la fiesta."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Qué fácil sería fingir que todo fue un sueño.",
+        "expresion": "saludando"
+      },
+      {
+        "personaje": "Kevin (mensaje)",
+        "texto": "Si necesitai hablar, hablame. Si necesitai decir la verdad, hablá con quien corresponde."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No sé si quiero escuchar eso ahora.",
+        "expresion": "saludando"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Seba borra un borrador de disculpa escrito para calmarse él mismo."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Primero tengo que entender qué hice, no preparar un discurso para salir del paso.",
+        "expresion": "saludando"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La ciudad empieza a despertar."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La conversación termina sin que nadie pueda adivinar el futuro del grupo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Reconocer que debo actuar, no solo preocuparme.",
+        "eventos": [
+          "seba_momento_responsable_10"
+        ],
+        "efectos": {
+          "honestidad": 3,
+          "amistad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Qué fácil sería fingir que todo fue un sueño."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Dormir para evitar todas las conversaciones.",
+        "eventos": [
+          "seba_momento_broma_10"
+        ],
+        "efectos": {
+          "autoestima": 1,
+          "amistad": -1
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "No sé si quiero escuchar eso ahora."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "habitacion_caceres_noche.png"
+  },
+  {
+    "id": "seba_momento_11",
+    "titulo": "Momento 11 · El rumor por mensaje",
+    "lugar": "Casa",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Un mensaje incompleto crea una discusión en el grupo de amigos."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Me llegó un pantallazo. ¿Es real?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No sé por qué siguen compartiendo capturas sin contexto.",
+        "expresion": "pensativo"
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Si te llega algo privado, no lo reenvíes."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Y no le pidan explicaciones en público a alguien que está dolido."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Ya lo borré."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Gracias.",
+        "expresion": "pensativo"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Por una vez tenemos una norma útil para el server."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "El grupo intenta impedir que una situación difícil termine siendo un espectáculo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La conversación termina sin que nadie pueda adivinar el futuro del grupo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Cortar la cadena de capturas.",
+        "eventos": [
+          "seba_momento_responsable_11"
+        ],
+        "efectos": {
+          "honestidad": 3,
+          "amistad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "No sé por qué siguen compartiendo capturas sin contexto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Pedir que me reenvíen todo el rumor.",
+        "eventos": [
+          "seba_momento_broma_11"
+        ],
+        "efectos": {
+          "autoestima": 1,
+          "amistad": -1
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Gracias."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "habitacion_caceres_noche.png"
+  },
+  {
+    "id": "seba_momento_12",
+    "titulo": "Momento 12 · El partido sin árbitro",
+    "lugar": "Cancha",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Kevin organiza una pichanga para despejarse de tanto chat."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Equipos de tres. Nada de patadas asesinas."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Yo atajo. Soy malo, pero ocupo espacio."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Voy a patear al arco, no a tus piernas.",
+        "expresion": "serio"
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Me conformo con que Rodrigo no haga relato del partido."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "GOL HISTÓRICO DEL SEBA."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "¡Era lateral, weón!"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Esto es peor que el VAR.",
+        "expresion": "serio"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Terminan todos en el suelo de tanto reír, sin necesidad de tocar ningún tema personal."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La conversación termina sin que nadie pueda adivinar el futuro del grupo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Jugar la pichanga por diversión.",
+        "eventos": [
+          "seba_momento_responsable_12"
+        ],
+        "efectos": {
+          "honestidad": 3,
+          "amistad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Yo atajo. Soy malo, pero ocupo espacio."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Culpar a Rodrigo de cada jugada.",
+        "eventos": [
+          "seba_momento_broma_12"
+        ],
+        "efectos": {
+          "autoestima": 1,
+          "amistad": -1
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "¡Era lateral, weón!"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "parque_vina.png"
+  },
+  {
+    "id": "seba_momento_13",
+    "titulo": "Momento 13 · El papel arrugado",
+    "lugar": "Habitación",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Seba intenta escribir lo que siente sin convertirlo en mensaje para nadie."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Amira ya no me habla. Le pedí guardar algo que no debía.",
+        "expresion": "pensativo",
+        "condiciones": [
+          {
+            "evento": "seba_amira_delato_grupo",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Quiero ser honesto incluso cuando nadie me está mirando.",
+        "expresion": "serio",
+        "condiciones": [
+          {
+            "evento": "seba_amira_delato_grupo",
+            "eventoActivo": false
+          }
+        ]
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Si lo mando ahora, suena a excusa.",
+        "expresion": "sorprendido"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Arruga la hoja, abre otra y comienza por una frase más simple."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Hice daño. Punto.",
+        "expresion": "sorprendido"
+      },
+      {
+        "personaje": "Kevin (audio)",
+        "texto": "No necesitai demostrarle a todo el mundo que sufrís. Solo cambiar lo que hacís."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Igual cuesta no querer explicar todo.",
+        "expresion": "sorprendido"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La segunda hoja queda doblada dentro del cuaderno, sin destinatario."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Quizás esto era para mí, no para que me perdonaran.",
+        "expresion": "sorprendido"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Se apaga la luz y el papel queda sobre el escritorio."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La conversación termina sin que nadie pueda adivinar el futuro del grupo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Escribir una disculpa que no pida perdón a cambio.",
+        "eventos": [
+          "seba_momento_responsable_13"
+        ],
+        "efectos": {
+          "honestidad": 3,
+          "amistad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Hice daño. Punto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Preparar un discurso para ganar simpatía.",
+        "eventos": [
+          "seba_momento_broma_13"
+        ],
+        "efectos": {
+          "autoestima": 1,
+          "amistad": -1
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Igual cuesta no querer explicar todo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "habitacion_caceres_noche.png"
+  },
+  {
+    "id": "seba_momento_14",
+    "titulo": "Momento 14 · Un paseo sin celular",
+    "lugar": "Costanera",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Seba acompaña a Cáceres a caminar al borde del agua."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Antes yo necesitaba que cada salida terminara en alguna conclusión."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Y ahora?",
+        "expresion": "espalda"
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Ahora intento disfrutar una caminata nomás."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Qué sabio te pusiste, wn.",
+        "expresion": "espalda"
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Me lo dijiste vos, hace meses."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No me cites mis propios consejos.",
+        "expresion": "espalda"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Pasan una fila de gaviotas y un niño que intenta mantener un volantín en el aire."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Ya, acepto una hora sin mirar el teléfono.",
+        "expresion": "espalda"
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Eso sí que es un final secreto."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La conversación termina sin que nadie pueda adivinar el futuro del grupo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Caminar una hora sin revisar el celular.",
+        "eventos": [
+          "seba_momento_responsable_14"
+        ],
+        "efectos": {
+          "honestidad": 3,
+          "amistad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Y ahora?"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Pasar la caminata pendiente de notificaciones.",
+        "eventos": [
+          "seba_momento_broma_14"
+        ],
+        "efectos": {
+          "autoestima": 1,
+          "amistad": -1
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Ya, acepto una hora sin mirar el teléfono."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "seba_momento_15",
+    "titulo": "Momento 15 · El silencio también sirve",
+    "lugar": "Café",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Kevin y Seba comparten una mesa sin jugar a ser terapeutas."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "No me contís nada si no querís."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Qué raro que no me pidas detalles.",
+        "expresion": "coqueto"
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Porque no tengo que saberlos todos."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Me acostumbré a explicar cualquier cosa antes de que me la preguntaran.",
+        "expresion": "coqueto"
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Y eso cansa más que una discusión."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "El mozo deja la cuenta y ambos buscan monedas sin apuro."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Gracias por no elegirme un futuro.",
+        "expresion": "coqueto"
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Para eso está el juego, wn. Yo soy tu amigo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La conversación termina sin que nadie pueda adivinar el futuro del grupo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Agradecerle a Kevin que me escuche sin aconsejar.",
+        "eventos": [
+          "seba_momento_responsable_15"
+        ],
+        "efectos": {
+          "honestidad": 3,
+          "amistad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Qué raro que no me pidas detalles."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Exigir que me dé una solución.",
+        "eventos": [
+          "seba_momento_broma_15"
+        ],
+        "efectos": {
+          "autoestima": 1,
+          "amistad": -1
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Gracias por no elegirme un futuro."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "seba_momento_16",
+    "titulo": "Momento 16 · Un favor de Feña",
+    "lugar": "Biblioteca",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Feña pide ayuda para preparar una pequeña exposición."
+      },
+      {
+        "personaje": "Feña",
+        "texto": "Solo necesito que alguien escuche mi introducción y me diga si se entiende."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Prometo no interrumpir con chistes.",
+        "expresion": "neutral"
+      },
+      {
+        "personaje": "Feña",
+        "texto": "No prometai cosas imposibles."
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Yo traje agua por si se te seca la garganta."
+      },
+      {
+        "personaje": "Feña",
+        "texto": "Gracias, Richie."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Seba mira cómo Feña se concentra mientras Richie le acomoda las hojas."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Está bien explicado. La parte difícil es que te falta respirar.",
+        "expresion": "neutral"
+      },
+      {
+        "personaje": "Feña",
+        "texto": "Eso sí me sirve. Gracias a los dos."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La conversación termina sin que nadie pueda adivinar el futuro del grupo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Ayudar a Feña con su exposición respetando a Richie.",
+        "eventos": [
+          "seba_momento_responsable_16"
+        ],
+        "efectos": {
+          "honestidad": 3,
+          "amistad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Prometo no interrumpir con chistes."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Hacer bromas mientras ella presenta.",
+        "eventos": [
+          "seba_momento_broma_16"
+        ],
+        "efectos": {
+          "autoestima": 1,
+          "amistad": -1
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Está bien explicado. La parte difícil es que te falta respirar."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "seba_momento_17",
+    "titulo": "Momento 17 · Richie pone un límite",
+    "lugar": "Plaza",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Richie prefiere hablar a solas antes de que los rumores compliquen su amistad."
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Oye, si hay algo que tengamos que hablar, hagámoslo de frente."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Dale, qué pasó?",
+        "expresion": "cintura"
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Solo quiero que seamos claros cuando una situación involucra a otra persona."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No me interesa que terminemos peleados por lo que otros suponen.",
+        "expresion": "cintura"
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Entonces no compitamos por nadie."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Tenís razón.",
+        "expresion": "cintura"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Richie ofrece la mano; no está pidiendo una promesa imposible, solo honestidad."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Prefiero que nos digamos las cosas antes de que quede la cagada.",
+        "expresion": "cintura"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La conversación termina sin que nadie pueda adivinar el futuro del grupo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Hablar claro con Richie y escuchar sus límites.",
+        "eventos": [
+          "seba_momento_responsable_17"
+        ],
+        "efectos": {
+          "honestidad": 3,
+          "amistad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Dale, qué pasó?"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Desafiarlo innecesariamente.",
+        "eventos": [
+          "seba_momento_broma_17"
+        ],
+        "efectos": {
+          "autoestima": 1,
+          "amistad": -1
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Tenís razón."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "seba_momento_18",
+    "titulo": "Momento 18 · Una canción nueva",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Javi comparte una playlist con canciones que le recuerdan a sus amigos."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "No se rían, mezclo canciones demasiado distintas."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Mi playlist también parece una pelea familiar.",
+        "expresion": "saludando"
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "La primera es romántica y la segunda parece banda sonora de un robo."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Eso es personalidad."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "O esquizofrenia musical, pero me gusta."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Ojo, Kevin, que te saco de mi lista de recomendaciones."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "La última está bacán. ¿Cómo se llama?",
+        "expresion": "saludando"
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Te la mando por interno."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Una conversación pequeña abre una amistad que todavía no exige nada."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La conversación termina sin que nadie pueda adivinar el futuro del grupo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Conocer los gustos de Javi sin coquetear por obligación.",
+        "eventos": [
+          "seba_momento_responsable_18"
+        ],
+        "efectos": {
+          "honestidad": 3,
+          "amistad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Mi playlist también parece una pelea familiar."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Presumir frente a todos para impresionarla.",
+        "eventos": [
+          "seba_momento_broma_18"
+        ],
+        "efectos": {
+          "autoestima": 1,
+          "amistad": -1
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "La última está bacán. ¿Cómo se llama?"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_momento_19",
+    "titulo": "Momento 19 · Una caminata con Javi",
+    "lugar": "Parque",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Seba y Javi coinciden saliendo de una actividad del grupo."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Pensé que eras mucho más escandaloso en persona."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Tengo modo ahorro de batería.",
+        "expresion": "pensativo"
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Jajaja. Igual prefiero a la gente que sabe escuchar."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "A mí me cuesta no llenar los silencios.",
+        "expresion": "pensativo"
+      },
+      {
+        "personaje": "Javi",
+        "texto": "No todos los silencios son incómodos."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Pasan una pareja de ciclistas y ambos se hacen a un lado."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Gracias por no preguntarme la historia entera de mi vida.",
+        "expresion": "pensativo"
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Si algún día querís contarla, te pregunto. Si no, hablemos del clima."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La conversación termina sin que nadie pueda adivinar el futuro del grupo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Preguntarle a Javi por sus intereses y escuchar.",
+        "eventos": [
+          "seba_momento_responsable_19"
+        ],
+        "efectos": {
+          "honestidad": 3,
+          "amistad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Tengo modo ahorro de batería."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Convertir la caminata en una entrevista sobre mí.",
+        "eventos": [
+          "seba_momento_broma_19"
+        ],
+        "efectos": {
+          "autoestima": 1,
+          "amistad": -1
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Gracias por no preguntarme la historia entera de mi vida."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "parque_vina.png"
+  },
+  {
+    "id": "seba_momento_20",
+    "titulo": "Momento 20 · La vitrina rosa",
+    "lugar": "Tienda",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Seba descubre una prenda que le gusta, aunque no se parece a lo que usa normalmente."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Está bacán la combinación, pero no sé si me atreva.",
+        "expresion": "serio"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Te reto a probártela."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Sin retos. Si quiere, que lo haga él."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Gracias, necesitaba escuchar eso.",
+        "expresion": "serio"
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "A mí me importa que te sintai cómodo."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Yo me voy a probar un gorro con orejas de gato."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Eso es otra categoría de peligro.",
+        "expresion": "serio"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Seba toca la tela y se mira en el espejo, divertido y curioso, sin obligación de cambiar."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La conversación termina sin que nadie pueda adivinar el futuro del grupo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Probar algo nuevo porque me gusta.",
+        "eventos": [
+          "seba_momento_responsable_20"
+        ],
+        "efectos": {
+          "honestidad": 3,
+          "amistad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Te reto a probártela."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Elegir una prenda solo por presión del grupo.",
+        "eventos": [
+          "seba_momento_broma_20"
+        ],
+        "efectos": {
+          "autoestima": 1,
+          "amistad": -1
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Rodrigo",
+            "texto": "Yo me voy a probar un gorro con orejas de gato."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "seba_momento_21",
+    "titulo": "Momento 21 · La fotografía de grupo",
+    "lugar": "Parque",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Los amigos intentan repetir una foto antigua en el mismo lugar."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "En la anterior Seba estaba mirando para otro lado."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Porque Rodrigo gritó «cuidado» justo cuando dispararon.",
+        "expresion": "sorprendido"
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Fue un reflejo, loco."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Ahora hagámosla sin asustarnos."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Me equivoqué de cámara. Tengo el lente tapado."
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Te esperamos, genio."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La cámara toma tres fotos: una borrosa, una con alguien estornudando y una sorprendentemente buena."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Esta última me la quedo.",
+        "expresion": "sorprendido"
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Sin editarle la cara a nadie, por favor."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La conversación termina sin que nadie pueda adivinar el futuro del grupo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Dejar que todos salgan en la fotografía.",
+        "eventos": [
+          "seba_momento_responsable_21"
+        ],
+        "efectos": {
+          "honestidad": 3,
+          "amistad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Porque Rodrigo gritó «cuidado» justo cuando dispararon."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Posar delante de todos y taparlos.",
+        "eventos": [
+          "seba_momento_broma_21"
+        ],
+        "efectos": {
+          "autoestima": 1,
+          "amistad": -1
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Esta última me la quedo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "parque_vina.png"
+  },
+  {
+    "id": "seba_momento_22",
+    "titulo": "Momento 22 · Lo que queda pendiente",
+    "lugar": "Habitación",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Seba revisa las notas que escribió al inicio del mes y encuentra una lista de promesas."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Ser buen amigo, buen pololo, buen estudiante... como si pudiera marcarlo todo con un check.",
+        "expresion": "espalda"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La lista está manchada de café y tiene tachaduras."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Algunas cosas no salieron como pensé.",
+        "expresion": "espalda"
+      },
+      {
+        "personaje": "Kevin (mensaje)",
+        "texto": "Mañana hacemos algo sencillo. No necesitai llegar con la vida resuelta."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Gracias, hermano.",
+        "expresion": "espalda"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Seba deja el cuaderno abierto en la mesa y apaga el monitor."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Quiero dejar de convertir cada relación en una prueba de mí mismo.",
+        "expresion": "espalda"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Por la ventana comienza a aparecer el amanecer."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La conversación termina sin que nadie pueda adivinar el futuro del grupo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Aceptar que no se pueden marcar personas como tareas.",
+        "eventos": [
+          "seba_momento_responsable_22"
+        ],
+        "efectos": {
+          "honestidad": 3,
+          "amistad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Algunas cosas no salieron como pensé."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Escribir otra lista de objetivos románticos.",
+        "eventos": [
+          "seba_momento_broma_22"
+        ],
+        "efectos": {
+          "autoestima": 1,
+          "amistad": -1
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Gracias, hermano."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "habitacion_caceres_noche.png"
+  },
+  {
+    "id": "seba_momento_23",
+    "titulo": "Momento 23 · Un favor pequeño",
+    "lugar": "Paradero",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Rodrigo necesita ayuda porque su celular murió cuando debía volver a casa."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Mi batería murió y no sé si estoy esperando la micro correcta."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Mira el cartel, weón. Dice otro recorrido.",
+        "expresion": "coqueto"
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Casi me voy a Quilpué."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Ven, revisamos desde mi celular.",
+        "expresion": "coqueto"
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Gracias. Oye, sé que a veces hablo de más."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "A veces?",
+        "expresion": "coqueto"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Rodrigo se ríe con incomodidad, pero no cambia de tema."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Estoy intentando pensar antes de hablar."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Yo también, aunque me cuesta un mundo.",
+        "expresion": "coqueto"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La conversación termina sin que nadie pueda adivinar el futuro del grupo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Ayudar a Rodrigo a volver a casa.",
+        "eventos": [
+          "seba_momento_responsable_23"
+        ],
+        "efectos": {
+          "honestidad": 3,
+          "amistad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Mira el cartel, weón. Dice otro recorrido."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Reírme de él y dejarlo esperando.",
+        "eventos": [
+          "seba_momento_broma_23"
+        ],
+        "efectos": {
+          "autoestima": 1,
+          "amistad": -1
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Rodrigo",
+            "texto": "Estoy intentando pensar antes de hablar."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "seba_momento_24",
+    "titulo": "Momento 24 · La llamada corta",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Cáceres llama a Seba para felicitarlo por haber terminado un trabajo difícil."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Supe que entregaste todo. Bien ahí."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Pensé que me ibai a llamar para pedirme código.",
+        "expresion": "neutral"
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Eso después, hermano. Primero felicitaciones."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Me hizo bien terminar algo que no depende de nadie más.",
+        "expresion": "neutral"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Tengo un sticker de diploma de sopaipilla."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Mándalo, se lo ganó."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La llamada dura menos de diez minutos, pero Seba guarda la captura del chat."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Gracias, cabros. De verdad.",
+        "expresion": "neutral"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La conversación termina sin que nadie pueda adivinar el futuro del grupo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Agradecer el gesto de Cáceres.",
+        "eventos": [
+          "seba_momento_responsable_24"
+        ],
+        "efectos": {
+          "honestidad": 3,
+          "amistad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Pensé que me ibai a llamar para pedirme código."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Pedirle inmediatamente otro favor.",
+        "eventos": [
+          "seba_momento_broma_24"
+        ],
+        "efectos": {
+          "autoestima": 1,
+          "amistad": -1
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Mándalo, se lo ganó."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_momento_25",
+    "titulo": "Momento 25 · Las llaves del departamento",
+    "lugar": "Habitación",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Seba encuentra unas llaves prestadas en una chaqueta y se acuerda de devolverlas."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Quedé con estas llaves desde la junta pasada.",
+        "expresion": "cintura"
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Yo pensaba que se habían perdido."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Las encontré en el bolsillo, tengo que pasar a dejarlas.",
+        "expresion": "cintura"
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Eso se llama responsabilidad adulta."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "La adultez empieza con llaveros, confirmado."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Seba guarda las llaves con una etiqueta para no olvidarse otra vez."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Las cosas importantes suelen ser pequeñas hasta que salen mal.",
+        "expresion": "cintura"
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Te debo una, hermano."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La conversación termina sin que nadie pueda adivinar el futuro del grupo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Devolver las llaves cuanto antes.",
+        "eventos": [
+          "seba_momento_responsable_25"
+        ],
+        "efectos": {
+          "honestidad": 3,
+          "amistad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Rodrigo",
+            "texto": "Yo pensaba que se habían perdido."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Guardarlas de nuevo y olvidarme del asunto.",
+        "eventos": [
+          "seba_momento_broma_25"
+        ],
+        "efectos": {
+          "autoestima": 1,
+          "amistad": -1
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Las cosas importantes suelen ser pequeñas hasta que salen mal."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "habitacion_caceres_noche.png"
+  },
+  {
+    "id": "seba_momento_26",
+    "titulo": "Momento 26 · La última libreta",
+    "lugar": "Mirador",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Seba se sienta frente al mar antes de las decisiones finales."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No quiero que nadie decida por mí y tampoco quiero decidir por otra persona.",
+        "expresion": "saludando"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Abre la libreta por la última página, donde dejó sin terminar una frase."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Si al final me quedo solo, quiero que sea porque elegí estar bien conmigo.",
+        "expresion": "saludando"
+      },
+      {
+        "personaje": "Kevin (audio)",
+        "texto": "Sea lo que sea, sé honesto. Eso es lo único que se puede pedir."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Hasta ahora, el consejo que más me ha costado seguir.",
+        "expresion": "saludando"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "El sol baja detrás de los edificios. Seba guarda la libreta sin escribir un nombre."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Mañana veremos qué clase de persona decido ser.",
+        "expresion": "saludando"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "El viento pasa sobre el mirador, sin pedirle una respuesta."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La conversación termina sin que nadie pueda adivinar el futuro del grupo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Pensar en mis decisiones sin nombrar un ganador.",
+        "eventos": [
+          "seba_momento_responsable_26"
+        ],
+        "efectos": {
+          "honestidad": 3,
+          "amistad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me quedo con esa idea. No todo tiene que terminar en pelea.",
+            "expresion": "cintura"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Si al final me quedo solo, quiero que sea porque elegí estar bien conmigo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La decisión queda anotada en el historial. El resto de la tarde sigue su curso."
+          }
+        ]
+      },
+      {
+        "texto": "Buscar desesperadamente a alguien que elija por mí.",
+        "eventos": [
+          "seba_momento_broma_26"
+        ],
+        "efectos": {
+          "autoestima": 1,
+          "amistad": -1
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me fui un poco al chancho ahí.",
+            "expresion": "espalda"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Hasta ahora, el consejo que más me ha costado seguir."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No siempre hay una segunda oportunidad para corregir cómo hablamos."
+          }
+        ]
+      }
+    ],
+    "fondo": "mirador_vina.png"
+  }
+]

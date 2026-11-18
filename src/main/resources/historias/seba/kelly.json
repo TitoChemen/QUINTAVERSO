@@ -1,0 +1,693 @@
+[
+  {
+    "id": "seba_kelly_1",
+    "titulo": "Episodio 1 · Un domingo que sí cuenta",
+    "lugar": "Kelly · Ciudad",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly organiza un picnic y Seba aparece con una bolsa de pan porque olvidó comprar el postre."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Me gusta que vengai incluso cuando no hay un panorama gigante."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Puedo conseguir un postre a la rápida o simplemente acompañarte."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Te puedo contar algo sin que me interrumpai con una talla?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Sí. Perdón por hacer eso otras veces."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly busca una palabra y termina riéndose de su propia solemnidad."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "No es grave. Solo quiero que me escuchís completa."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly saca dos servilletas y comienza a improvisar una receta. Seba ya tiene harina en la polera."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Preparar algo juntos y reírse del olvido.",
+        "efectos": {
+          "kelly": 9,
+          "honestidad": 3,
+          "confianza_kelly": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Dale, si lo cocinamos juntos capaz sale mejor que el comprado."
+          },
+          {
+            "personaje": "Kelly",
+            "texto": "No necesitaba un postre perfecto, Seba. Quería que estuviéramos juntos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La tarde continúa con planes concretos, sin ninguna necesidad de demostrarle nada al grupo."
+          }
+        ]
+      },
+      {
+        "texto": "Inventar una excusa y escapar del error.",
+        "efectos": {
+          "honestidad": -4,
+          "sospecha": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Kelly",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Kelly deja el tema por ahora. No está obligada a fingir que la respuesta le gustó."
+          }
+        ]
+      }
+    ],
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "seba_kelly_2",
+    "titulo": "Episodio 2 · La playlist del perdón",
+    "lugar": "Kelly · Ciudad",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly le muestra una playlist donde cada canción tiene una fecha importante de la relación."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Mira, esta es de cuando nos perdimos por Viña y terminamos tomando micro dos horas."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No sabía que guardabai esas cosas."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Guardé un recuerdo de nuestra primera salida. No te rías."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "¿El boleto de micro? Me estai hueveando."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Seba abre su billetera y muestra el papel medio deshecho."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Qué lindo y qué ridículo a la vez, amor."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La canción termina justo cuando pasa una micro. Se quedan escuchando el silencio que deja."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Preguntar por cada recuerdo y contar los propios.",
+        "efectos": {
+          "kelly": 9,
+          "honestidad": 3,
+          "confianza_kelly": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me acuerdo perfecto. Yo juraba que sabía el camino y no sabía ni dónde estaba el norte."
+          },
+          {
+            "personaje": "Kelly",
+            "texto": "Me gusta que te acordís de los detalles; me hace sentir acompañada."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La tarde continúa con planes concretos, sin ninguna necesidad de demostrarle nada al grupo."
+          }
+        ]
+      },
+      {
+        "texto": "Cambiar el tema para evitar ponerse sentimental.",
+        "efectos": {
+          "honestidad": -4,
+          "sospecha": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Kelly",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Kelly deja el tema por ahora. No está obligada a fingir que la respuesta le gustó."
+          }
+        ]
+      }
+    ],
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "seba_kelly_3",
+    "titulo": "Episodio 3 · Celos no son pruebas",
+    "lugar": "Kelly · Ciudad",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly ha visto un comentario ambiguo en una publicación y prefiere preguntar antes de asumir."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "No te estoy acusando. Solo quiero entender este comentario."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Puedo responderle sin atacar."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "A veces parecís conocerme por costumbre y no por preguntarme."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No quiero asumir que sigo sabiendo todo de ti."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly le ofrece elegir la siguiente actividad sin darle pistas."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Ya po. Sorpréndeme con algo que de verdad me guste."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly deja el teléfono sobre la mesa, con la pantalla todavía encendida. Prefiere mirarlo a él."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Explicarlo con calma y dejar espacio a las preguntas.",
+        "efectos": {
+          "kelly": 9,
+          "honestidad": 3,
+          "confianza_kelly": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Te lo explico: era una talla vieja, pero entiendo por qué se ve raro."
+          },
+          {
+            "personaje": "Kelly",
+            "texto": "Gracias por no transformarlo en una pelea antes de conversarlo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La tarde continúa con planes concretos, sin ninguna necesidad de demostrarle nada al grupo."
+          }
+        ]
+      },
+      {
+        "texto": "Tratar la duda como una acusación.",
+        "efectos": {
+          "honestidad": -4,
+          "sospecha": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Kelly",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Kelly deja el tema por ahora. No está obligada a fingir que la respuesta le gustó."
+          }
+        ]
+      }
+    ],
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "seba_kelly_4",
+    "titulo": "Episodio 4 · Un día sin teléfonos",
+    "lugar": "Kelly · Ciudad",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly propone pasar una tarde sin mirar notificaciones."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "¿Podemos dejar el celular dado vuelta un rato? Solo nosotros y la ciudad."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Es mucho pedir, pero suena bien."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Si tuviste un mal día, podemos quedarnos sin hacer nada."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Eso quería. No que me sacaras una lista de soluciones."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Se quedan mirando la lluvia unos minutos, sin necesitar palabras."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "El silencio se nos da mejor de lo que creía."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "El celular vibra tres veces. Seba lo pone boca abajo y Kelly afloja los hombros."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Aceptar y disfrutar la tarde.",
+        "efectos": {
+          "kelly": 9,
+          "honestidad": 3,
+          "confianza_kelly": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Ya, trato hecho. Si el Jairo se cae del server, sobrevivirá."
+          },
+          {
+            "personaje": "Kelly",
+            "texto": "Mira, sin pantallas también erís chistoso."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La tarde continúa con planes concretos, sin ninguna necesidad de demostrarle nada al grupo."
+          }
+        ]
+      },
+      {
+        "texto": "Revisar Discord a escondidas.",
+        "efectos": {
+          "honestidad": -4,
+          "sospecha": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Kelly",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Kelly deja el tema por ahora. No está obligada a fingir que la respuesta le gustó."
+          }
+        ]
+      }
+    ],
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "seba_kelly_5",
+    "titulo": "Episodio 5 · Después de las miradas",
+    "lugar": "Kelly · Ciudad",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Seba nota que Kelly está más callada que de costumbre y evita inventarle sentimientos."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Sigo procesando algunas cosas. No quiero que me prometai un cuento perfecto."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Entonces quiero escucharte sin defenderme cada diez segundos."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Te noto distinto. ¿Pasó algo que deba saber?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No quiero seguir escondiéndome en respuestas a medias."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly sostiene su mirada; no acepta una explicación aprendida."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Solo te pido que si hablamos, sea de verdad."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly gira la taza sin beber. Seba entiende que una herida no se cierra con una talla."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Escuchar su enojo sin interrumpir.",
+        "efectos": {
+          "kelly": 9,
+          "honestidad": 3,
+          "confianza_kelly": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Tómate el tiempo que necesites. Lo que sientes importa."
+          },
+          {
+            "personaje": "Kelly",
+            "texto": "Eso es más de lo que esperaba escuchar hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La tarde continúa con planes concretos, sin ninguna necesidad de demostrarle nada al grupo."
+          }
+        ]
+      },
+      {
+        "texto": "Pedir que lo supere inmediatamente.",
+        "efectos": {
+          "honestidad": -4,
+          "sospecha": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Kelly",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Kelly deja el tema por ahora. No está obligada a fingir que la respuesta le gustó."
+          }
+        ]
+      }
+    ],
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "seba_kelly_6",
+    "titulo": "Episodio 6 · La llamada pendiente",
+    "lugar": "Kelly · Ciudad",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly necesita compañía antes de una presentación y Seba tiene que decidir si estar disponible."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Estoy nerviosa. No necesito que hagai nada, solo que me escuchís dos minutos."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Dos minutos tengo. Y más también."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "No podís arreglar la confianza con un regalo comprado a última hora."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Lo sé. Prefiero cumplir lo que te dije que hacer un show."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La conversación continúa mientras caminan, sin abrazos obligatorios."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Entonces no me apures a decir que está todo bien."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Se escucha la puerta del auditorio. Kelly tiene los apuntes apretados entre las manos."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Acompañarla antes de la presentación.",
+        "efectos": {
+          "kelly": 9,
+          "honestidad": 3,
+          "confianza_kelly": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Si te da nervio es porque te importa. Cuéntame qué parte te preocupa."
+          },
+          {
+            "personaje": "Kelly",
+            "texto": "Gracias, amor. Ya puedo respirar mejor."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La tarde continúa con planes concretos, sin ninguna necesidad de demostrarle nada al grupo."
+          }
+        ]
+      },
+      {
+        "texto": "Decirle que son nervios tontos.",
+        "efectos": {
+          "honestidad": -4,
+          "sospecha": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Kelly",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Kelly deja el tema por ahora. No está obligada a fingir que la respuesta le gustó."
+          }
+        ]
+      }
+    ],
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "seba_kelly_7",
+    "titulo": "Episodio 7 · Planear una visita",
+    "lugar": "Kelly · Ciudad",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly propone salir de la ciudad un sábado y ambos deben acordar un presupuesto."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "No hace falta gastar un montón. Quiero que planifiquemos algo los dos."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Puedo buscar algo simple y realista."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Quizás lo más difícil sea escuchar una respuesta que no quiero."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Eso también es respetarme, aunque te duela."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly se toma un momento antes de decidir si quiere seguir caminando."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Mi respuesta es mía, no de tu marcador de afecto."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Abren un mapa y tachan los destinos caros con un lápiz compartido."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Proponer un paseo barato y organizado.",
+        "efectos": {
+          "kelly": 9,
+          "honestidad": 3,
+          "confianza_kelly": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Vamos a caminar por la costa y comemos algo rico. No quiero endeudarme por aparentar."
+          },
+          {
+            "personaje": "Kelly",
+            "texto": "Eso me encanta. Que la pasemos bien sin hacer show."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La tarde continúa con planes concretos, sin ninguna necesidad de demostrarle nada al grupo."
+          }
+        ]
+      },
+      {
+        "texto": "Prometer un panorama imposible.",
+        "efectos": {
+          "honestidad": -4,
+          "sospecha": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Kelly",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Kelly deja el tema por ahora. No está obligada a fingir que la respuesta le gustó."
+          }
+        ]
+      }
+    ],
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "seba_kelly_8",
+    "titulo": "Episodio 8 · La verdad se nota",
+    "lugar": "Kelly · Ciudad",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly pregunta qué ha aprendido Seba de las semanas difíciles."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "¿De verdad entendiste por qué me dolió tanto?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Creo que sí, aunque siga costándome decirlo."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "No me prometai para siempre. Decime qué vas a hacer mañana."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Mañana voy a cumplir una sola cosa, y pasado otra."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La promesa pequeña se siente más real que un discurso dramático."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Eso puedo entenderlo. Lo demás se ve con tiempo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly deja pasar unos segundos antes de tomarle la mano. La respuesta de Seba le importa."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Validar el daño y hablar de límites.",
+        "efectos": {
+          "kelly": 9,
+          "honestidad": 3,
+          "confianza_kelly": 5
+        },
+        "eventos": [
+          "seba_kelly_fuerte"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "No quiero que vuelvas a sentir que tienes que investigar para confiar."
+          },
+          {
+            "personaje": "Kelly",
+            "texto": "Entonces quizás vamos por buen camino."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La tarde continúa con planes concretos, sin ninguna necesidad de demostrarle nada al grupo."
+          }
+        ]
+      },
+      {
+        "texto": "Pedir que no vuelvan a hablar del tema.",
+        "efectos": {
+          "honestidad": -4,
+          "sospecha": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Kelly",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Kelly deja el tema por ahora. No está obligada a fingir que la respuesta le gustó."
+          }
+        ]
+      }
+    ],
+    "fondo": "cafe_vina.png"
+  }
+]

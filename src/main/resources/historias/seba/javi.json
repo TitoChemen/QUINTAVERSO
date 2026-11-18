@@ -1,0 +1,686 @@
+[
+  {
+    "id": "seba_javi_1",
+    "titulo": "Episodio 1 · Un cargador y una conversación",
+    "lugar": "Javi · Viña del Mar",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Javi y Seba se encuentran nuevamente en el mismo café, esta vez con el celular cargado."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Vengo a informarte que sobreviví a la batería al uno por ciento."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "¿Qué pasó con tu relación anterior? No me interesa competir con alguien que todavía te está esperando.",
+        "condiciones": [
+          {
+            "evento": "seba_kelly_termino",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Seba",
+        "texto": "El Jairo va a querer cobrar rescate por ese cargador."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Por cierto, no tienes que contarme todos tus dramas para que podamos ser amigos."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Me sirve que digai eso. A veces uno entra con la historia demasiado pesada."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Javi se ríe mientras guarda los audífonos."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Partamos por algo simple: ¿qué música escuchai?"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Javi coloca el cargador entre ambos como si fuera una reliquia del primer encuentro."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Conversar de sus intereses sin mencionar a la ex todo el rato.",
+        "efectos": {
+          "javi": 10,
+          "honestidad": 3
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Quiero saber qué te gusta hacer cuando no andai rescatando celulares."
+          },
+          {
+            "personaje": "Javi",
+            "texto": "Eso me gusta. No vine a ser la villana de ninguna historia vieja."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Javi no hace promesas prematuras. Se quedan juntos un rato más, por simple gusto de conversar."
+          }
+        ]
+      },
+      {
+        "texto": "Convertir la cita en una sesión contra Kelly.",
+        "efectos": {
+          "honestidad": -4,
+          "sospecha": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Javi",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Javi paga su café por separado; no le interesa ser parte de una versión maquillada del pasado."
+          }
+        ]
+      }
+    ],
+    "fondo": "costanera_atardecer.png"
+  },
+  {
+    "id": "seba_javi_2",
+    "titulo": "Episodio 2 · Caminar sin agenda",
+    "lugar": "Javi · Viña del Mar",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Javi lo invita a caminar sin destino fijo por el borde costero."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Estoy cansada de la gente que convierte todo en una competencia."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Acá no hay puntos ni podio."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Nunca te había preguntado cómo llegaste a este grupo de locos."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Por un amigo en común y una invitación que casi rechacé."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Javi mira el mensaje de aquella invitación en su teléfono."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Menos mal entré; hasta el PowerPoint de Jairo tiene su encanto."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Llegan a un cruce de caminos. Javi elige el más largo, sin explicar por qué."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Preguntar qué espera de un vínculo nuevo.",
+        "efectos": {
+          "javi": 10,
+          "honestidad": 3
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Quiero ir paso a paso. Me importa saber qué esperai tú."
+          },
+          {
+            "personaje": "Javi",
+            "texto": "Entonces partamos bien, sin actuaciones."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Javi no hace promesas prematuras. Se quedan juntos un rato más, por simple gusto de conversar."
+          }
+        ]
+      },
+      {
+        "texto": "Presumir de todas sus conquistas.",
+        "efectos": {
+          "honestidad": -4,
+          "sospecha": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Javi",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Javi paga su café por separado; no le interesa ser parte de una versión maquillada del pasado."
+          }
+        ]
+      }
+    ],
+    "fondo": "costanera_atardecer.png"
+  },
+  {
+    "id": "seba_javi_3",
+    "titulo": "Episodio 3 · Lo que escuchó del grupo",
+    "lugar": "Javi · Viña del Mar",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Javi oyó una versión exagerada del carrete de Rodrigo."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "No quiero juzgarte por un rumor, pero prefiero que me lo cuentes tú."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Es justo."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Te voy a contar algo importante, pero no necesito que me resolvai la vida."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Aprendí a escuchar sin preparar un discurso."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Javi comprueba que Seba no mira el celular mientras habla."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Bien. Eso ya es más de lo que esperaba hoy."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Javi deja su vaso lentamente: no busca un chisme, sino saber con quién está hablando."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Contar lo que pasó, incluso si no lo deja bien parado.",
+        "efectos": {
+          "javi": 10,
+          "honestidad": 3
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Tomé decisiones que lastimaron a gente. Estoy tratando de actuar distinto."
+          },
+          {
+            "personaje": "Javi",
+            "texto": "Gracias por no tratarme como si no pudiera entender una verdad incómoda."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Javi no hace promesas prematuras. Se quedan juntos un rato más, por simple gusto de conversar."
+          }
+        ]
+      },
+      {
+        "texto": "Inventar que Rodrigo se imaginó todo.",
+        "efectos": {
+          "honestidad": -4,
+          "sospecha": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Javi",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Javi paga su café por separado; no le interesa ser parte de una versión maquillada del pasado."
+          }
+        ]
+      }
+    ],
+    "fondo": "costanera_atardecer.png"
+  },
+  {
+    "id": "seba_javi_4",
+    "titulo": "Episodio 4 · La conversación con su música",
+    "lugar": "Javi · Viña del Mar",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Javi comparte una canción que la ayudó durante un mal momento."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Me recuerda que una puede empezar de nuevo sin borrar lo que vivió."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Entiendo esa sensación más de lo que pensaba."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Hay cosas de mi pasado que no quiero repetir contigo."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "No voy a pedirte que seas perfecto. Sí que seas claro."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La conversación deja de ser un intercambio de bromas."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Prefiero saber que algo te cuesta a descubrir que lo escondiste."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Los audífonos pasan de una mano a otra. Los primeros segundos de la canción hacen sonreír a Seba."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Compartir una experiencia real sin competir en sufrimientos.",
+        "efectos": {
+          "javi": 10,
+          "honestidad": 3
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Gracias por mostrármela. Si querís, te cuento qué escucho cuando ando bajoneado."
+          },
+          {
+            "personaje": "Javi",
+            "texto": "Dale. Pero sin burlarte de mi playlist."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Javi no hace promesas prematuras. Se quedan juntos un rato más, por simple gusto de conversar."
+          }
+        ]
+      },
+      {
+        "texto": "Cambiar de tema cuando se pone personal.",
+        "efectos": {
+          "honestidad": -4,
+          "sospecha": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Javi",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Javi paga su café por separado; no le interesa ser parte de una versión maquillada del pasado."
+          }
+        ]
+      }
+    ],
+    "fondo": "costanera_atardecer.png"
+  },
+  {
+    "id": "seba_javi_5",
+    "titulo": "Episodio 5 · Una tarde imperfecta",
+    "lugar": "Javi · Viña del Mar",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Llueve justo cuando Seba y Javi quieren recorrer la plaza y tienen que refugiarse en una librería."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Nuestros planes tienen mala conexión con el clima."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Pero podemos improvisar."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Me gusta que podai reírte de ti mismo sin humillar a nadie."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Estoy practicando. No siempre me sale."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Javi señala una pareja de perros que juegan junto a la plaza."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Mira, esos dos discuten menos que tu servidor de Discord."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La lluvia golpea la vitrina. Javi abre un libro en una página al azar."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Disfrutar el cambio de planes.",
+        "efectos": {
+          "javi": 10,
+          "honestidad": 3
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Elegí una historia corta y la leemos mientras pasa la lluvia."
+          },
+          {
+            "personaje": "Javi",
+            "texto": "Eso suena peligrosamente tierno."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Javi no hace promesas prematuras. Se quedan juntos un rato más, por simple gusto de conversar."
+          }
+        ]
+      },
+      {
+        "texto": "Pasar toda la tarde quejándose.",
+        "efectos": {
+          "honestidad": -4,
+          "sospecha": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Javi",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Javi paga su café por separado; no le interesa ser parte de una versión maquillada del pasado."
+          }
+        ]
+      }
+    ],
+    "fondo": "costanera_atardecer.png"
+  },
+  {
+    "id": "seba_javi_6",
+    "titulo": "Episodio 6 · Los límites de Javi",
+    "lugar": "Javi · Viña del Mar",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Javi deja claro que no quiere una relación en la que deba investigar si es la única."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Si algo cambia entre nosotros, prefiero enterarme por ti."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Es un límite razonable."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Si algún día te incomoda algo, me lo decís y lo conversamos."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Trato hecho. Pero vos también podís decir que no."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Sellan el trato chocando las manos, no con un beso."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Las relaciones no tienen que avanzar a punta de presión."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Javi hace una pausa antes de responder, cuidando de no decir algo que no siente."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Comprometerse a hablar antes de crear secretos.",
+        "efectos": {
+          "javi": 10,
+          "honestidad": 3
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "No quiero volver a esconder cosas por miedo. Si cambia algo, lo hablamos."
+          },
+          {
+            "personaje": "Javi",
+            "texto": "Entonces tengo ganas de seguir conociéndote."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Javi no hace promesas prematuras. Se quedan juntos un rato más, por simple gusto de conversar."
+          }
+        ]
+      },
+      {
+        "texto": "Prometer de forma vaga y evadir la pregunta.",
+        "efectos": {
+          "honestidad": -4,
+          "sospecha": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Javi",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Javi paga su café por separado; no le interesa ser parte de una versión maquillada del pasado."
+          }
+        ]
+      }
+    ],
+    "fondo": "costanera_atardecer.png"
+  },
+  {
+    "id": "seba_javi_7",
+    "titulo": "Episodio 7 · La invitación",
+    "lugar": "Javi · Viña del Mar",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Javi propone una salida de fin de semana sin ponerle etiqueta inmediata."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "¿Te parece que salgamos, pero sin actuar como si ya supiéramos el final?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Suena mejor que cualquier discurso romántico mío."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "No sé qué va a pasar, y eso no me da miedo."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "A mí me daba terror que alguien no me eligiera altiro."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Ambos caminan hasta la parada sin tocar el tema del futuro otra vez."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Vamos viendo. Me gusta cómo estamos conversando."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La luz de la tarde cae sobre la mesa. Ninguno tiene prisa por definirlo todo."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Aceptar con entusiasmo tranquilo.",
+        "efectos": {
+          "javi": 10,
+          "honestidad": 3
+        },
+        "eventos": [
+          "seba_javi_vinculo"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Sí, salgamos. Estoy disfrutando conocerte sin tanta película."
+          },
+          {
+            "personaje": "Javi",
+            "texto": "Yo también, Seba. Vamos viendo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Javi no hace promesas prematuras. Se quedan juntos un rato más, por simple gusto de conversar."
+          }
+        ]
+      },
+      {
+        "texto": "Presionarla a definir la relación hoy.",
+        "efectos": {
+          "honestidad": -4,
+          "sospecha": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Javi",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Javi paga su café por separado; no le interesa ser parte de una versión maquillada del pasado."
+          }
+        ]
+      }
+    ],
+    "fondo": "costanera_atardecer.png"
+  },
+  {
+    "id": "seba_javi_postrosa",
+    "titulo": "Día 27 · Javi conoce el nuevo Seba",
+    "lugar": "Café · Tarde",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Seba aparece en el café con el look que diseñó para el cosplay. Javi lo ve desde una mesa de la ventana."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Oye, te queda bacán. ¿Es un look nuevo o estabai esperando el momento para estrenarlo?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Un poco de las dos cosas. Me daba nervio mostrarlo."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Conmigo no tenís que inventarte una excusa. Se nota que te sentís cómodo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Javi le toma una foto solamente después de preguntarle si quiere."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Invitar a Javi a seguir conociéndose románticamente.",
+        "efectos": {
+          "javi": 12,
+          "honestidad": 6
+        },
+        "eventos": [
+          "seba_javi_pareja"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me gustai, Javi. ¿Te gustaría que salgamos otro día, como una cita?"
+          },
+          {
+            "personaje": "Javi",
+            "texto": "Me encantaría. Pero tú eliges el próximo café."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Seba sonríe. Su ropa no decide por él quién le gusta; solo se siente más libre para expresarlo."
+          }
+        ]
+      },
+      {
+        "texto": "Disfrutar la amistad, sin iniciar una relación.",
+        "efectos": {
+          "javi": 5,
+          "amistad": 6
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Gracias por tomarlo con naturalidad. Me importa tu amistad."
+          },
+          {
+            "personaje": "Javi",
+            "texto": "Obvio. Cuando querai salir a mirar ropa, avísame."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La tarde termina entre risas, sin promesas de romance."
+          }
+        ]
+      }
+    ],
+    "fondo": "cafe_vina.png"
+  }
+]

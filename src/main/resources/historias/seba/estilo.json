@@ -1,0 +1,518 @@
+[
+  {
+    "id": "seba_estilo_1",
+    "titulo": "Episodio 1 · Un filtro que queda bien",
+    "lugar": "Casa · Exploración personal",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Jairo le manda a Seba un filtro de maquillaje de broma. Seba se sorprende porque le gusta el resultado."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Ya, fuera de webeo, el delineado se ve filete."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Mis experimentos estéticos están funcionando."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Tengo curiosidad, pero me da plancha que me miren raro."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "No tenís que salir a mostrar nada por obligación."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La prenda queda sobre la cama mientras Seba decide si quiere probársela."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Quiero ver si me gusta a mí, antes de mostrársela a todos."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Seba toma otra foto del filtro, esta vez sin poner una cara ridícula para justificarla."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Probar el estilo por curiosidad y sin esconderse de sí mismo.",
+        "efectos": {
+          "estilo": 12,
+          "autoestima": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Capaz me tinca el estilo. No significa que tenga que explicárselo a todos."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "No hay nada malo en probar, hermano."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Seba sale de la escena sintiendo que se conoce un poco mejor. Nadie eligió por él."
+          }
+        ]
+      },
+      {
+        "texto": "Eliminar la foto por vergüenza.",
+        "efectos": {
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Seba se va con la curiosidad intacta, aunque por ahora no se atreva a seguir explorándola."
+          }
+        ]
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "seba_estilo_2",
+    "titulo": "Episodio 2 · La invitación a cosplay",
+    "lugar": "Casa · Exploración personal",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Kevin y Jairo invitan a Seba a un concurso de cosplay para adultos; pueden elegir cualquier personaje o look original."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Ni se te ocurra echarte para atrás porque los cabros te molesten."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Depende de qué tan bueno quede el atuendo."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Hice un tablero con combinaciones de colores. Todas malas, probablemente."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Una de cada siete está decente."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Seba mueve las piezas hasta encontrar una mezcla que le resulta cómoda."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Me alegra haber contribuido estadísticamente."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La lista de cosplays aparece en pantalla. Seba desplaza el cursor hasta el diseño que realmente le gusta."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Aceptar y buscar un outfit de estética andrógina.",
+        "efectos": {
+          "estilo": 12,
+          "autoestima": 5
+        },
+        "eventos": [
+          "seba_cosplay"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Ya, voy. Pero quiero elegir yo qué me pongo."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Aprobado. Tenemos un diseñador en potencia."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Seba sale de la escena sintiendo que se conoce un poco mejor. Nadie eligió por él."
+          }
+        ]
+      },
+      {
+        "texto": "Rechazar el desafío sin probarlo.",
+        "efectos": {
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Seba se va con la curiosidad intacta, aunque por ahora no se atreva a seguir explorándola."
+          }
+        ]
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "seba_estilo_3",
+    "titulo": "Episodio 3 · Una vitrina rosada",
+    "lugar": "Casa · Exploración personal",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Seba pasa por una tienda y encuentra una falda plisada y una chaqueta que le encantan."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Si alguien me ve acá me va a agarrar pal hueveo."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "La dependienta sigue ordenando ropa sin prestarle atención."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No quiero que mi apariencia sea otra cosa que decidan mis amigos."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Si te veís feliz, no tenemos nada que votar."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Seba se mira al espejo sin reírse para disimular."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Esto puede ser parte de mí sin cambiar quién soy."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "En el probador hay una luz suave. Seba se mira de costado y se acomoda la falda con cuidado."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Probarse la ropa y ver cómo se siente.",
+        "efectos": {
+          "estilo": 12,
+          "autoestima": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me queda mejor de lo que esperaba... ¿qué tanto?"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "A veces el espejo tiene respuestas más simples que la gente."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Seba sale de la escena sintiendo que se conoce un poco mejor. Nadie eligió por él."
+          }
+        ]
+      },
+      {
+        "texto": "Salir corriendo sin mirar atrás.",
+        "efectos": {
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Seba se va con la curiosidad intacta, aunque por ahora no se atreva a seguir explorándola."
+          }
+        ]
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "seba_estilo_4",
+    "titulo": "Episodio 4 · La foto que no envió",
+    "lugar": "Casa · Exploración personal",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Seba prepara una selfie con el nuevo estilo para sus amigos, pero duda antes de enviarla."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "¿Y si se ríen? ¿Y si no entienden?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "La foto está lista. El botón de enviar sigue sin tocarse."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Yo vine a ayudar y ahora tengo brillantina hasta en el teléfono."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Ese era el precio de meterte en la sesión de fotos."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Kevin ajusta la luz para que Seba vea el conjunto completo."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "¿Te gusta? Esa es la pregunta importante."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "El icono de enviar sigue sin pulsarse. Al otro lado Kevin está escribiendo sobre cualquier otra cosa."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Compartirlo con un amigo de confianza.",
+        "efectos": {
+          "estilo": 12,
+          "autoestima": 5
+        },
+        "eventos": [
+          "seba_estilo_publico"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Kevin, te voy a mostrar algo, pero no lo convirtai en un meme sin preguntarme."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Oe, te queda bacán. Y no voy a subir nada que tú no querai."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Seba sale de la escena sintiendo que se conoce un poco mejor. Nadie eligió por él."
+          }
+        ]
+      },
+      {
+        "texto": "Guardar la foto porque todavía no está listo.",
+        "efectos": {
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Seba se va con la curiosidad intacta, aunque por ahora no se atreva a seguir explorándola."
+          }
+        ]
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "seba_estilo_5",
+    "titulo": "Episodio 5 · El día del cosplay",
+    "lugar": "Casa · Exploración personal",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "En el evento, Seba viste un conjunto rosa y negro diseñado por él. No es una apuesta: es una elección."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Debo admitir que el diseño superó todas mis estadísticas."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Me siento... raro, pero bien. Como si no estuviera fingiendo."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No sabía que elegir ropa podía dar tanta vergüenza y tanta alegría al mismo tiempo."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Eres un experimento social de moda exitoso."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Seba cierra la cortina y respira antes de salir."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No soy un experimento. Solo estoy probando algo mío."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Jairo deja de bromear cuando ve que Seba está genuinamente emocionado por salir al escenario."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Subir al escenario por gusto propio.",
+        "efectos": {
+          "estilo": 12,
+          "autoestima": 5
+        },
+        "eventos": [
+          "seba_cosplay"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Si me van a mirar, que sea porque yo quise mostrar mi trabajo."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Eso, hermano. Sal y pásalo bien."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Seba sale de la escena sintiendo que se conoce un poco mejor. Nadie eligió por él."
+          }
+        ]
+      },
+      {
+        "texto": "Quedarse entre el público sin participar.",
+        "efectos": {
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Seba se va con la curiosidad intacta, aunque por ahora no se atreva a seguir explorándola."
+          }
+        ]
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  },
+  {
+    "id": "seba_estilo_6",
+    "titulo": "Episodio 6 · Espejo sin excusas",
+    "lugar": "Casa · Exploración personal",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Seba vuelve a probarse la ropa en su casa, esta vez sin cámaras ni público."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "El espejo no tiene chat, jurados ni comentarios. Solo devuelve la imagen que Seba eligió construir."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No pensé que esto me iba a hacer sentir más cómodo conmigo."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "No hace falta convertir esto en una gran revelación si no querís."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Lo sé. Pero sí quiero que sepan que me siento bien así."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "El grupo se acomoda para la foto, dejando a Seba decidir dónde ponerse."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Ya cabros, sonrían. Hoy salimos todos bacanes."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Seba guarda el conjunto con cuidado. Ya no parece una broma prestada: es algo que quiere conservar."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Reconocer que el estilo le gusta, sin etiquetas impuestas.",
+        "efectos": {
+          "estilo": 12,
+          "autoestima": 5
+        },
+        "eventos": [
+          "seba_estilo_publico"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me gusta ser yo con este look. No tengo que explicarlo como castigo o apuesta."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Entonces es tuyo, hermano. Así de simple."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Seba sale de la escena sintiendo que se conoce un poco mejor. Nadie eligió por él."
+          }
+        ]
+      },
+      {
+        "texto": "Tratar el cambio como una broma obligatoria.",
+        "efectos": {
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Seba se va con la curiosidad intacta, aunque por ahora no se atreva a seguir explorándola."
+          }
+        ]
+      }
+    ],
+    "fondo": "habitacion_caceres_dia.png"
+  }
+]

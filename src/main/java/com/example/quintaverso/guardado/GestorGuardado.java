@@ -93,12 +93,27 @@ public final class GestorGuardado {
     }
     private EstadoPartida leer(Path origen, String temporada) throws IOException {
         EstadoPartida estado = mapper.readValue(origen.toFile(), EstadoPartida.class);
-        if (estado.getVersionGuardado() != 2 &&
+        if (estado.getVersionGuardado() != 2 && estado.getVersionGuardado() != 3 &&
                 estado.getVersionGuardado() != EstadoPartida.VERSION_GUARDADO) {
             throw new IOException("Formato de guardado no compatible: v" + estado.getVersionGuardado());
         }
         if (!temporada.equals(estado.getTemporada())) {
             throw new IOException("El guardado corresponde a otra temporada");
+        }
+        // Migración de la continuidad de Amira desde v0.8: sólo cuando está
+        // inequívocamente registrado que hubo infidelidad, mentira y NO confesión.
+        // Una partida terminada se mantiene intacta para no alterar su final visto.
+        if (estado.getVersionGuardado() < 4 && "seba".equals(temporada)
+                && estado.getFinalObtenido() == null && estado.ocurrioEvento("seba_infidelidad")
+                && estado.ocurrioEvento("seba_mentira") && !estado.ocurrioEvento("seba_confesion")) {
+            estado.registrarEvento("seba_amira_delato_grupo");
+            estado.registrarEvento("seba_amira_distanciada");
+            estado.registrarEvento("seba_kelly_termino");
+            estado.desactivarEvento("seba_pareja_kelly");
+            estado.desactivarEvento("seba_amira_pareja");
+            estado.desactivarEvento("seba_amira_vinculo");
+            estado.desactivarEvento("seba_amira_confesion_valida");
+            estado.agregarHistorial("v0.9 · Ruta de infidelidad oculta corregida: Amira dejó de participar en la mentira.");
         }
         estado.setVersionGuardado(EstadoPartida.VERSION_GUARDADO);
         return estado;

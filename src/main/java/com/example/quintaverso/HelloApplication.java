@@ -43,7 +43,7 @@ public class HelloApplication extends Application {
                 "PRÓXIMAMENTE", "Historia aún en desarrollo", "Ver temporada",
                 () -> solicitarClave("jairo"));
         VBox tarjetaSeba = tarjetaTemporada("03", "SEBA",
-                "PRÓXIMAMENTE", "Historia aún en desarrollo", "Ver temporada",
+                "EL CAGAZO LEGENDARIO", "30 días · 24 noches Discord · 13 finales", "Jugar / Continuar",
                 () -> solicitarClave("seba"));
 
         HBox tarjetas = new HBox(15, tarjetaCaceres, tarjetaJairo, tarjetaSeba);
@@ -52,7 +52,7 @@ public class HelloApplication extends Application {
             HBox.setHgrow(tarjeta, Priority.ALWAYS);
             tarjeta.setMaxWidth(Double.MAX_VALUE);
         }
-        Label pie = new Label("v0.6.1 · F11: pantalla completa · Ficción inspirada en la Quinta Región");
+        Label pie = new Label("v0.9 · F11: pantalla completa · Ficción inspirada en la Quinta Región");
         pie.getStyleClass().add("texto-suave");
 
         VBox contenido = new VBox(22, marca, bajada, intro, tarjetas, pie);
@@ -103,13 +103,13 @@ public class HelloApplication extends Application {
                 alerta(Alert.AlertType.ERROR, "Acceso denegado", "Clave incorrecta, compadre.");
                 return;
             }
-            if (!temporada.equals("caceres")) {
-                alerta(Alert.AlertType.INFORMATION, "Coming soon",
-                        "Acceso correcto. Esta temporada todavía está en desarrollo.");
+            if (temporada.equals("jairo")) {
+                alerta(Alert.AlertType.INFORMATION, "Próximamente",
+                        "La temporada de Jairo todavía está en desarrollo.");
                 return;
             }
             try {
-                new MotorCalendario(ventana, this::mostrarMenu).iniciar();
+                new MotorCalendario(ventana, this::mostrarMenu, temporada).iniciar();
             } catch (RuntimeException ex) {
                 alerta(Alert.AlertType.ERROR, "Error al iniciar QUINTAVERSO", ex.getMessage());
             }

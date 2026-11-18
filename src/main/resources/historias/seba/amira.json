@@ -1,0 +1,798 @@
+[
+  {
+    "id": "seba_amira_1",
+    "titulo": "Episodio 1 · La banca de siempre",
+    "lugar": "Amira · Ciudad",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Amira se sienta en la banca donde siempre arreglaban las peleas del grupo."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Acá veníamos cuando el Kevin discutía por cualquier tontera."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "También cuando yo no sabía qué responderle a nadie."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Te acordai cuando teníamos que buscar a Jairo porque se perdía en el centro?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Dos veces el mismo día. Un récord nacional."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Las risas aflojan la conversación, pero dejan claro cuánto se conocen."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Por eso no quiero que terminemos mirándonos como desconocidos."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Amira mueve las piernas sobre el banco y se queda mirando el lugar donde antes se juntaba el grupo."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Recordar la amistad antes de hablar de romance.",
+        "efectos": {
+          "amira": 8,
+          "honestidad": 3
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "No quiero perder lo que somos por apurar una respuesta."
+          },
+          {
+            "personaje": "Amira",
+            "texto": "Me importa que podamos seguir siendo nosotros."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Amira vuelve a sonreír; la amistad conserva su espacio y la conversación abre posibilidades nuevas."
+          }
+        ]
+      },
+      {
+        "texto": "Insinuar que ser amigos nunca fue suficiente.",
+        "efectos": {
+          "honestidad": -4,
+          "sospecha": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Amira",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Amira cambia de conversación. El chiste no logra tapar lo incómoda que quedó."
+          }
+        ]
+      }
+    ],
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "seba_amira_2",
+    "titulo": "Episodio 2 · La foto vieja",
+    "lugar": "Amira · Ciudad",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Amira encuentra una foto de los dos con una expresión horrible después de una fiesta antigua."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Mira esta foto, parecís el villano de una teleserie de la tarde."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No me expongai, por favor."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Esa foto la sacaste cuando yo todavía usaba un peinado horrible."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "No te hagai: tus decisiones de pelo no mejoraron tanto."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Amira abre la foto completa: Kelly también aparece al fondo."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Ojo, nadie sobra en este recuerdo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Ambos se ríen de la foto hasta que Amira la bloquea para que Seba deje de amenazar con borrarla."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Reírse juntos y preguntarle cómo está de verdad.",
+        "efectos": {
+          "amira": 8,
+          "honestidad": 3
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Ya, ganaste. Pero dime cómo has estado de verdad."
+          },
+          {
+            "personaje": "Amira",
+            "texto": "Gracias por preguntar, wn. A veces necesitaba eso."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Amira vuelve a sonreír; la amistad conserva su espacio y la conversación abre posibilidades nuevas."
+          }
+        ]
+      },
+      {
+        "texto": "Usar el chiste para coquetear sin escucharla.",
+        "efectos": {
+          "honestidad": -4,
+          "sospecha": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Amira",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Amira cambia de conversación. El chiste no logra tapar lo incómoda que quedó."
+          }
+        ]
+      }
+    ],
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "seba_amira_3",
+    "titulo": "Episodio 3 · La conversación incómoda",
+    "lugar": "Amira · Ciudad",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Amira admite que la gente del grupo malinterpreta su cercanía."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "No quiero tener que justificar cada abrazo. Pero tampoco quiero pasar a llevar a Kelly."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Tenemos que decidir nuestros límites."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "La gente inventa cosas porque nos ve conversando a solas."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Entonces voy a dejar de alimentar rumores como si fueran chiste."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Amira asiente, aunque sigue con los brazos cruzados."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Ser mi amigo no tiene que poner en juego tu relación."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Amira cruza los brazos y levanta la mirada. No parece enojada: parece cansada de los rumores."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Acordar límites claros como mejores amigos.",
+        "efectos": {
+          "amira": 8,
+          "honestidad": 3
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Podemos ser cercanos sin jugar con rumores ni hacerle daño a nadie."
+          },
+          {
+            "personaje": "Amira",
+            "texto": "Sí. La amistad no debería ser una excusa para mentir."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Amira vuelve a sonreír; la amistad conserva su espacio y la conversación abre posibilidades nuevas."
+          }
+        ]
+      },
+      {
+        "texto": "Disfrutar el rumor sin detenerlo.",
+        "efectos": {
+          "honestidad": -4,
+          "sospecha": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Amira",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Amira cambia de conversación. El chiste no logra tapar lo incómoda que quedó."
+          }
+        ]
+      }
+    ],
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "seba_amira_4",
+    "titulo": "Episodio 4 · Café con segundas lecturas",
+    "lugar": "Amira · Ciudad",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Amira lo invita a tomar café después de una semana pesada."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "¿Cachai que contigo puedo hablar sin estar cuidando cómo me veo?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Y yo contigo. Aunque mis chistes son pésimos."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Si te incomodo con algo, decímelo altiro."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Lo hago. El problema es que a veces te reís para no escucharme."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "El café se enfría mientras cambian el tono de la charla."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Ya, esta vez no me escapo con una talla."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Un mozo deja las tazas. Amira aprovecha la interrupción para organizar lo que quiere decir."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Escucharla y agradecer la confianza.",
+        "efectos": {
+          "amira": 8,
+          "honestidad": 3
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Contigo no tengo que aparentar nada. Eso es bien valioso."
+          },
+          {
+            "personaje": "Amira",
+            "texto": "Entonces no lo arruinemos por hacernos los interesantes."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Amira vuelve a sonreír; la amistad conserva su espacio y la conversación abre posibilidades nuevas."
+          }
+        ]
+      },
+      {
+        "texto": "Insinuar que deberían ocultar las reuniones.",
+        "efectos": {
+          "honestidad": -4,
+          "sospecha": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Amira",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Amira cambia de conversación. El chiste no logra tapar lo incómoda que quedó."
+          }
+        ]
+      }
+    ],
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "seba_amira_5",
+    "titulo": "Episodio 5 · La discusión con Rodrigo",
+    "lugar": "Amira · Ciudad",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Rodrigo se cruza con Amira en un pasillo y le pide perdón por haber asumido cosas."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "No me gustó que me trataran como si yo no tuviera voz."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Tenís razón. Era mi responsabilidad hablar."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Rodrigo dijo que exageraba. Yo le dije que no tenía idea de lo que sentí."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No tengo por qué salir a pegar combos para defenderte."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Amira agradece que no la convierta en una excusa para otra pelea."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Exacto. Solo quiero que me crean cuando digo algo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Rodrigo se aleja por el pasillo y deja a Amira con algo que todavía necesita escuchar."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Apoyar a Amira sin pelear con Rodrigo.",
+        "efectos": {
+          "amira": 8,
+          "honestidad": 3
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Perdón. No debiste quedar expuesta por una decisión mía."
+          },
+          {
+            "personaje": "Amira",
+            "texto": "Te agradezco que puedas verlo así."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Amira vuelve a sonreír; la amistad conserva su espacio y la conversación abre posibilidades nuevas."
+          }
+        ]
+      },
+      {
+        "texto": "Reavivar el conflicto para quedar como héroe.",
+        "efectos": {
+          "honestidad": -4,
+          "sospecha": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Amira",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Amira cambia de conversación. El chiste no logra tapar lo incómoda que quedó."
+          }
+        ]
+      }
+    ],
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "seba_amira_6",
+    "titulo": "Episodio 6 · Las palabras que faltan",
+    "lugar": "Amira · Ciudad",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Amira admite que hay días en que ya no sabe si ve a Seba solo como amigo."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Hay días en que me confundo con lo que somos. Pero si seguís con Kelly, quiero una amistad sin secretos."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Lo de Kelly sigue pendiente aunque ahora estemos conversando. No quiero usar el cariño para tapar otra cosa.",
+        "condiciones": [
+          {
+            "evento": "seba_infidelidad",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Como amigos hemos sido cercanos mucho antes de la fiesta. Eso no nos obliga a convertirlo en romance.",
+        "condiciones": [
+          {
+            "evento": "seba_infidelidad",
+            "eventoActivo": false
+          }
+        ]
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Necesito pensar qué siento y qué situación tengo."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No quiero confundirte con promesas a medias."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Entonces empezá por ser claro con lo que tenís ahora."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Amira aparta la vista. No es un ultimátum romántico."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "No me usís para ensayar una vida paralela."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Amira se quita un mechón de la cara. Por primera vez no hace ninguna broma para disimular."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Reconocer los sentimientos sin prometer exclusividad.",
+        "efectos": {
+          "amira": 10,
+          "honestidad": 3
+        },
+        "eventos": [
+          "seba_amira_vinculo"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "No sé qué va a pasar, pero no quiero ilusionarte con algo que no pueda ofrecer."
+          },
+          {
+            "personaje": "Amira",
+            "texto": "Eso vale más que cualquier frase linda inventada."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Amira vuelve a sonreír; la amistad conserva su espacio y la conversación abre posibilidades nuevas."
+          }
+        ]
+      },
+      {
+        "texto": "Responder con insinuaciones para mantenerla pendiente.",
+        "efectos": {
+          "honestidad": -4,
+          "sospecha": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Amira",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Amira cambia de conversación. El chiste no logra tapar lo incómoda que quedó."
+          }
+        ]
+      }
+    ],
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "seba_amira_7",
+    "titulo": "Episodio 7 · No soy una salida de emergencia",
+    "lugar": "Amira · Ciudad",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Amira le pregunta si está buscándola solo por la ruptura con Kelly."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "No quiero ser el premio de consolación de nadie."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Tampoco quiero tratarte así."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Los días después de la ruptura no son una carrera para ganar a alguien."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No quiero transformarte en una recompensa por haber quedado solo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "El ruido de una micro interrumpe antes de que puedan seguir."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Si volvemos a hablar, que sea porque de verdad lo elegimos."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Se sientan en una escalera. Amira deja su bebida a un lado para que no le tiemblen las manos."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Hablar de la ruptura y de la amistad con honestidad.",
+        "efectos": {
+          "amira": 10,
+          "honestidad": 3
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Si algún día intentamos algo, tiene que ser porque los dos queremos."
+          },
+          {
+            "personaje": "Amira",
+            "texto": "Me gusta escucharlo así. De verdad."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Amira vuelve a sonreír; la amistad conserva su espacio y la conversación abre posibilidades nuevas."
+          }
+        ]
+      },
+      {
+        "texto": "Decirle que debería sentirse afortunada.",
+        "efectos": {
+          "honestidad": -4,
+          "sospecha": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Amira",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Amira cambia de conversación. El chiste no logra tapar lo incómoda que quedó."
+          }
+        ]
+      }
+    ],
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "seba_amira_8",
+    "titulo": "Episodio 8 · La caminata silenciosa",
+    "lugar": "Amira · Ciudad",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Amira y Seba recorren el muelle sin música ni teléfono."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "A veces es raro quedarse callados contigo."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Lo sé. Normalmente lleno todo de tallas."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No necesitamos llenar todos los silencios."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Me gusta que por fin no estés inventando un chiste cada cinco segundos."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Las olas golpean el muro con un ritmo lento."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Podemos salir del tema sin que eso signifique que huimos."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "El viento del muelle obliga a Seba a sostener su gorro. Amira mira el agua en vez de su rostro."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Compartir el momento sin forzarlo.",
+        "efectos": {
+          "amira": 10,
+          "honestidad": 3
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Podemos simplemente caminar. No tengo que arreglar el silencio."
+          },
+          {
+            "personaje": "Amira",
+            "texto": "Mira qué maduro te pusiste de repente."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Amira vuelve a sonreír; la amistad conserva su espacio y la conversación abre posibilidades nuevas."
+          }
+        ]
+      },
+      {
+        "texto": "Presionarla para que confiese algo.",
+        "efectos": {
+          "honestidad": -4,
+          "sospecha": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Amira",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Amira cambia de conversación. El chiste no logra tapar lo incómoda que quedó."
+          }
+        ]
+      }
+    ],
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "seba_amira_9",
+    "titulo": "Episodio 9 · La pregunta final",
+    "lugar": "Amira · Ciudad",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Amira le pregunta qué espera de una posible relación."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Primero cerraste lo que tenías pendiente. Recién ahora puedo preguntarte si existe un nosotros."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Si vamos a intentarlo, necesito saber que esto no nace de la culpa."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Y yo necesito estar seguro de que puedo ser buen compañero."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "No voy a construir nada que necesite secretos."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Tampoco te lo voy a pedir nunca más."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Amira guarda el teléfono. Su respuesta dependerá de lo que Seba haga, no de lo bonito que suene."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Dime algo verdadero aunque no sea lo que quiero escuchar."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Amira se acomoda la mochila en un hombro. Podría irse, pero espera la respuesta."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Decirle qué quiere sin prometer algo que aún no existe.",
+        "efectos": {
+          "amira": 10,
+          "honestidad": 3
+        },
+        "eventos": [
+          "seba_amira_vinculo",
+          "seba_amira_confesion_valida"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Quiero conocerte también de esta forma, pero sin sacrificar lo que sentimos por una etiqueta."
+          },
+          {
+            "personaje": "Amira",
+            "texto": "Eso sí me da ganas de intentarlo con calma."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Amira vuelve a sonreír; la amistad conserva su espacio y la conversación abre posibilidades nuevas."
+          }
+        ]
+      },
+      {
+        "texto": "Hacer una promesa grandiosa para evitar incomodidad.",
+        "efectos": {
+          "honestidad": -4,
+          "sospecha": 5
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Amira",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Amira cambia de conversación. El chiste no logra tapar lo incómoda que quedó."
+          }
+        ]
+      }
+    ],
+    "fondo": "plaza_villa_alemana.png"
+  }
+]

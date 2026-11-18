@@ -45,6 +45,9 @@ public final class MotorNarrativo {
     // Capa visual independiente de los estilos CSS del contenedor.
     private final ImageView fondoVisual = new ImageView();
     private final ImageView retrato = new ImageView();
+    // En la temporada Seba, el protagonista también reacciona a quien habla.
+    private final ImageView retratoProtagonista = new ImageView();
+    private final StackPane marcoProtagonista = new StackPane(retratoProtagonista);
     private final StackPane marcoRetrato = new StackPane(retrato);
     private final ScrollPane scrollDialogo = new ScrollPane();
 
@@ -117,6 +120,16 @@ public final class MotorNarrativo {
         cabecera.setMaxWidth(1050);
         cabecera.setMinWidth(0);
 
+        retratoProtagonista.setPreserveRatio(true);
+        retratoProtagonista.setSmooth(true);
+        retratoProtagonista.fitHeightProperty().bind(lienzo.heightProperty().multiply(.62));
+        retratoProtagonista.fitWidthProperty().bind(lienzo.widthProperty().multiply(.36));
+        marcoProtagonista.setMouseTransparent(true);
+        marcoProtagonista.setMinSize(0, 0);
+        marcoProtagonista.maxWidthProperty().bind(lienzo.widthProperty().multiply(.4));
+        marcoProtagonista.maxHeightProperty().bind(lienzo.heightProperty().multiply(.7));
+        StackPane.setAlignment(marcoProtagonista, Pos.CENTER_LEFT);
+        StackPane.setMargin(marcoProtagonista, new Insets(65, 0, 105, 12));
         retrato.setPreserveRatio(true);
         retrato.setSmooth(true);
         retrato.fitHeightProperty().bind(lienzo.heightProperty().multiply(.69));
@@ -143,7 +156,7 @@ public final class MotorNarrativo {
         fondoVisual.fitHeightProperty().bind(lienzo.heightProperty());
         lienzo.widthProperty().addListener((obs, antes, ahora) -> ajustarEncuadreFondo());
         lienzo.heightProperty().addListener((obs, antes, ahora) -> ajustarEncuadreFondo());
-        lienzo.getChildren().addAll(fondoVisual, marcoRetrato, interfaz);
+        lienzo.getChildren().addAll(fondoVisual, marcoProtagonista, marcoRetrato, interfaz);
         lienzo.getStyleClass().add("visor-visual");
 
         // Recorta cualquier retrato, fondo o borde que sobresalga del visor al redimensionar.
@@ -189,6 +202,7 @@ public final class MotorNarrativo {
         fondoVisual.setImage(imagen);
         ajustarEncuadreFondo();
         marcoRetrato.setVisible(cg == null);
+        marcoProtagonista.setVisible(false);
     }
 
     /** Recorta la imagen estilo COVER para llenar el visor sin estirarla. */
@@ -226,7 +240,8 @@ public final class MotorNarrativo {
             scrollDialogo.setVvalue(0);
             return;
         }
-        List<Dialogo> dialogos = escena.getDialogos() == null ? List.of() : escena.getDialogos();
+        List<Dialogo> dialogos = escena.getDialogos() == null ? List.of() :
+                escena.getDialogos().stream().filter(d -> d.disponible(estado)).toList();
         if (dialogos.isEmpty()) {
             mostrarLinea(new Dialogo("Narrador", "..."), "Escena sin diálogos");
         } else {
@@ -315,17 +330,28 @@ public final class MotorNarrativo {
         if (RecursosVisuales.cg(escena) != null) {
             retrato.setImage(null);
             marcoRetrato.setVisible(false);
+            marcoProtagonista.setVisible(false);
             return;
         }
         String nombre = linea == null ? "narrador" : RecursosVisuales.personaje(linea.getPersonaje());
         String ruta = linea == null ? null : RecursosVisuales.retrato(linea);
-        if (ruta == null && "narrador".equals(nombre)) {
+        if (ruta == null && "narrador".equals(nombre)
+                && !"seba".equals(estado.getTemporada())) {
             String protagonista = RecursosVisuales.protagonistaEscena(escena);
             ruta = protagonista == null ? null : RecursosVisuales.neutro(protagonista);
         }
         Image imagen = cargar(ruta);
         retrato.setImage(imagen);
         marcoRetrato.setVisible(imagen != null);
+        // Dos retratos, evitando duplicar a Seba cuando él tiene la palabra.
+        boolean sebaPresente = "seba".equals(estado.getTemporada()) && !"seba".equals(nombre);
+        String reaccion = "neutral";
+        if (linea != null && linea.getExpresion() != null) reaccion = linea.getExpresion();
+        else if (estado.ocurrioEvento("seba_amira_delato_grupo")) reaccion = "pensativo";
+        else if (estado.ocurrioEvento("seba_infidelidad")) reaccion = "nervioso";
+        Image prota = sebaPresente ? cargar(RecursosVisuales.spriteSeba(reaccion)) : null;
+        retratoProtagonista.setImage(prota);
+        marcoProtagonista.setVisible(prota != null);
     }
 
     private static Image cargar(String ruta) {

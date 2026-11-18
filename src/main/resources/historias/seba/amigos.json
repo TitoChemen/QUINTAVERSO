@@ -1,0 +1,1078 @@
+[
+  {
+    "id": "seba_amigos_1",
+    "titulo": "Episodio 1 · El tribunal de Discord",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Kevin convoca una reunión urgente porque Jairo diseñó una presentación sobre el amor."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Diapositiva uno: «Cómo evitar dormir al lado de tu mejor amiga»."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "APAGA ESA WEA, JAIRO."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Si alguien cuenta una historia personal, no la usamos después como arma."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "De acuerdo. Incluso cuando suena ridícula."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Borraré las diapositivas cinco a catorce."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "No quiero saber qué había en la catorce."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Kevin comparte su pantalla y cierra de inmediato la presentación de Jairo antes de la siguiente diapositiva."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Aceptar la talla y dar una respuesta honesta.",
+        "efectos": {
+          "amistad": 5,
+          "honestidad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Lo acepto, po. Pero no me reduzcan a una anécdota."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Eso queríamos escuchar, Seba. Bueno... y reírnos un poco."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada vuelve al juego, pero esta vez queda algo útil entre las tallas."
+          }
+        ]
+      },
+      {
+        "texto": "Enojarse y culpar a todos.",
+        "efectos": {
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El canal sigue en línea, pero la discusión no encontró la honestidad que necesitaba."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_amigos_2",
+    "titulo": "Episodio 2 · El consejo que se devuelve",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Cáceres le recuerda a Seba uno de los consejos que le había dado a él."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "¿No eras tú el que me decía que una relación no es un trofeo?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Sí. Y ahora me toca aplicarlo."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Me acuerdo perfecto del consejo que te di, Cáceres."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Lo difícil siempre es cumplir el que uno dio."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Los dos se creen expertos y siguen metiendo la pata."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Yo ni siquiera finjo ser experto. Ventaja táctica."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Cáceres gira su silla y espera a que Seba responda la pregunta que él mismo le había hecho."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Reconocer la contradicción y escuchar a Cáceres.",
+        "efectos": {
+          "amistad": 5,
+          "honestidad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Tenís razón. Me cuesta cumplir mis propias palabras."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Eso nos pasa, pero podemos mejorar."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada vuelve al juego, pero esta vez queda algo útil entre las tallas."
+          }
+        ]
+      },
+      {
+        "texto": "Negar haber dado ese consejo.",
+        "efectos": {
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El canal sigue en línea, pero la discusión no encontró la honestidad que necesitaba."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_amigos_3",
+    "titulo": "Episodio 3 · Rodrigo se defiende",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Rodrigo entra a Discord para explicar por qué habló con Kelly."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "No quería dejarte como villano. No quise participar en una mentira."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Igual lo contaste de la peor forma."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Siento que ahora nadie confía en lo que cuento."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Entonces empecemos por que preguntes antes de compartir."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Y que no grabís a gente dormida, por ejemplo."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Esa parte ya la entendí. Tarde, pero la entendí."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Rodrigo se quita los audífonos por un momento. No quiere que el grupo convierta esto en un juicio."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Separar el error de Rodrigo de su propia responsabilidad.",
+        "efectos": {
+          "amistad": 5,
+          "honestidad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Podrías haberme preguntado primero. Pero tampoco era tu obligación taparme."
+          },
+          {
+            "personaje": "Rodrigo",
+            "texto": "Eso es lo que quería hablar contigo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada vuelve al juego, pero esta vez queda algo útil entre las tallas."
+          }
+        ]
+      },
+      {
+        "texto": "Culpar a Rodrigo de todas sus decisiones.",
+        "efectos": {
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Rodrigo",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El canal sigue en línea, pero la discusión no encontró la honestidad que necesitaba."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_amigos_4",
+    "titulo": "Episodio 4 · La encuesta de Jairo",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Jairo envía un formulario para que el grupo califique sus habilidades de pareja."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "En serio, necesito datos. El amor es una cuestión de variables."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Las únicas variables son cuántas veces te dejan en visto."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Hay algo raro en poder conversar de cosas serias con estos payasos."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Yo soy un payaso acreditado."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "La acreditación es de una universidad ficticia."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Pero al menos sabemos cuándo apagar la talla."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Un mensaje del bot de Discord interrumpe a Jairo. Kevin aprovecha para reírse de la encuesta."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Reírse con los amigos sin humillar a Jairo.",
+        "efectos": {
+          "amistad": 5,
+          "honestidad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "La nota de todos es «necesitamos salir a tocar pasto»."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Ese resultado es estadísticamente ofensivo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada vuelve al juego, pero esta vez queda algo útil entre las tallas."
+          }
+        ]
+      },
+      {
+        "texto": "Exponer los chats privados de Kelly para ganar la discusión.",
+        "efectos": {
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El canal sigue en línea, pero la discusión no encontró la honestidad que necesitaba."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_amigos_5",
+    "titulo": "Episodio 5 · La noche del consejo",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Kevin nota que Seba está más callado y lo invita a conversar después de la llamada."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Fuera de webeo, hermano, ¿cómo estai?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No sé si quiero contar todo en voz alta."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "No voy a arreglarte la vida, pero sí puedo escucharte."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Eso me sirve más que cualquier discurso."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Puedo quedarme en mute si necesitan privacidad."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Sería la primera vez en tu vida, Jairo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Kevin baja el volumen del juego. Los otros se callan al notar que quiere conversar en serio."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Hablar con Kevin de verdad.",
+        "efectos": {
+          "amistad": 5,
+          "honestidad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Estoy confundido. Me hace bien que me preguntís sin burlarte."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Dale. Te escucho."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada vuelve al juego, pero esta vez queda algo útil entre las tallas."
+          }
+        ]
+      },
+      {
+        "texto": "Fingir que todo es un chiste.",
+        "efectos": {
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El canal sigue en línea, pero la discusión no encontró la honestidad que necesitaba."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_amigos_6",
+    "titulo": "Episodio 6 · El paseo de los cuatro",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Los cuatro se juntan a caminar por la costanera y Jairo llega con una ruta impresa."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Planifiqué cada parada. Hay doce minutos de margen para la espontaneidad."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "JAJAJA, el wn programó hasta la espontaneidad."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Yo hablo mucho porque no sé cuándo parar, wn."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Yo webéo mucho por lo mismo."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Pueden aprender sin transformarse en enemigos."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "La diplomacia: apagar el micrófono a tiempo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Jairo despliega un mapa arrugado. Seba lo dobla con cuidado para que ninguno pierda su dignidad."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Disfrutar la salida y escuchar a los cabros.",
+        "efectos": {
+          "amistad": 5,
+          "honestidad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Guarda la hoja, Jairo. Vamos caminando y vemos qué sale."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Por primera vez una instrucción razonable."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada vuelve al juego, pero esta vez queda algo útil entre las tallas."
+          }
+        ]
+      },
+      {
+        "texto": "Usar la salida para inventar rumores.",
+        "efectos": {
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El canal sigue en línea, pero la discusión no encontró la honestidad que necesitaba."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_amigos_7",
+    "titulo": "Episodio 7 · El cierre del servidor",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "En la última semana, Kevin propone dejar de tratar a Seba como meme permanente."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Una talla es divertida hasta que ya no deja hablar a nadie."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Gracias por cacharlo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "El grupo cambió, pero seguimos siendo los mismos cabros."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No exactamente. Ojalá hayamos aprendido algo."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Yo aprendí que no todo va en el chat."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Ese sí es un avance histórico."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "El silencio en el canal dura pocos segundos: alguien comparte un meme y todos vuelven a reír."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Valorar el apoyo y poner límites.",
+        "efectos": {
+          "amistad": 5,
+          "honestidad": 2
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Podemos reírnos, pero también quiero que podamos hablar serio."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Trato hecho, wn. Y ahora entra al juego."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La llamada vuelve al juego, pero esta vez queda algo útil entre las tallas."
+          }
+        ]
+      },
+      {
+        "texto": "Exigir que nadie vuelva a recordar el carrete.",
+        "efectos": {
+          "autoestima": -2
+        },
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "En lugar de responder de frente, Seba evita la parte incómoda de la conversación."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Te escuché, pero necesito pensar si quiero seguir hablando de esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El canal sigue en línea, pero la discusión no encontró la honestidad que necesitaba."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_reflexion_1",
+    "titulo": "Diario 1 · Una libreta de decisiones",
+    "lugar": "Habitación de Seba",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Seba escribe lo que ocurrió esta semana y se sorprende al leer sus propias excusas."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Me es más fácil decir «fue culpa del carrete» que aceptar lo que decidí."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La hoja en blanco se llena de verbos en primera persona."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Es incómodo leerlo, pero quiero saber qué hacer con esta idea."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Escribir qué puede hacer mejor mañana.",
+        "efectos": {
+          "honestidad": 4,
+          "autoestima": 4
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "La próxima vez voy a hablar antes de inventar una excusa."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La libreta queda abierta sobre la mesa."
+          }
+        ]
+      },
+      {
+        "texto": "Arrancar la hoja y evitar el tema.",
+        "efectos": {
+          "autoestima": -3,
+          "sospecha": 3
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Mejor no pensar tanto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cierra la libreta sin resolver lo que le da vueltas en la cabeza."
+          }
+        ]
+      }
+    ],
+    "fondo": "habitacion_caceres_noche.png"
+  },
+  {
+    "id": "seba_reflexion_2",
+    "titulo": "Diario 2 · Las disculpas no compran cariño",
+    "lugar": "Habitación de Seba",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Seba piensa en una disculpa que espera no convertir en negociación."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Pedir perdón no significa que la otra persona tenga que volver."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Escribe un mensaje y lo relee antes de enviarlo."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Es incómodo leerlo, pero quiero saber qué hacer con esta idea."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Aceptar que una disculpa no exige respuesta.",
+        "efectos": {
+          "honestidad": 4,
+          "autoestima": 4
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Lo siento por lo que hice. No tienes que contestarme hoy."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Seba deja el teléfono y respira."
+          }
+        ]
+      },
+      {
+        "texto": "Convertir el mensaje en un ultimátum.",
+        "efectos": {
+          "autoestima": -3,
+          "sospecha": 3
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Mejor no pensar tanto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cierra la libreta sin resolver lo que le da vueltas en la cabeza."
+          }
+        ]
+      }
+    ],
+    "fondo": "habitacion_caceres_noche.png"
+  },
+  {
+    "id": "seba_reflexion_3",
+    "titulo": "Diario 3 · No todas las miradas son señales",
+    "lugar": "Habitación de Seba",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Seba recuerda ocasiones en que confundió amabilidad con interés romántico."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Capaz que no todo el mundo quiera pololear conmigo porque me sonrió."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La idea lo hace reírse de sí mismo."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Es incómodo leerlo, pero quiero saber qué hacer con esta idea."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Dejar de suponer lo que sienten los demás.",
+        "efectos": {
+          "honestidad": 4,
+          "autoestima": 4
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Prefiero preguntar en vez de inventarme historias."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Por primera vez, la duda no se siente como amenaza."
+          }
+        ]
+      },
+      {
+        "texto": "Seguir leyendo cada gesto como promesa.",
+        "efectos": {
+          "autoestima": -3,
+          "sospecha": 3
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Mejor no pensar tanto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cierra la libreta sin resolver lo que le da vueltas en la cabeza."
+          }
+        ]
+      }
+    ],
+    "fondo": "habitacion_caceres_noche.png"
+  },
+  {
+    "id": "seba_reflexion_4",
+    "titulo": "Diario 4 · Un mensaje sin enviarlo",
+    "lugar": "Habitación de Seba",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Seba escribe a alguien que extraña, pero se detiene antes de enviar el texto."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Extrañar no siempre significa que deba volver a buscar a esa persona."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Relee una frase que suena más a miedo que a cariño."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Es incómodo leerlo, pero quiero saber qué hacer con esta idea."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Guardar el mensaje y reflexionar.",
+        "efectos": {
+          "honestidad": 4,
+          "autoestima": 4
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Si tengo algo real que decir, lo diré cuando pueda sostenerlo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Guarda el borrador."
+          }
+        ]
+      },
+      {
+        "texto": "Mandarlo solo para provocar una reacción.",
+        "efectos": {
+          "autoestima": -3,
+          "sospecha": 3
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Mejor no pensar tanto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cierra la libreta sin resolver lo que le da vueltas en la cabeza."
+          }
+        ]
+      }
+    ],
+    "fondo": "habitacion_caceres_noche.png"
+  },
+  {
+    "id": "seba_reflexion_5",
+    "titulo": "Diario 5 · La confianza también se construye",
+    "lugar": "Habitación de Seba",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Seba nota que las decisiones pequeñas van contando una historia más honesta que sus grandes discursos."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No sirve prometer que cambié si sigo eligiendo igual."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La ciudad ya duerme; él sigue leyendo sus notas."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Es incómodo leerlo, pero quiero saber qué hacer con esta idea."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Pensar en acciones concretas.",
+        "efectos": {
+          "honestidad": 4,
+          "autoestima": 4
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Mañana empezaré por llegar a la hora que digo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No parece gran cosa, hasta que se vuelve hábito."
+          }
+        ]
+      },
+      {
+        "texto": "Conformarse con una frase motivadora.",
+        "efectos": {
+          "autoestima": -3,
+          "sospecha": 3
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Mejor no pensar tanto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cierra la libreta sin resolver lo que le da vueltas en la cabeza."
+          }
+        ]
+      }
+    ],
+    "fondo": "habitacion_caceres_noche.png"
+  },
+  {
+    "id": "seba_reflexion_6",
+    "titulo": "Diario 6 · Los límites de la amistad",
+    "lugar": "Habitación de Seba",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Seba considera cuánto debe proteger la intimidad de sus amigos y parejas."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No todo lo que pasa en una relación tiene que convertirse en contenido de Discord."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "El mensaje grupal pide detalles de una discusión."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Es incómodo leerlo, pero quiero saber qué hacer con esta idea."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "No compartir conversaciones privadas.",
+        "efectos": {
+          "honestidad": 4,
+          "autoestima": 4
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Les digo que estoy bien, pero no voy a exponer a nadie."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "A veces poner un límite es cuidar a varias personas."
+          }
+        ]
+      },
+      {
+        "texto": "Enviar capturas para ganar apoyo.",
+        "efectos": {
+          "autoestima": -3,
+          "sospecha": 3
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Mejor no pensar tanto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cierra la libreta sin resolver lo que le da vueltas en la cabeza."
+          }
+        ]
+      }
+    ],
+    "fondo": "habitacion_caceres_noche.png"
+  },
+  {
+    "id": "seba_reflexion_7",
+    "titulo": "Diario 7 · El futuro no es un concurso",
+    "lugar": "Habitación de Seba",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Seba ve fotos de parejas en redes y piensa en si realmente necesita una relación ahora."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Capaz que estar soltero no sea el apocalipsis social que dice Jairo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Cierra la aplicación y deja el celular cargando."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Es incómodo leerlo, pero quiero saber qué hacer con esta idea."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Definir metas propias aparte del romance.",
+        "efectos": {
+          "honestidad": 4,
+          "autoestima": 4
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Quiero que mi vida tenga cosas que me entusiasmen por mí mismo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La noche parece menos urgente."
+          }
+        ]
+      },
+      {
+        "texto": "Buscar a alguien para no quedarse atrás.",
+        "efectos": {
+          "autoestima": -3,
+          "sospecha": 3
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Mejor no pensar tanto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cierra la libreta sin resolver lo que le da vueltas en la cabeza."
+          }
+        ]
+      }
+    ],
+    "fondo": "habitacion_caceres_noche.png"
+  },
+  {
+    "id": "seba_reflexion_8",
+    "titulo": "Diario 8 · La versión que recuerda",
+    "lugar": "Habitación de Seba",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Seba intenta reconstruir la fiesta sin dejar que la cuenten solo las otras personas."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No tengo que negar lo que hice, pero tampoco inventar lo que no ocurrió."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La memoria trae detalles incómodos y otros que habían quedado escondidos."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Es incómodo leerlo, pero quiero saber qué hacer con esta idea."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Recordar con precisión y asumir lo propio.",
+        "efectos": {
+          "honestidad": 4,
+          "autoestima": 4
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Hubo cosas que elegí y cosas que otros entendieron mal. Puedo hacerme cargo de ambas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cierra la libreta con calma."
+          }
+        ]
+      },
+      {
+        "texto": "Reescribir todo para verse como víctima.",
+        "efectos": {
+          "autoestima": -3,
+          "sospecha": 3
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Mejor no pensar tanto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Cierra la libreta sin resolver lo que le da vueltas en la cabeza."
+          }
+        ]
+      }
+    ],
+    "fondo": "habitacion_caceres_noche.png"
+  }
+]

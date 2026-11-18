@@ -8,7 +8,7 @@ import java.util.Locale;
 import java.util.Map;
 
 /**
- * Convenciones visuales para la temporada de Cáceres.
+ * Convenciones visuales para las temporadas de Cáceres y Seba.
  * Todos los recursos se buscan en el classpath: funcionan también dentro de un JAR.
  * Los JSON permiten personalizar fondo y CG sin tocar este archivo.
  * No afecta a los cálculos de estadísticas, eventos, enlaces ni partidas.
@@ -28,10 +28,16 @@ public final class RecursosVisuales {
     );
 
     public static String cg(Escena escena) {
-        if (escena.getCg() != null && !escena.getCg().isBlank())
-            return "/imagenes/cg/" + escena.getCg();
+        if (escena.getCg() != null && !escena.getCg().isBlank()) {
+            String nombreCG = escena.getCg();
+            // Los JSON históricos de Cáceres usan nombres sueltos, como
+            // "final_azul.png". Tras organizar las carpetas, viven en caceres/.
+            return "/imagenes/cg/" + (nombreCG.contains("/") ? nombreCG : "caceres/" + nombreCG);
+        }
         String archivo = FINALES.get(escena.getId());
-        return archivo == null ? null : "/imagenes/cg/" + archivo;
+        // Los CG de Cáceres y Seba viven en carpetas separadas.
+        // Las escenas JSON pueden sobreescribir la ruta para sus finales propios.
+        return archivo == null ? null : "/imagenes/cg/caceres/" + archivo;
     }
 
     public static String fondo(Escena escena) {
@@ -54,6 +60,12 @@ public final class RecursosVisuales {
     public static String personaje(String nombre) {
         String n = normalizar(nombre);
         // También reconoce 'Kevin (mensaje)', 'Cony (audio)', etc.
+        if (n.startsWith("kelly")) return "kelly";
+        if (n.startsWith("amira")) return "amira";
+        if (n.startsWith("javi")) return "javi";
+        if (n.startsWith("feña") || n.startsWith("fena")) return "fena";
+        if (n.startsWith("rodrigo")) return "rodrigo";
+        if (n.startsWith("richie")) return "richie";
         if (n.startsWith("lumi")) return "lumi";
         if (n.startsWith("cony")) return "cony";
         if (n.startsWith("caceres")) return "caceres";
@@ -67,9 +79,22 @@ public final class RecursosVisuales {
     public static String retrato(Dialogo d) {
         if (d == null) return null;
         String nombre = personaje(d.getPersonaje());
-        String emoción = emocion(d.getTexto());
+        String emoción = d.getExpresion() == null || d.getExpresion().isBlank()
+                ? emocion(d.getTexto()) : normalizar(d.getExpresion());
         return switch (nombre) {
-            case "lumi", "cony" -> spriteChica(nombre, emoción, d.getTexto());
+            case "lumi", "cony", "amira", "javi", "kelly", "fena" -> spriteChica(nombre, emoción, d.getTexto());
+            case "richie" -> "/imagenes/personajes/richie/" + switch (emoción) {
+                case "serio" -> "04_enojado.png";
+                case "risa", "feliz" -> "03_saludando.png";
+                case "nervioso", "sorprendido" -> "05_agresivo.png";
+                default -> "01_neutral.png";
+            };
+            case "rodrigo" -> "/imagenes/personajes/rodrigo/" + switch (emoción) {
+                case "risa", "feliz" -> "03_risa.png";
+                case "serio", "nervioso" -> "05_traumado.png";
+                case "sorprendido" -> "04_sorprendido.png";
+                default -> "01_neutral.png";
+            };
             case "caceres" -> "/imagenes/personajes/caceres/" + switch (emoción) {
                 case "feliz" -> "caceres_feliz.png";
                 case "risa" -> "caceres_risa.png";
@@ -80,9 +105,7 @@ public final class RecursosVisuales {
                 case "pensativo" -> "caceres_pensativo.png";
                 default -> "caceres_cuerpo_completo_neutral.png";
             };
-            case "seba" -> "/imagenes/personajes/seba/" +
-                    (emoción.equals("risa") || emoción.equals("feliz") ? "seba_risa.png" :
-                    emoción.equals("serio") ? "seba_serio.png" : "seba_neutral.png");
+            case "seba" -> spriteSeba(emoción);
             case "jairo" -> "/imagenes/personajes/jairo/" +
                     (emoción.equals("serio") ? "jairo_serio.png" :
                             emoción.equals("risa") || emoción.equals("feliz") ? "jairo_tranquilo.png" :
@@ -100,8 +123,24 @@ public final class RecursosVisuales {
         };
     }
 
+    // Todas las poses oficiales de Seba (incluido el tatuaje del brazo izquierdo).
+    public static String spriteSeba(String emocion) {
+        String archivo = switch (normalizar(emocion)) {
+            case "serio", "enojado", "cruzado", "brazos_cruzados" -> "02_brazos_cruzados.png";
+            case "seguro", "cintura", "mano_cintura" -> "03_mano_cintura.png";
+            case "feliz", "saludando", "saludo", "risa" -> "04_saludando.png";
+            case "sentado", "pensativo", "triste" -> "05_sentado.png";
+            case "nervioso", "timido", "espalda", "manos_espalda" -> "06_manos_espalda.png";
+            case "sorprendido", "susto", "impactado" -> "07_sorprendido.png";
+            case "coqueta", "coqueto", "picaro" -> "08_coqueto.png";
+            default -> "01_neutral.png";
+        };
+        return "/imagenes/personajes/seba/" + archivo;
+    }
+
     /** En los chats se mantiene visible al personaje incluso durante la narración. */
     public static String protagonistaEscena(Escena escena) {
+        if (escena.getId() != null && escena.getId().startsWith("seba_")) return "seba";
         String lugar = normalizar(escena.getLugar());
         if (lugar.contains("lumi")) return "lumi";
         if (lugar.contains("cony")) return "cony";
@@ -129,6 +168,8 @@ public final class RecursosVisuales {
                     tono.contains("hoy") || tono.contains("vamos") || tono.contains("hacer") ?
                     "03_mano_cintura.png" : "01_neutral.png";
         };
+        // Se incluye un alias ASCII fena/ para que los sprites funcionen
+        // también en entornos Java sin locale UTF-8 (y en JAR empaquetados).
         return "/imagenes/personajes/" + nombre + "/" + archivo;
     }
 

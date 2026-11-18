@@ -12,6 +12,9 @@ public final class ReaccionesNarrativas {
             return List.copyOf(decision.getReaccion());
         }
         String id = escena.getId() == null ? "" : escena.getId().toLowerCase();
+        if (id.startsWith("seba_")) {
+            return List.of(new Dialogo("Narrador", "Seba siente el peso de su elección. Nadie puede decidir lo que viene por él."));
+        }
         String nombre = elegirInterlocutor(escena, id);
         Map<String, Integer> efectos = decision.getEfectos();
         int tension = efecto(efectos, "sospecha") - efecto(efectos, "honestidad");

@@ -1,0 +1,2114 @@
+[
+  {
+    "id": "seba_hito_tension",
+    "titulo": "Día 6 · Los límites se conversan",
+    "lugar": "Café · Afuera llueve",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly mira la lluvia por la ventana. Tiene las manos en torno a un café que ya no humea."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "No me molesta que la Amira sea tu mejor amiga. Me molesta enterarme de las cosas después."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "¿Qué cosas?"
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Por ejemplo, que te invitó a una fiesta. No te estoy prohibiendo ir, Sebastián. Te pido que seamos claros."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Seba entiende que no está escuchando un ultimátum. Está escuchando una petición concreta."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "¿Podemos ponernos de acuerdo antes de que se arme un show?"
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Hablar de horarios, límites y confianza.",
+        "efectos": {
+          "kelly": 12,
+          "confianza_kelly": 12,
+          "honestidad": 8
+        },
+        "eventos": [
+          "seba_limites_claros"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Sí. Te aviso cómo voy, y si algo me incomoda, me voy. No tengo por qué esconderte nada."
+          },
+          {
+            "personaje": "Kelly",
+            "texto": "Eso necesito. No que me digas lo que quiero escuchar."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Kelly le toma la mano, ya más tranquila."
+          }
+        ]
+      },
+      {
+        "texto": "Minimizar la conversación: «es solo una fiesta».",
+        "efectos": {
+          "kelly": -7,
+          "confianza_kelly": -9,
+          "sospecha": 12
+        },
+        "eventos": [
+          "seba_tension_kelly"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Ya po, Kelly, si ni que fuera algo grave."
+          },
+          {
+            "personaje": "Kelly",
+            "texto": "Justamente. Si es tan simple, ¿por qué te cuesta hablarlo?"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación termina, pero la duda se queda en la mesa."
+          }
+        ]
+      }
+    ],
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "seba_hito_fiesta",
+    "titulo": "Día 10 · La noche del cagazo",
+    "lugar": "Casa de Rodrigo · 03:47",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "La música retumba al otro lado de la puerta. Hay vasos en la mesa, gente buscando sus chaquetas y un sofá ocupado por completo."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "¡Cabros! Última ronda. El que se duerma acá va a amanecer convertido en sticker."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Wn, no siento las piernas. No vuelvo a bailar así."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Yo estoy igual. La pieza del fondo está vacía, vamos a descansar un rato."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly ya se fue a su casa. El celular de Seba vibra: «Avísame cuando estés bien». Amira no lo presiona; espera su respuesta."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Puta... Esto puede salir muy bien o muy mal."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Irse a casa y cumplir lo acordado con Kelly.",
+        "siguiente": "seba_fiesta_casa",
+        "efectos": {
+          "kelly": 10,
+          "confianza_kelly": 8,
+          "honestidad": 8
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Amira, voy a pedir un auto. Mañana hablamos con la cabeza funcionando."
+          },
+          {
+            "personaje": "Amira",
+            "texto": "Ya, si está bien. Cuídate."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Seba guarda el celular en el bolsillo y camina hacia la salida."
+          }
+        ]
+      },
+      {
+        "texto": "Acostarse al lado de Amira solo para dormir.",
+        "siguiente": "seba_fiesta_cama",
+        "efectos": {
+          "amira": 7,
+          "confianza_kelly": -12,
+          "sospecha": 12
+        },
+        "eventos": [
+          "seba_fiesta_cama"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Amira",
+            "texto": "Ya, pero cada uno a su lado, ¿ya?"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Si estoy muerto de sueño, no vengo a hacer nada."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Ambos se recuestan vestidos, separados. Un ruido de puerta interrumpe la calma."
+          }
+        ]
+      },
+      {
+        "texto": "Confesar que siente algo por Amira y acercarse a besarla.",
+        "siguiente": "seba_fiesta_beso",
+        "efectos": {
+          "amira": 12,
+          "kelly": -20,
+          "honestidad": -12,
+          "sospecha": 25
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Amira... te tengo que decir algo, aunque sea terrible idea."
+          },
+          {
+            "personaje": "Amira",
+            "texto": "Dilo primero. No quiero adivinar."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Seba admite lo que siente. Amira se queda en silencio antes de responder."
+          }
+        ]
+      },
+      {
+        "texto": "Llamar a Kelly y preguntarle qué prefiere que haga.",
+        "siguiente": "seba_fiesta_llamada",
+        "efectos": {
+          "kelly": 8,
+          "confianza_kelly": 10,
+          "honestidad": 12
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Kelly, ¿estai despierta? Necesito contarte algo."
+          },
+          {
+            "personaje": "Kelly",
+            "texto": "Ahora sí. ¿Qué pasó?"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Seba sale al patio para hablar lejos de la música."
+          }
+        ]
+      }
+    ],
+    "fondo": "habitacion_caceres_noche.png"
+  },
+  {
+    "id": "seba_fiesta_casa",
+    "titulo": "Fiesta · El Uber salvador",
+    "lugar": "Exterior de la fiesta · Madrugada",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El aire frío le despeja un poco la cabeza. En el teléfono aparece la dirección de su casa."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "¿Ya te vai, hermanito? Ni siquiera ha amanecido."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Mañana la cama va a ser el mejor panorama de mi vida."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Buuu. Te estás volviendo responsable, wn."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Algo tenía que aprender de tanto consejo que doy."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Avisar a Kelly apenas sube al auto.",
+        "efectos": {
+          "kelly": 8,
+          "honestidad": 5
+        },
+        "eventos": [
+          "seba_fiesta_fiel"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Kelly (mensaje)",
+            "texto": "Gracias por avisarme. Duerme bien, amor."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Seba se queda mirando la pantalla con una sonrisa absurda."
+          }
+        ]
+      },
+      {
+        "texto": "Guardar el celular y descansar sin más.",
+        "efectos": {
+          "kelly": 4,
+          "honestidad": 2
+        },
+        "eventos": [
+          "seba_fiesta_fiel"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "A veces una decisión correcta no trae aplausos. Solo una noche tranquila."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Qué ganas de dormir, conchetumare."
+          }
+        ]
+      }
+    ],
+    "fondo": "terminal_valparaiso.png"
+  },
+  {
+    "id": "seba_fiesta_llamada",
+    "titulo": "Fiesta · Una llamada a tiempo",
+    "lugar": "Patio de Rodrigo · Madrugada",
+    "dialogos": [
+      {
+        "personaje": "Kelly",
+        "texto": "¿Y por qué me llamai a esta hora?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Amira me ofreció acostarme un rato en una pieza porque ando muerto. No he hecho nada, pero prefiero preguntarte antes."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Al otro lado se escucha el ruido de una puerta. Kelly se toma unos segundos para pensar."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Gracias por decírmelo. Si querís dormir, ven a casa. No me gustaría que te metieras en una situación rara."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Sí. Tenís razón."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Ir a casa y dejar claro que no habrá enredos.",
+        "efectos": {
+          "confianza_kelly": 12,
+          "honestidad": 8
+        },
+        "eventos": [
+          "seba_fiesta_fiel",
+          "seba_limites_claros"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Kelly",
+            "texto": "Me avisas cuando llegues."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Dale, amor. Te quiero."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El taxi llega antes de que Rodrigo termine de burlarse."
+          }
+        ]
+      }
+    ],
+    "fondo": "costanera_atardecer.png"
+  },
+  {
+    "id": "seba_fiesta_cama",
+    "titulo": "Fiesta · La foto de Rodrigo",
+    "lugar": "Pieza de invitados · Madrugada",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "La puerta se abre de golpe. Rodrigo se queda inmóvil al ver a Seba y Amira dormitando al lado de la cama, vestidos y sin tocarse."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "¡CTM, EL SEBA! ¿Y KELLY, WN?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Baja la voz, Rodrigo. Solo estamos descansando."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "En serio, no pasó nada. No inventís."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Rodrigo tiene el celular en la mano. La foto que acaba de tomar desde la puerta cuenta una historia incompleta."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Yo no sé qué hacer con esto, hermano."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Pedirle que no esconda la foto y hablar con Kelly personalmente.",
+        "efectos": {
+          "honestidad": 10,
+          "sospecha": 8,
+          "confianza_kelly": -3
+        },
+        "eventos": [
+          "seba_rodri_aviso"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "No la mandís por WhatsApp. Yo se lo cuento a Kelly, sin inventar nada."
+          },
+          {
+            "personaje": "Rodrigo",
+            "texto": "Ya. Pero no me hagai mentir por ti."
+          },
+          {
+            "personaje": "Amira",
+            "texto": "Eso. Porque acá no pasó lo que parece."
+          }
+        ]
+      },
+      {
+        "texto": "Pedirle que borre la foto y dejarlo entre los tres.",
+        "efectos": {
+          "sospecha": 15,
+          "honestidad": -10
+        },
+        "eventos": [
+          "seba_sin_foto"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Rodrigo",
+            "texto": "Ya, la borro. Pero no me metai después en tus dramas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Kelly nunca recibe la foto. Seba siente alivio, aunque no está seguro de merecerlo."
+          }
+        ]
+      },
+      {
+        "texto": "Insistir en que Kelly jamás puede enterarse.",
+        "efectos": {
+          "sospecha": 25,
+          "honestidad": -20,
+          "confianza_kelly": -10
+        },
+        "eventos": [
+          "seba_rodri_aviso",
+          "seba_mentira"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Rodrigo",
+            "texto": "Hermano, conmigo no contís para mentirle."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Rodrigo se marcha molesto. Minutos después, el teléfono de Seba comienza a sonar."
+          }
+        ]
+      },
+      {
+        "texto": "Perder los estribos y pegarle un combo a Rodrigo por hocicón.",
+        "siguiente": "seba_fiesta_combo_rodri",
+        "efectos": {
+          "amistad": -28,
+          "honestidad": -20,
+          "sospecha": 25,
+          "autoestima": -8
+        },
+        "eventos": [
+          "seba_golpeo_rodrigo",
+          "seba_rodri_aviso"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "¡YA, RODRIGO, CORTA LA WEA!"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La rabia le gana al razonamiento. Seba se abalanza sobre Rodrigo antes de que Amira alcance a reaccionar."
+          }
+        ]
+      }
+    ],
+    "fondo": "habitacion_caceres_noche.png"
+  },
+  {
+    "id": "seba_fiesta_beso",
+    "titulo": "Fiesta · Cruzar la línea",
+    "lugar": "Habitación de invitados · Madrugada",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Amira lo mira de frente. La música se oye lejana, amortiguada por una puerta cerrada."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Seba, somos amigos hace años. Y tú tenís polola. No hagamos como que esto no tiene consecuencias."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Lo sé. Pero no quiero seguir haciéndome el loco con lo que siento."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Si nos acercamos es porque ambos queremos. Y mañana vamos a tener que responder por esto."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Tras una pausa larga, Amira lo besa. Al separarse, ninguno puede fingir que esto no afecta a Kelly."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Ahora decide qué vas a hacer. Yo no voy a vivir escondida."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Lo que pase mañana no lo voy a cargar sobre ti. Yo tengo que hablar con Kelly.",
+        "expresion": "serio"
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Eso. Si mañana me pedís que mienta, no me volvai a hablar."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Amira apaga su teléfono y espera, sin sonreír. El beso ocurrió; ahora importan los actos."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Confesar la infidelidad y terminar con Kelly.",
+        "efectos": {
+          "honestidad": 6,
+          "kelly": -30,
+          "confianza_kelly": -25,
+          "amira": 6
+        },
+        "eventos": [
+          "seba_infidelidad",
+          "seba_confesion",
+          "seba_amira_quimica"
+        ],
+        "desactivarEventos": [],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "No te voy a pedir que escondai esto. Voy a decirle la verdad."
+          },
+          {
+            "personaje": "Amira",
+            "texto": "Lo mínimo que podís hacer es asumirlo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Seba sale de la habitación y llama a Kelly con la voz temblorosa."
+          }
+        ],
+        "siguiente": "seba_confesar_kelly"
+      },
+      {
+        "texto": "Ocultar el beso e intentar seguir como si nada.",
+        "efectos": {
+          "sospecha": 30,
+          "honestidad": -25,
+          "kelly": -15,
+          "amira": -4
+        },
+        "eventos": [
+          "seba_infidelidad",
+          "seba_mentira",
+          "seba_amira_quimica",
+          "seba_nego_contar_kelly"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "No le digamos a nadie. No quiero perder todo."
+          },
+          {
+            "personaje": "Amira",
+            "texto": "Entonces no entendiste nada de lo que te dije."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Amira recoge sus cosas. El silencio que deja es peor que cualquier discusión."
+          }
+        ],
+        "siguiente": "seba_amira_corte_mentira"
+      }
+    ],
+    "fondo": "habitacion_caceres_noche.png"
+  },
+  {
+    "id": "seba_post_fiel",
+    "titulo": "Día 12 · El desayuno de los que no cagaron",
+    "lugar": "Cocina de Kelly",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "La mañana trae pan tostado, café y una conversación sin gritos."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Seba salió de la fiesta sin cruzar el límite con Amira. Puede responder por sus decisiones sin ocultar una infidelidad.",
+        "condiciones": [
+          {
+            "evento": "seba_fiesta_fiel",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "¿Y, sobreviviste al carrete de Rodrigo?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Me fui antes. Con los cabros ya tenía suficiente espectáculo."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Te agradezco que hayamos hablado de todo esto. No quiero andar revisándote la vida."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Ni yo quiero darte razones para hacerlo."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Decirle que elegirla fue una decisión consciente.",
+        "efectos": {
+          "kelly": 10,
+          "confianza_kelly": 12,
+          "honestidad": 6
+        },
+        "eventos": [
+          "seba_kelly_fuerte"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Kelly",
+            "texto": "Entonces sigamos haciendo las cosas así. Con cariño y sin adivinar."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Kelly apoya la frente en su hombro. Seba entiende que una relación también se cuida en los días normales."
+          }
+        ]
+      },
+      {
+        "texto": "Cambiar de tema con una talla.",
+        "efectos": {
+          "kelly": 5,
+          "amistad": 3
+        },
+        "eventos": [
+          "seba_kelly_fuerte"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Sí, porque el Rodrigo roncaba como motor de micro vieja."
+          },
+          {
+            "personaje": "Kelly",
+            "texto": "JAJA, pobre Rodrigo. Igual me alegra que estés aquí."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La broma baja la tensión sin invalidar lo que hablaron."
+          }
+        ]
+      }
+    ],
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "seba_post_foto",
+    "titulo": "Día 12 · Rodrigo habló",
+    "lugar": "Afuera de la casa de Kelly",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Rodrigo le contó a Kelly que vio a Seba acostado cerca de Amira. La foto llegó después, como una chispa en una habitación llena de gas."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "No sé qué pasó ahí dentro. Solo sé que te pedí que me avisaras."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Nos quedamos dormidos. Eso fue todo. Fue imprudente, sí, pero no te engañé."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "No necesito que me jures mil veces. Necesito saber qué harás para recuperar mi confianza."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Seba no puede borrar la escena. Puede elegir cómo hacerse cargo."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Reconocer el error y ofrecer hablar con calma.",
+        "efectos": {
+          "honestidad": 15,
+          "sospecha": -5,
+          "confianza_kelly": -8
+        },
+        "eventos": [
+          "seba_reconciliacion_posible"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Me equivoqué al quedarme ahí. No te voy a culpar por enojarte ni a pedirte que confíes de golpe."
+          },
+          {
+            "personaje": "Kelly",
+            "texto": "Dame tiempo. Eso no significa que esté todo arreglado."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Hay una pequeña posibilidad de reconstruir algo, pero aún no una promesa."
+          }
+        ]
+      },
+      {
+        "texto": "Enojarse con Rodrigo y culparlo de todo.",
+        "efectos": {
+          "honestidad": -18,
+          "sospecha": 18,
+          "confianza_kelly": -25
+        },
+        "eventos": [
+          "seba_kelly_termino",
+          "seba_mentira"
+        ],
+        "desactivarEventos": [
+          "seba_pareja_kelly"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Esto es culpa del Rodrigo por andar sapeando."
+          },
+          {
+            "personaje": "Kelly",
+            "texto": "No. Lo que hiciste fue tu decisión. Y culparlo es otra."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Kelly deja las llaves sobre la mesa y termina la relación."
+          }
+        ]
+      }
+    ],
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "seba_post_sin_foto",
+    "titulo": "Día 12 · Kelly nunca lo supo",
+    "lugar": "Chat privado · Noche",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Rodrigo cumplió: borró la foto. Amira tampoco dijo nada. Kelly le escribe a Seba como cualquier noche."
+      },
+      {
+        "personaje": "Kelly (mensaje)",
+        "texto": "Amor, ¿vamos a comer algo mañana? Te extraño."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No pasó nada romántico, pero igual oculté dónde me quedé dormido."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Nadie lo obliga a hablar. Precisamente por eso la decisión pesa más."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Contárselo con detalle, sin inventar un drama.",
+        "efectos": {
+          "honestidad": 16,
+          "confianza_kelly": -10,
+          "sospecha": -8
+        },
+        "eventos": [
+          "seba_reconciliacion_posible"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba (mensaje)",
+            "texto": "Kelly, tengo que contarte una situación incómoda del carrete."
+          },
+          {
+            "personaje": "Kelly (mensaje)",
+            "texto": "Te escucho, pero necesito un rato para procesarlo."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Seba cuenta que durmió al lado de Amira y que no hubo contacto romántico."
+          }
+        ]
+      },
+      {
+        "texto": "No contar nada y confiar en que el problema murió.",
+        "efectos": {
+          "sospecha": 12,
+          "honestidad": -12
+        },
+        "eventos": [
+          "seba_no_descubierto"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "No haré una tormenta donde no pasó nada."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El teléfono se apaga. La relación sigue, pero su tranquilidad se apoya en un silencio elegido."
+          },
+          {
+            "personaje": "Kelly (mensaje)",
+            "texto": "¡Mañana nos vemos! ❤️"
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_post_infidelidad",
+    "titulo": "Día 12 · Después de decir la verdad",
+    "lugar": "Plaza · Mediodía",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly ya sabe lo que ocurrió. Seba evitó una segunda mentira, pero eso no hace que el daño desaparezca."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No había forma bonita de decirlo. Pero había una forma decente: hacerlo yo.",
+        "expresion": "sentado"
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "La Kelly no tiene que perdonarte para que tu disculpa sea sincera."
+      },
+      {
+        "personaje": "Amira",
+        "texto": "Yo tampoco quedé bien con lo que pasó. Necesito espacio, Sebastián."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Te lo voy a dar. Y voy a dejar de pedir que me arreglen las cosas.",
+        "expresion": "serio"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No hay reconciliación inmediata. Los tres tienen que volver a conocerse desde sus límites."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Aceptar mi responsabilidad sin buscar culpables.",
+        "eventos": [
+          "seba_acepta_responsabilidad"
+        ],
+        "efectos": {
+          "honestidad": 8,
+          "amira": -3
+        },
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "No espero que nadie me haga sentir mejor por esto.",
+            "expresion": "pensativo"
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Bien. Ahora sostené esa decisión cuando no haya nadie mirando."
+          }
+        ]
+      },
+      {
+        "texto": "Reducir todo a un error de una noche y apurar a Amira.",
+        "eventos": [
+          "seba_evita_responsabilidad"
+        ],
+        "efectos": {
+          "honestidad": -13,
+          "amira": -14
+        },
+        "reaccion": [
+          {
+            "personaje": "Amira",
+            "texto": "Si todavía creís que estoy acá para aliviarte la culpa, no entendiste nada.",
+            "expresion": "serio"
+          }
+        ]
+      }
+    ],
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "seba_hito_javi",
+    "titulo": "Día 18 · La chica del café",
+    "lugar": "Café en Viña del Mar",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Cáceres invita al grupo a un café para salir de la rutina. Cerca de la ventana, una chica busca desesperadamente un enchufe."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "Perdón, ¿alguien tiene cargador USB-C? Mi celular está agonizando."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Mi especialidad son los sistemas de respaldo emocional, pero tengo uno de esos."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Jairo, cállate un rato. Levai diez segundos conversando y ya le estai vendiendo un UPS."
+      },
+      {
+        "personaje": "Javi",
+        "texto": "JAJAJA, ¿ustedes siempre son así?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Peor. Soy Sebastián, pero todos me dicen Seba."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Javi sonríe. No conoce los enredos del grupo y no tiene por qué cargar con ellos."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Conocer a Javi sin fingir estar disponible si sigue con Kelly.",
+        "efectos": {
+          "javi": 10,
+          "honestidad": 10,
+          "amistad": 5
+        },
+        "eventos": [
+          "seba_conocio_javi"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "No te asustís. El Jairo es así, pero el cargador funciona."
+          },
+          {
+            "personaje": "Javi",
+            "texto": "Entonces los perdono. ¿Qué suelen hacer por acá?"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "La conversación continúa con un respeto que no exige promesas."
+          }
+        ]
+      },
+      {
+        "texto": "Cerrar con Kelly con respeto si la relación ya no es lo que quieres.",
+        "siguiente": "seba_ruptura_honesta",
+        "efectos": {
+          "honestidad": 10,
+          "kelly": -8,
+          "autoestima": 5
+        },
+        "eventos": [
+          "seba_conocio_javi"
+        ],
+        "condiciones": [
+          {
+            "evento": "seba_kelly_termino",
+            "eventoActivo": false
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Antes de seguir conociendo gente tengo una conversación pendiente. No quiero repetir mis errores."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Es incómodo, pero es bastante mejor que dejar a Kelly esperando algo que no sentís."
+          }
+        ]
+      },
+      {
+        "texto": "Coquetear con Javi aunque todavía existan asuntos pendientes.",
+        "efectos": {
+          "sospecha": 13,
+          "honestidad": -12,
+          "javi": -4
+        },
+        "eventos": [
+          "seba_conocio_javi",
+          "seba_coqueteo_javi"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Javi",
+            "texto": "No me gusta la gente que coquetea para hacerse el interesante. Si tenís pareja, primero arreglá eso."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Tenís razón. Me pasé de listo.",
+            "expresion": "nervioso"
+          }
+        ],
+        "condiciones": [
+          {
+            "evento": "seba_kelly_termino",
+            "eventoActivo": false
+          }
+        ]
+      },
+      {
+        "texto": "Seguir conversando con Javi sin apurar una cita.",
+        "eventos": [
+          "seba_conocio_javi",
+          "seba_javi_respeto"
+        ],
+        "efectos": {
+          "javi": 5,
+          "honestidad": 4
+        },
+        "condiciones": [
+          {
+            "evento": "seba_kelly_termino",
+            "eventoActivo": true
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Javi",
+            "texto": "Me gusta conocer a alguien sin sentir que hay un concurso contra otras personas."
+          }
+        ]
+      }
+    ],
+    "fondo": "cafe_vina.png"
+  },
+  {
+    "id": "seba_ruptura_honesta",
+    "titulo": "Día 18 · Un cierre sin villanos",
+    "lugar": "Parque · Tarde",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly acepta conversar en un lugar tranquilo. Seba llega a la hora acordada y guarda el celular."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "¿Qué necesitas decirme?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No quiero seguir prometiendo una relación si no estoy seguro de querer continuarla."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Me duele. Pero prefiero que me lo digas ahora a que te quedes por miedo."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No es porque alguien me haya reemplazado. Es que no quiero seguir fingiendo algo que cambió."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Ninguno sonríe al despedirse. Tampoco hay una traición nueva: hay una decisión difícil tomada a tiempo."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Aceptar la separación y darle espacio a Kelly.",
+        "efectos": {
+          "honestidad": 12,
+          "autoestima": 6
+        },
+        "eventos": [
+          "seba_kelly_termino",
+          "seba_terminacion_honesta"
+        ],
+        "desactivarEventos": [
+          "seba_pareja_kelly"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Kelly",
+            "texto": "Gracias por hablarlo de frente. Necesito que respetes mi espacio."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Lo voy a hacer. Te deseo cosas buenas, de verdad."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Seba camina solo un rato. No siente alivio completo, pero al menos no está mintiendo."
+          }
+        ]
+      }
+    ],
+    "fondo": "parque_vina.png"
+  },
+  {
+    "id": "seba_hito_rumbo",
+    "titulo": "Día 26 · Elegir también es perder opciones",
+    "lugar": "Mirador de Viña · Atardecer",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El cielo se vuelve naranja sobre la costa. Seba ve los chats pendientes, las fotos del grupo y un espejo empañado por el frío."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly sigue siendo la pareja de Seba. Antes de elegir nada, tiene que respetar ese compromiso.",
+        "condiciones": [
+          {
+            "evento": "seba_kelly_termino",
+            "eventoActivo": false
+          }
+        ]
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly y Seba ya no son pareja. La ruptura es un hecho; lo siguiente no se puede construir borrando el pasado.",
+        "condiciones": [
+          {
+            "evento": "seba_kelly_termino",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Amira dejó de hablarle después de exponer el engaño. No existe una invitación pendiente ni una confesión escondida.",
+        "condiciones": [
+          {
+            "evento": "seba_amira_delato_grupo",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Amira le dejó claro que cualquier posibilidad exige tiempo, responsabilidad y decisiones sin secretos.",
+        "condiciones": [
+          {
+            "evento": "seba_amira_puerta_abierta",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Seba",
+        "texto": "He pasado semanas dando vueltas. Ya no quiero que otros decidan por mí."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Entonces escucha: una cosa es sentir algo y otra prometerlo. No prometai por miedo a quedarte solo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Y no usís a nadie para tapar el vacío que te dejó otra persona."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "También puedes dedicarte al cosplay. Según mis cálculos, tiene mejor tasa de éxito."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "JAJAJA... capaz que el loco tenga razón por primera vez."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Es hora de elegir qué futuro va a construir, no a quién va a ganar."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Quedarme con Kelly y cuidar lo que construimos.",
+        "efectos": {
+          "kelly": 12,
+          "confianza_kelly": 10,
+          "honestidad": 8
+        },
+        "eventos": [
+          "seba_kelly_compromiso"
+        ],
+        "condiciones": [
+          {
+            "evento": "seba_fiesta_fiel",
+            "eventoActivo": true
+          },
+          {
+            "evento": "seba_kelly_termino",
+            "eventoActivo": false
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Quiero seguir contigo, Kelly. No porque sea cómodo, sino porque de verdad elijo esta relación."
+          },
+          {
+            "personaje": "Kelly",
+            "texto": "Entonces sigamos haciendo equipo, con las cosas difíciles incluidas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Kelly lo abraza sin que haga falta una promesa espectacular."
+          }
+        ]
+      },
+      {
+        "texto": "Pedirle a Kelly otra oportunidad, paso a paso.",
+        "efectos": {
+          "confianza_kelly": 15,
+          "honestidad": 10
+        },
+        "eventos": [
+          "seba_kelly_reconciliada"
+        ],
+        "condiciones": [
+          {
+            "evento": "seba_reconciliacion_posible",
+            "eventoActivo": true
+          },
+          {
+            "evento": "seba_kelly_termino",
+            "eventoActivo": false
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "No te voy a apurar. Solo quiero hacerme cargo y demostrarte que puedo cambiar."
+          },
+          {
+            "personaje": "Kelly",
+            "texto": "No va a ser fácil. Pero quiero intentarlo con condiciones claras."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "No hubo magia: hubo una conversación honesta que abrió una puerta."
+          }
+        ]
+      },
+      {
+        "texto": "Explorar algo real con Amira, sin relaciones pendientes.",
+        "efectos": {
+          "amira": 12,
+          "honestidad": 6
+        },
+        "eventos": [
+          "seba_amira_pareja"
+        ],
+        "condiciones": [
+          {
+            "evento": "seba_kelly_termino",
+            "eventoActivo": true
+          },
+          {
+            "evento": "seba_amira_vinculo",
+            "eventoActivo": true
+          },
+          {
+            "estadistica": "amira",
+            "minimo": 55
+          },
+          {
+            "evento": "seba_amira_confesion_valida",
+            "eventoActivo": true
+          },
+          {
+            "evento": "seba_amira_delato_grupo",
+            "eventoActivo": false
+          },
+          {
+            "evento": "seba_amira_confesion_valida",
+            "eventoActivo": true
+          },
+          {
+            "evento": "seba_amira_delato_grupo",
+            "eventoActivo": false
+          },
+          {
+            "evento": "seba_amira_confesion_valida",
+            "eventoActivo": true
+          },
+          {
+            "evento": "seba_amira_delato_grupo",
+            "eventoActivo": false
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Amira, no quiero empezar nada escondido. ¿Te gustaría intentarlo conmigo?"
+          },
+          {
+            "personaje": "Amira",
+            "texto": "Sí... pero solo si dejamos de jugar a adivinar qué somos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Se toman de la mano sin esconderse del mundo."
+          }
+        ]
+      },
+      {
+        "texto": "Invitar a Javi a construir una relación desde cero.",
+        "efectos": {
+          "javi": 12,
+          "honestidad": 6
+        },
+        "eventos": [
+          "seba_javi_pareja"
+        ],
+        "condiciones": [
+          {
+            "evento": "seba_kelly_termino",
+            "eventoActivo": true
+          },
+          {
+            "evento": "seba_conocio_javi",
+            "eventoActivo": true
+          },
+          {
+            "estadistica": "javi",
+            "minimo": 40
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Javi, me gustai. Y quiero partir por decirte la verdad de dónde vengo."
+          },
+          {
+            "personaje": "Javi",
+            "texto": "Prefiero la verdad imperfecta antes que un personaje perfecto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Javi acepta volver a verse. Esta vez Seba no tiene que ocultar nada."
+          }
+        ]
+      },
+      {
+        "texto": "Hablar con Feña y Richie sin competir por nadie.",
+        "efectos": {
+          "fena": 10,
+          "honestidad": 7
+        },
+        "eventos": [
+          "seba_fena_decision_respetuosa"
+        ],
+        "condiciones": [
+          {
+            "evento": "seba_kelly_termino",
+            "eventoActivo": true
+          },
+          {
+            "evento": "seba_fena_vinculo",
+            "eventoActivo": true
+          },
+          {
+            "evento": "seba_richie_hablado",
+            "eventoActivo": true
+          },
+          {
+            "estadistica": "fena",
+            "minimo": 40
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Feña no es un premio. Quiero escuchar lo que ella y Richie piensan, sin armar una competencia."
+          },
+          {
+            "personaje": "Richie",
+            "texto": "Gracias por hablar de frente, hermano. Sea como sea, hablemos las cosas."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Feña los invita a conversar. La decisión importante será lo que ella misma quiera hacer."
+          }
+        ],
+        "siguiente": "seba_fena_resolucion"
+      },
+      {
+        "texto": "Provocar a Richie por Feña y enfrentarlo cara a cara.",
+        "siguiente": "seba_richie_enfrentamiento",
+        "efectos": {
+          "honestidad": -12,
+          "amistad": -13,
+          "sospecha": 12
+        },
+        "eventos": [
+          "seba_richie_desafio"
+        ],
+        "condiciones": [
+          {
+            "evento": "seba_kelly_termino",
+            "eventoActivo": true
+          },
+          {
+            "evento": "seba_fena_vinculo",
+            "eventoActivo": true
+          },
+          {
+            "estadistica": "fena",
+            "minimo": 40
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Quiero hablar con Richie. Pero no voy precisamente a pedirle permiso."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Ojo con hacer de una relación una pelea, Seba. Vais a terminar perdiendo la amistad."
+          }
+        ]
+      },
+      {
+        "texto": "Decirle a más de una persona lo que quiere escuchar y jugar con dos historias.",
+        "efectos": {
+          "sospecha": 35,
+          "honestidad": -35
+        },
+        "eventos": [
+          "seba_doble_vida"
+        ],
+        "condiciones": [
+          {
+            "estadistica": "amira",
+            "minimo": 55
+          },
+          {
+            "estadistica": "javi",
+            "minimo": 35
+          },
+          {
+            "evento": "seba_kelly_termino",
+            "eventoActivo": true
+          },
+          {
+            "estadistica": "sospecha",
+            "minimo": 20
+          },
+          {
+            "evento": "seba_conocio_javi",
+            "eventoActivo": true
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Puedo manejar esto sin que se enteren. Total, nadie me pidió explicaciones... ¿o sí?"
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Hermano, esa frase es la introducción del desastre."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Seba sonríe, pero el sonido de dos notificaciones simultáneas lo deja helado."
+          }
+        ]
+      },
+      {
+        "texto": "Mostrar mi nuevo estilo sin pedir permiso. 🌸",
+        "efectos": {
+          "autoestima": 25,
+          "estilo": 10,
+          "honestidad": 10
+        },
+        "eventos": [
+          "seba_femboy"
+        ],
+        "condiciones": [
+          {
+            "evento": "seba_cosplay",
+            "eventoActivo": true
+          },
+          {
+            "evento": "seba_estilo_publico",
+            "eventoActivo": true
+          },
+          {
+            "estadistica": "estilo",
+            "minimo": 45
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Ya fue. Me gusta vestirme así, me gusta cómo me veo y no necesito inventar una apuesta para explicarlo."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "¡Esa es, wn! Te quedó terrible bacán."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "El proyecto de cosplay pasó exitosamente a producción."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Seba se mira en el espejo. Por primera vez no se ríe para esconder los nervios: se sonríe a sí mismo."
+          }
+        ]
+      },
+      {
+        "texto": "Seguir con Kelly: nadie descubrió aquella noche.",
+        "efectos": {
+          "kelly": 8,
+          "sospecha": 10,
+          "honestidad": -8
+        },
+        "eventos": [
+          "seba_kelly_sigue_sin_saber"
+        ],
+        "condiciones": [
+          {
+            "evento": "seba_no_descubierto",
+            "eventoActivo": true
+          },
+          {
+            "evento": "seba_kelly_termino",
+            "eventoActivo": false
+          }
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Voy a seguir con Kelly. Pero nadie sabe que aquella noche me quedé durmiendo al lado de Amira."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Entonces no digai que la confianza está completa. Tenís algo pendiente."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Seba mira el mensaje de Kelly. La relación sigue, aunque el secreto se queda con él."
+          }
+        ]
+      },
+      {
+        "texto": "Elegir estar solo y ordenar la cabeza.",
+        "efectos": {
+          "autoestima": 15,
+          "honestidad": 10,
+          "amistad": 5
+        },
+        "eventos": [
+          "seba_solo",
+          "seba_kelly_termino"
+        ],
+        "desactivarEventos": [
+          "seba_pareja_kelly",
+          "seba_amira_pareja",
+          "seba_javi_pareja",
+          "seba_fena_pareja"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Creo que necesito un tiempo para aprender a estar bien conmigo."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Estar solo no significa haber perdido, hermano."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Seba apaga las notificaciones. No está escapando: está eligiendo una pausa."
+          }
+        ]
+      }
+    ],
+    "fondo": "mirador_vina.png"
+  },
+  {
+    "id": "seba_hito_cierre",
+    "titulo": "Día 29 · Lo que queda de nosotros",
+    "lugar": "Discord · Noche",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Los cuatro amigos están conectados. Afuera llueve y el micrófono de Jairo suena como lavadora."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "No voy a minimizar lo que pasó con Kelly y Amira, Seba. Eso fue grave, y ahora toca vivir con las consecuencias.",
+        "condiciones": [
+          {
+            "evento": "seba_amira_delato_grupo",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "No siempre elegiste bien, pero sí podís hacer algo distinto desde hoy.",
+        "condiciones": [
+          {
+            "evento": "seba_amira_delato_grupo",
+            "eventoActivo": false
+          }
+        ]
+      },
+      {
+        "personaje": "Richie",
+        "texto": "A pesar del golpe, lo que perdimos como amigos no se arregla en una llamada.",
+        "condiciones": [
+          {
+            "evento": "seba_richie_golpea_seba",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Antes de que empiecen: no soy yo, es mi ventilador."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Siempre es tu ventilador, wn."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Ya, Seba, balance del mes. ¿Aprendiste a no cagarla con las relaciones?"
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Aprendí que dar consejos era fácil cuando la cagá la tenía otro."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Y que meterse en conversaciones ajenas sin preguntar primero nunca sale bien."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Sea como sea, las decisiones que tomé fueron mías. Eso ya lo entendí."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Por un instante nadie habla. Después Kevin suelta una carcajada y el servidor vuelve a sentirse como casa."
+      }
+    ],
+    "direccionVisual": "Anime VN con personajes ficticios adultos (20+). Gestos expresivos, acciones claras y pausas emocionales. Mostrar la Quinta Región con atmósfera cinematográfica; sin texto ni logos.",
+    "decisiones": [
+      {
+        "texto": "Agradecer las tallas, los límites y las conversaciones reales.",
+        "efectos": {
+          "amistad": 10,
+          "autoestima": 6
+        },
+        "eventos": [
+          "seba_acepto_aprendizaje"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Los quiero, cabros. Aunque sean un completo desastre."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Naa, hermano, no te pongai sentimental o te ponemos música triste."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Se ríen. El futuro ya no parece un juicio: parece una historia abierta."
+          }
+        ]
+      },
+      {
+        "texto": "Seguir bromeando, pero sin negar lo que pasó.",
+        "efectos": {
+          "amistad": 8,
+          "honestidad": 5
+        },
+        "eventos": [
+          "seba_acepto_aprendizaje"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "El próximo carrete lo organiza Jairo, para que nadie alcance a llegar."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Jajaja, yo llevo la planilla Excel."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Las risas cierran una etapa. No borran sus consecuencias."
+          }
+        ]
+      }
+    ],
+    "fondo": "discord_noche.png"
+  },
+  {
+    "id": "seba_fiesta_combo_rodri",
+    "titulo": "Fiesta · El combo por hocicón",
+    "lugar": "Casa de Rodrigo · 04:06",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Seba suelta un puñetazo que alcanza a Rodrigo en la cara. La música sigue sonando afuera, pero en la pieza todo queda en silencio."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "¡CTM, SEBA! ¿QUÉ TE PASA, WN?"
+      },
+      {
+        "personaje": "Amira",
+        "texto": "¡PARA, SEBA! ¡No solucionai nada pegándole!"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Rodrigo retrocede sujetándose la cara. Kevin se asoma a la puerta y los separa de inmediato."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "¡Basta los dos! Rodrigo, ven conmigo. Seba, ni se te ocurra acercarte otra vez."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "...La cagué. Muy feo."
+      },
+      {
+        "personaje": "Rodrigo",
+        "texto": "Yo me pasé de sapo, pero eso no te da derecho a pegarme. Kelly se va a enterar, y no solo de la foto."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La imagen de la pelea se queda grabada, pero lo que de verdad pesa es el silencio de los amigos."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Alejarme, reconocer el golpe y disculparme sin excusas.",
+        "efectos": {
+          "honestidad": 12,
+          "amistad": 3
+        },
+        "eventos": [
+          "seba_rodri_disculpas"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Rodrigo, lo que hice estuvo mal. No voy a pedirte que me perdonís."
+          },
+          {
+            "personaje": "Rodrigo",
+            "texto": "Ahora no quiero hablar contigo. Respetá eso."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Seba se marcha. El límite quedó claro, aunque todavía duela."
+          }
+        ]
+      },
+      {
+        "texto": "Seguir echándole la culpa a Rodrigo por haber hablado.",
+        "efectos": {
+          "honestidad": -15,
+          "amistad": -12
+        },
+        "eventos": [
+          "seba_mentira"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "¡Si no hubierai sacado esa foto, nada de esto habría pasado!"
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "No, hermano. Una cosa es contar algo mal y otra pegar. Nadie te obligó."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Rodrigo se va sin mirar atrás. La confianza del grupo queda hecha bolsa."
+          }
+        ]
+      }
+    ],
+    "cg": "seba/comborodri.png"
+  },
+  {
+    "id": "seba_post_combo",
+    "titulo": "Día 12 · Después del golpe",
+    "lugar": "Plaza · Afuera de la casa de Kelly",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El golpe a Rodrigo se supo antes de que Seba pudiera ordenar su versión de la fiesta. Kelly lo espera sentada en una banca."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Primero me entero de que dormiste con Amira, y después de que le pegaste a Rodrigo."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Me dio rabia que hablara. Pero fui yo quien decidió pegarle."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Podemos discutir por lo de Amira. Lo que no puedo es normalizar que golpeís a alguien por decir algo que no te gusta."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Kelly no grita. Su decisión es clara, y Seba entiende que una disculpa no borra lo que hizo."
+      },
+      {
+        "personaje": "Kelly",
+        "texto": "Necesito terminar esto y que me des espacio. Espero que también respetís lo que te pidió Rodrigo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Aceptar la ruptura, pedir disculpas y asumir las consecuencias.",
+        "efectos": {
+          "honestidad": 12,
+          "autoestima": 3
+        },
+        "eventos": [
+          "seba_kelly_termino",
+          "seba_acepta_responsabilidad"
+        ],
+        "desactivarEventos": [
+          "seba_pareja_kelly"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Entiendo. Lo siento, Kelly. No voy a insistir ni buscar excusas."
+          },
+          {
+            "personaje": "Kelly",
+            "texto": "Eso es lo mínimo. Cuídate, Seba."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Seba se retira sin perseguirla. Ahora tiene que cambiar con hechos, no con discursos."
+          }
+        ]
+      },
+      {
+        "texto": "Intentar culpar a Rodrigo otra vez.",
+        "efectos": {
+          "honestidad": -12,
+          "amistad": -10
+        },
+        "eventos": [
+          "seba_kelly_termino",
+          "seba_mentira"
+        ],
+        "desactivarEventos": [
+          "seba_pareja_kelly"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Pero él fue quien empezó todo con la foto..."
+          },
+          {
+            "personaje": "Kelly",
+            "texto": "El golpe lo decidiste tú. Hasta aquí llegamos."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Kelly se va. Seba se queda solo frente a una consecuencia que ya no puede discutir."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "seba_fena_resolucion",
+    "titulo": "Día 26 · Tres amigos y una decisión",
+    "lugar": "Parque · Sendero de las jacarandas",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Seba, Feña y Richie se encuentran en un parque. Ninguno trae un discurso preparado; hay demasiadas cosas por aclarar."
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Me gustai, Feña. Y me dolió sentir que mi amigo estaba compitiendo conmigo."
+      },
+      {
+        "personaje": "Feña",
+        "texto": "Les tengo cariño a los dos, pero no soy el premio del que llegue primero. Quiero poder elegir sin perder su respeto."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Tenís razón. Richie, me importai como amigo. Feña, tú decidís qué querís de verdad."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Una ráfaga mueve las hojas. Feña respira hondo. Lo que diga a continuación marcará cómo siguen los tres."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Decirle a Feña que quiero intentarlo con ella, sin humillar a Richie.",
+        "efectos": {
+          "fena": 10,
+          "honestidad": 10
+        },
+        "eventos": [
+          "seba_fena_pareja"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Feña",
+            "texto": "Yo también quiero intentarlo contigo, Seba. Pero quiero hacerlo bien."
+          },
+          {
+            "personaje": "Richie",
+            "texto": "Puta... me duele, hermano. Voy a necesitar distancia, pero no voy a decidir por ella."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Seba toma la mano de Feña. Richie se aleja triste, sin que el grupo convierta el amor en competencia."
+          }
+        ]
+      },
+      {
+        "texto": "Aceptar que Feña eligió a Richie y seguir siendo amigo de ambos.",
+        "efectos": {
+          "amistad": 18,
+          "honestidad": 10,
+          "autoestima": 7
+        },
+        "eventos": [
+          "seba_fena_richie_pareja"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Feña",
+            "texto": "Richie y yo hablamos antes de venir. Queremos intentar estar juntos. ¿De verdad estái bien con eso?"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Sí, Feña. Me alegro por ustedes. Igual tenemos pendiente el picnic, los tres."
+          },
+          {
+            "personaje": "Richie",
+            "texto": "¿En serio? Ya, pero tú llevai las bebidas, wn."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Los tres ríen. No todos los finales felices tienen que ser una pareja para el protagonista."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "seba_richie_enfrentamiento",
+    "titulo": "Día 26 · El código roto",
+    "lugar": "Salida de la feria · Atardecer",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Seba encuentra a Richie saliendo de la feria. Feña no está: este conflicto es entre amigos y por cómo se han tratado."
+      },
+      {
+        "personaje": "Richie",
+        "texto": "¿Qué querís, Seba? Ya te dije que no me gustó lo que hiciste."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "No vine a hacerme el santo. Pero tampoco me gusta que me hablís como si fuera el enemigo."
+      },
+      {
+        "personaje": "Richie",
+        "texto": "Entonces conversemos, po. No me vengai a sobrar con Feña como si fuera un trofeo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Richie aprieta los dientes. Seba siente que está a una frase de convertir todo en una pelea."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Bajar el tono, pedir disculpas y desearles lo mejor a Feña y Richie.",
+        "efectos": {
+          "amistad": 15,
+          "honestidad": 14
+        },
+        "eventos": [
+          "seba_fena_richie_pareja",
+          "seba_richie_reconciliado"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "Tenís razón. Me comporté como un saco de weas. Espero que ustedes sean felices."
+          },
+          {
+            "personaje": "Richie",
+            "texto": "Se agradece, hermano. Y no quiero que perdamos la amistad por esto."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Se estrechan la mano. Días después preparan un picnic los tres."
+          }
+        ]
+      },
+      {
+        "texto": "Burlarme de Richie y empujarlo para seguir provocándolo.",
+        "siguiente": "seba_richie_combo",
+        "efectos": {
+          "amistad": -35,
+          "autoestima": -20,
+          "sospecha": 20
+        },
+        "eventos": [
+          "seba_richie_golpea_seba"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "¿Y qué vai a hacer, Richie? ¿Llorar porque la Feña no te pescó primero?"
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Seba lo empuja. Richie reacciona con rabia y levanta el brazo; los dos pierden el control de la discusión."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "seba_richie_combo",
+    "titulo": "Día 26 · El combo de Richie",
+    "lugar": "Salida de la feria · Atardecer",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Richie le conecta un combo a Seba en el hocico. Seba retrocede, sorprendido, y se tapa la boca con la mano."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "¡CTM, RICHIE! ¡¿QUÉ WEA?!"
+      },
+      {
+        "personaje": "Richie",
+        "texto": "¡ME EMPUJASTE Y ME VINISTE A PROVOCAR! ¡Se acabó, wn!"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Kevin, que venía llegando, se interpone antes de que alguno vuelva a golpear."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "¡YA, BASTA! ¡Ninguno de los dos va a arreglar esta wea a combos!"
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Feña ve la escena desde la vereda. La expresión se le desarma de decepción."
+      },
+      {
+        "personaje": "Feña",
+        "texto": "Los dos me dan pena. Pensé que eran capaces de conversar. No me metan en sus peleas."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "...Tenís razón. La cagué."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Richie se aleja furioso. Seba entiende que no perdió una competición: rompió una amistad por intentar ganar una discusión."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Irme, darles espacio y aceptar las consecuencias de la pelea.",
+        "efectos": {
+          "honestidad": 5
+        },
+        "eventos": [
+          "seba_richie_pelea_cerrada"
+        ],
+        "reaccion": [
+          {
+            "personaje": "Seba",
+            "texto": "No voy a perseguirlos. Tengo que hacerme cargo de la embarrada que dejé."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Seba se va con el labio lastimado y muchas cosas que pensar. El grupo necesita distancia."
+          }
+        ]
+      }
+    ],
+    "cg": "seba/final_turquesa.png"
+  }
+]

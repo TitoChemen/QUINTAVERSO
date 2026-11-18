@@ -15,6 +15,8 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.LinkedHashMap;
+import java.util.Map;
 import java.util.Optional;
 
 /** Controla el bucle: elegir actividad -> jugar escena -> avanzar -> guardar. */
@@ -22,21 +24,30 @@ public final class MotorCalendario {
     private final Stage ventana;
     private final Runnable volverMenu;
     private final GestorGuardado guardado = new GestorGuardado();
-    private final GestorHistoria historia = new GestorHistoria();
+    private final GestorHistoria historia;
     private final GestorEventos eventos = new GestorEventos();
 
+    private final String temporada;
     private EstadoPartida estado;
     private CalendarioJuego calendario;
 
     public MotorCalendario(Stage ventana, Runnable volverMenu) {
-        this.ventana = ventana;
-        this.volverMenu = volverMenu;
+        this(ventana, volverMenu, "caceres");
     }
 
+    public MotorCalendario(Stage ventana, Runnable volverMenu, String temporada) {
+        this.ventana = ventana;
+        this.volverMenu = volverMenu;
+        this.temporada = temporada;
+        this.historia = new GestorHistoria(temporada);
+    }
+
+    private boolean esSeba() { return "seba".equals(temporada); }
+
     public void iniciar() {
-        boolean auto = guardado.existe("caceres");
-        boolean anterior = guardado.existeAnterior("caceres");
-        boolean manual = guardado.hayRanuras("caceres");
+        boolean auto = guardado.existe(temporada);
+        boolean anterior = guardado.existeAnterior(temporada);
+        boolean manual = guardado.hayRanuras(temporada);
         if (auto || anterior || manual) {
             ButtonType continuar = new ButtonType("Continuar autoguardado");
             ButtonType cargar = new ButtonType("Cargar ranura manual");
@@ -45,7 +56,7 @@ public final class MotorCalendario {
             Alert elegir = new Alert(Alert.AlertType.CONFIRMATION);
             elegir.initOwner(ventana);
             elegir.setTitle("QUINTAVERSO — Partidas");
-            elegir.setHeaderText("Temporada Cáceres");
+            elegir.setHeaderText("Temporada " + (esSeba() ? "Seba" : "Cáceres"));
             elegir.setContentText("Puedes continuar, cargar una ranura o comenzar de cero.");
             // Las alertas CONFIRMATION ya traen OK y CANCEL. Limpiarlos antes
             // de incorporar acciones propias evita botones duplicados en JavaFX.
@@ -61,13 +72,13 @@ public final class MotorCalendario {
             }
             try {
                 if (opcion.get() == continuar) {
-                    estado = guardado.cargar("caceres");
+                    estado = guardado.cargar(temporada);
                 } else if (opcion.get() == cargar) {
-                    Optional<EstadoPartida> seleccion = DialogoPartidas.cargar(ventana, guardado, "caceres");
+                    Optional<EstadoPartida> seleccion = DialogoPartidas.cargar(ventana, guardado, temporada);
                     if (seleccion.isEmpty()) { volverMenu.run(); return; }
                     estado = seleccion.get();
                 } else if (opcion.get() == importar) {
-                    estado = guardado.cargarAnterior("caceres");
+                    estado = guardado.cargarAnterior(temporada);
                 } else {
                     Alert confirmar = new Alert(Alert.AlertType.CONFIRMATION,
                             "Se reemplazará el autoguardado al iniciar. Las ranuras manuales no se tocarán.",
@@ -76,7 +87,7 @@ public final class MotorCalendario {
                     if (confirmar.showAndWait().orElse(ButtonType.NO) != ButtonType.YES) {
                         volverMenu.run(); return;
                     }
-                    estado = new EstadoPartida("caceres");
+                    estado = new EstadoPartida(temporada);
                 }
             } catch (IOException ex) {
                 HelloApplication.alerta(Alert.AlertType.ERROR, "Error al cargar", ex.getMessage());
@@ -84,7 +95,7 @@ public final class MotorCalendario {
                 return;
             }
         } else {
-            estado = new EstadoPartida("caceres");
+            estado = new EstadoPartida(temporada);
         }
         mostrarEstadoCargado();
     }
@@ -103,6 +114,7 @@ public final class MotorCalendario {
     private Runnable callbackPendiente() {
         return switch (estado.getContextoEscena()) {
             case "PROLOGO" -> this::completarPrologo;
+            case "HITO_SEBA" -> this::completarHitoSeba;
             case "ACCION" -> this::completarAccion;
             case "FINAL" -> this::completarFinal;
             case "RELECTURA_FINAL" -> this::completarRelecturaFinal;
@@ -112,7 +124,7 @@ public final class MotorCalendario {
 
     private void iniciarPrologo() {
         estado.setContextoEscena("PROLOGO");
-        reproducir("prologo_inicio", this::completarPrologo, false);
+        reproducir(esSeba() ? "seba_prologo_inicio" : "prologo_inicio", this::completarPrologo, false);
     }
     private void completarPrologo() {
         estado.registrarEvento("prologo_visto");
@@ -123,7 +135,7 @@ public final class MotorCalendario {
 
     private void guardarManual() { DialogoPartidas.guardar(ventana, guardado, estado); }
     private void cargarManual() {
-        Optional<EstadoPartida> seleccion = DialogoPartidas.cargar(ventana, guardado, "caceres");
+        Optional<EstadoPartida> seleccion = DialogoPartidas.cargar(ventana, guardado, temporada);
         if (seleccion.isEmpty()) return;
         estado = seleccion.get();
         // Ahora el autoguardado reflejará lo que se cargó, sin modificar ninguna ranura.
@@ -135,11 +147,20 @@ public final class MotorCalendario {
     }
 
     private void mostrarCalendario() {
+        if (esSeba()) {
+            HitosSeba.Hito hito = HitosSeba.pendiente(estado);
+            if (hito != null) {
+                estado.setContextoEscena("HITO_SEBA");
+                estado.setAccionPendienteId(hito.id());
+                reproducir(hito.escenaId(), this::completarHitoSeba, false);
+                return;
+            }
+        }
         if (calendario.campañaTerminada()) {
             gestionarFinal();
             return;
         }
-        Label titulo = etiqueta("CÁCERES: DOBLE TENTACIÓN", "titulo-mediano");
+        Label titulo = etiqueta(esSeba() ? "SEBA: EL CAGAZO LEGENDARIO" : "CÁCERES: DOBLE TENTACIÓN", "titulo-mediano");
         Label fecha = etiqueta("DÍA " + calendario.getDia() + " / " + CalendarioJuego.DIAS_CAMPANA
                 + "  ·  " + calendario.getFechaFormateada(), "subtitulo");
         Label turno = etiqueta(calendario.getNombreTurno() + "  ·  " + calendario.getTurno().getHorario(), "acento");
@@ -149,6 +170,18 @@ public final class MotorCalendario {
         panelEstadisticas.getStyleClass().add("panel");
         panelEstadisticas.setPadding(new Insets(20));
         panelEstadisticas.getChildren().add(etiqueta("ESTADO DE LA PARTIDA", "etiqueta-caps"));
+        if (esSeba()) {
+            indicador(panelEstadisticas, "💚 Kelly", "kelly");
+            indicador(panelEstadisticas, "🫶 Confianza Kelly", "confianza_kelly");
+            indicador(panelEstadisticas, "💜 Amira", "amira");
+            indicador(panelEstadisticas, "🩵 Javi", "javi");
+            indicador(panelEstadisticas, "🧡 Feña", "fena");
+            indicador(panelEstadisticas, "✨ Honestidad", "honestidad");
+            indicador(panelEstadisticas, "💬 Sospecha", "sospecha");
+            indicador(panelEstadisticas, "🎮 Amistad", "amistad");
+            indicador(panelEstadisticas, "🌸 Estilo", "estilo");
+            indicador(panelEstadisticas, "🧠 Autoestima", "autoestima");
+        } else {
         indicador(panelEstadisticas, "💙 Lumi", "lumi");
         indicador(panelEstadisticas, "💗 Cony", "cony");
         indicador(panelEstadisticas, "💠 Confianza Lumi", "confianza_lumi");
@@ -157,12 +190,23 @@ public final class MotorCalendario {
         indicador(panelEstadisticas, "✨ Honestidad", "honestidad");
         indicador(panelEstadisticas, "🎮 Amistad", "amistad");
         indicador(panelEstadisticas, "🧠 Claridad", "claridad");
+        }
         panelEstadisticas.setMinWidth(265);
 
         VBox listaAcciones = new VBox(12);
         listaAcciones.setFillWidth(true);
-        listaAcciones.getChildren().add(etiqueta("¿QUÉ HACE CÁCERES AHORA?", "etiqueta-caps"));
+        listaAcciones.getChildren().add(etiqueta(esSeba() ? "¿QUÉ HACE SEBA AHORA?" : "¿QUÉ HACE CÁCERES AHORA?", "etiqueta-caps"));
         List<GestorEventos.Accion> disponibles = eventos.disponibles(estado);
+        Map<String, VBox> secciones = new LinkedHashMap<>();
+        if (esSeba()) {
+            Label resumen = etiqueta(resumenSeba(), "texto-suave");
+            resumen.setWrapText(true);
+            Label cantidad = etiqueta("Actividades desbloqueadas: " + disponibles.size()
+                    + " · Discord: " + estado.getEventos().keySet().stream()
+                    .filter(k -> k.startsWith("accion:seba_discord_")).count()
+                    + "/24 noches · Día " + estado.getDia(), "acento");
+            listaAcciones.getChildren().addAll(resumen, cantidad);
+        }
         for (GestorEventos.Accion a : disponibles) {
             Button boton = new Button(a.titulo());
             boton.getStyleClass().add("boton-evento");
@@ -173,7 +217,18 @@ public final class MotorCalendario {
             descripcion.setWrapText(true);
             VBox linea = new VBox(4, boton, descripcion);
             linea.setFillWidth(true);
-            listaAcciones.getChildren().add(linea);
+            if (esSeba()) {
+                String grupo = grupoSeba(a.id());
+                secciones.computeIfAbsent(grupo, k -> new VBox(9)).getChildren().add(linea);
+            } else listaAcciones.getChildren().add(linea);
+        }
+        if (esSeba()) for (var entrada : secciones.entrySet()) {
+            int n = entrada.getValue().getChildren().size();
+            TitledPane pestana = new TitledPane(entrada.getKey() + "  (" + n + ")", entrada.getValue());
+            pestana.setAnimated(false);
+            pestana.setExpanded(entrada.getKey().contains("Discord") || entrada.getKey().contains("Trama"));
+            pestana.setMaxWidth(Double.MAX_VALUE);
+            listaAcciones.getChildren().add(pestana);
         }
         // En ventanas angostas la lista pasa debajo del panel; no se sale del borde.
         FlowPane paneles = new FlowPane(18, 18, panelEstadisticas, listaAcciones);
@@ -208,6 +263,36 @@ public final class MotorCalendario {
         scroll.setFitToWidth(true);
         scroll.getStyleClass().add("scroll-fondo");
         HelloApplication.cambiarContenido(ventana, scroll);
+    }
+
+    /** Estado narrativo visible; evita que las barras cuenten una historia falsa. */
+    private String resumenSeba() {
+        if (estado.ocurrioEvento("seba_amira_delato_grupo"))
+            return "⚠ Amira se alejó tras denunciar la mentira. Su ruta romántica está cerrada; las disculpas no compran perdón.";
+        if (estado.ocurrioEvento("seba_infidelidad") && !estado.ocurrioEvento("seba_amira_confesion_valida"))
+            return "💬 Hubo una infidelidad. Antes de pensar en otra relación, Seba debe asumir lo ocurrido.";
+        if (estado.ocurrioEvento("seba_kelly_termino"))
+            return "🌙 Kelly y Seba terminaron. Los vínculos que siguen se construyen con decisiones nuevas.";
+        return "💚 Kelly es tu pareja. Las rutas románticas con otras chicas requieren resolver primero esa relación.";
+    }
+
+    private static String grupoSeba(String id) {
+        if (id.startsWith("seba_discord")) return "🎧 Noches de Discord";
+        if (id.startsWith("seba_kelly")) return "💚 Kelly · Relación";
+        if (id.startsWith("seba_amira")) return "💜 Amira · Amistad y límites";
+        if (id.startsWith("seba_javi")) return "🩵 Javi · Nuevos comienzos";
+        if (id.startsWith("seba_fena")) return "🧡 Feña y Richie";
+        if (id.startsWith("seba_estilo")) return "🌸 Estilo y cosplay";
+        if (id.startsWith("seba_momento")) return "🎬 Trama y escenas especiales";
+        return "📓 Los cabros y el diario";
+    }
+
+    private void completarHitoSeba() {
+        estado.registrarEvento("seba_hito:" + estado.getAccionPendienteId());
+        estado.agregarHistorial("Día " + estado.getDia() + " — Evento de la historia: " + estado.getAccionPendienteId());
+        estado.limpiarEscena();
+        guardarSilencioso();
+        mostrarCalendario();
     }
 
     private void elegirAccion(GestorEventos.Accion accion) {
@@ -284,7 +369,11 @@ public final class MotorCalendario {
         Label titulo = etiqueta("FIN DE TEMPORADA", "logo");
         Label subtitulo = etiqueta("Has llegado al final de los treinta días.", "subtitulo");
         Label finalId = etiqueta("Final desbloqueado: " + epilogo.getTitulo(), "titulo-mediano");
-        Label puntuacion = etiqueta(String.format(
+        Label puntuacion = etiqueta(esSeba() ? String.format(
+                "Kelly %d · Amira %d · Javi %d · Feña %d · Estilo %d",
+                estado.obtenerEstadistica("kelly"), estado.obtenerEstadistica("amira"),
+                estado.obtenerEstadistica("javi"), estado.obtenerEstadistica("fena"),
+                estado.obtenerEstadistica("estilo")) : String.format(
                 "Lumi %d  ·  Cony %d  ·  Sospecha %d  ·  Honestidad %d  ·  Amistad %d",
                 estado.obtenerEstadistica("lumi"), estado.obtenerEstadistica("cony"),
                 estado.obtenerEstadistica("sospecha"), estado.obtenerEstadistica("honestidad"),
@@ -297,7 +386,7 @@ public final class MotorCalendario {
             Alert confirmar = new Alert(Alert.AlertType.CONFIRMATION,
                     "Esto reemplazará el guardado actual. ¿Seguro?", ButtonType.YES, ButtonType.NO);
             if (confirmar.showAndWait().orElse(ButtonType.NO) != ButtonType.YES) return;
-            estado = new EstadoPartida("caceres");
+            estado = new EstadoPartida(temporada);
             calendario = new CalendarioJuego(estado);
             guardarSilencioso();
             iniciarPrologo();
