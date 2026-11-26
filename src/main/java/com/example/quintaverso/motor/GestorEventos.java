@@ -10,6 +10,7 @@ public final class GestorEventos {
 
     public List<Accion> disponibles(EstadoPartida e) {
         if ("seba".equals(e.getTemporada())) return GestorEventosSeba.disponibles(e);
+        if ("jairo".equals(e.getTemporada())) return GestorEventosJairo.disponibles(e);
         List<Accion> acciones = new ArrayList<>();
         int d = e.getDia();
         int l = e.obtenerEstadistica("lumi");

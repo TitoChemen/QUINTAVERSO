@@ -1,0 +1,2453 @@
+[
+  {
+    "id": "jairo_extra_01",
+    "titulo": "La foto que no salió",
+    "lugar": "Parque",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Después de la incomodidad por el celular, ambos retoman la salida con algo de cautela.",
+        "condiciones": [
+          {
+            "evento": "j_presencia",
+            "eventoActivo": false
+          }
+        ]
+      },
+      {
+        "personaje": "Mary",
+        "texto": "Mira la foto, saliste con cara de carnet."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Es mi cara natural, qué querís."
+      },
+      {
+        "personaje": "Mary",
+        "texto": "Ya, otra. Esta vez sonríe."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Mary intenta tomarle la mano mientras caminan."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Tomarle la mano y proponer otra foto.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Ya, pero esta la saco yo."
+          },
+          {
+            "personaje": "Mary",
+            "texto": "Así sí, amor."
+          }
+        ],
+        "efectos": {
+          "confianza_mary": 2
+        },
+        "eventos": [
+          "j_foto_juntos",
+          "j_v11"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Decir que las fotos me dan vergüenza.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Me da cosa salir en fotos."
+          },
+          {
+            "personaje": "Mary",
+            "texto": "Está bien, no te voy a obligar. Guardemos el momento."
+          }
+        ],
+        "efectos": {
+          "valentia": -1
+        },
+        "eventos": [
+          "j_v11"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_extra_02",
+    "titulo": "Lo que se cuenta en casa",
+    "lugar": "Casa",
+    "dialogos": [
+      {
+        "personaje": "Mary (mensaje)",
+        "texto": "¿Llegaste bien del almacén?"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Sí, justo me encontré con la vecina."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Puede contar lo que ocurrió sin convertir una amistad en un secreto."
+      },
+      {
+        "personaje": "Mary (mensaje)",
+        "texto": "Ah, ¿la Ale?"
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Contarle el saludo sin inventar detalles.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Conversamos un rato en la reja."
+          },
+          {
+            "personaje": "Mary",
+            "texto": "Ah, ya. ¿Compraste el pan?"
+          }
+        ],
+        "efectos": {
+          "honestidad": 2
+        },
+        "eventos": [
+          "j_vecina_mencionada"
+        ],
+        "desactivarEventos": [],
+        "condiciones": [
+          {
+            "evento": "j_flirt_ale",
+            "eventoActivo": false
+          }
+        ]
+      },
+      {
+        "texto": "Reconocer que el mensaje fue coqueto, sin fingir que fue un saludo.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Le hablé de una forma que no correspondía."
+          },
+          {
+            "personaje": "Mary",
+            "texto": "Necesito que me expliques eso bien. No lo dejemos aquí."
+          }
+        ],
+        "efectos": {
+          "honestidad": 4
+        },
+        "eventos": [
+          "j_reconocimiento_parcial"
+        ],
+        "desactivarEventos": [],
+        "condiciones": [
+          {
+            "evento": "j_flirt_ale",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "texto": "Cambiar el tema al pan.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Compré marraquetas. ¿Querís una?"
+          },
+          {
+            "personaje": "Mary",
+            "texto": "Ya, pero te pregunté otra cosa."
+          }
+        ],
+        "efectos": {
+          "confianza_mary": -3
+        },
+        "eventos": [
+          "j_evasion_vecina"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_extra_03",
+    "titulo": "El audio que cuesta mandar",
+    "lugar": "WhatsApp",
+    "dialogos": [
+      {
+        "personaje": "Mary (mensaje)",
+        "texto": "No quiero prohibirte hablar con nadie. Solo quiero que me tengas presente."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Tengo escrito un mensaje gigante y no sé si mandarlo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Es más fácil hacer un chiste que reconocer lo que siente."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Mandar un audio breve y sincero.",
+        "reaccion": [
+          {
+            "personaje": "Jairo (audio)",
+            "texto": "Me importai. Si algo te incomoda, prefiero que me lo digai."
+          },
+          {
+            "personaje": "Mary",
+            "texto": "Gracias por decirlo sin enojarte."
+          }
+        ],
+        "efectos": {
+          "confianza_mary": 3
+        },
+        "eventos": [
+          "j_audio_sincero"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Responder con un meme para salir del paso.",
+        "reaccion": [
+          {
+            "personaje": "Mary",
+            "texto": "Jairo, te estoy hablando en serio."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El tema queda pendiente."
+          }
+        ],
+        "efectos": {
+          "inseguridad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_extra_04",
+    "titulo": "El entrenamiento del virgo",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "Simulación: la Mary te dice que te extraña. Responda, alumno."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Yo también."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "¡Pero con emoción, po! No estái confirmando un ticket."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "La idea no es chamullar, es que se entienda lo que sentís."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Practicar una respuesta con mis palabras.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Te extraño también. ¿Nos vemos mañana?"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Se logró, cabros. Se logró."
+          }
+        ],
+        "efectos": {
+          "valentia": 3
+        },
+        "eventos": [
+          "j_practica_audio"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Decir que prefiero un sticker.",
+        "reaccion": [
+          {
+            "personaje": "Kevin",
+            "texto": "El sticker no va a defender tu tesis emocional."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Ya, ya, me quedó claro."
+          }
+        ],
+        "efectos": {
+          "valentia": -2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_extra_05",
+    "titulo": "El trabajo en pareja",
+    "lugar": "Café",
+    "dialogos": [
+      {
+        "personaje": "Andrea",
+        "texto": "¿Dividimos el informe? Yo hago la presentación."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Ya. Yo arreglo el código."
+      },
+      {
+        "personaje": "Andrea",
+        "texto": "Si algo falla, avísame antes de las doce, porfa."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Andrea guarda sus apuntes y espera una confirmación."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Cerrar el plan de trabajo claramente.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Te mando el avance mañana en la tarde."
+          },
+          {
+            "personaje": "Andrea",
+            "texto": "Buena, así no vivimos pegados al chat."
+          }
+        ],
+        "efectos": {
+          "andrea": 2
+        },
+        "eventos": [
+          "j_trabajo_acordado"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Dejar todo para última hora.",
+        "reaccion": [
+          {
+            "personaje": "Andrea",
+            "texto": "No me dejís colgada, po."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Chuta, ya."
+          }
+        ],
+        "efectos": {
+          "madurez": -2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_extra_06",
+    "titulo": "Un sábado propio",
+    "lugar": "Casa",
+    "dialogos": [
+      {
+        "personaje": "Seba (mensaje)",
+        "texto": "Mañana hay partida, ¿te sumai?"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "La Mary tiene su panorama."
+      },
+      {
+        "personaje": "Kevin (mensaje)",
+        "texto": "Entonces tenís tiempo. ¿O hay que pedir permiso por escrito?"
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Organizar una hora para jugar.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "A las nueve me conecto."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Confirmado, que no se te caiga el internet."
+          }
+        ],
+        "efectos": {
+          "amistad": 3
+        },
+        "eventos": [
+          "j_lobby_plan"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Dejar mi día sin planes esperando a Mary.",
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "Jairo revisa el teléfono más de lo necesario."
+          }
+        ],
+        "efectos": {
+          "inseguridad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_extra_07",
+    "titulo": "La promesa pequeña",
+    "lugar": "Costanera",
+    "dialogos": [
+      {
+        "personaje": "Mary",
+        "texto": "La próxima vez que algo nos moleste, ¿podemos decirlo antes de acostarnos?"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Aunque no alcancemos a resolverlo altiro."
+      },
+      {
+        "personaje": "Mary",
+        "texto": "Eso. Y si necesito espacio, te aviso."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Acordar una forma de retomar las conversaciones.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Nos damos un rato y acordamos cuándo hablamos."
+          },
+          {
+            "personaje": "Mary",
+            "texto": "Me gusta. Así no queda en el aire."
+          }
+        ],
+        "efectos": {
+          "madurez": 2
+        },
+        "eventos": [
+          "j_acuerdo_retorno"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Dejar el acuerdo sin detalles.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Ya, vemos qué pasa."
+          },
+          {
+            "personaje": "Mary",
+            "texto": "Ojalá esta vez sí lo conversemos."
+          }
+        ],
+        "efectos": {
+          "confianza_mary": -2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_extra_08",
+    "titulo": "La pantalla encendida",
+    "lugar": "Casa",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El teléfono ilumina la pieza. El mensaje de Ale sigue ahí."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Mañana tengo clases temprano."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No necesita borrar mensajes para dejar de conversar."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Silenciar notificaciones y descansar.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Mañana respondo lo que falte."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Deja el celular en el escritorio."
+          }
+        ],
+        "efectos": {
+          "madurez": 2
+        },
+        "eventos": [
+          "j_descansa"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Quedarme revisando mensajes.",
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "La alarma suena demasiado pronto al día siguiente."
+          }
+        ],
+        "efectos": {
+          "madurez": -2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_extra_09",
+    "titulo": "Después de la conversación",
+    "lugar": "Casa",
+    "dialogos": [
+      {
+        "personaje": "Mary",
+        "texto": "No necesito saber todo lo que haces. Necesito que no me mientas."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Entiendo la diferencia."
+      },
+      {
+        "personaje": "Mary",
+        "texto": "Si hay algo más que contar, prefiero que lo hagas cuando estemos tranquilos."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Aceptar hablar del tema de nuevo si hace falta.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "No quiero usar esta conversa para cerrar algo a medias."
+          },
+          {
+            "personaje": "Mary",
+            "texto": "Gracias."
+          }
+        ],
+        "efectos": {
+          "madurez": 2
+        },
+        "eventos": [
+          "j_tema_abierto"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Dar el tema por terminado sin preguntarle.",
+        "reaccion": [
+          {
+            "personaje": "Mary",
+            "texto": "Que tú estés listo no significa que yo también."
+          }
+        ],
+        "efectos": {
+          "confianza_mary": -3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_extra_10",
+    "titulo": "Cinco minutos antes de exponer",
+    "lugar": "Campus",
+    "dialogos": [
+      {
+        "personaje": "Andrea",
+        "texto": "¿Trajiste la presentación?"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Sí, en tres pendrives y en Drive."
+      },
+      {
+        "personaje": "Andrea",
+        "texto": "Ya, ingeniero de contingencia."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La presentación termina y salen de la sala."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Celebrar el trabajo y despedirme.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Nos quedó buena. Gracias por la ayuda."
+          },
+          {
+            "personaje": "Andrea",
+            "texto": "Igualmente. Nos vemos en clases."
+          }
+        ],
+        "efectos": {
+          "andrea": 2
+        },
+        "eventos": [
+          "j_presentacion_lista"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Quedarme esperando que ella proponga algo.",
+        "reaccion": [
+          {
+            "personaje": "Andrea",
+            "texto": "Me tengo que ir. Hablamos después."
+          }
+        ],
+        "efectos": {
+          "valentia": -2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ],
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "jairo_extra_11",
+    "titulo": "La llamada privada",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Kevin",
+        "texto": "Ya, sin el resto un segundo. ¿Te da miedo decirle lo que pensai?"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Sí. Siento que cualquier respuesta puede quedar mal."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "No podís controlar cómo te responden. Sí podís controlar qué tan claro hablai."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Reconocer que me cuesta enfrentar conflictos.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Me cuesta. Pero lo estoy intentando."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Bien, wn. Eso es algo concreto."
+          }
+        ],
+        "efectos": {
+          "madurez": 3
+        },
+        "eventos": [
+          "j_admite_miedo"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Decir que prefiero esperar a que se arregle solo.",
+        "reaccion": [
+          {
+            "personaje": "Kevin",
+            "texto": "Eso también es una decisión, y no siempre te va a salir gratis."
+          }
+        ],
+        "efectos": {
+          "madurez": -3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_extra_12",
+    "titulo": "De vuelta desde la reja",
+    "lugar": "Casa",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Jairo entra a su casa y deja las llaves sobre la mesa."
+      },
+      {
+        "personaje": "Ale (mensaje)",
+        "texto": "Gracias por ayudar con las cajas."
+      },
+      {
+        "personaje": "Ale (mensaje)",
+        "texto": "Y no quiero que lo del beso se convierta en otro secreto.",
+        "condiciones": [
+          {
+            "evento": "j_beso_ale",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Tengo que decidir cómo sigo hablando con ella."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Mantener distancia y no alimentar expectativas.",
+        "reaccion": [
+          {
+            "personaje": "Jairo (mensaje)",
+            "texto": "Gracias a ti. Voy a ordenar mis cosas antes de seguir hablando."
+          },
+          {
+            "personaje": "Ale",
+            "texto": "Dale."
+          }
+        ],
+        "efectos": {
+          "madurez": 2
+        },
+        "eventos": [
+          "j_distancia_ale"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Dejar la conversación sin resolver.",
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "El mensaje queda abierto. Nada de lo ocurrido desaparece."
+          }
+        ],
+        "efectos": {
+          "honestidad": -2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_extra_13",
+    "titulo": "Una tarde sin vigilancia",
+    "lugar": "Plaza",
+    "dialogos": [
+      {
+        "personaje": "Mary",
+        "texto": "Hoy me dieron ganas de preguntarte con quién estabas."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "¿Y qué hiciste?"
+      },
+      {
+        "personaje": "Mary",
+        "texto": "Me acordé que podía preguntarte cómo fue tu día sin hacerte un interrogatorio."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Contarle mi día y preguntarle por el suyo.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "¿Y cómo te fue a ti?"
+          },
+          {
+            "personaje": "Mary",
+            "texto": "Bien. Tenía ganas de contarte una cosa."
+          }
+        ],
+        "efectos": {
+          "confianza_mary": 2
+        },
+        "eventos": [
+          "j_conversa_mutua"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Responder seco y cerrar la conversación.",
+        "reaccion": [
+          {
+            "personaje": "Mary",
+            "texto": "Ya, hablamos cuando tengai ganas."
+          }
+        ],
+        "efectos": {
+          "inseguridad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_extra_14",
+    "titulo": "El mensaje después del mirador",
+    "lugar": "WhatsApp",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "La conversación del mirador no termina cuando cada uno llega a casa."
+      },
+      {
+        "personaje": "Mary (mensaje)",
+        "texto": "Me gustaría que lo que hablamos hoy no quedara solo en palabras.",
+        "condiciones": [
+          {
+            "evento": "j_pareja",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Mary (mensaje)",
+        "texto": "Llegué bien. Necesito unos días sin hablar como antes.",
+        "condiciones": [
+          {
+            "evento": "j_pareja",
+            "eventoActivo": false
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Tengo que respetar lo que acordamos."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Responder sin presionar.",
+        "reaccion": [
+          {
+            "personaje": "Jairo (mensaje)",
+            "texto": "Entiendo. Que descanses."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "Jairo deja el teléfono."
+          }
+        ],
+        "efectos": {
+          "madurez": 2
+        },
+        "eventos": [
+          "j_respeta_cierre"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Mandar otro mensaje buscando tranquilidad inmediata.",
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "El segundo mensaje no obtiene respuesta esa noche."
+          }
+        ],
+        "efectos": {
+          "madurez": -3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_extra_15",
+    "titulo": "El regreso del carrete",
+    "lugar": "Casa",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "Hermano, ¿llegaste?"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Sí, recién."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Mañana hablamos con calma. No decidai toda tu vida a las tres de la mañana."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Jairo recuerda el beso con Cami y lo que todavía no ha contado.",
+        "condiciones": [
+          {
+            "evento": "j_beso_cami",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Jairo recuerda que habló con Cami después de terminar con Mary.",
+        "condiciones": [
+          {
+            "evento": "j_cami_beso_libre",
+            "eventoActivo": true
+          }
+        ]
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Dejar las decisiones importantes para mañana.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Voy a descansar y responder bien mañana."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Buena, wn."
+          }
+        ],
+        "efectos": {
+          "madurez": 2
+        },
+        "eventos": [
+          "j_carrete_reflexion"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Revisar el teléfono sin parar.",
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "Jairo pasa un buen rato mirando el chat sin saber qué decir."
+          }
+        ],
+        "efectos": {
+          "valentia": -2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ],
+    "fondo": "habitacion_caceres_noche.png"
+  },
+  {
+    "id": "jairo_extra_16",
+    "titulo": "Lo que Cami espera",
+    "lugar": "WhatsApp",
+    "dialogos": [
+      {
+        "personaje": "Cami (mensaje)",
+        "texto": "Yo igual tengo mis cosas. No quiero estar esperando una respuesta todo el día."
+      },
+      {
+        "personaje": "Jairo (mensaje)",
+        "texto": "Estoy con Mary. Si ayer crucé un límite, me corresponde hablar con ella antes de seguir acercándome a ti.",
+        "condiciones": [
+          {
+            "evento": "j_cami_honesta",
+            "eventoActivo": true
+          },
+          {
+            "evento": "j_pareja",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo (mensaje)",
+        "texto": "Terminé con Mary antes del carrete. No quiero empezar algo por apuro.",
+        "condiciones": [
+          {
+            "evento": "j_cami_honesta",
+            "eventoActivo": true
+          },
+          {
+            "evento": "j_pareja",
+            "eventoActivo": false
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Eso es justo."
+      },
+      {
+        "personaje": "Cami (mensaje)",
+        "texto": "Si vamos a hablar, que sea porque nos caemos bien, no por obligación."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Acordar conversar sin promesas.",
+        "reaccion": [
+          {
+            "personaje": "Jairo (mensaje)",
+            "texto": "Dale. No quiero venderte humo."
+          },
+          {
+            "personaje": "Cami",
+            "texto": "Perfecto."
+          }
+        ],
+        "efectos": {
+          "camila": 2
+        },
+        "eventos": [
+          "j_cami_ritmo"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "No contestar todavía.",
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "Jairo deja el chat sin una respuesta clara."
+          }
+        ],
+        "efectos": {
+          "camila": -3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_extra_17",
+    "titulo": "El pasillo de salida",
+    "lugar": "Campus",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Andrea se despide al terminar la conversación."
+      },
+      {
+        "personaje": "Andrea",
+        "texto": "Porfa, no me hagai parte de una pelea que no me corresponde."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Ya. Tengo que resolver mis cosas."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "El resto de la tarde queda en silencio."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "No escribirle otra vez hoy.",
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "Jairo respeta el espacio y vuelve a sus apuntes."
+          }
+        ],
+        "efectos": {
+          "madurez": 2
+        },
+        "eventos": [
+          "j_respeta_andrea"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Buscar una respuesta inmediata.",
+        "reaccion": [
+          {
+            "personaje": "Andrea (mensaje)",
+            "texto": "Te dije que aclares tus cosas primero."
+          }
+        ],
+        "efectos": {
+          "andrea": -3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ],
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "jairo_extra_18",
+    "titulo": "El saludo que quedó corto",
+    "lugar": "Campus",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Anto vuelve a cruzarse con Jairo cerca de la salida."
+      },
+      {
+        "personaje": "Anto",
+        "texto": "¡Oye, Jairo! Que te vaya bien."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Igualmente."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Esta vez no tiene que convertir un saludo en una declaración."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Devolver el saludo y sonreír.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "¡Nos vemos, Anto!"
+          },
+          {
+            "personaje": "Anto",
+            "texto": "Eso, po. Chao."
+          }
+        ],
+        "efectos": {
+          "anto": 2
+        },
+        "eventos": [
+          "j_anto_saludo"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Mirar el celular por vergüenza.",
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "Cuando levanta la vista, Anto ya se fue."
+          }
+        ],
+        "efectos": {
+          "valentia": -2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ],
+    "fondo": "plaza_villa_alemana.png"
+  },
+  {
+    "id": "jairo_extra_19",
+    "titulo": "El peso de lo dicho",
+    "lugar": "Casa",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Jairo se queda solo después de la conversación del día."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Le dije que besé a Ale.",
+        "condiciones": [
+          {
+            "evento": "j_confesion",
+            "eventoActivo": true
+          },
+          {
+            "evento": "j_beso_ale",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Le conté el beso con Cami.",
+        "condiciones": [
+          {
+            "evento": "j_confesion",
+            "eventoActivo": true
+          },
+          {
+            "evento": "j_beso_cami",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Le dije la verdad sobre Andrea.",
+        "condiciones": [
+          {
+            "evento": "j_confesion",
+            "eventoActivo": true
+          },
+          {
+            "evento": "j_beso_andrea",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "También le conté los mensajes que oculté.",
+        "condiciones": [
+          {
+            "evento": "j_confesion",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Todavía no le he contado todo.",
+        "condiciones": [
+          {
+            "evento": "j_secreto",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "No voy a inventar que todo está bien.",
+        "condiciones": [
+          {
+            "evento": "j_secreto",
+            "eventoActivo": false
+          }
+        ]
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Escribir lo que necesito cambiar, para mí.",
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "Anota acciones concretas y no envía otra promesa vacía."
+          }
+        ],
+        "efectos": {
+          "madurez": 2
+        },
+        "eventos": [
+          "j_reflexion_escrita"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Cerrar la libreta y distraerme.",
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "La incomodidad sigue ahí cuando apaga el computador."
+          }
+        ],
+        "efectos": {
+          "madurez": -2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_extra_20",
+    "titulo": "El día que no se resuelve por chat",
+    "lugar": "Casa",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El celular está sobre la mesa."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Mary pidió distancia. No me corresponde exigir otra respuesta.",
+        "condiciones": [
+          {
+            "evento": "j_pausa",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Todavía tengo cosas pendientes que hablar.",
+        "condiciones": [
+          {
+            "evento": "j_pareja",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Hoy no tengo que resolver nada con mi ex.",
+        "condiciones": [
+          {
+            "evento": "j_pareja",
+            "eventoActivo": false
+          },
+          {
+            "evento": "j_pausa",
+            "eventoActivo": false
+          }
+        ]
+      },
+      {
+        "personaje": "Kevin (mensaje)",
+        "texto": "¿Terminaste lo de clases, wn?"
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Dedicar el rato a una tarea.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Sí, me falta revisar una cosa."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Dale, te paso el apunte."
+          }
+        ],
+        "efectos": {
+          "madurez": 2
+        },
+        "eventos": [
+          "j_tarea_20"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Dejar el estudio para después.",
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "La entrega sigue pendiente."
+          }
+        ],
+        "efectos": {
+          "madurez": -2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_extra_21",
+    "titulo": "Lo que queda cuando se apagan las luces",
+    "lugar": "Casa",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Jairo vuelve a casa y se sienta al borde de la cama."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "La mentira salió a la luz. No puedo pedirles que me escuchen otra vez.",
+        "condiciones": [
+          {
+            "evento": "j_bloqueado",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Todavía tengo que esperar a que Mary quiera hablar.",
+        "condiciones": [
+          {
+            "evento": "j_pausa",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "No quiero seguir dejando conversaciones a medias.",
+        "condiciones": [
+          {
+            "evento": "j_pareja",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Ahora me toca seguir sin Mary.",
+        "condiciones": [
+          {
+            "evento": "j_pareja",
+            "eventoActivo": false
+          },
+          {
+            "evento": "j_pausa",
+            "eventoActivo": false
+          },
+          {
+            "evento": "j_bloqueado",
+            "eventoActivo": false
+          }
+        ]
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Tiene la tentación de escribir un mensaje impulsivo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "No insistir ni buscar otra discusión.",
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "Apaga la pantalla y respira."
+          }
+        ],
+        "efectos": {
+          "madurez": 2
+        },
+        "eventos": [
+          "j_cierra_noche"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Quedarme dando vueltas a lo ocurrido.",
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "No manda mensajes, pero duerme mal."
+          }
+        ],
+        "efectos": {
+          "madurez": -2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ],
+    "fondo": "habitacion_caceres_noche.png"
+  },
+  {
+    "id": "jairo_extra_22",
+    "titulo": "Una mañana que también es mía",
+    "lugar": "Casa",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "La cuarta semana empieza con una lista de cosas pendientes."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "No quiero que mi día dependa de una notificación."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Todavía hay una entrega, ropa por ordenar y planes que puede hacer por su cuenta."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Terminar una responsabilidad antes del celular.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Ya, primero lo que tengo que hacer."
+          },
+          {
+            "personaje": "Narrador",
+            "texto": "El día vuelve a tener un ritmo propio."
+          }
+        ],
+        "efectos": {
+          "madurez": 2
+        },
+        "eventos": [
+          "j_rutina_22"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Postergar y revisar el chat.",
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "El tiempo pasa y la entrega no avanza."
+          }
+        ],
+        "efectos": {
+          "madurez": -3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_extra_23",
+    "titulo": "No prometer lo que todavía no existe",
+    "lugar": "Casa",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Jairo revisa lo que decidió hoy."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Quiero conocer a Ale, no usarla para olvidar a Mary.",
+        "condiciones": [
+          {
+            "evento": "j_interes_ale",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Quiero hablar con Andrea sin rumores ni secretos.",
+        "condiciones": [
+          {
+            "evento": "j_interes_andrea",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Con Cami tengo que ser claro con lo que pasó.",
+        "condiciones": [
+          {
+            "evento": "j_interes_cami",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Anto me cae bien. Me toca aprender a hablarle.",
+        "condiciones": [
+          {
+            "evento": "j_interes_anto",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Mary tiene derecho a tomar sus propias decisiones.",
+        "condiciones": [
+          {
+            "evento": "j_pausa",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "No necesito buscar pareja hoy.",
+        "condiciones": [
+          {
+            "evento": "j_solo",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Ninguna conversación equivale a una promesa."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Dar un paso a la vez.",
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "Jairo decide no apurar los planes."
+          }
+        ],
+        "efectos": {
+          "madurez": 2
+        },
+        "eventos": [
+          "j_paso_a_paso"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Ponerme a imaginar el futuro sin haber hablado.",
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "Se da cuenta de que está adelantando una historia que aún no existe."
+          }
+        ],
+        "efectos": {
+          "valentia": -2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_extra_24",
+    "titulo": "Después de decir lo importante",
+    "lugar": "Casa",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "De vuelta en casa, Jairo piensa en lo que cambió."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Volvimos, pero eso no significa que Mary haya olvidado el daño.",
+        "condiciones": [
+          {
+            "evento": "j_reconciliados",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Terminamos. No voy a confundir una despedida con otra pausa.",
+        "condiciones": [
+          {
+            "evento": "j_cierre_confesado",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "No quiero que una buena conversación sea la última vez que me esfuerzo.",
+        "condiciones": [
+          {
+            "evento": "j_pareja",
+            "eventoActivo": true
+          },
+          {
+            "evento": "j_reconciliados",
+            "eventoActivo": false
+          }
+        ]
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Se permite descansar antes de decidir qué viene."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Mantener lo acordado.",
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "Anota lo que sí puede cumplir mañana."
+          }
+        ],
+        "efectos": {
+          "madurez": 2
+        },
+        "eventos": [
+          "j_cumple_acuerdo"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Creer que el asunto ya no requiere esfuerzo.",
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "Jairo vuelve a caer en la costumbre de postergar."
+          }
+        ],
+        "efectos": {
+          "madurez": -3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_extra_25",
+    "titulo": "Un plan que debe ser real",
+    "lugar": "WhatsApp",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "El día termina y Jairo revisa sus planes."
+      },
+      {
+        "personaje": "Ale (mensaje)",
+        "texto": "Si salimos, avísame con tiempo, vecino.",
+        "condiciones": [
+          {
+            "evento": "j_cita_ale",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Andrea (mensaje)",
+        "texto": "Me tinca un paseo, pero sin andar hablando de tu ex.",
+        "condiciones": [
+          {
+            "evento": "j_cita_andrea",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Cami (mensaje)",
+        "texto": "Esta vez sin música a todo chancho, porfa.",
+        "condiciones": [
+          {
+            "evento": "j_cita_cami",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Anto (mensaje)",
+        "texto": "Ya, me tinca el café. Vemos la hora después.",
+        "condiciones": [
+          {
+            "evento": "j_cita_anto",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Mary (mensaje)",
+        "texto": "Que descanses. Mañana hablamos.",
+        "condiciones": [
+          {
+            "evento": "j_pareja",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "No hay que convertir una invitación en una relación confirmada."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Respetar los planes y no inventar promesas.",
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "Jairo deja las cosas en el punto en que están."
+          }
+        ],
+        "efectos": {
+          "valentia": 2
+        },
+        "eventos": [
+          "j_plan_real"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Ensayar demasiadas respuestas.",
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "Escribe y borra sin enviar nada nuevo."
+          }
+        ],
+        "efectos": {
+          "valentia": -3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_extra_26",
+    "titulo": "Ranked con los cabros",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "¡Jairo, cubre la entrada, wn!"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Estoy cubriendo, estoy cubriendo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "¡Estái mirando la pared!"
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "JAJAJA. Ya, una más y después a dormir."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Jugar una partida y despedirme a la hora.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Una más y me voy, mañana tengo cosas."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Ya, señor responsable."
+          }
+        ],
+        "efectos": {
+          "amistad": 3
+        },
+        "eventos": [
+          "j_lobby_equilibrado"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Quedarme hasta tarde por no pensar.",
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "La partida termina, pero el cansancio se acumula."
+          }
+        ],
+        "efectos": {
+          "madurez": -2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_extra_27",
+    "titulo": "Confirmar no es adivinar",
+    "lugar": "WhatsApp",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Jairo mira el calendario."
+      },
+      {
+        "personaje": "Anto (mensaje)",
+        "texto": "Si vamos al café, dime qué día te acomoda.",
+        "condiciones": [
+          {
+            "evento": "j_cita_anto",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Ale (mensaje)",
+        "texto": "Fue bonito conversar hoy.",
+        "condiciones": [
+          {
+            "evento": "j_confirmada_ale",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Andrea (mensaje)",
+        "texto": "Gracias por no hacer de esto otro drama.",
+        "condiciones": [
+          {
+            "evento": "j_confirmada_andrea",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Cami (mensaje)",
+        "texto": "Me caíste bien sin la música de fondo también.",
+        "condiciones": [
+          {
+            "evento": "j_confirmada_cami",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Mary (mensaje)",
+        "texto": "Buenas noches, amor.",
+        "condiciones": [
+          {
+            "evento": "j_pareja",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "No necesito adivinar qué significa todo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Contestar con claridad cuando corresponda.",
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "Responde los mensajes pendientes sin añadir promesas."
+          }
+        ],
+        "efectos": {
+          "madurez": 2
+        },
+        "eventos": [
+          "j_claridad_27"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Dejar el celular hasta mañana.",
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "Los planes ya acordados se mantienen; no inventa otros."
+          }
+        ],
+        "efectos": {
+          "valentia": -1
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ],
+    "fondo": "habitacion_caceres_noche.png"
+  },
+  {
+    "id": "jairo_extra_28",
+    "titulo": "Una decisión sin atajos",
+    "lugar": "Casa",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Quedan dos días para cerrar el mes."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Anto está conociendo a alguien. No voy a insistir.",
+        "condiciones": [
+          {
+            "evento": "j_anto_perdida",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Tengo que ser consecuente con los planes que sí acordamos.",
+        "condiciones": [
+          {
+            "evento": "j_ruta",
+            "eventoActivo": true
+          },
+          {
+            "evento": "j_anto_perdida",
+            "eventoActivo": false
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "No quiero pedirle garantías imposibles a Mary.",
+        "condiciones": [
+          {
+            "evento": "j_pareja",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "No todo tiene que terminar con una relación.",
+        "condiciones": [
+          {
+            "evento": "j_pareja",
+            "eventoActivo": false
+          },
+          {
+            "evento": "j_ruta",
+            "eventoActivo": false
+          }
+        ]
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Se da tiempo para pensar sin buscar una respuesta perfecta."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Aceptar lo que no depende de mí.",
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "Jairo vuelve a su rutina."
+          }
+        ],
+        "efectos": {
+          "madurez": 2
+        },
+        "eventos": [
+          "j_acepta_28"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Quedarme pensando en lo que habría pasado.",
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "No cambia lo ocurrido, pero le cuesta dejarlo ir."
+          }
+        ],
+        "efectos": {
+          "madurez": -2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Decirle a Ale que todavía no estoy listo para una relación.",
+        "reaccion": [
+          {
+            "personaje": "Jairo (mensaje)",
+            "texto": "Me gusta conversar contigo, pero necesito más tiempo solo. Prefiero decírtelo ahora."
+          },
+          {
+            "personaje": "Ale (mensaje)",
+            "texto": "Gracias por avisarme. Cuídate."
+          }
+        ],
+        "efectos": {
+          "madurez": 6
+        },
+        "eventos": [
+          "j_solo"
+        ],
+        "desactivarEventos": [
+          "j_interes_ale",
+          "j_cita_ale",
+          "j_confirmada_ale",
+          "j_ruta",
+          "j_anto_tarde",
+          "j_anto_perdida"
+        ],
+        "condiciones": [
+          {
+            "evento": "j_pareja",
+            "eventoActivo": false
+          },
+          {
+            "evento": "j_confirmada_ale",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "texto": "Decirle a Andrea que todavía no estoy listo para una relación.",
+        "reaccion": [
+          {
+            "personaje": "Jairo (mensaje)",
+            "texto": "Me gusta conversar contigo, pero necesito más tiempo solo. Prefiero decírtelo ahora."
+          },
+          {
+            "personaje": "Andrea (mensaje)",
+            "texto": "Gracias por avisarme. Cuídate."
+          }
+        ],
+        "efectos": {
+          "madurez": 6
+        },
+        "eventos": [
+          "j_solo"
+        ],
+        "desactivarEventos": [
+          "j_interes_andrea",
+          "j_cita_andrea",
+          "j_confirmada_andrea",
+          "j_ruta",
+          "j_anto_tarde",
+          "j_anto_perdida"
+        ],
+        "condiciones": [
+          {
+            "evento": "j_pareja",
+            "eventoActivo": false
+          },
+          {
+            "evento": "j_confirmada_andrea",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "texto": "Decirle a Cami que todavía no estoy listo para una relación.",
+        "reaccion": [
+          {
+            "personaje": "Jairo (mensaje)",
+            "texto": "Me gusta conversar contigo, pero necesito más tiempo solo. Prefiero decírtelo ahora."
+          },
+          {
+            "personaje": "Cami (mensaje)",
+            "texto": "Gracias por avisarme. Cuídate."
+          }
+        ],
+        "efectos": {
+          "madurez": 6
+        },
+        "eventos": [
+          "j_solo"
+        ],
+        "desactivarEventos": [
+          "j_interes_cami",
+          "j_cita_cami",
+          "j_confirmada_cami",
+          "j_ruta",
+          "j_anto_tarde",
+          "j_anto_perdida"
+        ],
+        "condiciones": [
+          {
+            "evento": "j_pareja",
+            "eventoActivo": false
+          },
+          {
+            "evento": "j_confirmada_cami",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "texto": "Decirle a Anto que todavía no estoy listo para una relación.",
+        "reaccion": [
+          {
+            "personaje": "Jairo (mensaje)",
+            "texto": "Me gusta conversar contigo, pero necesito más tiempo solo. Prefiero decírtelo ahora."
+          },
+          {
+            "personaje": "Anto (mensaje)",
+            "texto": "Gracias por avisarme. Cuídate."
+          }
+        ],
+        "efectos": {
+          "madurez": 6
+        },
+        "eventos": [
+          "j_solo"
+        ],
+        "desactivarEventos": [
+          "j_interes_anto",
+          "j_cita_anto",
+          "j_anto_confirmada",
+          "j_ruta",
+          "j_anto_tarde",
+          "j_anto_perdida"
+        ],
+        "condiciones": [
+          {
+            "evento": "j_pareja",
+            "eventoActivo": false
+          },
+          {
+            "evento": "j_anto_confirmada",
+            "eventoActivo": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jairo_extra_29",
+    "titulo": "El último consejo",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Cáceres",
+        "texto": "Ya, hermano. ¿Qué vas a hacer mañana?"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "No sé si tengo todo claro, pero sé que no quiero volver a lo mismo."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Con eso ya podís partir."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Y mañana no te desaparezcai del lobby, culiao."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Agradecer la compañía y cumplir mis planes.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Gracias, cabros. De verdad."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Ya, no me hagai llorar antes de la ranked."
+          }
+        ],
+        "efectos": {
+          "amistad": 2
+        },
+        "eventos": [
+          "j_agradece"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Cambiar el tema con una talla.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Ya, pero primero aprendan a jugar."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "JAJA, este wn."
+          }
+        ],
+        "efectos": {
+          "amistad": 1
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_extra_30",
+    "titulo": "Después del calendario",
+    "lugar": "Casa",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Jairo cierra el calendario. No hay una respuesta que cambie por sí sola todo lo que ocurrió."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Lo que hice durante el mes importa más que lo que digo ahora."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Queda la última noche del mes. Mañana empieza otra etapa."
+      }
+    ],
+    "decisiones": [],
+    "fondo": "habitacion_caceres_noche.png"
+  },
+  {
+    "id": "jairo_confesion_detallada",
+    "titulo": "Lo que Mary necesitaba saber",
+    "lugar": "Mirador",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Antes de separarse por unos días, Mary pide que no quede nada escondido."
+      },
+      {
+        "personaje": "Mary",
+        "texto": "Dime qué pasó. No quiero enterarme de otra cosa después."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Besé a Ale cuando fui a ayudarla con las cajas.",
+        "condiciones": [
+          {
+            "evento": "j_beso_ale",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "En el carrete besé a Cami y no te lo conté.",
+        "condiciones": [
+          {
+            "evento": "j_beso_cami",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Besé a Andrea. Sé que te había dicho que no pasaba nada.",
+        "condiciones": [
+          {
+            "evento": "j_beso_andrea",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Tuve mensajes fuera de lugar con Ale.",
+        "condiciones": [
+          {
+            "evento": "j_flirt_ale",
+            "eventoActivo": true
+          },
+          {
+            "evento": "j_beso_ale",
+            "eventoActivo": false
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Coqueteé con Andrea por mensajes.",
+        "condiciones": [
+          {
+            "evento": "j_flirt_andrea",
+            "eventoActivo": true
+          },
+          {
+            "evento": "j_beso_andrea",
+            "eventoActivo": false
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Le insinué a Cami que estaba disponible.",
+        "condiciones": [
+          {
+            "evento": "j_flirt_cami",
+            "eventoActivo": true
+          },
+          {
+            "evento": "j_beso_cami",
+            "eventoActivo": false
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Le insinué a Anto que estaba disponible cuando no lo estaba.",
+        "condiciones": [
+          {
+            "evento": "j_flirt_anto",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Mary",
+        "texto": "Me duele escucharlo. Necesito tiempo para entender qué quiero hacer."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Sí. No te voy a pedir una respuesta ahora."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Mary se va primero. Jairo respeta la distancia que pidió."
+      }
+    ],
+    "siguiente": "jairo_extra_19",
+    "decisiones": []
+  }
+]

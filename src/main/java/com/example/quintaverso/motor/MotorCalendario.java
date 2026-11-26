@@ -5,10 +5,12 @@ import com.example.quintaverso.DialogoPartidas;
 import com.example.quintaverso.MotorNarrativo;
 import com.example.quintaverso.RecursosVisuales;
 import com.example.quintaverso.guardado.GestorGuardado;
+import com.example.quintaverso.guardado.GaleriaJairo;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.control.*;
 import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import java.net.URL;
 import javafx.scene.layout.*;
 import javafx.stage.Stage;
@@ -42,6 +44,7 @@ public final class MotorCalendario {
         this.historia = new GestorHistoria(temporada);
     }
 
+    private boolean esJairo() { return "jairo".equals(temporada); }
     private boolean esSeba() { return "seba".equals(temporada); }
 
     public void iniciar() {
@@ -56,7 +59,7 @@ public final class MotorCalendario {
             Alert elegir = new Alert(Alert.AlertType.CONFIRMATION);
             elegir.initOwner(ventana);
             elegir.setTitle("QUINTAVERSO — Partidas");
-            elegir.setHeaderText("Temporada " + (esSeba() ? "Seba" : "Cáceres"));
+            elegir.setHeaderText("Temporada " + (esJairo() ? "Jairo" : esSeba() ? "Seba" : "Cáceres"));
             elegir.setContentText("Puedes continuar, cargar una ranura o comenzar de cero.");
             // Las alertas CONFIRMATION ya traen OK y CANCEL. Limpiarlos antes
             // de incorporar acciones propias evita botones duplicados en JavaFX.
@@ -115,6 +118,7 @@ public final class MotorCalendario {
         return switch (estado.getContextoEscena()) {
             case "PROLOGO" -> this::completarPrologo;
             case "HITO_SEBA" -> this::completarHitoSeba;
+            case "HITO_JAIRO" -> this::completarHitoJairo;
             case "ACCION" -> this::completarAccion;
             case "FINAL" -> this::completarFinal;
             case "RELECTURA_FINAL" -> this::completarRelecturaFinal;
@@ -124,7 +128,7 @@ public final class MotorCalendario {
 
     private void iniciarPrologo() {
         estado.setContextoEscena("PROLOGO");
-        reproducir(esSeba() ? "seba_prologo_inicio" : "prologo_inicio", this::completarPrologo, false);
+        reproducir(esJairo() ? "jairo_prologo_inicio" : esSeba() ? "seba_prologo_inicio" : "prologo_inicio", this::completarPrologo, false);
     }
     private void completarPrologo() {
         estado.registrarEvento("prologo_visto");
@@ -147,6 +151,15 @@ public final class MotorCalendario {
     }
 
     private void mostrarCalendario() {
+        if (esJairo()) {
+            HitosJairo.Hito hito = HitosJairo.pendiente(estado);
+            if (HitosJairo.tocaCapitulo(estado, hito)) {
+                estado.setContextoEscena("HITO_JAIRO");
+                estado.setAccionPendienteId(hito.id());
+                reproducir(hito.escenaId(), this::completarHitoJairo, false);
+                return;
+            }
+        }
         if (esSeba()) {
             HitosSeba.Hito hito = HitosSeba.pendiente(estado);
             if (hito != null) {
@@ -160,7 +173,7 @@ public final class MotorCalendario {
             gestionarFinal();
             return;
         }
-        Label titulo = etiqueta(esSeba() ? "SEBA: EL CAGAZO LEGENDARIO" : "CÁCERES: DOBLE TENTACIÓN", "titulo-mediano");
+        Label titulo = etiqueta(esJairo() ? "JAIRO: ENTRE LA CONFIANZA Y LA TENTACIÓN" : esSeba() ? "SEBA: EL CAGAZO LEGENDARIO" : "CÁCERES: DOBLE TENTACIÓN", "titulo-mediano");
         Label fecha = etiqueta("DÍA " + calendario.getDia() + " / " + CalendarioJuego.DIAS_CAMPANA
                 + "  ·  " + calendario.getFechaFormateada(), "subtitulo");
         Label turno = etiqueta(calendario.getNombreTurno() + "  ·  " + calendario.getTurno().getHorario(), "acento");
@@ -170,7 +183,18 @@ public final class MotorCalendario {
         panelEstadisticas.getStyleClass().add("panel");
         panelEstadisticas.setPadding(new Insets(20));
         panelEstadisticas.getChildren().add(etiqueta("ESTADO DE LA PARTIDA", "etiqueta-caps"));
-        if (esSeba()) {
+        if (esJairo()) {
+            indicador(panelEstadisticas, "Confianza Mary", "confianza_mary");
+            indicador(panelEstadisticas, "Inseguridad Mary", "inseguridad");
+            indicador(panelEstadisticas, "Ale", "ale");
+            indicador(panelEstadisticas, "Andrea", "andrea");
+            indicador(panelEstadisticas, "Cami", "camila");
+            indicador(panelEstadisticas, "Anto", "anto");
+            indicador(panelEstadisticas, "Honestidad", "honestidad");
+            indicador(panelEstadisticas, "Valentía", "valentia");
+            indicador(panelEstadisticas, "Madurez", "madurez");
+            indicador(panelEstadisticas, "Amistad", "amistad");
+        } else if (esSeba()) {
             indicador(panelEstadisticas, "💚 Kelly", "kelly");
             indicador(panelEstadisticas, "🫶 Confianza Kelly", "confianza_kelly");
             indicador(panelEstadisticas, "💜 Amira", "amira");
@@ -195,9 +219,18 @@ public final class MotorCalendario {
 
         VBox listaAcciones = new VBox(12);
         listaAcciones.setFillWidth(true);
-        listaAcciones.getChildren().add(etiqueta(esSeba() ? "¿QUÉ HACE SEBA AHORA?" : "¿QUÉ HACE CÁCERES AHORA?", "etiqueta-caps"));
+        listaAcciones.getChildren().add(etiqueta(esJairo() ? "¿QUÉ HACE JAIRO AHORA?" : esSeba() ? "¿QUÉ HACE SEBA AHORA?" : "¿QUÉ HACE CÁCERES AHORA?", "etiqueta-caps"));
         List<GestorEventos.Accion> disponibles = eventos.disponibles(estado);
         Map<String, VBox> secciones = new LinkedHashMap<>();
+        if (esJairo()) {
+            String situacion = estado.ocurrioEvento("j_bloqueado") ? "Las chicas pidieron distancia." : estado.ocurrioEvento("j_pausa") ? "Mary pidió espacio." : estado.ocurrioEvento("j_pareja") ? "Mary es tu pareja." : "Jairo está soltero.";
+            int d = estado.getDia();
+            String etapa = d<=7 ? "Todo parece perfecto" : d<=14 ? "Las primeras grietas" : d<=21 ? "El punto de quiebre" : "Las consecuencias";
+            HitosJairo.Hito pendiente = HitosJairo.pendiente(estado);
+            String estadoCapitulo = pendiente == null ? "Capítulo del día completado. Queda tiempo libre." :
+                    "Capítulo pendiente · " + HitosJairo.turnoCapitulo(Integer.parseInt(pendiente.id())).getNombre() + ". Puedes realizar actividades antes de la historia.";
+            listaAcciones.getChildren().addAll(etiqueta(etapa, "acento"), etiqueta(situacion + " · " + estadoCapitulo, "texto-suave"));
+        }
         if (esSeba()) {
             Label resumen = etiqueta(resumenSeba(), "texto-suave");
             resumen.setWrapText(true);
@@ -247,9 +280,10 @@ public final class MotorCalendario {
         Button historia = boton("📜 Historial", this::mostrarHistorial);
         Button menu = boton("← Menú", this::regresarAlMenu);
         Button pasar = boton("⏭ Pasar turno", this::pasarTurno);
-        Button dormir = boton("🌙 Dormir hasta mañana", this::dormir);
+        Button dormir = boton(esJairo() && HitosJairo.pendiente(estado)!=null ? "🎬 Ir al capítulo del día" : "🌙 Dormir hasta mañana", this::dormir);
         navegacion.setAlignment(Pos.CENTER_LEFT);
         navegacion.getChildren().addAll(pasar, dormir, save, load, historia, menu);
+        if (esJairo()) navegacion.getChildren().add(boton("Galería de finales", this::mostrarGaleriaJairo));
         navegacion.setStyle("-fx-padding: 12 0 12 0;");
 
         VBox contenido = new VBox(23, encabezado, paneles, consejo, navegacion);
@@ -287,6 +321,15 @@ public final class MotorCalendario {
         return "📓 Los cabros y el diario";
     }
 
+    private void completarHitoJairo() {
+        estado.registrarEvento("jairo_hito:" + estado.getAccionPendienteId());
+        estado.agregarHistorial("Día " + estado.getDia() + " — Capítulo e interludio narrativo completados");
+        // Los interludios cierran la jornada narrativa; nunca regresamos a la mañana.
+        estado.setTurno(CalendarioJuego.Turno.NOCHE);
+        estado.limpiarEscena();
+        guardarSilencioso();
+        mostrarCalendario();
+    }
     private void completarHitoSeba() {
         estado.registrarEvento("seba_hito:" + estado.getAccionPendienteId());
         estado.agregarHistorial("Día " + estado.getDia() + " — Evento de la historia: " + estado.getAccionPendienteId());
@@ -327,6 +370,15 @@ public final class MotorCalendario {
     }
 
     private void dormir() {
+        if(esJairo()) {
+            HitosJairo.Hito pendiente=HitosJairo.pendiente(estado);
+            if(pendiente!=null) {
+                var turno=HitosJairo.turnoCapitulo(Integer.parseInt(pendiente.id()));
+                if(estado.getTurno().ordinal()<turno.ordinal()) estado.setTurno(turno);
+                if(guardarSilencioso()) mostrarCalendario();
+                return;
+            }
+        }
         int desde = estado.getDia();
         estado.agregarHistorial("Día " + desde + " — Decidió dormir hasta la mañana siguiente");
         calendario.dormirHastaManana();
@@ -365,11 +417,15 @@ public final class MotorCalendario {
     }
 
     private void mostrarPantallaFinal() {
+        if (esJairo()) try { new GaleriaJairo().desbloquear(estado.getFinalObtenido()); }
+        catch (IOException ex) { HelloApplication.alerta(Alert.AlertType.WARNING, "Galería", "No se pudo guardar el desbloqueo: " + ex.getMessage()); }
         Escena epilogo = historia.obtener(estado.getFinalObtenido());
+        String rutaCG = RecursosVisuales.cg(epilogo);
+        URL url = rutaCG == null ? null : getClass().getResource(rutaCG);
         Label titulo = etiqueta("FIN DE TEMPORADA", "logo");
         Label subtitulo = etiqueta("Has llegado al final de los treinta días.", "subtitulo");
         Label finalId = etiqueta("Final desbloqueado: " + epilogo.getTitulo(), "titulo-mediano");
-        Label puntuacion = etiqueta(esSeba() ? String.format(
+        Label puntuacion = etiqueta(esJairo() ? String.format("Confianza %d · Honestidad %d · Madurez %d · Valentía %d", estado.obtenerEstadistica("confianza_mary"), estado.obtenerEstadistica("honestidad"), estado.obtenerEstadistica("madurez"), estado.obtenerEstadistica("valentia")) : esSeba() ? String.format(
                 "Kelly %d · Amira %d · Javi %d · Feña %d · Estilo %d",
                 estado.obtenerEstadistica("kelly"), estado.obtenerEstadistica("amira"),
                 estado.obtenerEstadistica("javi"), estado.obtenerEstadistica("fena"),
@@ -396,6 +452,12 @@ public final class MotorCalendario {
         Button menu = boton("Volver al menú", this::regresarAlMenu);
 
         FlowPane acciones = new FlowPane(10, 10, repetirFinal, reiniciar, saveFinal, loadFinal, menu);
+        if (url != null) {
+            Button verIlustracion = boton("✦ Ver splash completo", () -> mostrarSplashCompleto(url));
+            verIlustracion.getStyleClass().add("boton-primario");
+            acciones.getChildren().add(0, verIlustracion);
+        }
+        if (esJairo()) acciones.getChildren().add(boton("Galería de finales", this::mostrarGaleriaJairo));
         acciones.setAlignment(Pos.CENTER);
         VBox panel = new VBox(13, titulo, subtitulo, finalId, puntuacion, acciones);
         panel.setAlignment(Pos.CENTER);
@@ -404,20 +466,71 @@ public final class MotorCalendario {
         panel.getStyleClass().add("panel-final-visual");
 
         StackPane lienzo = new StackPane();
-        String rutaCG = RecursosVisuales.cg(epilogo);
-        URL url = rutaCG == null ? null : getClass().getResource(rutaCG);
+        lienzo.getStyleClass().add("visor-final");
         if (url != null) {
             Image cg = new Image(url.toExternalForm(), false);
-            BackgroundImage imagen = new BackgroundImage(cg, BackgroundRepeat.NO_REPEAT,
-                    BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER,
-                    new BackgroundSize(BackgroundSize.AUTO, BackgroundSize.AUTO,
-                            false, false, false, true));
-            lienzo.setBackground(new Background(imagen));
+            ImageView arteCompleto = new ImageView(cg);
+            arteCompleto.setSmooth(true);
+            arteCompleto.setPreserveRatio(true);
+            arteCompleto.setMouseTransparent(true);
+            arteCompleto.fitWidthProperty().bind(lienzo.widthProperty());
+            arteCompleto.fitHeightProperty().bind(lienzo.heightProperty());
+            lienzo.getChildren().add(arteCompleto);
         }
         lienzo.getChildren().add(panel);
         StackPane.setAlignment(panel, Pos.BOTTOM_CENTER);
         StackPane.setMargin(panel, new Insets(20, 18, 20, 18));
         HelloApplication.cambiarContenido(ventana, lienzo);
+    }
+
+    private void mostrarGaleriaJairo() {
+        try {
+            var ids = new GaleriaJairo().leer();
+            Dialog<ButtonType> dialogo = new Dialog<>();
+            dialogo.initOwner(ventana);
+            dialogo.setTitle("Jairo · Galería de finales");
+            dialogo.setHeaderText(ids.size() + " / 12 finales desbloqueados");
+            HelloApplication.tematizarDialogo(dialogo);
+            dialogo.getDialogPane().getButtonTypes().add(ButtonType.CLOSE);
+            VBox lista = new VBox(8);
+            for (String color : FinalesJairo.COLORES) {
+                String id = "final_jairo_" + color;
+                boolean visto = ids.contains(id);
+                String ruta = RecursosVisuales.cg(historia.obtener(id));
+                URL url = getClass().getResource(ruta);
+                Button b = boton(visto ? historia.obtener(id).getTitulo() : "Bloqueado · " + color.toUpperCase(java.util.Locale.ROOT), () -> { if (url != null) mostrarSplashCompleto(url); });
+                b.setDisable(!visto || url == null);
+                b.setMaxWidth(Double.MAX_VALUE);
+                lista.getChildren().add(b);
+            }
+            ScrollPane scroll = new ScrollPane(lista);
+            scroll.setFitToWidth(true);
+            scroll.setPrefViewportHeight(450);
+            scroll.setPrefViewportWidth(450);
+            dialogo.getDialogPane().setContent(scroll);
+            dialogo.showAndWait();
+        } catch (IOException ex) { HelloApplication.alerta(Alert.AlertType.WARNING, "Galería", ex.getMessage()); }
+    }
+
+    /** Abre la CG original sin recortes, texto encima ni botones de decisión. */
+    private void mostrarSplashCompleto(URL url) {
+        Dialog<ButtonType> ventanaSplash = new Dialog<>();
+        ventanaSplash.initOwner(ventana);
+        ventanaSplash.setTitle("QUINTAVERSO · Ilustración del final");
+        ventanaSplash.setResizable(true);
+        ventanaSplash.getDialogPane().getButtonTypes().add(ButtonType.CLOSE);
+        HelloApplication.tematizarDialogo(ventanaSplash);
+        Image imagen = new Image(url.toExternalForm(), false);
+        ImageView ilustracion = new ImageView(imagen);
+        ilustracion.setSmooth(true);
+        ilustracion.setPreserveRatio(true);
+        ilustracion.setFitWidth(960);
+        ilustracion.setFitHeight(540);
+        StackPane contenido = new StackPane(ilustracion);
+        contenido.setPadding(new Insets(8));
+        contenido.setStyle("-fx-background-color: #101321;");
+        ventanaSplash.getDialogPane().setContent(contenido);
+        ventanaSplash.showAndWait();
     }
 
     private void mostrarHistorial() {

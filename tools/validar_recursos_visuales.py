@@ -33,7 +33,7 @@ for escena in escenas:
         cg=escena.get('cg')
         if not cg:
             ERRORES.append('Final sin CG: '+escena['id'])
-        else:png_valido(IMAGENES/'cg'/cg)
+        else:png_valido(IMAGENES/'cg'/(cg if '/' in cg else 'caceres/'+cg))
     elif escena.get('cg'):
         ERRORES.append('CG se mostraria fuera del epilogo: '+escena['id'])
 

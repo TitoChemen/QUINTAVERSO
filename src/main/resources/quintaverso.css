@@ -107,3 +107,216 @@
 .scroll-dialogos .viewport { -fx-background-color: rgba(18, 11, 29, .08); }
 .scroll-dialogos .panel-dialogo { -fx-min-height: 120px; }
 .scroll-dialogos .dialogo { -fx-wrap-text: true; }
+
+
+/* ==========================================================================
+   QUINTAVERSO · VN UI 1.0
+   Tema común para Cáceres / Seba. Compatible con JavaFX 21 y pantallas pequeñas.
+   ========================================================================== */
+
+.root, .scroll-fondo, .scroll-fondo > .viewport {
+    -fx-font-family: "Segoe UI";
+    -fx-background-color: #111321;
+}
+.scroll-fondo {
+    -fx-background-color: linear-gradient(to bottom right, #101323 0%, #201832 52%, #111723 100%);
+    -fx-background-insets: 0;
+}
+.scroll-fondo > .viewport {
+    -fx-background-color: transparent;
+}
+.label { -fx-text-fill: #f6f2ff; }
+.logo {
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 55px;
+    -fx-font-weight: 900;
+    -fx-text-fill: #f5d5ff;
+    -fx-effect: dropshadow(gaussian, rgba(191, 119, 232, .27), 19, .18, 0, 5);
+}
+.subtitulo {
+    -fx-font-size: 16px;
+    -fx-text-fill: #d1c9df;
+}
+.etiqueta-caps {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #c5a1eb;
+}
+.titulo-tarjeta {
+    -fx-font-size: 30px;
+    -fx-font-weight: 900;
+    -fx-text-fill: #fffaff;
+}
+.titulo-mediano {
+    -fx-font-size: 27px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f4d8ff;
+}
+.acento { -fx-font-size: 14px; -fx-font-weight: bold; -fx-text-fill: #ecbaf7; }
+.texto-suave { -fx-font-size: 13px; -fx-text-fill: #c6bdd6; }
+
+.tarjeta, .panel {
+    -fx-background-color: linear-gradient(to bottom right, rgba(44, 35, 64, .97), rgba(26, 24, 44, .98));
+    -fx-background-radius: 22px;
+    -fx-border-color: #5c496f;
+    -fx-border-radius: 22px;
+    -fx-border-width: 1px;
+    -fx-effect: dropshadow(gaussian, rgba(5, 6, 18, .42), 20, .20, 0, 6);
+}
+.tarjeta-temporada {
+    -fx-border-width: 1px 1px 3px 1px;
+}
+.temporada-01 { -fx-border-color: #604e83 #604e83 #8f81ff #604e83; }
+.temporada-02 { -fx-border-color: #5e5368 #5e5368 #8c7899 #5e5368; }
+.temporada-03 { -fx-border-color: #684966 #684966 #f08db0 #684966; }
+.tarjeta-temporada:hover {
+    -fx-background-color: linear-gradient(to bottom right, #332743, #25213e);
+    -fx-border-color: #c5a0e0;
+}
+
+.boton-primario, .boton-secundario, .boton-evento {
+    -fx-cursor: hand;
+    -fx-font-family: "Segoe UI";
+    -fx-font-weight: bold;
+    -fx-background-insets: 0;
+    -fx-background-radius: 13px;
+    -fx-border-radius: 13px;
+    -fx-padding: 12px 18px;
+    -fx-text-fill: #ffffff;
+}
+.boton-primario {
+    -fx-background-color: linear-gradient(to right, #7253ad, #aa68bd);
+    -fx-effect: dropshadow(gaussian, rgba(23, 13, 47, .32), 10, .10, 0, 3);
+}
+.boton-primario:hover {
+    -fx-background-color: linear-gradient(to right, #9371cc, #c887d5);
+    -fx-effect: dropshadow(gaussian, rgba(184, 111, 215, .24), 13, .14, 0, 3);
+}
+.boton-primario:pressed { -fx-background-color: #5a3c8f; }
+.boton-secundario {
+    -fx-background-color: rgba(48, 41, 69, .94);
+    -fx-border-color: rgba(168, 144, 202, .50);
+    -fx-border-width: 1px;
+}
+.boton-secundario:hover {
+    -fx-background-color: rgba(81, 64, 107, .97);
+    -fx-border-color: #c4a1e1;
+}
+.boton-compacto { -fx-font-size: 12px; -fx-padding: 8px 12px; }
+.boton-encuadre { -fx-border-color: rgba(238, 180, 235, .65); }
+.boton-evento {
+    -fx-background-color: #332a4b;
+    -fx-alignment: center-left;
+    -fx-font-size: 15px;
+}
+.boton-evento:hover {
+    -fx-background-color: #55416f;
+}
+.boton-dialogo {
+    -fx-font-size: 15px;
+    -fx-min-height: 43px;
+}
+.boton-decision {
+    -fx-background-color: linear-gradient(to right, #39415a, #543b64);
+    -fx-border-color: #d19bd6;
+    -fx-border-width: 0 0 0 4px;
+    -fx-border-radius: 13px;
+    -fx-alignment: center-left;
+    -fx-padding: 13px 17px;
+}
+.boton-decision:hover {
+    -fx-background-color: linear-gradient(to right, #545e7c, #6c4b88);
+    -fx-border-color: #f4c7ff;
+}
+
+.visor-visual { -fx-background-color: #111321; }
+.panel-encabezado-visual {
+    -fx-background-color: rgba(18, 16, 33, .92);
+    -fx-background-radius: 0 0 20px 20px;
+    -fx-border-color: rgba(193, 154, 222, .43);
+    -fx-border-width: 0 0 1px 0;
+    -fx-border-radius: 0 0 20px 20px;
+    -fx-effect: dropshadow(gaussian, rgba(2, 2, 9, .3), 10, .15, 0, 3);
+}
+.scroll-dialogos, .scroll-dialogos > .viewport {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-border-color: transparent;
+}
+.scroll-dialogos .panel-dialogo {
+    -fx-background-color: rgba(19, 17, 35, .96);
+    -fx-background-radius: 20px;
+    -fx-border-color: rgba(214, 171, 250, .80);
+    -fx-border-radius: 20px;
+    -fx-border-width: 1px;
+    -fx-min-height: 120px;
+    -fx-effect: dropshadow(gaussian, rgba(2, 3, 11, .62), 18, .14, 0, 5);
+}
+.scroll-dialogos .personaje {
+    -fx-text-fill: #ffbfdc;
+    -fx-font-size: 22px;
+    -fx-font-weight: 900;
+}
+.scroll-dialogos .dialogo {
+    -fx-text-fill: #fffaff;
+    -fx-font-size: 19px;
+    -fx-line-spacing: 6px;
+    -fx-wrap-text: true;
+}
+.scroll-dialogos .texto-suave {
+    -fx-font-size: 11px;
+    -fx-text-fill: #aa9dbe;
+}
+.scroll-dialogos .panel {
+    -fx-background-color: rgba(29, 22, 44, .95);
+}
+.panel-final-visual {
+    -fx-background-color: rgba(17, 15, 30, .95);
+    -fx-background-radius: 24px;
+    -fx-border-radius: 24px;
+    -fx-border-color: rgba(227, 181, 255, .67);
+    -fx-border-width: 1px;
+}
+.panel-final-visual .logo { -fx-font-size: 40px; }
+.panel-final-visual .titulo-mediano { -fx-font-size: 23px; }
+
+.progreso > .track {
+    -fx-background-color: #322b46;
+    -fx-background-radius: 10px;
+}
+.progreso > .bar {
+    -fx-background-color: linear-gradient(to right, #8a7fd3, #e3a1d5);
+    -fx-background-radius: 10px;
+}
+.scroll-bar { -fx-background-color: transparent; }
+.scroll-bar .thumb { -fx-background-color: #706083; -fx-background-radius: 9px; }
+.scroll-bar .track { -fx-background-color: rgba(35, 28, 52, .75); }
+.titled-pane > .title {
+    -fx-background-color: #332942;
+    -fx-background-radius: 10px;
+    -fx-padding: 13px;
+}
+.titled-pane > .title > .text { -fx-fill: #f1d6ff; }
+.titled-pane > .content {
+    -fx-background-color: #1b182b;
+    -fx-border-color: #56446e;
+    -fx-border-radius: 10px;
+}
+.text-area, .text-area .content {
+    -fx-control-inner-background: #191728;
+    -fx-background-color: #191728;
+    -fx-text-fill: #f8f0ff;
+    -fx-font-size: 14px;
+}
+.dialog-pane {
+    -fx-background-color: #201a32;
+}
+.dialog-pane .header-panel { -fx-background-color: #2a2141; }
+.dialog-pane .label { -fx-text-fill: #f6eafc; }
+.dialog-pane .button {
+    -fx-background-color: #6f5198;
+    -fx-text-fill: white;
+    -fx-background-radius: 9px;
+}
+.dialog-pane .button:hover { -fx-background-color: #956bb8; }
+\n.visor-final { -fx-background-color: #0f1020; }\n

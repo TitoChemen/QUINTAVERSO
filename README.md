@@ -1,3 +1,9 @@
+# QUINTAVERSO v1.1 — Temporada Jairo: edición ampliada
+
+30 días, 156 escenas, 30 noches Discord, 12 finales y galería persistente. Consulta [`CAMBIOS_v1.1.md`](CAMBIOS_v1.1.md) para ejecutar, revisar continuidad y probar rutas.
+
+---
+
 # QUINTAVERSO v0.9 — La temporada de Seba, ampliada
 
 Sobre el último `QUINTAVERSO(2).rar`: 146 escenas de Seba, 24 noches Discord, 26 momentos opcionales, 1254 líneas de diálogo y 13 desenlaces. Nueva continuidad de Amira cuando Seba se niega a confesar la infidelidad, poses explícitas de Seba y un calendario con rutas organizadas en paneles.
@@ -132,7 +138,7 @@ Si el comando `mvn` dice "no se reconoce", **no significa que el POM falle**: co
 ## Contraseñas de las temporadas
 
 - Cáceres: `QUINTA2026` o `CACERES2026`.
-- Jairo: `JAIRO2026` (temporada no estrenada).
+- Jairo: `JAIRO2026` (temporada disponible desde v1.0).
 - Seba: `SEBA2026` (temporada no estrenada).
 
 Son contraseñas de juego visibles en el código; **no sirven como protección antipiratería**.
@@ -220,3 +226,11 @@ Las escenas se pueden ampliar sin tocar Java siempre que se respeten las IDs, la
 ## Sobre el contenido de adultos y las ilustraciones
 
 Hay diálogos directos sobre deseo, acuerdos, intimidad consensuada y un encuentro que ocurre **fuera de cámara** con una transición a negro. No hay narración sexual gráfica. Los prompts ilustrativos están orientados a fondos, expresiones, besos y situaciones románticas **sin desnudez**. El guion es ficticio; antes de usar la apariencia o la vida íntima de personas reales en contenido público, obtén su permiso.
+
+## Remaster visual (2026-11)
+Se actualizaron los estilos de los menús y el motor narrativo. Los retratos permiten alternar
+**Automático / Primer plano / Cuerpo completo** desde cada escena. Los 13 finales de Seba
+tienen recursos CG propios; los CG se pueden ver completos desde la pantalla final.
+Para detalles de los cambios, límites y validación consulta
+[`docs/QUINTAVERSO_REMASTER_VISUAL.md`](docs/QUINTAVERSO_REMASTER_VISUAL.md).
+Para comprobar los recursos, ejecuta `python tools/validar_finales_seba.py`.

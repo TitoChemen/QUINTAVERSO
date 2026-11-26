@@ -44,6 +44,13 @@ public class EstadoPartida {
     public EstadoPartida(String temporada) {
         this();
         this.temporada = temporada;
+        if ("jairo".equals(temporada)) {
+            estadisticas.clear();
+            estadisticas.putAll(Map.ofEntries(Map.entry("confianza_mary",65), Map.entry("inseguridad",25),
+                Map.entry("honestidad",55), Map.entry("madurez",30), Map.entry("valentia",25), Map.entry("amistad",45),
+                Map.entry("ale",5), Map.entry("andrea",5), Map.entry("camila",0), Map.entry("anto",0)));
+            registrarEvento("j_pareja");
+        }
         if ("seba".equals(temporada)) {
             estadisticas.clear();
             estadisticas.put("kelly", 55);

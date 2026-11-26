@@ -1,0 +1,2143 @@
+[
+  {
+    "id": "jairo_discord_01",
+    "titulo": "Discord · El corazón y el pulgar",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "¿Cómo le respondís a un corazón con un pulgar arriba?",
+        "expresion": "risa"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Ya, ¿y qué le tenía que decir?"
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Mandar algo sincero no te va a matar."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Un corazón no requiere un manual técnico, wn."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "La próxima le digo que la extraño.",
+        "efectos": {
+          "amistad": 4,
+          "valentia": 2,
+          "madurez": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "La próxima le digo que la extraño."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "¡Eso! No hay que redactar una tesis."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, pasemos a otra cosa. No te vamos a resolver la vida, pero te acompañamos."
+          }
+        ]
+      },
+      {
+        "texto": "Le mando un GIF de un gato.",
+        "efectos": {
+          "amistad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Le mando un GIF de un gato."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "JAJA, ojalá el gato sepa pololear."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jairo_discord_02",
+    "titulo": "Discord · La vecina",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "¿Y la vecina? Ojo con confundir buena onda con interés.",
+        "expresion": "risa"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Me crucé con Ale en la reja."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "No todo saludo es una declaración, wn."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Saludar a alguien y coquetear son cosas distintas."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Voy a ser claro con lo que quiero.",
+        "efectos": {
+          "amistad": 4,
+          "valentia": 2,
+          "madurez": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Voy a ser claro con lo que quiero."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Eso, no la pongai a esconder cosas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, pasemos a otra cosa. No te vamos a resolver la vida, pero te acompañamos."
+          }
+        ]
+      },
+      {
+        "texto": "Ya, no quiero hablar de vecinos ahora.",
+        "efectos": {
+          "amistad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Ya, no quiero hablar de vecinos ahora."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Bueno, pero no inventís una historia después."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jairo_discord_03",
+    "titulo": "Discord · El detector de celos",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "No podís arreglar un problema negando que existe.",
+        "expresion": "risa"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Me cuesta escuchar cuando siento que me están acusando."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Preguntar primero sirve más que defenderse."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Podís explicar lo tuyo sin tratarla de exagerada."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Voy a preguntar antes de defenderme.",
+        "efectos": {
+          "amistad": 4,
+          "valentia": 2,
+          "madurez": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Voy a preguntar antes de defenderme."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Así por lo menos entendís qué está pasando."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, pasemos a otra cosa. No te vamos a resolver la vida, pero te acompañamos."
+          }
+        ]
+      },
+      {
+        "texto": "Prefiero distraerme hoy.",
+        "efectos": {
+          "amistad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Prefiero distraerme hoy."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Dale, pero mañana no te hagai el wn."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jairo_discord_04",
+    "titulo": "Discord · La build de Jairo",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "Hermano, tu build tiene cero comunicación.",
+        "expresion": "risa"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Ya, practiqué decir que la extraño."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Sube valentía antes de entrar a ranked romántica."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "La actualización viene con soporte para emociones."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Me salió menos raro de lo que pensaba.",
+        "efectos": {
+          "amistad": 4,
+          "valentia": 2,
+          "madurez": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Me salió menos raro de lo que pensaba."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Buena, no necesitai copiarle frases a nadie."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, pasemos a otra cosa. No te vamos a resolver la vida, pero te acompañamos."
+          }
+        ]
+      },
+      {
+        "texto": "Igual me da vergüenza.",
+        "efectos": {
+          "amistad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Igual me da vergüenza."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "JAJA, acostúmbrate, hermano."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jairo_discord_05",
+    "titulo": "Discord · Amigos y parejas",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "No desaparezcai de todas las juntas por pololear.",
+        "expresion": "risa"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Tengo que terminar el trabajo de clases."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Organiza tus tiempos, no pidas permiso por existir."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Hazte un horario y no dependai de una sola persona."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Primero termino el informe, después juego.",
+        "efectos": {
+          "amistad": 4,
+          "valentia": 2,
+          "madurez": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Primero termino el informe, después juego."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Perfecto. Te esperamos."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, pasemos a otra cosa. No te vamos a resolver la vida, pero te acompañamos."
+          }
+        ]
+      },
+      {
+        "texto": "Una partida antes del informe no mata.",
+        "efectos": {
+          "amistad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Una partida antes del informe no mata."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Una, po. No ocho."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jairo_discord_06",
+    "titulo": "Discord · Los límites",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "Ser fiel no significa que tengai que bloquear a medio mundo.",
+        "expresion": "risa"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "¿Y si la Mary se incomoda porque yo hago planes?"
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Los acuerdos se hablan de a dos."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Habla con ella. No adivinís lo que va a pensar."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Voy a ordenar mis tiempos.",
+        "efectos": {
+          "amistad": 4,
+          "valentia": 2,
+          "madurez": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Voy a ordenar mis tiempos."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Así se hace, wn."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, pasemos a otra cosa. No te vamos a resolver la vida, pero te acompañamos."
+          }
+        ]
+      },
+      {
+        "texto": "Me cuesta no estar pendiente.",
+        "efectos": {
+          "amistad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Me cuesta no estar pendiente."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Ya, parte por una partida sin el celular."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jairo_discord_07",
+    "titulo": "Discord · El balance",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "Una semana y seguís vivo, increíble.",
+        "expresion": "risa"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "La semana pasó volando."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Acuérdate de hacer cosas para ti también."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "¿Y aprendiste algo aparte de mandar stickers?"
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Que puedo decir cuando algo me incomoda.",
+        "efectos": {
+          "amistad": 4,
+          "valentia": 2,
+          "madurez": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Que puedo decir cuando algo me incomoda."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Buena. Acuérdate cuando toque hacerlo."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, pasemos a otra cosa. No te vamos a resolver la vida, pero te acompañamos."
+          }
+        ]
+      },
+      {
+        "texto": "Aprendí a no perder en ranked.",
+        "efectos": {
+          "amistad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Aprendí a no perder en ranked."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Mentira, si carreaste cero."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jairo_discord_08",
+    "titulo": "Discord · El mensaje nocturno",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "Si lo tenís que esconder, pregúntate por qué.",
+        "expresion": "risa"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "El chat a veces me tiene despierto hasta tarde."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "No dejes que un chat te mande a la cresta."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Dormir también es parte de funcionar, ingeniero."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Hoy dejo el celu temprano.",
+        "efectos": {
+          "amistad": 4,
+          "valentia": 2,
+          "madurez": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Hoy dejo el celu temprano."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Milagro. Te vamos a echar de menos."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, pasemos a otra cosa. No te vamos a resolver la vida, pero te acompañamos."
+          }
+        ]
+      },
+      {
+        "texto": "Me quedo un ratito más.",
+        "efectos": {
+          "amistad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Me quedo un ratito más."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Eso dijiste hace tres horas."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jairo_discord_09",
+    "titulo": "Discord · Privacidad",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "No necesitan intercambiar contraseñas para quererse.",
+        "expresion": "risa"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Hay conversaciones que me cuestan mucho."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "La confianza no se instala con permisos de administrador."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "No confundas privacidad con esconder lo que acordaron no hacer."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Voy a decir lo que sí me corresponde decir.",
+        "efectos": {
+          "amistad": 4,
+          "valentia": 2,
+          "madurez": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Voy a decir lo que sí me corresponde decir."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Eso, sin andar entregando claves."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, pasemos a otra cosa. No te vamos a resolver la vida, pero te acompañamos."
+          }
+        ]
+      },
+      {
+        "texto": "Ya, no quiero seguir con el tema.",
+        "efectos": {
+          "amistad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Ya, no quiero seguir con el tema."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Ok, pero acuérdate de hablarlo cuando toque."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jairo_discord_10",
+    "titulo": "Discord · Trabajo grupal",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "Que te hablen en clases no significa que te estén joteando.",
+        "expresion": "risa"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "La Andrea y yo tuvimos que exponer."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Pero si tú joteai, eso ya es otra cosa."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Por lo menos algo en tu vida tiene una rúbrica."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Mejor que quede claro lo del trabajo.",
+        "efectos": {
+          "amistad": 4,
+          "valentia": 2,
+          "madurez": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Mejor que quede claro lo del trabajo."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Buena, no mezcles todo."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, pasemos a otra cosa. No te vamos a resolver la vida, pero te acompañamos."
+          }
+        ]
+      },
+      {
+        "texto": "Voy a pensar en otra cosa.",
+        "efectos": {
+          "amistad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Voy a pensar en otra cosa."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Ya, lobby entonces."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jairo_discord_11",
+    "titulo": "Discord · La verdad incómoda",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "¿Te gusta estar con Mary o te da miedo estar solo?",
+        "expresion": "risa"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "No sé si estoy evitando una conversación por miedo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "No contestís altiro, pensalo bien."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Si no querís responder ahora, pon una hora para hablar."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Voy a dejar de postergarlo.",
+        "efectos": {
+          "amistad": 4,
+          "valentia": 2,
+          "madurez": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Voy a dejar de postergarlo."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Bien, un paso concreto."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, pasemos a otra cosa. No te vamos a resolver la vida, pero te acompañamos."
+          }
+        ]
+      },
+      {
+        "texto": "Mañana veo qué hago.",
+        "efectos": {
+          "amistad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Mañana veo qué hago."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Hermano, mañana llevai diez mañanas."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jairo_discord_12",
+    "titulo": "Discord · Cajas y té",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "No todo té con la vecina termina en romance.",
+        "expresion": "risa"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Ayudé a la Ale con unas cajas."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "No te inventís señales, hermano."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "No le debís un romance a nadie por ayudarle."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Voy a mantener las cosas claras.",
+        "efectos": {
+          "amistad": 4,
+          "valentia": 2,
+          "madurez": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Voy a mantener las cosas claras."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Así no se arma una teleserie."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, pasemos a otra cosa. No te vamos a resolver la vida, pero te acompañamos."
+          }
+        ]
+      },
+      {
+        "texto": "Ya, fue un día largo.",
+        "efectos": {
+          "amistad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Ya, fue un día largo."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Entonces descansa, vecino del año."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jairo_discord_13",
+    "titulo": "Discord · La pelea",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "Si estái enojado, no respondai para ganar la discusión.",
+        "expresion": "risa"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Hoy costó hablar sin ponerse a la defensiva."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Vuelve cuando puedas hablar bien."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Las discusiones no son partidas de competitivo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Voy a tomarme un rato si me altero.",
+        "efectos": {
+          "amistad": 4,
+          "valentia": 2,
+          "madurez": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Voy a tomarme un rato si me altero."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Y después volvís a la conversa, eso importa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, pasemos a otra cosa. No te vamos a resolver la vida, pero te acompañamos."
+          }
+        ]
+      },
+      {
+        "texto": "Prefiero no hablar hoy.",
+        "efectos": {
+          "amistad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Prefiero no hablar hoy."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Dale, pero no desaparezcai sin avisar."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jairo_discord_14",
+    "titulo": "Discord · La decisión",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "¿Cómo salió la conversación de hoy, hermano?"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Tuve una conversación importante con Mary."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Sé consecuente con lo que elegiste."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "No voy a preguntarte detalles si no querís contarlos."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Gracias, cabros. Quiero respetar lo que hablamos.",
+        "efectos": {
+          "amistad": 4,
+          "valentia": 2,
+          "madurez": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Gracias, cabros. Quiero respetar lo que hablamos."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Bien. Aquí estamos igual."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, pasemos a otra cosa. No te vamos a resolver la vida, pero te acompañamos."
+          }
+        ]
+      },
+      {
+        "texto": "¿Jugamos mejor?",
+        "efectos": {
+          "amistad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "¿Jugamos mejor?"
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Ya, wn, una partida para despejarte."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jairo_discord_15",
+    "titulo": "Discord · El carrete",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "Llegaste vivo, menos mal.",
+        "expresion": "risa"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "El carrete estuvo intenso."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Lo que pasó allá no se borra durmiendo."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "No voy a asumir qué pasó, pero si hay algo pendiente háblalo sobrio."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Mañana voy a responder con la cabeza fría.",
+        "efectos": {
+          "amistad": 4,
+          "valentia": 2,
+          "madurez": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Mañana voy a responder con la cabeza fría."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Esa es. No mandís weás a las cuatro."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, pasemos a otra cosa. No te vamos a resolver la vida, pero te acompañamos."
+          }
+        ]
+      },
+      {
+        "texto": "Mejor juguemos algo corto.",
+        "efectos": {
+          "amistad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Mejor juguemos algo corto."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Dale, pero después a dormir."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jairo_discord_16",
+    "titulo": "Discord · El día después",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "No mandís un audio de siete minutos lleno de excusas.",
+        "expresion": "risa"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Tengo un mensaje que contestar y no sé cómo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Di la verdad, no hagas una presentación de PowerPoint."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Parte por lo que pasó, no por justificarte."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Voy a responder corto y claro.",
+        "efectos": {
+          "amistad": 4,
+          "valentia": 2,
+          "madurez": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Voy a responder corto y claro."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Eso, sin hacer un ensayo."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, pasemos a otra cosa. No te vamos a resolver la vida, pero te acompañamos."
+          }
+        ]
+      },
+      {
+        "texto": "Lo dejo para mañana.",
+        "efectos": {
+          "amistad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Lo dejo para mañana."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Bueno, pero no lo pateís toda la semana."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jairo_discord_17",
+    "titulo": "Discord · Los rumores",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "La Quinta es chica, hermano.",
+        "expresion": "risa"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "No quiero que las conversaciones terminen en rumores."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Las versiones inventadas terminan chocando."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "No podís controlar el pelambre, pero sí lo que tú decís."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Voy a evitar contradicciones.",
+        "efectos": {
+          "amistad": 4,
+          "valentia": 2,
+          "madurez": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Voy a evitar contradicciones."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Buena. No vendai humo."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, pasemos a otra cosa. No te vamos a resolver la vida, pero te acompañamos."
+          }
+        ]
+      },
+      {
+        "texto": "No tengo ganas de hablar de eso.",
+        "efectos": {
+          "amistad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "No tengo ganas de hablar de eso."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Dale, igual te escuchamos cuando querai."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jairo_discord_18",
+    "titulo": "Discord · Anto",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "¿Te quedaste callado de nuevo?",
+        "expresion": "risa"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Hoy conocí a Anto. Me quedé medio pegado."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Parte preguntando cómo está. No es una entrevista."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "¿Y qué te cuesta decirle hola, hermano?"
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "La próxima le hago una pregunta normal.",
+        "efectos": {
+          "amistad": 4,
+          "valentia": 2,
+          "madurez": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "La próxima le hago una pregunta normal."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Sí, wn, la vida no es entrevista laboral."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, pasemos a otra cosa. No te vamos a resolver la vida, pero te acompañamos."
+          }
+        ]
+      },
+      {
+        "texto": "Me dio vergüenza, mejor después.",
+        "efectos": {
+          "amistad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Me dio vergüenza, mejor después."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "JAJA, se te cayó el servidor de voz."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jairo_discord_19",
+    "titulo": "Discord · Asumir",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "Una disculpa no obliga a nadie a perdonarte.",
+        "expresion": "risa"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Hoy tuve que decidir algo importante."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Mary me pidió unos días sin hablar.",
+        "condiciones": [
+          {
+            "evento": "j_pausa",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Si te piden espacio, respétalo."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "No te vamos a exigir que nos cuentes la intimidad de nadie."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Voy a hacerme cargo de lo que decidí.",
+        "efectos": {
+          "amistad": 4,
+          "valentia": 2,
+          "madurez": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Voy a hacerme cargo de lo que decidí."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Buena. No lo dejís solo en palabras."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, pasemos a otra cosa. No te vamos a resolver la vida, pero te acompañamos."
+          }
+        ]
+      },
+      {
+        "texto": "Quiero distraerme por hoy.",
+        "efectos": {
+          "amistad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Quiero distraerme por hoy."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Ya, te cubrimos en el lobby."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jairo_discord_20",
+    "titulo": "Discord · El silencio",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "No confundai ansiedad con urgencia.",
+        "expresion": "risa"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "A veces quiero que todo se resuelva altiro."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Sal a caminar antes de mandar veinte mensajes."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Una conversación no se puede forzar."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Voy a respetar los tiempos.",
+        "efectos": {
+          "amistad": 4,
+          "valentia": 2,
+          "madurez": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Voy a respetar los tiempos."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Bien. Haz otras cosas mientras tanto."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, pasemos a otra cosa. No te vamos a resolver la vida, pero te acompañamos."
+          }
+        ]
+      },
+      {
+        "texto": "Me cuesta estar quieto.",
+        "efectos": {
+          "amistad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Me cuesta estar quieto."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Ponte a jugar una partida, no a revisar chats."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jairo_discord_21",
+    "titulo": "Discord · Las consecuencias",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "No podemos cambiar lo que ya hiciste.",
+        "expresion": "risa"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Hoy entendí que mis decisiones tienen consecuencias."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Las chicas ya no quieren hablar conmigo. Entiendo por qué.",
+        "condiciones": [
+          {
+            "evento": "j_bloqueado",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Pero sí te podemos acompañar mientras asumís."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Y no hace falta repetir el error para entenderlo mejor."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Voy a aprender de lo que pasó.",
+        "efectos": {
+          "amistad": 4,
+          "valentia": 2,
+          "madurez": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Voy a aprender de lo que pasó."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Eso. Igual estamos contigo."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, pasemos a otra cosa. No te vamos a resolver la vida, pero te acompañamos."
+          }
+        ]
+      },
+      {
+        "texto": "Hoy no quiero analizarlo más.",
+        "efectos": {
+          "amistad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Hoy no quiero analizarlo más."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Ya, dale. Descansa un rato."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jairo_discord_22",
+    "titulo": "Discord · El reset",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "Hoy no todo tiene que girar alrededor de una relación."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Me faltan tareas y tengo la cabeza llena."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Date tiempo, wn."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Haz una cosa a la vez, wn."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Voy a partir por el trabajo pendiente.",
+        "efectos": {
+          "amistad": 4,
+          "valentia": 2,
+          "madurez": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Voy a partir por el trabajo pendiente."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Cuando terminís nos conectamos."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, pasemos a otra cosa. No te vamos a resolver la vida, pero te acompañamos."
+          }
+        ]
+      },
+      {
+        "texto": "Necesito una pausa.",
+        "efectos": {
+          "amistad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Necesito una pausa."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Dale, pero no te quedís pegado todo el día."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jairo_discord_23",
+    "titulo": "Discord · La nueva etapa",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "¿Y si hablai sin preparar un guion de veinte páginas?",
+        "expresion": "risa"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Me da miedo quedar como un idiota cuando hablo."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "La gente quiere conocerte a ti, no a un personaje."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "¿Y qué? Todos acá hemos quedado como idiotas."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Voy a hablar más natural.",
+        "efectos": {
+          "amistad": 4,
+          "valentia": 2,
+          "madurez": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Voy a hablar más natural."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "No necesitai ganar cada conversa."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, pasemos a otra cosa. No te vamos a resolver la vida, pero te acompañamos."
+          }
+        ]
+      },
+      {
+        "texto": "Yo voy a seguir siendo el rey del visto.",
+        "efectos": {
+          "amistad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Yo voy a seguir siendo el rey del visto."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "JAJA, por eso estamos haciendo esta intervención."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jairo_discord_24",
+    "titulo": "Discord · La paciencia",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "No todas las decisiones se arreglan en un día.",
+        "expresion": "risa"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "El mes ya se está terminando."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Dale tiempo a las cosas."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "No porque falten seis días tenís que resolverlo todo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Voy a mantener lo que acordé.",
+        "efectos": {
+          "amistad": 4,
+          "valentia": 2,
+          "madurez": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Voy a mantener lo que acordé."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Buena, eso se demuestra con el tiempo."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, pasemos a otra cosa. No te vamos a resolver la vida, pero te acompañamos."
+          }
+        ]
+      },
+      {
+        "texto": "Prefiero pensar en otra cosa.",
+        "efectos": {
+          "amistad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Prefiero pensar en otra cosa."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Ya, pero no inventís promesas por apuro."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jairo_discord_25",
+    "titulo": "Discord · El chat eterno",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "Llevai más tiempo pensando que programando el backend."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Estoy pensando demasiado cada respuesta."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Estoy pensando en invitar a Anto a un café.",
+        "condiciones": [
+          {
+            "evento": "j_interes_anto",
+            "eventoActivo": true
+          },
+          {
+            "evento": "j_cita_anto",
+            "eventoActivo": false
+          }
+        ]
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Mandar una invitación no requiere un diagrama UML."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Manda lo que de verdad querís decir, no un código optimizado."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Voy a ser más directo.",
+        "efectos": {
+          "amistad": 4,
+          "valentia": 2,
+          "madurez": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Voy a ser más directo."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Buena, menos caracteres y más honestidad."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, pasemos a otra cosa. No te vamos a resolver la vida, pero te acompañamos."
+          }
+        ]
+      },
+      {
+        "texto": "Mejor borro el borrador por hoy.",
+        "efectos": {
+          "amistad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Mejor borro el borrador por hoy."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Wn, tu teclado debe estar agotado."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jairo_discord_26",
+    "titulo": "Discord · El lobby",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "¡Entra a la llamada, conchetumare!",
+        "expresion": "risa"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "¡Pero si estaba cubriendo la entrada!"
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Hoy jugamos, mañana vemos el drama."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Estabai cubriendo una planta, hermano."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "JAJA, ya, otra y me voy.",
+        "efectos": {
+          "amistad": 4,
+          "valentia": 2,
+          "madurez": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "JAJA, ya, otra y me voy."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Dale. Mañana tenís cosas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, pasemos a otra cosa. No te vamos a resolver la vida, pero te acompañamos."
+          }
+        ]
+      },
+      {
+        "texto": "Una más hasta que ganemos.",
+        "efectos": {
+          "amistad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Una más hasta que ganemos."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Eso puede demorar hasta Navidad."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jairo_discord_27",
+    "titulo": "Discord · La iniciativa",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "Si alguien no quiere, lo respetai. Pero preguntar está bien.",
+        "expresion": "risa"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "A veces me cuesta pasar de pensar a actuar."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "No hay que adivinarle la mente a nadie."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Si te dicen que no, igual podís seguir con tu vida."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Voy a hablar sin ensayar tanto.",
+        "efectos": {
+          "amistad": 4,
+          "valentia": 2,
+          "madurez": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Voy a hablar sin ensayar tanto."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Eso. Respeta también la respuesta."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, pasemos a otra cosa. No te vamos a resolver la vida, pero te acompañamos."
+          }
+        ]
+      },
+      {
+        "texto": "Me da cosa todavía.",
+        "efectos": {
+          "amistad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Me da cosa todavía."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Está bien. No te obliguís, pero sé consciente."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jairo_discord_28",
+    "titulo": "Discord · La oportunidad",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "A veces la respuesta llega cuando ya es tarde.",
+        "expresion": "risa"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Hay cosas que no salen como uno espera."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Anto está conociendo a alguien. Llegué tarde.",
+        "condiciones": [
+          {
+            "evento": "j_anto_perdida",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Aprende de eso sin culpar al resto."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "No todo lo que se pierde es culpa de otra persona."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Voy a aceptar la situación.",
+        "efectos": {
+          "amistad": 4,
+          "valentia": 2,
+          "madurez": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Voy a aceptar la situación."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Buena, hermano. Sigue con tus cosas."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, pasemos a otra cosa. No te vamos a resolver la vida, pero te acompañamos."
+          }
+        ]
+      },
+      {
+        "texto": "Necesito procesarlo un rato.",
+        "efectos": {
+          "amistad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Necesito procesarlo un rato."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "Dale. Aquí estamos si querís conversar."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jairo_discord_29",
+    "titulo": "Discord · El cierre",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "Hermano, ya pasó casi un mes.",
+        "expresion": "risa"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Ha sido un mes raro."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Acuérdate de lo que aprendiste, no solo del final."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "¿Te acordai de cómo empezaste? No erís el mismo wn."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Aprendí harto, incluso de lo malo.",
+        "efectos": {
+          "amistad": 4,
+          "valentia": 2,
+          "madurez": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Aprendí harto, incluso de lo malo."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Esa es la idea. No olvidís lo aprendido."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, pasemos a otra cosa. No te vamos a resolver la vida, pero te acompañamos."
+          }
+        ]
+      },
+      {
+        "texto": "Mejor no me pidan un discurso.",
+        "efectos": {
+          "amistad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Mejor no me pidan un discurso."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "JAJA, el discurso va para la tesis."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jairo_discord_30",
+    "titulo": "Discord · Fin de temporada",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Seba",
+        "texto": "Treinta días y todavía no aprendís a responder stickers.",
+        "expresion": "risa"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Ya, ya, tampoco aprendí tanto."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Pero igual estamos orgullosos de ti, wn."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Por lo menos hoy no necesitai que te escribamos las respuestas."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Gracias por aguantarme, cabros.",
+        "efectos": {
+          "amistad": 4,
+          "valentia": 2,
+          "madurez": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Gracias por aguantarme, cabros."
+          },
+          {
+            "personaje": "Kevin",
+            "texto": "Siempre, wn. Ahora a jugar."
+          },
+          {
+            "personaje": "Cáceres",
+            "texto": "Ya, pasemos a otra cosa. No te vamos a resolver la vida, pero te acompañamos."
+          }
+        ]
+      },
+      {
+        "texto": "Sigue siendo culpa del lag.",
+        "efectos": {
+          "amistad": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Sigue siendo culpa del lag."
+          },
+          {
+            "personaje": "Seba",
+            "texto": "JAJA, claro, lag emocional."
+          }
+        ]
+      }
+    ]
+  }
+]

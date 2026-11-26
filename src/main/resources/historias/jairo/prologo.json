@@ -1,0 +1,53 @@
+[
+  {
+    "id": "jairo_prologo_inicio",
+    "titulo": "Prólogo · Una relación real",
+    "lugar": "Plaza",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Jairo y Mary llevan un tiempo juntos. Los dos son felices, aunque a veces se les hace difícil decir lo que sienten."
+      },
+      {
+        "personaje": "Mary",
+        "texto": "¿Te acordái cuando te daba vergüenza hasta tomarme la mano?",
+        "expresion": "coqueta"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Eso fue un problema de latencia, no de vergüenza.",
+        "expresion": "avergonzado"
+      },
+      {
+        "personaje": "Mary",
+        "texto": "Ya, ingeniero. Ven acá.",
+        "expresion": "feliz"
+      },
+      {
+        "personaje": "Mary",
+        "texto": "Te mandé un corazón anoche y respondiste con un pulgar arriba."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Es que... significaba que lo había leído."
+      },
+      {
+        "personaje": "Mary",
+        "texto": "JAJA, ya, te quiero igual, pero aprende a decirlo, po."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Yo también te quiero."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "No hay una crisis todavía. Solo dos personas que tendrán que aprender a hablarse."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Durante treinta días, cada silencio, cada mensaje y cada decisión tendrá memoria."
+      }
+    ],
+    "decisiones": []
+  }
+]

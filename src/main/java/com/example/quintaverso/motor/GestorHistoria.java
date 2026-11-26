@@ -15,10 +15,10 @@ public final class GestorHistoria {
     public GestorHistoria() { this("caceres"); }
 
     public GestorHistoria(String temporada) {
-        if (!List.of("caceres", "seba").contains(temporada))
+        if (!List.of("caceres", "seba", "jairo").contains(temporada))
             throw new IllegalArgumentException("Temporada sin historia: " + temporada);
         ObjectMapper mapper = new ObjectMapper();
-        List<String> archivos = "seba".equals(temporada)
+        List<String> archivos = "jairo".equals(temporada) ? List.of("prologo", "capitulos", "continuidad", "discord", "actividades", "opcionales", "finales") : "seba".equals(temporada)
                 ? List.of("prologo", "hitos", "kelly", "amira", "javi", "fena", "amigos", "discord_noches", "momentos", "continuidad", "estilo", "finales")
                 : List.of("prologo", "lumi", "cony", "amigos", "otros", "eventos", "finales");
         for (String archivo : archivos) {
@@ -56,6 +56,7 @@ public final class GestorHistoria {
     /** Las decisiones narrativas son imprescindibles; las estadísticas no crean parejas de la nada. */
     public String calcularFinal(EstadoPartida e) {
         if ("seba".equals(e.getTemporada())) return FinalesSeba.calcular(e);
+        if ("jairo".equals(e.getTemporada())) return FinalesJairo.calcular(e);
         int l = e.obtenerEstadistica("lumi");
         int c = e.obtenerEstadistica("cony");
         int h = e.obtenerEstadistica("honestidad");

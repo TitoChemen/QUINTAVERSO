@@ -57,6 +57,33 @@ class TemporadaSebaTest {
                 historia.obtener("final_seba_naranja_picnic"))));
     }
 
+    @Test void losTreceFinalesTienenSplashPropioSinCruces() {
+        GestorHistoria historia = new GestorHistoria("seba");
+        java.util.Map<String, String> rutas = java.util.Map.ofEntries(
+                java.util.Map.entry("final_seba_verde", "final_verde.png"),
+                java.util.Map.entry("final_seba_azul", "final_azul.png"),
+                java.util.Map.entry("final_seba_gris", "final_gris.png"),
+                java.util.Map.entry("final_seba_violeta", "final_violeta.png"),
+                java.util.Map.entry("final_seba_rojo", "final_rojo.png"),
+                java.util.Map.entry("final_seba_celeste", "final_celeste.png"),
+                java.util.Map.entry("final_seba_naranja", "final_naranja_sebaxfena.png"),
+                java.util.Map.entry("final_seba_naranja_picnic", "final_naranja_richiexfena.png"),
+                java.util.Map.entry("final_seba_turquesa", "final_turquesa.png"),
+                java.util.Map.entry("final_seba_harem", "final_negro.png"),
+                java.util.Map.entry("final_seba_blanco", "final_blanco.png"),
+                java.util.Map.entry("final_seba_femboy", "final_rosa_secreto.png"),
+                java.util.Map.entry("final_seba_amarillo", "final_amarillo.png")
+        );
+        assertEquals(13, rutas.size());
+        for (var finalRuta : rutas.entrySet()) {
+            String esperado = "/imagenes/cg/seba/" + finalRuta.getValue();
+            String actual = com.example.quintaverso.RecursosVisuales.cg(
+                    historia.obtener(finalRuta.getKey()));
+            assertEquals(esperado, actual, finalRuta.getKey());
+            assertNotNull(getClass().getResource(actual), finalRuta.getKey());
+        }
+    }
+
     @Test void golpearRodrigoAbreConsecuenciasDiferentes() {
         GestorHistoria historia = new GestorHistoria("seba");
         EstadoPartida e = seba("seba_golpeo_rodrigo", "seba_rodri_aviso", "seba_fiesta_cama");

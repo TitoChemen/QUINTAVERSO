@@ -1,0 +1,924 @@
+[
+  {
+    "id": "jairo_opt_mary_helado",
+    "titulo": "Un helado sin drama",
+    "lugar": "Parque",
+    "dialogos": [
+      {
+        "personaje": "Mary",
+        "texto": "¿Me acompañai a comprar un helado?"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Ya. ¿Chocolate?"
+      },
+      {
+        "personaje": "Mary",
+        "texto": "A ver si te acordai cuál me gusta."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Mmm..."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Preguntarle en vez de inventar.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "No me acuerdo, amor. ¿Cuál era?"
+          },
+          {
+            "personaje": "Mary",
+            "texto": "Vainilla, wn. Pero agradezco que preguntes."
+          }
+        ],
+        "efectos": {
+          "confianza_mary": 4
+        },
+        "eventos": [
+          "j_mary_helado"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Adivinar con seguridad absurda.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Menta granizada."
+          },
+          {
+            "personaje": "Mary",
+            "texto": "JAJA, nada que ver. Pero igual te quiero."
+          }
+        ],
+        "efectos": {
+          "amistad": 1
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_opt_mary_proyecto",
+    "titulo": "Lo que Mary quiere hacer",
+    "lugar": "Café",
+    "dialogos": [
+      {
+        "personaje": "Mary",
+        "texto": "Quiero retomar algo que dejé botado. Me gustaría tener un proyecto mío."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "¿Qué tenís pensado?"
+      },
+      {
+        "personaje": "Mary",
+        "texto": "No sé todavía, pero quiero darle espacio."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Escuchar sus ideas.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Cuéntame cuando tengas ganas. Me interesa."
+          },
+          {
+            "personaje": "Mary",
+            "texto": "Gracias. Me gusta que no lo conviertas en un plan tuyo."
+          }
+        ],
+        "efectos": {
+          "confianza_mary": 4,
+          "madurez": 3
+        },
+        "eventos": [
+          "j_mary_proyecto"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Convertirlo en una broma.",
+        "reaccion": [
+          {
+            "personaje": "Mary",
+            "texto": "Te estoy contando algo que me importa."
+          }
+        ],
+        "efectos": {
+          "confianza_mary": -4
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_opt_ale_almacen",
+    "titulo": "La fila del almacén",
+    "lugar": "Casa",
+    "dialogos": [
+      {
+        "personaje": "Ale",
+        "texto": "Vecino, ¿también viniste por pan?"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Sí, me mandaron. Otra vez."
+      },
+      {
+        "personaje": "Ale",
+        "texto": "JAJA, nos vemos siempre en las mismas vueltas."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Conversar como vecinos.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "¿Cómo te ha ido esta semana?"
+          },
+          {
+            "personaje": "Ale",
+            "texto": "Bien. Gracias por preguntar."
+          }
+        ],
+        "efectos": {
+          "ale": 4
+        },
+        "eventos": [
+          "j_ale_conversa"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Saludar y seguir mi camino.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Que estís bien, nos vemos."
+          }
+        ],
+        "efectos": {
+          "madurez": 1
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_opt_andrea_apuntes",
+    "titulo": "Apuntes perdidos",
+    "lugar": "Café",
+    "dialogos": [
+      {
+        "personaje": "Andrea",
+        "texto": "¿Guardaste el material de la clase?"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Sí, en una carpeta que se llama final_final_ahorasi."
+      },
+      {
+        "personaje": "Andrea",
+        "texto": "JAJA, mándamelo antes que lo borres."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Compartir el apunte y seguir estudiando.",
+        "reaccion": [
+          {
+            "personaje": "Andrea",
+            "texto": "Buena, gracias."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Nos vemos en clases."
+          }
+        ],
+        "efectos": {
+          "andrea": 4,
+          "madurez": 2
+        },
+        "eventos": [
+          "j_andrea_apunte"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Dejarlo para mañana.",
+        "reaccion": [
+          {
+            "personaje": "Andrea",
+            "texto": "Ya, pero acuérdate porfa."
+          }
+        ],
+        "efectos": {
+          "andrea": -2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_opt_mary_paseo",
+    "titulo": "Volver a pasar tiempo juntos",
+    "lugar": "Costanera",
+    "dialogos": [
+      {
+        "personaje": "Mary",
+        "texto": "No quiero que hablemos de problemas todo el rato."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Podemos caminar y hablar de cualquier otra cosa."
+      },
+      {
+        "personaje": "Mary",
+        "texto": "Sí. Me hacía falta algo sencillo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Disfrutar el rato sin pedir garantías.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "¿Qué fue lo más chistoso que te pasó esta semana?"
+          },
+          {
+            "personaje": "Mary",
+            "texto": "JAJA, te tengo una historia."
+          }
+        ],
+        "efectos": {
+          "confianza_mary": 4,
+          "inseguridad": -2
+        },
+        "eventos": [
+          "j_mary_paseo"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Preguntar si ya me perdonó o si todavía me quiere.",
+        "reaccion": [
+          {
+            "personaje": "Mary",
+            "texto": "No quiero que cada salida sea un examen de la relación."
+          }
+        ],
+        "efectos": {
+          "confianza_mary": -5,
+          "inseguridad": 5
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_opt_cami_chat",
+    "titulo": "Un chat sin música",
+    "lugar": "WhatsApp",
+    "dialogos": [
+      {
+        "personaje": "Cami (mensaje)",
+        "texto": "Te iba a preguntar qué música escuchai normalmente."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Un poco de todo. Respuesta de NPC, lo sé."
+      },
+      {
+        "personaje": "Cami (mensaje)",
+        "texto": "JAJA, ya, mándame una canción."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Compartir una canción y preguntarle por la suya.",
+        "reaccion": [
+          {
+            "personaje": "Cami",
+            "texto": "Buena. Esa no la cachaba."
+          }
+        ],
+        "efectos": {
+          "camila": 5
+        },
+        "eventos": [
+          "j_cami_musica"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Dejar la conversación para otro día.",
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "No promete una salida ni espera que ella esté disponible."
+          }
+        ],
+        "efectos": {
+          "madurez": 1
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_opt_anto_practica",
+    "titulo": "Un saludo que no requiere guion",
+    "lugar": "Plaza",
+    "dialogos": [
+      {
+        "personaje": "Anto",
+        "texto": "¡Hola! ¿Cómo te ha ido?"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Eh... bien. Y a ti."
+      },
+      {
+        "personaje": "Anto",
+        "texto": "Bien, salí recién de clases. ¿Qué hacís por acá?"
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Conversar y hacerle una pregunta.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Voy a tomar aire. ¿Qué te gusta hacer cuando salís de clases?"
+          },
+          {
+            "personaje": "Anto",
+            "texto": "A veces paso por un café o me junto con amigas."
+          }
+        ],
+        "efectos": {
+          "anto": 5,
+          "valentia": 5
+        },
+        "eventos": [
+          "j_anto_practica"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Despedirme por vergüenza.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Ya, me tengo que ir."
+          },
+          {
+            "personaje": "Anto",
+            "texto": "Dale. Cuídate."
+          }
+        ],
+        "efectos": {
+          "valentia": -2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_opt_pausa",
+    "titulo": "Una pausa de verdad",
+    "lugar": "Casa",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Jairo siente ganas de abrir el chat de Mary."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Me pidió espacio. Puedo hacer otra cosa."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Elige una actividad que no implique buscarla."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Salir a caminar sin escribirle.",
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "Respeta la distancia y vuelve a sus tareas."
+          }
+        ],
+        "efectos": {
+          "madurez": 4
+        },
+        "eventos": [
+          "j_pausa_cuidada"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Escribir una disculpa en una libreta, sin enviarla.",
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "Anota lo que debe cambiar, sin exigir una respuesta."
+          }
+        ],
+        "efectos": {
+          "honestidad": 2,
+          "madurez": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_opt_amigos",
+    "titulo": "Los cabros también tienen vida",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Cáceres",
+        "texto": "Oe, necesito una mano con un trabajo."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Ya, comparte pantalla."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Jairo, por favor que no sea otra vez un error de sintaxis."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "JAJA, ya, veamos."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Ayudar con el trabajo.",
+        "reaccion": [
+          {
+            "personaje": "Cáceres",
+            "texto": "Buena, hermano. Nos salvaste."
+          },
+          {
+            "personaje": "Jairo",
+            "texto": "Por fin sirvo para algo aparte de los dramas."
+          }
+        ],
+        "efectos": {
+          "amistad": 6,
+          "madurez": 2
+        },
+        "eventos": [
+          "j_ayuda_cabros"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Jugar una partida en vez de ayudar.",
+        "reaccion": [
+          {
+            "personaje": "Kevin",
+            "texto": "Ya, cuando terminemos nos metemos."
+          }
+        ],
+        "efectos": {
+          "amistad": 1
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_opt_soltero",
+    "titulo": "Un plan sin esperar a nadie",
+    "lugar": "Costanera",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Jairo tiene una tarde libre y decide salir por su cuenta."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Antes no sabía qué hacer si no tenía un mensaje pendiente."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Compra algo de comer y se sienta a mirar el mar."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Disfrutar el rato solo.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Igual se siente bien no apurarse."
+          }
+        ],
+        "efectos": {
+          "madurez": 5
+        },
+        "eventos": [
+          "j_solo_paseo"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Invitar a los cabros para otro día.",
+        "reaccion": [
+          {
+            "personaje": "Kevin (mensaje)",
+            "texto": "Dale, armemos algo el finde."
+          }
+        ],
+        "efectos": {
+          "amistad": 5
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_opt_ale_ruta",
+    "titulo": "Conocer a Ale sin apuro",
+    "lugar": "Casa",
+    "dialogos": [
+      {
+        "personaje": "Ale",
+        "texto": "¿Te tinca que cocinemos algo un día?"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Mientras no dependa de que yo sepa hacer arroz."
+      },
+      {
+        "personaje": "Ale",
+        "texto": "JAJA, entonces hacemos pan con algo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Escuchar y conversar sin prometer nada.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Me gusta conocerte así, tranquila."
+          },
+          {
+            "personaje": "Ale",
+            "texto": "A mí también me tinca seguir conversando."
+          }
+        ],
+        "efectos": {
+          "ale": 5,
+          "valentia": 3
+        },
+        "eventos": [
+          "j_ale_cercania"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Decir que necesito tiempo para pensar.",
+        "reaccion": [
+          {
+            "personaje": "Ale",
+            "texto": "Está bien. No hay que apurar las cosas."
+          }
+        ],
+        "efectos": {
+          "madurez": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_opt_andrea_ruta",
+    "titulo": "Conocer a Andrea sin apuro",
+    "lugar": "Parque",
+    "dialogos": [
+      {
+        "personaje": "Andrea",
+        "texto": "Quiero que me conozcai fuera de los rumores."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "¿Qué te gusta hacer cuando no hay clases?"
+      },
+      {
+        "personaje": "Andrea",
+        "texto": "Escuchar música y salir a caminar."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Escuchar y conversar sin prometer nada.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Me gusta conocerte así, tranquila."
+          },
+          {
+            "personaje": "Andrea",
+            "texto": "A mí también me tinca seguir conversando."
+          }
+        ],
+        "efectos": {
+          "andrea": 5,
+          "valentia": 3
+        },
+        "eventos": [
+          "j_andrea_cercania"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Decir que necesito tiempo para pensar.",
+        "reaccion": [
+          {
+            "personaje": "Andrea",
+            "texto": "Está bien. No hay que apurar las cosas."
+          }
+        ],
+        "efectos": {
+          "madurez": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_opt_cami_ruta",
+    "titulo": "Conocer a Cami sin apuro",
+    "lugar": "Café",
+    "dialogos": [
+      {
+        "personaje": "Cami",
+        "texto": "Aparte del carrete, ¿qué panorama te gusta?"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Uno donde pueda escuchar lo que me estai diciendo."
+      },
+      {
+        "personaje": "Cami",
+        "texto": "JAJA, excelente respuesta."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Escuchar y conversar sin prometer nada.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Me gusta conocerte así, tranquila."
+          },
+          {
+            "personaje": "Cami",
+            "texto": "A mí también me tinca seguir conversando."
+          }
+        ],
+        "efectos": {
+          "camila": 5,
+          "valentia": 3
+        },
+        "eventos": [
+          "j_cami_cercania"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Decir que necesito tiempo para pensar.",
+        "reaccion": [
+          {
+            "personaje": "Cami",
+            "texto": "Está bien. No hay que apurar las cosas."
+          }
+        ],
+        "efectos": {
+          "madurez": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_opt_anto_ruta",
+    "titulo": "Conocer a Anto sin apuro",
+    "lugar": "WhatsApp",
+    "dialogos": [
+      {
+        "personaje": "Anto (mensaje)",
+        "texto": "Me acordé de la conversación del otro día."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "¿En serio?"
+      },
+      {
+        "personaje": "Anto (mensaje)",
+        "texto": "Sí, no tenís que estar tan nervioso."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Escuchar y conversar sin prometer nada.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "Me gusta conocerte así, tranquila."
+          },
+          {
+            "personaje": "Anto",
+            "texto": "A mí también me tinca seguir conversando."
+          }
+        ],
+        "efectos": {
+          "anto": 5,
+          "valentia": 3
+        },
+        "eventos": [
+          "j_anto_cercania"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Decir que necesito tiempo para pensar.",
+        "reaccion": [
+          {
+            "personaje": "Anto",
+            "texto": "Está bien. No hay que apurar las cosas."
+          }
+        ],
+        "efectos": {
+          "madurez": 3
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_opt_mary_reparacion",
+    "titulo": "Una pregunta difícil",
+    "lugar": "Mirador",
+    "dialogos": [
+      {
+        "personaje": "Mary",
+        "texto": "¿Qué harías distinto si volviera a pasar una situación parecida?"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "No quiero hacer una promesa vacía."
+      },
+      {
+        "personaje": "Mary",
+        "texto": "Entonces dime una cosa concreta."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Hablar de límites y asumir el error.",
+        "reaccion": [
+          {
+            "personaje": "Jairo",
+            "texto": "No voy a esconder conversaciones ni a presionarte cuando necesites espacio."
+          },
+          {
+            "personaje": "Mary",
+            "texto": "Eso espero ver con el tiempo."
+          }
+        ],
+        "efectos": {
+          "confianza_mary": 5,
+          "madurez": 3
+        },
+        "eventos": [
+          "j_reparacion_opcional"
+        ],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Decir que no volverá a pasar y cambiar el tema.",
+        "reaccion": [
+          {
+            "personaje": "Mary",
+            "texto": "No me sirve que lo digas si no podemos hablarlo."
+          }
+        ],
+        "efectos": {
+          "confianza_mary": -5
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  },
+  {
+    "id": "jairo_opt_bloqueado",
+    "titulo": "Cuando toca aceptar el límite",
+    "lugar": "Casa",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Jairo mira el celular. Ya sabe que las chicas no quieren seguir hablando."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "No puedo exigirles que cambien de opinión."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Elige qué hacer con su tiempo."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Cerrar los chats y estudiar.",
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "No vuelve a contactarlas. Respeta el límite."
+          }
+        ],
+        "efectos": {
+          "madurez": 5
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      },
+      {
+        "texto": "Llamar a un amigo para hablar de cómo estoy.",
+        "reaccion": [
+          {
+            "personaje": "Kevin",
+            "texto": "Ya, te escucho, pero sin culparlas por poner límites."
+          }
+        ],
+        "efectos": {
+          "amistad": 5
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": []
+      }
+    ]
+  }
+]

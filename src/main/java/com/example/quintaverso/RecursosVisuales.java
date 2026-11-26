@@ -60,6 +60,11 @@ public final class RecursosVisuales {
     public static String personaje(String nombre) {
         String n = normalizar(nombre);
         // También reconoce 'Kevin (mensaje)', 'Cony (audio)', etc.
+        if (n.startsWith("mary")) return "mary";
+        if (n.startsWith("ale")) return "ale";
+        if (n.startsWith("andrea")) return "andrea";
+        if (n.startsWith("anto")) return "anto";
+        if (n.startsWith("cami")) return "camila";
         if (n.startsWith("kelly")) return "kelly";
         if (n.startsWith("amira")) return "amira";
         if (n.startsWith("javi")) return "javi";
@@ -82,27 +87,29 @@ public final class RecursosVisuales {
         String emoción = d.getExpresion() == null || d.getExpresion().isBlank()
                 ? emocion(d.getTexto()) : normalizar(d.getExpresion());
         return switch (nombre) {
-            case "lumi", "cony", "amira", "javi", "kelly", "fena" -> spriteChica(nombre, emoción, d.getTexto());
+            case "lumi", "cony", "amira", "javi", "kelly", "fena", "mary", "ale", "andrea", "anto", "camila" -> spriteChica(nombre, emoción, d.getTexto());
             case "richie" -> "/imagenes/personajes/richie/" + switch (emoción) {
-                case "serio" -> "04_enojado.png";
-                case "risa", "feliz" -> "03_saludando.png";
-                case "nervioso", "sorprendido" -> "05_agresivo.png";
+                case "serio", "enojado", "molesto" -> "04_enojado.png";
+                case "agresivo" -> "05_agresivo.png";
+                case "risa", "feliz", "saludando" -> "03_saludando.png";
                 default -> "01_neutral.png";
             };
             case "rodrigo" -> "/imagenes/personajes/rodrigo/" + switch (emoción) {
                 case "risa", "feliz" -> "03_risa.png";
-                case "serio", "nervioso" -> "05_traumado.png";
+                case "nervioso", "traumado" -> "05_traumado.png";
                 case "sorprendido" -> "04_sorprendido.png";
+                case "saludando" -> "02_saludando.png";
                 default -> "01_neutral.png";
             };
             case "caceres" -> "/imagenes/personajes/caceres/" + switch (emoción) {
-                case "feliz" -> "caceres_feliz.png";
+                case "feliz", "saludando" -> "caceres_feliz.png";
                 case "risa" -> "caceres_risa.png";
-                case "serio" -> "caceres_serio.png";
-                case "nervioso" -> "caceres_nervioso.png";
-                case "sorprendido" -> "caceres_sorprendido.png";
-                case "coqueta" -> "caceres_picaro.png";
-                case "pensativo" -> "caceres_pensativo.png";
+                case "serio", "enojado", "molesto" -> "caceres_serio.png";
+                case "nervioso", "timido" -> "caceres_nervioso.png";
+                case "sorprendido", "impactado" -> "caceres_sorprendido.png";
+                case "coqueta", "coqueto", "picaro" -> "caceres_picaro.png";
+                case "pensativo", "triste" -> "caceres_pensativo.png";
+                
                 default -> "caceres_cuerpo_completo_neutral.png";
             };
             case "seba" -> spriteSeba(emoción);
@@ -123,6 +130,21 @@ public final class RecursosVisuales {
         };
     }
 
+    public static String spriteJairo(Dialogo d) {
+        return spriteJairo(d == null ? "neutral" : d.getExpresion() == null || d.getExpresion().isBlank() ? emocion(d.getTexto()) : d.getExpresion());
+    }
+    public static String spriteJairo(String e) {
+        return "/imagenes/personajes/jairo/" + switch(normalizar(e)) {
+            case "pensativo", "serio", "triste" -> "02_pensativo.png";
+            case "bolsillos", "manos_bolsillos", "tranquilo" -> "03_manos_bolsillos.png";
+            case "feliz", "risa", "saludando" -> "04_saludando.png";
+            case "sentado" -> "05_sentado.png";
+            case "avergonzado", "nervioso", "timido" -> "06_avergonzado.png";
+            case "sorprendido", "impactado" -> "07_sorprendido.png";
+            case "senalando", "seguro", "coqueto", "coqueta" -> "08_senalando.png";
+            default -> "01_neutral.png";
+        };
+    }
     // Todas las poses oficiales de Seba (incluido el tatuaje del brazo izquierdo).
     public static String spriteSeba(String emocion) {
         String archivo = switch (normalizar(emocion)) {
@@ -158,11 +180,14 @@ public final class RecursosVisuales {
     private static String spriteChica(String nombre, String emoción, String diálogo) {
         String tono = normalizar(diálogo);
         String archivo = switch (emoción) {
-            case "risa", "feliz" -> "04_saludando.png";
-            case "serio" -> "02_brazos_cruzados.png";
-            case "sorprendido" -> "07_sorprendida.png";
-            case "coqueta" -> "08_coqueta.png";
-            case "pensativo", "nervioso" -> "05_sentada.png";
+            case "risa", "feliz", "saludando" -> "04_saludando.png";
+            case "mano_cintura", "cintura" -> "03_mano_cintura.png";
+            case "manos_espalda", "espalda" -> "06_manos_espalda.png";
+            case "sentada" -> "05_sentada.png";
+            case "serio", "enojado", "enojada", "molesta", "molesto", "brazos_cruzados" -> "02_brazos_cruzados.png";
+            case "sorprendido", "sorprendida", "impactada" -> "07_sorprendida.png";
+            case "coqueta", "coqueto" -> "08_coqueta.png";
+            case "pensativo", "pensativa", "nervioso", "nerviosa", "triste" -> "05_sentada.png";
             default -> tono.contains("tranquil") || tono.contains("calma") || tono.contains("espacio") ?
                     "06_manos_espalda.png" :
                     tono.contains("hoy") || tono.contains("vamos") || tono.contains("hacer") ?

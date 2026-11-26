@@ -24,6 +24,14 @@ class RecursosVisualesTest {
     }
 
     @Test
+    void expresionesDeCaceresYKellyNoVuelvenAUnSpriteNeutral() {
+        assertEquals("/imagenes/personajes/caceres/caceres_pensativo.png",
+                RecursosVisuales.retrato(new Dialogo("Cáceres", "Estoy triste y pensativo")));
+        assertEquals("/imagenes/personajes/kelly/02_brazos_cruzados.png",
+                RecursosVisuales.retrato(new Dialogo("Kelly", "Estoy enojada con tus mentiras")));
+    }
+
+    @Test
     void retratosDisponiblesRespetanNombres() {
         for (String nombre : List.of("Lumi", "Cony", "Cáceres", "Jairo", "Seba")) {
             String path = RecursosVisuales.retrato(new Dialogo(nombre, "Hola"));

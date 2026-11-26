@@ -1,0 +1,448 @@
+[
+  {
+    "id": "final_jairo_verde",
+    "titulo": "FINAL VERDE · Te sigo eligiendo",
+    "lugar": "Costanera",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Semanas después, los dos salen a caminar de noche. No han eliminado todos sus problemas, pero dejaron de resolverlos a través del silencio."
+      },
+      {
+        "personaje": "Mary",
+        "texto": "¿Te acordái de cuando no podíamos hablar sin terminar discutiendo?"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Sí. Ahora por lo menos nos decimos cuándo necesitamos un rato."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Gracias por hablar conmigo incluso cuando es incómodo."
+      },
+      {
+        "personaje": "Mary",
+        "texto": "No quiero que seamos perfectos, Jairo. Solo quiero que sigamos eligiéndonos."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Se abrazan bajo las luces del paseo. Esta vez, el cariño no necesita pruebas."
+      }
+    ],
+    "decisiones": [],
+    "cg": "jairo/final_verde.png"
+  },
+  {
+    "id": "final_jairo_azul",
+    "titulo": "FINAL AZUL · Volver a confiar",
+    "lugar": "Mirador",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Mary acepta intentar reconstruir lo que se rompió. Jairo sabe que confesar no borró sus decisiones."
+      },
+      {
+        "personaje": "Mary",
+        "texto": "Hay días que me acuerdo de todo y me vuelve la inseguridad."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "No te voy a pedir que actúes como si no hubiera pasado. Si necesitas hablar, te escucho."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "No te voy a apurar. Voy a demostrarte lo que digo."
+      },
+      {
+        "personaje": "Mary",
+        "texto": "Te quiero, pero no esperes que mañana todo vuelva a ser como antes."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Se quedan juntos un rato. La confianza tendrá que recuperarse con el tiempo."
+      }
+    ],
+    "decisiones": [],
+    "cg": "jairo/final_azul.png"
+  },
+  {
+    "id": "final_jairo_gris",
+    "titulo": "FINAL GRIS · Querernos no fue suficiente",
+    "lugar": "Mirador",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "En el recuerdo de su última despedida, Jairo entiende que el cariño no bastaba para que la relación funcionara."
+      },
+      {
+        "personaje": "Mary",
+        "texto": "No quiero que lo bonito que vivimos termine convertido en puro resentimiento."
+      },
+      {
+        "personaje": "Mary",
+        "texto": "Nos queremos, pero nos estamos haciendo daño."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "No quiero que sigamos hasta odiarnos."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Se abrazan por última vez, sin culpables fáciles ni promesas que no pueden cumplir."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Ojalá nos hubiéramos encontrado en otro momento."
+      }
+    ],
+    "decisiones": [],
+    "cg": "jairo/final_gris.png"
+  },
+  {
+    "id": "final_jairo_rojo",
+    "titulo": "FINAL ROJO · Tenía razón",
+    "lugar": "Plaza",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Recuerda la discusión que terminó con Mary golpeando a Andrea. Ninguna quiso volver a verlo. Jairo entiende que no puede reparar lo ocurrido exigiendo perdón."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La discusión termina. Andrea se aleja, Mary ya no quiere escuchar explicaciones y Jairo se queda inmóvil."
+      },
+      {
+        "personaje": "Mary",
+        "texto": "Me hiciste sentir que estaba loca por desconfiar de ti."
+      },
+      {
+        "personaje": "Andrea",
+        "texto": "No quiero volver a estar metida en esto."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "No hay nada que pueda decir para deshacerlo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "La violencia y la mentira dejaron heridas que ninguna disculpa inmediata puede arreglar."
+      }
+    ],
+    "decisiones": [],
+    "cg": "jairo/final_rojo.png"
+  },
+  {
+    "id": "final_jairo_violeta",
+    "titulo": "FINAL VIOLETA · Al otro lado de la puerta",
+    "lugar": "Casa",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Al caer la tarde, Jairo y Ale se sientan afuera de sus casas. La antigua relación ya está cerrada."
+      },
+      {
+        "personaje": "Ale",
+        "texto": "Igual es raro que ahora te invito a salir y no tenemos que andar dando tantas vueltas."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Ya aprendí que no todo se resuelve mirando el celular."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Nunca pensé que terminaríamos conversando así."
+      },
+      {
+        "personaje": "Ale",
+        "texto": "Tanto tiempo viviendo al lado y recién ahora te atreviste."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Los dos se ríen. No tienen que esconderse de nadie."
+      }
+    ],
+    "decisiones": [],
+    "cg": "jairo/final_violeta.png"
+  },
+  {
+    "id": "final_jairo_naranja",
+    "titulo": "FINAL NARANJA · No era solamente un beso",
+    "lugar": "Fiesta",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Cami y Jairo vuelven a encontrarse. Esta vez no necesitan una excusa ni una canción para acercarse."
+      },
+      {
+        "personaje": "Cami",
+        "texto": "Al menos ahora puedo escucharte sin que me griten al oído los cabros."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "JAJA. Y esta vez no te voy a dejar esperando una respuesta por días."
+      },
+      {
+        "personaje": "Cami",
+        "texto": "Pensé que nunca más me ibas a hablar después de esa noche."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Quería conocerte de verdad, no solo acordarme del carrete."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Deciden darse una oportunidad, sin ocultar lo que cada uno espera."
+      }
+    ],
+    "decisiones": [],
+    "cg": "jairo/final_naranja.png"
+  },
+  {
+    "id": "final_jairo_celeste",
+    "titulo": "FINAL CELESTE · Por fin te atreviste",
+    "lugar": "Café",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Jairo llega antes de la hora a su primera cita oficial con Anto. Cuando ella aparece, casi se le cae el café."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Pedí un café antes de que llegaras porque no sabía dónde poner las manos."
+      },
+      {
+        "personaje": "Anto",
+        "texto": "JAJA, tranquilo. Si salió bien la invitación, el resto es conversar."
+      },
+      {
+        "personaje": "Anto",
+        "texto": "¿Sabís que podrías haberme invitado hace rato, cierto?"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Sí, pero necesitaba compilar la respuesta primero."
+      },
+      {
+        "personaje": "Anto",
+        "texto": "JAJA. Ya, cuéntame cómo te fue hoy."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Por fin deja de ensayar y empieza a conversar."
+      }
+    ],
+    "decisiones": [],
+    "cg": "jairo/final_celeste.png"
+  },
+  {
+    "id": "final_jairo_rosa",
+    "titulo": "FINAL ROSA · Más allá de los rumores",
+    "lugar": "Parque",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Andrea y Jairo se sientan en el parque. Ya no tienen que medir cada palabra según lo que otra persona pueda pensar."
+      },
+      {
+        "personaje": "Andrea",
+        "texto": "Hoy no tenemos ni que hablar del trabajo ni de lo que pasó antes."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Me gusta eso. Es primera vez que puedo estar tranquilo contigo."
+      },
+      {
+        "personaje": "Andrea",
+        "texto": "No quiero ser la razón por la que terminaste con ella. Quiero ser la razón por la que decidiste empezar de nuevo."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Quiero que lo que tengamos sea nuestro, no una reacción a lo anterior."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "El comienzo es lento, honesto y sin promesas prestadas."
+      }
+    ],
+    "decisiones": [],
+    "cg": "jairo/final_rosa.png"
+  },
+  {
+    "id": "final_jairo_blanco",
+    "titulo": "FINAL BLANCO · Estar solo también está bien",
+    "lugar": "Discord",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Jairo termina una tarea, se prepara algo de comer y entra a Discord. Estar solo no significa estar abandonado."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Ha perdido la confianza de varias personas. Estar solo no borra el daño; es una oportunidad para asumirlo.",
+        "condiciones": [
+          {
+            "evento": "j_bloqueado",
+            "eventoActivo": true
+          }
+        ]
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Esta vez no estoy buscando una respuesta romántica. Estoy tratando de ordenar mi vida."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "¿Cómo vai, hermano?"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Mejor. Estoy haciendo mis cosas."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "Ya, pero deja de llorar y métete al lobby, conchetumare."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "JAJAJA, igual te queremos, wn."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Se ríe. El mes terminó, pero su vida no."
+      }
+    ],
+    "decisiones": [],
+    "cg": "jairo/final_blanco.png"
+  },
+  {
+    "id": "final_jairo_negro",
+    "titulo": "FINAL NEGRO · Se supieron todas",
+    "lugar": "Plaza",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Recuerda cómo se cruzaron las versiones aquella noche. Los cabros se ríen de su desastre, pero las chicas no están dispuestas a perdonarlo solo por una talla."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Las cinco chicas ya compararon sus versiones. Jairo no tiene cómo sostener sus contradicciones."
+      },
+      {
+        "personaje": "Mary",
+        "texto": "No quiero más excusas."
+      },
+      {
+        "personaje": "Ale",
+        "texto": "Tampoco yo."
+      },
+      {
+        "personaje": "Andrea",
+        "texto": "Hasta aquí llegamos."
+      },
+      {
+        "personaje": "Cami",
+        "texto": "No me vuelvas a buscar."
+      },
+      {
+        "personaje": "Anto",
+        "texto": "Era mucho más fácil decir la verdad."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "La cagué."
+      },
+      {
+        "personaje": "Cáceres",
+        "texto": "Hermano, tenías cinco rutas disponibles y desbloqueaste la de ninguna."
+      },
+      {
+        "personaje": "Seba",
+        "texto": "JAJAJA, te pasaste, wn."
+      },
+      {
+        "personaje": "Kevin",
+        "texto": "Ya, pero en serio: hazte cargo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Ninguna se queda con él."
+      }
+    ],
+    "decisiones": [],
+    "cg": "jairo/final_negro.png"
+  },
+  {
+    "id": "final_jairo_turquesa",
+    "titulo": "FINAL TURQUESA · La oportunidad que nunca tomaste",
+    "lugar": "Plaza",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "En su memoria vuelve aquella conversación. Anto ya había decidido conocer a otra persona; no era una prueba ni una amenaza."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "No era que no quisiera. Me quedé esperando el momento perfecto y nunca llegó."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Anto tiene sus propios planes y está conociendo a alguien. Jairo por fin admite que le gustaba."
+      },
+      {
+        "personaje": "Anto",
+        "texto": "¿Por qué nunca me dijiste nada?"
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Me dio miedo. Pensé que iba a tener más tiempo."
+      },
+      {
+        "personaje": "Anto",
+        "texto": "Pucha. No puedo cambiar lo que siento ahora."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Jairo acepta que perdió una oportunidad, no una promesa que Anto le debiera."
+      }
+    ],
+    "decisiones": [],
+    "cg": "jairo/final_turquesa.png"
+  },
+  {
+    "id": "final_jairo_dorado",
+    "titulo": "FINAL DORADO · Sin miedo a perderte",
+    "lugar": "Parque",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Meses después, Mary y Jairo siguen juntos. Ella retomó sus planes y él mantiene sus amistades. Ambos aprendieron a decir lo que sienten sin controlar al otro."
+      },
+      {
+        "personaje": "Mary",
+        "texto": "Hoy me junté con mis amigas y tú jugaste con los cabros. Después nos encontramos acá. Me gusta que sea así."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Antes me habría pasado toda la tarde mirando la hora de tu última conexión."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Antes pensaba que querer a alguien era estar pendiente todo el día."
+      },
+      {
+        "personaje": "Mary",
+        "texto": "Antes tenía miedo de perderte. Ahora simplemente disfruto estar contigo."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Yo también, Mary."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Se ríen y se abrazan bajo la luz dorada. No porque tengan que hacerlo, sino porque quieren."
+      }
+    ],
+    "decisiones": [],
+    "cg": "jairo/final_dorado.png"
+  }
+]

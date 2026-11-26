@@ -33,14 +33,14 @@ public class HelloApplication extends Application {
         marca.getStyleClass().add("logo");
         Label bajada = new Label("Tus decisiones. Sus consecuencias. Una sola Quinta Región.");
         bajada.getStyleClass().add("subtitulo");
-        Label intro = new Label("ELIGE UNA TEMPORADA");
+        Label intro = new Label("ELIGE TU HISTORIA");
         intro.getStyleClass().add("etiqueta-caps");
 
         VBox tarjetaCaceres = tarjetaTemporada("01", "CÁCERES",
                 "DOBLE TENTACIÓN", "30 días · 3 turnos por día · 8 finales", "Jugar / Continuar",
                 () -> solicitarClave("caceres"));
         VBox tarjetaJairo = tarjetaTemporada("02", "JAIRO",
-                "PRÓXIMAMENTE", "Historia aún en desarrollo", "Ver temporada",
+                "ENTRE LA CONFIANZA Y LA TENTACIÓN", "30 días · 30 noches Discord · 12 finales", "Jugar / Continuar",
                 () -> solicitarClave("jairo"));
         VBox tarjetaSeba = tarjetaTemporada("03", "SEBA",
                 "EL CAGAZO LEGENDARIO", "30 días · 24 noches Discord · 13 finales", "Jugar / Continuar",
@@ -52,7 +52,7 @@ public class HelloApplication extends Application {
             HBox.setHgrow(tarjeta, Priority.ALWAYS);
             tarjeta.setMaxWidth(Double.MAX_VALUE);
         }
-        Label pie = new Label("v0.9 · F11: pantalla completa · Ficción inspirada en la Quinta Región");
+        Label pie = new Label("QUINTAVERSO · F11: pantalla completa · Ficción inspirada en la Quinta Región");
         pie.getStyleClass().add("texto-suave");
 
         VBox contenido = new VBox(22, marca, bajada, intro, tarjetas, pie);
@@ -81,7 +81,7 @@ public class HelloApplication extends Application {
         entrar.setMaxWidth(Double.MAX_VALUE);
         entrar.setOnAction(e -> accion.run());
         VBox tarjeta = new VBox(12, n, nombre, s, d, entrar);
-        tarjeta.getStyleClass().add("tarjeta");
+        tarjeta.getStyleClass().addAll("tarjeta", "tarjeta-temporada", "temporada-" + numero);
         tarjeta.setPadding(new Insets(22));
         tarjeta.setMinWidth(215);
         return tarjeta;
@@ -89,6 +89,7 @@ public class HelloApplication extends Application {
 
     private void solicitarClave(String temporada) {
         Dialog<String> dialogo = new Dialog<>();
+        tematizarDialogo(dialogo);
         dialogo.setTitle("Acceso a temporada");
         dialogo.setHeaderText("Código de acceso para " + temporada.toUpperCase());
         PasswordField password = new PasswordField();
@@ -103,11 +104,6 @@ public class HelloApplication extends Application {
                 alerta(Alert.AlertType.ERROR, "Acceso denegado", "Clave incorrecta, compadre.");
                 return;
             }
-            if (temporada.equals("jairo")) {
-                alerta(Alert.AlertType.INFORMATION, "Próximamente",
-                        "La temporada de Jairo todavía está en desarrollo.");
-                return;
-            }
             try {
                 new MotorCalendario(ventana, this::mostrarMenu, temporada).iniciar();
             } catch (RuntimeException ex) {
@@ -118,9 +114,16 @@ public class HelloApplication extends Application {
 
     public static void alerta(Alert.AlertType tipo, String titulo, String mensaje) {
         Alert a = new Alert(tipo, mensaje, ButtonType.OK);
+        tematizarDialogo(a);
         a.setTitle(titulo);
         a.setHeaderText(titulo);
         a.showAndWait();
+    }
+
+    /** Estilo de los cuadros emergentes sin alterar ni validar las claves. */
+    public static void tematizarDialogo(Dialog<?> dialogo) {
+        var hoja = HelloApplication.class.getResource("/quintaverso.css");
+        if (hoja != null) dialogo.getDialogPane().getStylesheets().add(hoja.toExternalForm());
     }
 
     public void aplicarEscena(Parent raiz) {

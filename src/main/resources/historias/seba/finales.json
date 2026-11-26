@@ -331,6 +331,7 @@
   },
   {
     "id": "final_seba_amarillo",
+    "cg": "seba/final_amarillo.png",
     "titulo": "FINAL AMARILLO OCULTO · Kelly nunca lo pilló",
     "lugar": "Café con Kelly · Un mes después",
     "dialogos": [

@@ -1,0 +1,113 @@
+[
+  {
+    "id": "jairo_personal_1",
+    "titulo": "Estudiar",
+    "lugar": "Casa",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Jairo abre el repo y revisa un error que había dejado pendiente."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Ya, era un import. Llevo media hora buscando la cuestión."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Resuelve el error y deja un commit antes de cerrar el IDE."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Terminar el avance y guardar el commit.",
+        "efectos": {
+          "madurez": 3,
+          "valentia": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "El trabajo deja de estar pendiente por hoy."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jairo_personal_2",
+    "titulo": "Caminar",
+    "lugar": "Costanera",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Sale a caminar sin audífonos por un rato."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Se escucha hasta el ruido de las micros. No todo tiene que ser el celular."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Vuelve con la cabeza más despejada."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Volver a casa sin revisar el celular.",
+        "efectos": {
+          "madurez": 3,
+          "valentia": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "El paseo no resuelve todo, pero le da espacio para pensar."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jairo_personal_3",
+    "titulo": "Ordenar el día",
+    "lugar": "Casa",
+    "dialogos": [
+      {
+        "personaje": "Narrador",
+        "texto": "Separa las tareas urgentes de las que pueden esperar."
+      },
+      {
+        "personaje": "Jairo",
+        "texto": "Si tengo clases, una salida y una partida, no tengo que hacerlas todas al mismo tiempo."
+      },
+      {
+        "personaje": "Narrador",
+        "texto": "Deja espacio para descansar."
+      }
+    ],
+    "decisiones": [
+      {
+        "texto": "Anotar horarios realistas.",
+        "efectos": {
+          "madurez": 3,
+          "valentia": 2
+        },
+        "eventos": [],
+        "desactivarEventos": [],
+        "condiciones": [],
+        "reaccion": [
+          {
+            "personaje": "Narrador",
+            "texto": "Jairo ya sabe qué hacer cuando vuelva a sentirse saturado."
+          }
+        ]
+      }
+    ]
+  }
+]
